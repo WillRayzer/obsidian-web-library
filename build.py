@@ -764,16 +764,17 @@ def write_assets() -> None:
 
     styles = r"""
 :root {
-  --bg: #101418;
-  --bg-alt: #171e24;
-  --surface: rgba(24, 31, 39, 0.84);
-  --surface-strong: #1c242d;
-  --sidebar: rgba(16, 20, 24, 0.92);
-  --text: #d9e1ea;
-  --muted: #93a1b2;
-  --accent: #7caa6d;
-  --accent-2: #8fb5ff;
-  --border: rgba(217, 225, 234, 0.08);
+  --bg: #19151d;
+  --bg-alt: #221b25;
+  --surface: rgba(35, 30, 41, 0.84);
+  --surface-strong: #2a2330;
+  --sidebar: rgba(24, 20, 28, 0.92);
+  --text: #f3ecf1;
+  --muted: #c7bcc8;
+  --accent: #b8d3ff;
+  --accent-2: #d8b26c;
+  --accent-3: #e3a6c0;
+  --border: rgba(243, 236, 241, 0.09);
   --shadow: 0 18px 48px rgba(0, 0, 0, 0.34);
 }
 
@@ -783,9 +784,10 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(143, 181, 255, 0.1), transparent 25%),
-    radial-gradient(circle at top right, rgba(124, 170, 109, 0.08), transparent 25%),
-    linear-gradient(180deg, #0d1217 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, rgba(184, 211, 255, 0.18), transparent 25%),
+    radial-gradient(circle at top right, rgba(216, 178, 108, 0.14), transparent 25%),
+    radial-gradient(circle at bottom center, rgba(227, 166, 192, 0.12), transparent 28%),
+    linear-gradient(180deg, #130f16 0%, var(--bg) 100%);
   font-family: "IBM Plex Sans", sans-serif;
 }
 .grain {
@@ -880,8 +882,8 @@ a { color: inherit; }
   display: inline-block;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(124, 170, 109, 0.12);
-  color: #bfe1b3;
+  background: rgba(216, 178, 108, 0.14);
+  color: #f4e3be;
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -963,11 +965,11 @@ a { color: inherit; }
 .note-card {
   padding: 18px;
   transition: transform 180ms ease, border-color 180ms ease;
-  background: rgba(18, 24, 31, 0.78);
+  background: rgba(36, 29, 41, 0.78);
 }
 .note-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(143, 181, 255, 0.28);
+  border-color: rgba(216, 178, 108, 0.34);
 }
 .note-card h3 {
   margin: 10px 0;
@@ -1000,8 +1002,8 @@ a { color: inherit; }
   min-height: 30px;
   padding: 0 10px;
   border-radius: 999px;
-  background: rgba(124, 170, 109, 0.12);
-  color: #c4e7b8;
+  background: rgba(184, 211, 255, 0.13);
+  color: #dce9ff;
   font-size: 0.84rem;
 }
 .tag.large {
@@ -1016,7 +1018,7 @@ a { color: inherit; }
   display: inline-block;
   margin: 0 0 16px;
   text-decoration: none;
-  color: #b7d0ff;
+  color: #d8b26c;
   font-weight: 700;
 }
 .note-shell { overflow: hidden; }
@@ -1027,8 +1029,8 @@ a { color: inherit; }
   padding: 32px;
   margin: 0;
   background:
-    linear-gradient(135deg, rgba(124, 170, 109, 0.08), rgba(143, 181, 255, 0.08)),
-    rgba(12, 17, 22, 0.25);
+    linear-gradient(135deg, rgba(184, 211, 255, 0.10), rgba(216, 178, 108, 0.10), rgba(227, 166, 192, 0.08)),
+    rgba(18, 14, 22, 0.25);
 }
 .note-content, .related {
   padding: 0 32px 32px;
@@ -1052,7 +1054,7 @@ a { color: inherit; }
   background: rgba(255, 255, 255, 0.08);
 }
 .broken-link {
-  color: #ffb480;
+  color: #e3a6c0;
   text-decoration: underline dotted;
 }
 .graph-card {
@@ -1101,8 +1103,8 @@ a { color: inherit; }
   background: rgba(255,255,255,0.08);
 }
 .graph-button.is-active {
-  background: rgba(124, 170, 109, 0.18);
-  color: #c4e7b8;
+  background: rgba(216, 178, 108, 0.18);
+  color: #f4e3be;
 }
 .graph-select {
   min-height: 34px;
@@ -1237,10 +1239,10 @@ async function initGraph() {
   let pulseTimer = null;
   let pulsePhase = false;
   const areaPalette = {
-    studies: "#8fb5ff",
-    business: "#ffb480",
-    system: "#7caa6d",
-    "sem area": "#b9b9b9",
+    studies: "#b8d3ff",
+    business: "#d8b26c",
+    system: "#e3a6c0",
+    "sem area": "#d2c7d1",
   };
 
   const areaOptions = [...new Set(graph.nodes.map((node) => node.area).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -1271,7 +1273,7 @@ async function initGraph() {
         search: [node.title, node.area, ...(node.tags || [])].join(" ").toLowerCase(),
         degree: node.degree || 0,
         areaKey: (node.area || "").toLowerCase(),
-        color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
+        color: areaPalette[(node.area || "").toLowerCase()] || "#bfc4d1",
       },
     })),
     ...graph.edges.map((edge) => ({
@@ -1296,11 +1298,11 @@ async function initGraph() {
         style: {
           "background-color": "data(color)",
           "border-width": 1,
-          "border-color": "rgba(255,255,255,0.18)",
+          "border-color": "rgba(243,236,241,0.18)",
           "width": "mapData(degree, 0, 10, 8, 21)",
           "height": "mapData(degree, 0, 10, 8, 21)",
           "label": showLabels ? "data(label)" : "",
-          "color": "#d9e1ea",
+          "color": "#f3ecf1",
           "font-size": 10,
           "text-wrap": "wrap",
           "text-max-width": 96,
@@ -1313,7 +1315,7 @@ async function initGraph() {
         selector: "edge",
         style: {
           "width": 1,
-          "line-color": "rgba(143,181,255,0.14)",
+          "line-color": "rgba(184,211,255,0.14)",
           "curve-style": "bezier",
           "opacity": 0.9,
         },
@@ -1321,12 +1323,12 @@ async function initGraph() {
       {
         selector: ".active",
         style: {
-          "background-color": "#8fb5ff",
+          "background-color": "#b8d3ff",
           "width": 15,
           "height": 15,
-          "line-color": "#c4e7b8",
+          "line-color": "#d8b26c",
           "border-width": 2,
-          "border-color": "#dce9ff",
+          "border-color": "#f4e3be",
           "width": 2.1,
           "opacity": 1,
           "text-opacity": 1,
@@ -1337,7 +1339,7 @@ async function initGraph() {
       {
         selector: ".neighbor",
         style: {
-          "background-color": "#c4e7b8",
+          "background-color": "#e3a6c0",
           "opacity": 1,
           "text-opacity": 0.92,
         },
@@ -1345,7 +1347,7 @@ async function initGraph() {
       {
         selector: "edge.active",
         style: {
-          "line-color": "#b9d5ff",
+          "line-color": "#f0d4a0",
           "width": 2.4,
           "opacity": 0.95,
         },
@@ -1846,16 +1848,16 @@ async function initExperimentalGraph() {
   const response = await fetch("assets/graph.json");
   const graph = await response.json();
   const areaPalette = {
-    studies: "#8fb5ff",
-    business: "#ffb480",
-    system: "#7caa6d",
-    "sem area": "#b9b9b9",
+    studies: "#b8d3ff",
+    business: "#d8b26c",
+    system: "#e3a6c0",
+    "sem area": "#d2c7d1",
   };
 
   const nodes = graph.nodes.map((node) => ({
     ...node,
     group: (node.area || "Sem area").toLowerCase(),
-    color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
+    color: areaPalette[(node.area || "").toLowerCase()] || "#bfc4d1",
     val: Math.max(1, Math.min(4, Math.round((2 + Number(node.degree || 0)) * 0.4))),
   }));
   const links = graph.edges.map((edge) => ({ ...edge }));
