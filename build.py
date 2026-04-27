@@ -1240,11 +1240,15 @@ async function initGraph() {
         selector: ".active",
         style: {
           "background-color": "#8fb5ff",
-          "width": 16,
-          "height": 16,
+          "width": 22,
+          "height": 22,
           "line-color": "#c4e7b8",
-          "width": 2,
+          "border-width": 2,
+          "border-color": "#dce9ff",
+          "width": 2.4,
           "opacity": 1,
+          "text-opacity": 1,
+          "font-size": 12,
           "z-index": 999,
         },
       },
@@ -1253,13 +1257,22 @@ async function initGraph() {
         style: {
           "background-color": "#c4e7b8",
           "opacity": 1,
+          "text-opacity": 0.92,
+        },
+      },
+      {
+        selector: "edge.active",
+        style: {
+          "line-color": "#b9d5ff",
+          "width": 2.4,
+          "opacity": 0.95,
         },
       },
       {
         selector: ".dimmed",
         style: {
-          "opacity": 0.12,
-          "text-opacity": 0.08,
+          "opacity": 0.045,
+          "text-opacity": 0.015,
         },
       },
     ],
