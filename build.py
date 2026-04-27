@@ -1913,6 +1913,17 @@ async function initExperimentalGraph() {
     return ids.has(sourceId) && ids.has(targetId);
   }
 
+  function requestRedraw() {
+    if (Graph.resumeAnimation) Graph.resumeAnimation();
+    if (paused) {
+      requestAnimationFrame(() => {
+        if (Graph.pauseAnimation) Graph.pauseAnimation();
+      });
+      return;
+    }
+    Graph.d3ReheatSimulation();
+  }
+
   function refreshStyles() {
     const ids = activeIds();
     Graph
@@ -1934,7 +1945,7 @@ async function initExperimentalGraph() {
       })
       .linkDirectionalParticleSpeed(() => 0.0045)
       .linkDirectionalParticleWidth((link) => (focusedNode && focusIds && isActiveLink(link, focusIds) ? 2.2 : 0));
-    Graph.refresh();
+    requestRedraw();
   }
 
   const Graph = ForceGraph()(container)
@@ -2025,7 +2036,7 @@ async function initExperimentalGraph() {
       if (action === "labels") {
         showLabels = !showLabels;
         button.classList.toggle("is-active", showLabels);
-        Graph.refresh();
+        requestRedraw();
       }
       if (action === "pause") {
         paused = !paused;
