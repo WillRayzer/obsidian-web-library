@@ -1221,10 +1221,10 @@ async function initGraph() {
           "color": "#d9e1ea",
           "font-size": 10,
           "text-wrap": "wrap",
-          "text-max-width": 120,
+          "text-max-width": 110,
           "text-valign": "bottom",
           "text-halign": "center",
-          "text-margin-y": 8,
+          "text-margin-y": 10,
         },
       },
       {
@@ -1347,18 +1347,55 @@ async function initGraph() {
     };
   }
 
+  function resolveNodeOverlaps() {
+    const nodes = visibleElements().nodes().toArray();
+    const minGap = showLabels ? 42 : 24;
+    for (let iteration = 0; iteration < 18; iteration++) {
+      let moved = false;
+      for (let i = 0; i < nodes.length; i++) {
+        const a = nodes[i];
+        const posA = a.position();
+        const sizeA = Math.max(a.renderedWidth(), a.renderedHeight()) / Math.max(cy.zoom(), 0.001);
+        for (let j = i + 1; j < nodes.length; j++) {
+          const b = nodes[j];
+          const posB = b.position();
+          const sizeB = Math.max(b.renderedWidth(), b.renderedHeight()) / Math.max(cy.zoom(), 0.001);
+          let dx = posB.x - posA.x;
+          let dy = posB.y - posA.y;
+          let distance = Math.hypot(dx, dy);
+          const minDistance = (sizeA + sizeB) / 2 + minGap;
+          if (distance >= minDistance) continue;
+          if (distance < 0.001) {
+            dx = (j % 2 === 0 ? 1 : -1) * 0.5;
+            dy = (j % 3 === 0 ? 1 : -1) * 0.5;
+            distance = Math.hypot(dx, dy);
+          }
+          const push = (minDistance - distance) / 2;
+          const ux = dx / distance;
+          const uy = dy / distance;
+          a.position({ x: posA.x - ux * push, y: posA.y - uy * push });
+          b.position({ x: posB.x + ux * push, y: posB.y + uy * push });
+          moved = true;
+        }
+      }
+      if (!moved) break;
+    }
+  }
+
   function runLayout(fitGraph = true) {
     const visible = visibleElements();
     if (!visible.length) return;
     if (clusterByArea) seedClusterPositions();
     visible.layout(layoutOptions()).run();
-    if (fitGraph) {
-      setTimeout(() => cy.fit(visibleElements(), 140), 80);
-    }
+    setTimeout(() => {
+      resolveNodeOverlaps();
+      if (fitGraph) cy.fit(visibleElements(), 160);
+    }, 120);
   }
 
   function applyLabels() {
     cy.style().selector("node").style("label", showLabels ? "data(label)" : "").update();
+    resolveNodeOverlaps();
   }
 
   function visibleElements() {
