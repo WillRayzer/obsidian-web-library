@@ -1913,6 +1913,13 @@ async function initExperimentalGraph() {
     return ids.has(sourceId) && ids.has(targetId);
   }
 
+  function isDirectFocusLink(link, rootId) {
+    if (!rootId) return false;
+    const sourceId = typeof link.source === "object" ? link.source.id : link.source;
+    const targetId = typeof link.target === "object" ? link.target.id : link.target;
+    return sourceId === rootId || targetId === rootId;
+  }
+
   function requestRedraw() {
     if (Graph.resumeAnimation) Graph.resumeAnimation();
     if (paused) {
@@ -1926,6 +1933,7 @@ async function initExperimentalGraph() {
 
   function refreshStyles() {
     const ids = activeIds();
+    const rootId = focusedNode ? focusedNode.id : null;
     Graph
       .nodeColor((node) => {
         if (!ids) return node.color;
@@ -1933,18 +1941,22 @@ async function initExperimentalGraph() {
       })
       .linkColor((link) => {
         if (!ids) return "rgba(143,181,255,0.18)";
+        if (rootId) {
+          return isDirectFocusLink(link, rootId) ? "rgba(185,213,255,0.9)" : "rgba(120,130,140,0.03)";
+        }
         return isActiveLink(link, ids) ? "rgba(185,213,255,0.9)" : "rgba(120,130,140,0.06)";
       })
       .linkWidth((link) => {
         if (!ids) return 1.2;
+        if (rootId) return isDirectFocusLink(link, rootId) ? 2.2 : 0.15;
         return isActiveLink(link, ids) ? 2.2 : 0.5;
       })
       .linkDirectionalParticles((link) => {
         if (!focusedNode || !focusIds) return 0;
-        return isActiveLink(link, focusIds) ? 2 : 0;
+        return rootId && isDirectFocusLink(link, rootId) ? 2 : 0;
       })
       .linkDirectionalParticleSpeed(() => 0.0045)
-      .linkDirectionalParticleWidth((link) => (focusedNode && focusIds && isActiveLink(link, focusIds) ? 2.2 : 0));
+      .linkDirectionalParticleWidth((link) => (rootId && isDirectFocusLink(link, rootId) ? 2.2 : 0));
     requestRedraw();
   }
 
