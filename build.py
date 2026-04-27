@@ -32,6 +32,7 @@ class Note:
     folder: str
     tags: list[str] = field(default_factory=list)
     related: list[str] = field(default_factory=list)
+    links: list[str] = field(default_factory=list)
     raw_body: str = ""
     content_html: str = ""
     excerpt: str = ""
@@ -137,6 +138,13 @@ def strip_wikilink_markup(value: str) -> str:
     if "|" in cleaned:
         cleaned = cleaned.split("|", 1)[0]
     return cleaned.strip()
+
+
+def extract_wikilinks(text: str) -> list[str]:
+    found: list[str] = []
+    for match in re.findall(r"\[\[([^\]]+)\]\]", text):
+        found.append(strip_wikilink_markup(match))
+    return found
 
 
 def inline_markdown(text: str, note_lookup: dict[str, str]) -> str:
@@ -271,6 +279,7 @@ def read_notes(vault_path: Path) -> list[Note]:
                 folder=str(frontmatter.get("folder") or ""),
                 tags=[str(tag) for tag in frontmatter.get("tags", [])],
                 related=[strip_wikilink_markup(str(item)) for item in frontmatter.get("related", [])],
+                links=extract_wikilinks(body),
                 raw_body=body,
                 excerpt=excerpt_source[:260],
             )
@@ -343,6 +352,86 @@ def note_card(note: Note) -> str:
       <div class="tags">{tags}</div>
     </article>
     """
+
+
+def build_graph_data(notes: list[Note], lookup: dict[str, str]) -> dict[str, Any]:
+    node_ids = {note.title.lower(): note.slug for note in notes}
+    nodes = []
+    edges: set[tuple[str, str]] = set()
+
+    for note in notes:
+        nodes.append(
+            {
+                "id": note.slug,
+                "title": note.title,
+                "area": note.area,
+                "url": f"notes/{note.slug}.html",
+                "tags": note.tags[:8],
+            }
+        )
+
+        targets = note.related + note.links
+        for raw_target in targets:
+            target_slug = node_ids.get(raw_target.lower())
+            if not target_slug or target_slug == note.slug:
+                continue
+            edge = tuple(sorted((note.slug, target_slug)))
+            edges.add(edge)
+
+    return {
+        "nodes": nodes,
+        "edges": [{"source": source, "target": target} for source, target in sorted(edges)],
+    }
+
+
+def build_graph_page(site_name: str) -> None:
+    content = f"""
+<main class="app-shell">
+  <aside class="sidebar">
+    <div class="sidebar-block brand-block">
+      <span class="sidebar-label">Vault</span>
+      <h1>{html.escape(site_name)}</h1>
+      <p>Visualizacao de conexoes entre notas, em um grafo interativo inspirado no Obsidian.</p>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Navegacao</span>
+      <a class="nav-link" href="index.html">Biblioteca</a>
+      <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Uso</span>
+      <p class="sidebar-text">Arraste os nos, use a busca para destacar uma nota e clique para abrir.</p>
+    </div>
+  </aside>
+  <section class="main-column">
+    <header class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Graph View</span>
+        <h1>Mapa de conexoes</h1>
+        <p>As ligacoes sao geradas a partir de links `[[...]]` e do campo `related:` do frontmatter.</p>
+      </div>
+    </header>
+    <section class="toolbar card">
+      <label for="graph-search">Buscar no grafo</label>
+      <input id="graph-search" type="search" placeholder="Digite o nome da nota">
+      <p class="helper">A busca destaca o no correspondente e suas ligacoes.</p>
+    </section>
+    <section class="card graph-card">
+      <div class="graph-meta">
+        <strong>Graph View</strong>
+        <span id="graph-stats">Carregando...</span>
+      </div>
+      <div id="graph-view" class="graph-view"></div>
+    </section>
+  </section>
+</main>
+"""
+    graph_page = index_template(content, f"{site_name} - Graph")
+    graph_page = graph_page.replace(
+        '<script src="assets/app.js"></script>',
+        '<script src="assets/app.js"></script>\n<script>window.OBSIDIAN_GRAPH = true;</script>',
+    )
+    (DIST / "graph.html").write_text(graph_page, encoding="utf-8")
 
 
 def build_note_pages(notes: list[Note], lookup: dict[str, str], site_name: str) -> None:
@@ -457,6 +546,7 @@ def build_index(notes: list[Note], site_name: str) -> None:
     <div class="sidebar-block">
       <span class="sidebar-label">Atalhos</span>
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard principal</a>
+      <a class="nav-link" href="graph.html">Graph View</a>
       {quick_links}
     </div>
     <div class="sidebar-block metrics-stack">
@@ -474,6 +564,7 @@ def build_index(notes: list[Note], site_name: str) -> None:
       <div class="hero-actions">
         <a class="button primary" href="#colecao">Explorar biblioteca</a>
         <a class="button" href="notes/00-dashboard-biblioteca.html">Abrir dashboard</a>
+        <a class="button" href="graph.html">Abrir grafo</a>
       </div>
     </div>
   </header>
@@ -601,6 +692,9 @@ a { color: inherit; }
 }
 .nav-link:hover {
   background: rgba(255, 255, 255, 0.04);
+}
+.nav-link span {
+  color: var(--muted);
 }
 .sidebar-text {
   margin: 0 0 8px;
@@ -798,6 +892,57 @@ a { color: inherit; }
   color: #ffb480;
   text-decoration: underline dotted;
 }
+.graph-card {
+  min-height: 72vh;
+}
+.graph-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.graph-view {
+  width: 100%;
+  height: 68vh;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(circle at center, rgba(143, 181, 255, 0.06), transparent 40%),
+    rgba(8, 12, 16, 0.82);
+  overflow: hidden;
+  position: relative;
+}
+.graph-view svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.graph-link {
+  stroke: rgba(143, 181, 255, 0.22);
+  stroke-width: 1.2;
+}
+.graph-link.active {
+  stroke: rgba(124, 170, 109, 0.9);
+  stroke-width: 1.8;
+}
+.graph-node {
+  cursor: pointer;
+}
+.graph-node circle {
+  fill: rgba(124, 170, 109, 0.88);
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1;
+}
+.graph-node.active circle {
+  fill: #8fb5ff;
+  r: 8;
+}
+.graph-node text {
+  fill: #d9e1ea;
+  font-size: 11px;
+  pointer-events: none;
+}
 @media (max-width: 980px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -829,6 +974,161 @@ if (search) {
     }
   });
 }
+
+async function initGraph() {
+  if (!window.OBSIDIAN_GRAPH) return;
+
+  const container = document.querySelector("#graph-view");
+  const stats = document.querySelector("#graph-stats");
+  const searchInput = document.querySelector("#graph-search");
+  if (!container) return;
+
+  const response = await fetch("assets/graph.json");
+  const graph = await response.json();
+  const width = container.clientWidth || 900;
+  const height = container.clientHeight || 600;
+
+  stats.textContent = `${graph.nodes.length} notas, ${graph.edges.length} conexoes`;
+
+  const nodeMap = new Map(
+    graph.nodes.map((node, index) => [
+      node.id,
+      {
+        ...node,
+        x: (index % 7) * (width / 7) + 60,
+        y: Math.floor(index / 7) * 90 + 70,
+        vx: 0,
+        vy: 0,
+      },
+    ])
+  );
+
+  const nodes = [...nodeMap.values()];
+  const edges = graph.edges
+    .map((edge) => ({ ...edge, sourceNode: nodeMap.get(edge.source), targetNode: nodeMap.get(edge.target) }))
+    .filter((edge) => edge.sourceNode && edge.targetNode);
+
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  container.replaceChildren(svg);
+
+  const linkEls = edges.map((edge) => {
+    const line = document.createElementNS(svgNS, "line");
+    line.setAttribute("class", "graph-link");
+    svg.appendChild(line);
+    edge.el = line;
+    return line;
+  });
+
+  nodes.forEach((node) => {
+    const g = document.createElementNS(svgNS, "g");
+    g.setAttribute("class", "graph-node");
+    const circle = document.createElementNS(svgNS, "circle");
+    circle.setAttribute("r", "5.5");
+    const text = document.createElementNS(svgNS, "text");
+    text.textContent = node.title;
+    text.setAttribute("dx", "10");
+    text.setAttribute("dy", "4");
+    g.append(circle, text);
+    g.addEventListener("click", () => {
+      window.location.href = node.url;
+    });
+    makeDraggable(g, node);
+    node.el = g;
+    svg.appendChild(g);
+  });
+
+  function makeDraggable(element, node) {
+    let dragging = false;
+    element.addEventListener("pointerdown", (event) => {
+      dragging = true;
+      element.setPointerCapture(event.pointerId);
+    });
+    element.addEventListener("pointermove", (event) => {
+      if (!dragging) return;
+      const rect = svg.getBoundingClientRect();
+      node.x = event.clientX - rect.left;
+      node.y = event.clientY - rect.top;
+      node.vx = 0;
+      node.vy = 0;
+    });
+    element.addEventListener("pointerup", () => {
+      dragging = false;
+    });
+  }
+
+  function tick() {
+    for (const edge of edges) {
+      const dx = edge.targetNode.x - edge.sourceNode.x;
+      const dy = edge.targetNode.y - edge.sourceNode.y;
+      const distance = Math.max(Math.hypot(dx, dy), 1);
+      const force = (distance - 120) * 0.0009;
+      const fx = dx * force;
+      const fy = dy * force;
+      edge.sourceNode.vx += fx;
+      edge.sourceNode.vy += fy;
+      edge.targetNode.vx -= fx;
+      edge.targetNode.vy -= fy;
+    }
+
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const a = nodes[i];
+        const b = nodes[j];
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        const distance = Math.max(Math.hypot(dx, dy), 1);
+        if (distance > 140) continue;
+        const force = 18 / (distance * distance);
+        const fx = dx * force;
+        const fy = dy * force;
+        a.vx -= fx;
+        a.vy -= fy;
+        b.vx += fx;
+        b.vy += fy;
+      }
+    }
+
+    for (const node of nodes) {
+      node.vx *= 0.92;
+      node.vy *= 0.92;
+      node.x = Math.min(width - 24, Math.max(24, node.x + node.vx));
+      node.y = Math.min(height - 24, Math.max(24, node.y + node.vy));
+    }
+
+    for (const edge of edges) {
+      edge.el.setAttribute("x1", edge.sourceNode.x);
+      edge.el.setAttribute("y1", edge.sourceNode.y);
+      edge.el.setAttribute("x2", edge.targetNode.x);
+      edge.el.setAttribute("y2", edge.targetNode.y);
+    }
+
+    for (const node of nodes) {
+      node.el.setAttribute("transform", `translate(${node.x}, ${node.y})`);
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  function highlight(term) {
+    const normalized = term.trim().toLowerCase();
+    const active = new Set();
+    for (const node of nodes) {
+      const match = normalized && node.title.toLowerCase().includes(normalized);
+      node.el.classList.toggle("active", Boolean(match));
+      if (match) active.add(node.id);
+    }
+    for (const edge of edges) {
+      const isActive = active.has(edge.source) || active.has(edge.target);
+      edge.el.classList.toggle("active", isActive);
+    }
+  }
+
+  searchInput?.addEventListener("input", (event) => highlight(event.target.value));
+  tick();
+}
+
+initGraph();
 """
 
     (assets / "styles.css").write_text(styles.strip() + "\n", encoding="utf-8")
@@ -852,6 +1152,9 @@ def main() -> None:
     build_note_pages(notes, lookup, site_name)
     write_assets()
     build_index(notes, site_name)
+    build_graph_page(site_name)
+    graph_data = build_graph_data(notes, lookup)
+    (DIST / "assets" / "graph.json").write_text(json.dumps(graph_data, ensure_ascii=False, indent=2), encoding="utf-8")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
     print(f"Site gerado em: {DIST}")

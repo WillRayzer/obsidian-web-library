@@ -12,6 +12,8 @@ Versao web estatica do vault do Obsidian armazenado dentro da pasta `vault/`.
 - Permite publicar fora de casa em qualquer host de site estatico
 - Gera `404.html` e `.nojekyll` para publicacao simples no GitHub Pages
 - Inclui configuracao pronta para Netlify
+- Inclui `Graph View` web inspirado no grafo do Obsidian
+- Inclui publicacao automatica a partir do vault local
 
 ## Como gerar
 
@@ -26,6 +28,29 @@ Se voce alterou as notas no Obsidian e quer refletir isso no site, substitua o c
 ```bash
 python3 build.py
 ```
+
+## Publicar a partir do seu vault local
+
+O `config.json` aponta para o seu vault original em `source_vault_path`.
+
+Publicar uma vez:
+
+```bash
+python3 publish.py
+```
+
+Modo automatico, monitorando o vault e publicando quando houver mudanca:
+
+```bash
+python3 publish.py --watch --interval 30
+```
+
+Atalhos no Windows:
+
+- `publish.cmd`
+- `watch-publish.cmd`
+
+Observacao: a atualizacao online nao acontece sozinha no GitHub. Ela acontece quando esta maquina roda o `publish.py` ou o modo `--watch`.
 
 ## Como testar localmente
 
@@ -58,6 +83,7 @@ Edite `config.json`:
 ```json
 {
   "vault_path": "vault",
+  "source_vault_path": "/mnt/c/Users/negoc/Documents/geral .md/luanda/Bem",
   "site_name": "Biblioteca Luanda"
 }
 ```
@@ -65,6 +91,7 @@ Edite `config.json`:
 ## Arquivos importantes
 
 - `build.py`: gerador do site
+- `publish.py`: sincroniza o vault local, gera o site e faz commit/push
 - `config.json`: caminho do vault e nome da biblioteca
 - `netlify.toml`: deploy pronto no Netlify
 - `.github/workflows/deploy-gh-pages.yml`: deploy automatico no GitHub Pages
