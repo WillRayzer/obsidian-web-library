@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -98,6 +98,6 @@ Entregável desta nota:
 
 - [[Aposentadorias especiais no IPREM]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

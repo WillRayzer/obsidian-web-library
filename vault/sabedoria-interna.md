@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Saúde holística e saúde espiritual]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -143,6 +143,6 @@ Como resultado, a conversa produziu uma visão organizada e aprofundada do tema,
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Saúde holística e saúde espiritual]]
 <!-- AUTO-RELATED-LINKS:END -->

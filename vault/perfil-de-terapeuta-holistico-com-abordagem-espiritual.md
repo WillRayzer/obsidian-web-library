@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -82,6 +82,6 @@ Um terapeuta holístico com abordagem mais espiritual é um profissional que aco
 
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

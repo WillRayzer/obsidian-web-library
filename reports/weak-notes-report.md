@@ -1,8 +1,8 @@
 # Relatorio - Notas com Conexao Fraca
 
-- Total de notas analisadas: 75
-- Notas com 0 links manuais: 65
-- Notas com 1 ou menos links manuais: 67
+- Total de notas analisadas: 68
+- Notas com 0 links manuais: 58
+- Notas com 1 ou menos links manuais: 60
 
 ## Prioridade de reforco
 
@@ -20,7 +20,7 @@
 | Benefícios do alho para o corpo humano | Studies | 0 | 5 | 12 | 9 |
 | Benefícios do Melão para o Corpo | Studies | 0 | 5 | 12 | 9 |
 | Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 0 | 5 | 12 | 9 |
-| Codinomes para projeto de arranjos de trabalho flexíveis | Business | 0 | 5 | 12 | 9 |
+| Codinomes para projeto de arranjos de trabalho flexíveis | Studies | 0 | 5 | 12 | 9 |
 | Como o corpo armazena o trauma | Studies | 0 | 5 | 11 | 9 |
 | deusas primordiais e práticas espirituais pré-gregas | Studies | 0 | 5 | 12 | 9 |
 | Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente | Studies | 0 | 5 | 12 | 9 |

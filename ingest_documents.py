@@ -13,7 +13,7 @@ from xml.etree import ElementTree as ET
 
 AUTO_INGEST_PREFIX = "<!-- AUTO-INGEST:"
 AUTO_INGEST_SUFFIX = "-->"
-SKIP_DIRS = {".obsidian", "00-backups", "00-templates"}
+SKIP_DIRS = {".obsidian", "00-backups", "00-templates", "99-archive"}
 
 
 def slugify(value: str) -> str:
@@ -27,6 +27,10 @@ def title_case_from_stem(stem: str) -> str:
     return text[:1].upper() + text[1:] if text else "Documento importado"
 
 
+def canonical_stem(stem: str) -> str:
+    return re.sub(r"\s*\(\d+\)\s*$", "", stem).strip()
+
+
 def should_skip(path: Path) -> bool:
     return any(part.lower() in SKIP_DIRS for part in path.parts)
 
@@ -38,6 +42,32 @@ def clean_text(text: str) -> str:
     lines = [line.strip() for line in text.splitlines()]
     lines = [line for line in lines if line]
     return "\n".join(lines).strip()
+
+
+def likely_bad_pdf_extraction(text: str) -> bool:
+    lowered = text.lower()
+    if not lowered.strip():
+        return True
+    artifact_hits = sum(
+        lowered.count(token)
+        for token in [
+            "/bitspercomponent",
+            "/colorspace",
+            "/filter",
+            "/dctdecode",
+            "/subtype",
+            "/width",
+            "/height",
+            "endstream",
+            "endobj",
+            "stream",
+            " obj",
+        ]
+    )
+    alpha_words = re.findall(r"[a-zà-ÿ]{4,}", lowered)
+    long_lines = [line for line in text.splitlines() if len(line) > 30]
+    naturalish = sum(1 for line in long_lines if re.search(r"[a-zà-ÿ]{4,}\s+[a-zà-ÿ]{4,}", line.lower()))
+    return artifact_hits >= 8 or len(alpha_words) < 120 or naturalish < 8
 
 
 def extract_docx_text(path: Path) -> str:
@@ -82,7 +112,10 @@ def extract_text(path: Path) -> str:
     if suffix == ".docx":
         return extract_docx_text(path)
     if suffix == ".pdf":
-        return extract_pdf_text(path)
+        text = extract_pdf_text(path)
+        if likely_bad_pdf_extraction(text):
+            raise ValueError("extracao de PDF com baixa qualidade")
+        return text
     raise ValueError(f"Formato nao suportado: {path.suffix}")
 
 
@@ -159,7 +192,7 @@ def build_markdown(source: Path, extracted_text: str) -> str:
 
 
 def target_markdown_path(source: Path) -> Path:
-    return source.with_suffix(".md")
+    return source.with_name(f"{canonical_stem(source.stem)}.md")
 
 
 def ingest_document(source: Path) -> tuple[bool, str]:

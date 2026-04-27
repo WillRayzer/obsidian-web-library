@@ -24,10 +24,10 @@ summary: >
   ANHANGUERA – CAMPUS MARTE
 status: complete
 related:
-  - "[[TRABALHO AEC (1)]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]"
+  - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
+  - "[[RELATORIO FINAL]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -102,8 +102,8 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[TRABALHO AEC (1)]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[RELATORIO FINAL]]
 <!-- AUTO-RELATED-LINKS:END -->

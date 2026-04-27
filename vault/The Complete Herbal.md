@@ -25,8 +25,8 @@ summary: >
   Foi realizada a tradução dos primeiros capítulos de The Complete Herbal, com ajuste metodológico para manter os nomes originais das plantas. O processo foi estruturado de forma iterativa, com validação a cada capítulo.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -114,8 +114,8 @@ Cada capítulo foi traduzido respeitando:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

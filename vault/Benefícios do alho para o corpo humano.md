@@ -25,10 +25,10 @@ summary: >
   A conversa explorou os principais benefícios do alho para o corpo humano, incluindo efeitos cardiovasculares, imunológicos e metabólicos. Também abordou o tempo de uso recomendado e cuidados necessários no consumo contínuo.
 status: complete
 related:
-  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Medicina Germânica]]"
+  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -63,8 +63,8 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Medicina Germânica]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

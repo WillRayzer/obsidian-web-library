@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - ia
   - conversa
@@ -25,10 +25,10 @@ summary: >
   A conversa explorou o conceito de ataraxia em profundidade, suas raízes filosóficas e aplicações práticas. Foram apresentados exercícios e interpretações modernas, culminando na definição essencial como liberdade interior e ausência de perturbação.
 status: complete
 related:
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
-  - "[[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -69,8 +69,8 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
-- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->

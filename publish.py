@@ -18,6 +18,7 @@ SYNC_STATUS_PATH = ROOT / "sync-status.json"
 NORMALIZE_SCRIPT = ROOT / "normalize_conversations.py"
 ENRICH_SCRIPT = ROOT / "enrich_vault_metadata.py"
 WEAK_NOTES_REPORT_SCRIPT = ROOT / "report_weak_notes.py"
+AUDIT_SCRIPT = ROOT / "audit_vault_coherence.py"
 INGEST_SCRIPT = ROOT / "ingest_documents.py"
 REPORTS_DIR = ROOT / "reports"
 
@@ -61,6 +62,7 @@ def copy_tree(source: Path, target: Path) -> None:
             "workspace.json",
             "00-Backups",
             "00-Templates",
+            "99-Archive",
             ".obsidian",
             "*.docx",
             "*.pdf",
@@ -101,6 +103,15 @@ def update_reports(target: Path) -> None:
             str(target),
             "--output",
             str(REPORTS_DIR / "weak-notes-report.md"),
+        ]
+    )
+    run(
+        [
+            "python3",
+            str(AUDIT_SCRIPT),
+            str(target),
+            "--output",
+            str(REPORTS_DIR / "vault-coherence-audit.md"),
         ]
     )
 

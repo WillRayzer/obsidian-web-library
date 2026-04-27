@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -184,7 +184,7 @@ A conversa resultou em uma síntese organizada da **abordagem fenomenológica na
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 <!-- AUTO-RELATED-LINKS:END -->

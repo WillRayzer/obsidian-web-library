@@ -25,10 +25,10 @@ summary: >
   Documento resume os principais conceitos sobre orientação profissional com adolescentes, incluindo planejamento, técnicas, vínculo, ética e teoria. Integra conteúdos dos arquivos analisados e respostas estruturadas para estudo e aplicação prática.
 status: complete
 related:
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -80,8 +80,8 @@ Também foi solicitado e entregue um resumo integrado dos arquivos, abordando:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL]]
 <!-- AUTO-RELATED-LINKS:END -->

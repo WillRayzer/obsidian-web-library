@@ -24,10 +24,10 @@ summary: >
   DADOS DO ALUNO:
 status: complete
 related:
-  - "[[RELATORIO FINAL (1)]]"
-  - "[[RELATORIO FINAL (1) (1)]]"
-  - "[[RELATORIO FINAL (2)]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -264,8 +264,8 @@ Realize a sua avaliação em relação à atividade desenvolvida considerando um
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[RELATORIO FINAL (1)]]
-- [[RELATORIO FINAL (1) (1)]]
-- [[RELATORIO FINAL (2)]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

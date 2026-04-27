@@ -6,7 +6,7 @@ model: "GPT 5.3"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - ia
   - conversa
@@ -27,7 +27,7 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Saúde holística e saúde espiritual]]"
+  - "[[O que é consciência]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -67,6 +67,6 @@ Principais benefícios:
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
-- [[Saúde holística e saúde espiritual]]
+- [[O que é consciência]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

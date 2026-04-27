@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/neurociencia-psicologia"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -69,7 +69,7 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 ## Related Notes
 
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

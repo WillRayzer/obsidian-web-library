@@ -5,8 +5,8 @@ ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
 source: "OpenAI"
 conversation_type: "chat"
-area: "Business"
-folder: "05-Projects/projetos"
+area: "Studies"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - ia
   - conversa
@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -72,7 +72,7 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

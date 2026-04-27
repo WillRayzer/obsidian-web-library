@@ -28,7 +28,7 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -137,5 +137,5 @@ Quando esses quatro níveis estão alinhados, a beleza etérea emerge naturalmen
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 <!-- AUTO-RELATED-LINKS:END -->

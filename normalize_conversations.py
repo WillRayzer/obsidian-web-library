@@ -277,7 +277,7 @@ def backup_file(path: Path, backup_root: Path, vault_root: Path) -> None:
 
 def should_skip(path: Path) -> bool:
     lower_parts = {part.lower() for part in path.parts}
-    return ".obsidian" in lower_parts or "00-templates" in lower_parts or "00-backups" in lower_parts
+    return ".obsidian" in lower_parts or "00-templates" in lower_parts or "00-backups" in lower_parts or "99-archive" in lower_parts
 
 
 def main() -> None:

@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/autoconhecimento-e-espiritualidade"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -25,9 +25,9 @@ summary: >
   Exploramos a origem mais antiga de Hécate, outras deusas pré-gregas e o contexto cultural dessas civilizações. Aprofundamos especialmente as práticas espirituais com ervas, sonhos, símbolos naturais e canto como formas de conexão com o invisível.
 status: complete
 related:
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -114,8 +114,8 @@ Utilizados para induzir transe, cura e conexão espiritual, através de repetiç
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 <!-- AUTO-RELATED-LINKS:END -->

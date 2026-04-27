@@ -24,10 +24,10 @@ summary: >
   A conversa explorou o que é estudado em neurolinguística, diferenciando a abordagem acadêmica da Programação Neurolinguística (PNL). Foram detalhados conceitos, técnicas e aplicações práticas, especialmente no contexto terapêutico e de desenvolvimento pessoal.
 status: complete
 related:
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -103,8 +103,8 @@ Integração com abordagem holística:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

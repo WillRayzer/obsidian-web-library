@@ -188,7 +188,7 @@ def read_notes(vault_path: Path) -> list[Note]:
     notes: list[Note] = []
     for path in sorted(vault_path.rglob("*.md")):
         lower_parts = {part.lower() for part in path.parts}
-        if ".obsidian" in lower_parts or "00-backups" in lower_parts or "00-templates" in lower_parts:
+        if ".obsidian" in lower_parts or "00-backups" in lower_parts or "00-templates" in lower_parts or "99-archive" in lower_parts:
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
         frontmatter, body = parse_frontmatter(text)
