@@ -25,10 +25,10 @@ summary: >
   Foram definidos temas, situações-problema, roteiros e atividades para dois encontros comunitários sobre gratidão na Psicologia Positiva. O projeto foi vinculado aos ODS 3, 4, 10 e 16, com foco em saúde emocional, educação socioemocional, inclusão, vínculos comunitários e cultura de paz. Também foi preenchido o relatório final em Word com base nessa proposta.
 status: complete
 related:
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (2)]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -599,8 +599,8 @@ Essa organização permite articular teoria, prática, reflexão e participaçã
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (2)]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 <!-- AUTO-RELATED-LINKS:END -->

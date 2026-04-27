@@ -18,6 +18,7 @@ SYNC_STATUS_PATH = ROOT / "sync-status.json"
 NORMALIZE_SCRIPT = ROOT / "normalize_conversations.py"
 ENRICH_SCRIPT = ROOT / "enrich_vault_metadata.py"
 WEAK_NOTES_REPORT_SCRIPT = ROOT / "report_weak_notes.py"
+INGEST_SCRIPT = ROOT / "ingest_documents.py"
 REPORTS_DIR = ROOT / "reports"
 
 
@@ -82,6 +83,10 @@ def copy_tree(source: Path, target: Path) -> None:
     shutil.rmtree(temp_target, onexc=handle_remove_readonly)
 
 
+def ingest_documents(source: Path) -> None:
+    run(["python3", str(INGEST_SCRIPT), str(source)])
+
+
 def prepare_vault(target: Path) -> None:
     run(["python3", str(NORMALIZE_SCRIPT), str(target), "--write", "--rename-lowercase-ext"])
     run(["python3", str(ENRICH_SCRIPT), str(target), "--write"])
@@ -112,6 +117,7 @@ def sync_and_publish(message: str | None = None) -> bool:
     config = load_config()
     source = Path(config["source_vault_path"]).expanduser()
     target = ROOT / config["vault_path"]
+    ingest_documents(source)
     before = tree_hash(target) if target.exists() else ""
     copy_tree(source, target)
     prepare_vault(target)

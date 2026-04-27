@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia"
+folder: "04-Studies/neurociencia-psicologia"
 tags:
   - ia
   - conversa

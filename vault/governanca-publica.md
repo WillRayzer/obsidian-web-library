@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -136,6 +136,6 @@ A conversa consolidou três entregáveis intelectuais principais:
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]
 <!-- AUTO-RELATED-LINKS:END -->

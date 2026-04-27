@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -98,5 +98,5 @@ Entretanto, é fundamental entender que a neurodiversidade do autismo significa 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

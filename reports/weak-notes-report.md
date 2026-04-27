@@ -1,8 +1,8 @@
 # Relatorio - Notas com Conexao Fraca
 
-- Total de notas analisadas: 65
-- Notas com 0 links manuais: 55
-- Notas com 1 ou menos links manuais: 57
+- Total de notas analisadas: 75
+- Notas com 0 links manuais: 65
+- Notas com 1 ou menos links manuais: 67
 
 ## Prioridade de reforco
 

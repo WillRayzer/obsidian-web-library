@@ -28,7 +28,7 @@ related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Por que adolescentes cometem atos infracionais?]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -83,5 +83,5 @@ Também foi solicitado e entregue um resumo integrado dos arquivos, abordando:
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Por que adolescentes cometem atos infracionais?]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

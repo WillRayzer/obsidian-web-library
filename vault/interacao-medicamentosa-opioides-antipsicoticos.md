@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -204,6 +204,6 @@ Conclui-se que o uso concomitante de analgésicos narcóticos e medicamentos uti
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA (1)]]
 <!-- AUTO-RELATED-LINKS:END -->

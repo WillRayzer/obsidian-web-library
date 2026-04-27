@@ -27,7 +27,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -106,5 +106,5 @@ Integração com abordagem holística:
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

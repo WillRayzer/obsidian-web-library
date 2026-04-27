@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -191,5 +191,5 @@ CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->
