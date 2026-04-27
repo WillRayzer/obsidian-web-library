@@ -385,6 +385,14 @@ def build_graph_data(notes: list[Note], lookup: dict[str, str]) -> dict[str, Any
             edge = tuple(sorted((note.slug, target_slug)))
             edges.add(edge)
 
+    degree_map: dict[str, int] = {note.slug: 0 for note in notes}
+    for source, target in edges:
+        degree_map[source] += 1
+        degree_map[target] += 1
+
+    for node in nodes:
+        node["degree"] = degree_map.get(node["id"], 0)
+
     return {
         "nodes": nodes,
         "edges": [{"source": source, "target": target} for source, target in sorted(edges)],
@@ -431,6 +439,30 @@ def build_graph_page(site_name: str) -> None:
           <option value="2" selected>2 saltos</option>
           <option value="3">3 saltos</option>
         </select>
+      </div>
+      <div class="graph-filters-row">
+        <div class="graph-filter">
+          <label class="graph-depth-label" for="graph-area">Area</label>
+          <select id="graph-area" class="graph-select">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <div class="graph-filter">
+          <label class="graph-depth-label" for="graph-tag">Tag</label>
+          <select id="graph-tag" class="graph-select">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <div class="graph-filter">
+          <label class="graph-depth-label" for="graph-degree">Conexoes minimas</label>
+          <select id="graph-degree" class="graph-select">
+            <option value="0" selected>Todas</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="5">5+</option>
+          </select>
+        </div>
       </div>
     </section>
     <section class="card graph-card">
@@ -962,6 +994,16 @@ a { color: inherit; }
   flex-wrap: wrap;
   margin-top: 14px;
 }
+.graph-filters-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.graph-filter {
+  display: grid;
+  gap: 8px;
+}
 .graph-button {
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.04);
@@ -1057,6 +1099,9 @@ async function initGraph() {
   const searchInput = document.querySelector("#graph-search");
   const selection = document.querySelector("#graph-selection");
   const depthSelect = document.querySelector("#graph-depth");
+  const areaSelect = document.querySelector("#graph-area");
+  const tagSelect = document.querySelector("#graph-tag");
+  const degreeSelect = document.querySelector("#graph-degree");
   const modeButtons = [...document.querySelectorAll("[data-graph-mode]")];
   if (!container) return;
 
@@ -1066,12 +1111,29 @@ async function initGraph() {
   let showLabels = true;
   let graphMode = "global";
   let activeNode = null;
+  let searchTerm = "";
   const areaPalette = {
     studies: "#8fb5ff",
     business: "#ffb480",
     system: "#7caa6d",
     "sem area": "#b9b9b9",
   };
+
+  const areaOptions = [...new Set(graph.nodes.map((node) => node.area).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  for (const area of areaOptions) {
+    const option = document.createElement("option");
+    option.value = area;
+    option.textContent = area;
+    areaSelect?.append(option);
+  }
+
+  const tagOptions = [...new Set(graph.nodes.flatMap((node) => node.tags || []))].sort((a, b) => a.localeCompare(b));
+  for (const tag of tagOptions) {
+    const option = document.createElement("option");
+    option.value = tag;
+    option.textContent = `#${tag}`;
+    tagSelect?.append(option);
+  }
 
   stats.textContent = `${graph.nodes.length} notas, ${graph.edges.length} conexoes`;
   const elements = [
@@ -1081,6 +1143,9 @@ async function initGraph() {
         label: node.title,
         area: node.area,
         url: node.url,
+        tags: node.tags || [],
+        search: [node.title, node.area, ...(node.tags || [])].join(" ").toLowerCase(),
+        degree: node.degree || 0,
         areaKey: (node.area || "").toLowerCase(),
         color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
       },
@@ -1113,8 +1178,8 @@ async function initGraph() {
           "background-color": "data(color)",
           "border-width": 1,
           "border-color": "rgba(255,255,255,0.18)",
-          "width": 12,
-          "height": 12,
+          "width": "mapData(degree, 0, 10, 12, 30)",
+          "height": "mapData(degree, 0, 10, 12, 30)",
           "label": showLabels ? "data(label)" : "",
           "color": "#d9e1ea",
           "font-size": 10,
@@ -1170,9 +1235,51 @@ async function initGraph() {
     cy.style().selector("node").style("label", showLabels ? "data(label)" : "").update();
   }
 
+  function visibleElements() {
+    return cy.elements().filter((ele) => ele.style("display") !== "none");
+  }
+
+  function visibleByFilters(node) {
+    const areaValue = areaSelect?.value || "";
+    const tagValue = tagSelect?.value || "";
+    const minDegree = Number(degreeSelect?.value || 0);
+    const matchesArea = !areaValue || node.data("area") === areaValue;
+    const matchesTag = !tagValue || (node.data("tags") || []).includes(tagValue);
+    const matchesDegree = Number(node.data("degree") || 0) >= minDegree;
+    const matchesSearch = !searchTerm || String(node.data("search") || "").includes(searchTerm);
+    return matchesArea && matchesTag && matchesDegree && matchesSearch;
+  }
+
+  function applyVisibility(keepFocus = true) {
+    const visibleNodes = cy.nodes().filter((node) => visibleByFilters(node));
+    const visibleIds = new Set(visibleNodes.map((node) => node.id()));
+    const visibleEdges = cy.edges().filter((edge) => visibleIds.has(edge.data("source")) && visibleIds.has(edge.data("target")));
+    const visible = visibleNodes.union(visibleEdges);
+
+    cy.elements().style("display", "none");
+    visible.style("display", "element");
+
+    if (activeNode && !visibleIds.has(activeNode.id())) {
+      activeNode = null;
+      clearState();
+      return visible;
+    }
+
+    if (graphMode === "local" && activeNode) {
+      applyLocalMode();
+      if (keepFocus) focusNode(activeNode);
+      return visible;
+    }
+
+    if (keepFocus && activeNode) {
+      focusNode(activeNode);
+    }
+
+    return visible;
+  }
+
   function clearState() {
     cy.elements().removeClass("active neighbor dimmed");
-    cy.elements().style("display", "element");
     if (selection) {
       selection.innerHTML = "<strong>Nenhuma nota selecionada</strong><p>Clique em um nó para focar conexões locais e abrir detalhes.</p>";
     }
@@ -1181,7 +1288,8 @@ async function initGraph() {
   function nodeSummary(node) {
     const neighbors = node.neighborhood("node").length;
     const area = node.data("area") || "Sem área";
-    return `<strong>${node.data("label")}</strong><p>Área: ${area}<br>Conexões diretas: ${neighbors}<br><a href="${node.data("url")}">Abrir nota</a></p>`;
+    const tags = (node.data("tags") || []).slice(0, 6).map((tag) => `#${tag}`).join(", ") || "Sem tags";
+    return `<strong>${node.data("label")}</strong><p>Área: ${area}<br>Conexões diretas: ${neighbors}<br>Tags: ${tags}<br><a href="${node.data("url")}">Abrir nota</a></p>`;
   }
 
   function focusNode(node) {
@@ -1198,16 +1306,21 @@ async function initGraph() {
   }
 
   function filterByText(term) {
+    searchTerm = term.trim().toLowerCase();
     clearState();
-    const normalized = term.trim().toLowerCase();
-    if (!normalized) return;
-    const matches = cy.nodes().filter((node) => node.data("label").toLowerCase().includes(normalized));
+    const visible = applyVisibility(false);
+    if (!searchTerm) {
+      cy.fit(visible, 80);
+      return;
+    }
+    const matches = visible.nodes().filter((node) => String(node.data("search") || "").includes(searchTerm));
     if (!matches.length) {
-      cy.elements().addClass("dimmed");
+      visible.addClass("dimmed");
+      if (selection) selection.innerHTML = "<strong>Nenhuma nota encontrada</strong><p>Ajuste a busca ou os filtros para ampliar o contexto visível.</p>";
       return;
     }
     const keep = matches.union(matches.neighborhood());
-    cy.elements().difference(keep).addClass("dimmed");
+    visible.difference(keep).addClass("dimmed");
     matches.addClass("active");
     matches.neighborhood("node").addClass("neighbor");
     matches.connectedEdges().addClass("active");
@@ -1229,7 +1342,7 @@ async function initGraph() {
     if (!activeNode) return;
     const depth = Number(depthSelect?.value || 2);
     const visible = localNeighborhood(activeNode, depth);
-    cy.elements().difference(visible).style("display", "none");
+    visibleElements().difference(visible).style("display", "none");
     visible.style("display", "element");
     cy.fit(visible, 90);
   }
@@ -1237,14 +1350,13 @@ async function initGraph() {
   function setMode(mode) {
     graphMode = mode;
     modeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.graphMode === mode));
-    cy.elements().style("display", "element");
+    applyVisibility(false);
     if (mode === "global") {
       if (activeNode) focusNode(activeNode);
-      else cy.fit(cy.elements(), 80);
+      else cy.fit(visibleElements(), 80);
       return;
     }
     if (activeNode) {
-      applyLocalMode();
       focusNode(activeNode);
     } else {
       clearState();
@@ -1272,7 +1384,7 @@ async function initGraph() {
         if (graphMode === "local" && activeNode) applyLocalMode();
         else {
           clearState();
-          cy.fit(cy.elements(), 80);
+          cy.fit(visibleElements(), 80);
         }
       }
       if (action === "labels") {
@@ -1290,8 +1402,14 @@ async function initGraph() {
     if (graphMode === "local" && activeNode) applyLocalMode();
   });
 
+  areaSelect?.addEventListener("change", () => filterByText(searchInput?.value || ""));
+  tagSelect?.addEventListener("change", () => filterByText(searchInput?.value || ""));
+  degreeSelect?.addEventListener("change", () => filterByText(searchInput?.value || ""));
   searchInput?.addEventListener("input", (event) => filterByText(event.target.value));
-  cy.ready(() => cy.fit(cy.elements(), 80));
+  cy.ready(() => {
+    applyVisibility(false);
+    cy.fit(visibleElements(), 80);
+  });
 }
 
 initGraph();
