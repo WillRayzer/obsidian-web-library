@@ -1856,7 +1856,7 @@ async function initExperimentalGraph() {
     ...node,
     group: (node.area || "Sem area").toLowerCase(),
     color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
-    val: Math.max(3, Math.min(11, 3 + Number(node.degree || 0))),
+    val: Math.max(2, Math.min(7, Math.round((3 + Number(node.degree || 0)) * 0.6))),
   }));
   const links = graph.edges.map((edge) => ({ ...edge }));
   const data = { nodes, links };
