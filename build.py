@@ -1875,10 +1875,7 @@ async function initExperimentalGraph() {
   let focusIds = null;
   let showLabels = true;
   let paused = false;
-
-  function nodeById(id) {
-    return nodes.find((node) => node.id === id) || null;
-  }
+  let lastNodeClickAt = 0;
 
   function focusSet(rootId, depth) {
     const visited = new Set([rootId]);
@@ -1899,10 +1896,6 @@ async function initExperimentalGraph() {
     if (focusIds) return focusIds;
     if (hoveredNode) return neighbors.get(hoveredNode.id) || new Set([hoveredNode.id]);
     return null;
-  }
-
-  function activeSelectionNode() {
-    return focusedNode || hoveredNode || null;
   }
 
   function updateSelection(node) {
@@ -1949,7 +1942,7 @@ async function initExperimentalGraph() {
     .backgroundColor("rgba(0,0,0,0)")
     .nodeRelSize(4.8)
     .nodeVal("val")
-    .cooldownTicks(0)
+    .cooldownTicks(240)
     .enableNodeDrag(true)
     .enableZoomInteraction(true)
     .enablePanInteraction(true)
@@ -1992,6 +1985,7 @@ async function initExperimentalGraph() {
       node.fy = node.y;
     })
     .onNodeClick((node) => {
+      lastNodeClickAt = Date.now();
       if (focusedNode && focusedNode.id === node.id) {
         window.location.href = node.url;
         return;
@@ -2037,9 +2031,9 @@ async function initExperimentalGraph() {
         paused = !paused;
         button.classList.toggle("is-active", paused);
         button.textContent = paused ? "Retomar" : "Pausar";
-        if (paused) Graph.pauseAnimation();
+        if (paused && Graph.pauseAnimation) Graph.pauseAnimation();
         else {
-          Graph.resumeAnimation();
+          if (Graph.resumeAnimation) Graph.resumeAnimation();
           Graph.d3ReheatSimulation();
         }
       }
@@ -2065,10 +2059,7 @@ async function initExperimentalGraph() {
   });
 
   container.addEventListener("click", (event) => {
-    if (event.target === container || event.target.tagName === "CANVAS") return;
-  });
-
-  Graph.onBackgroundClick(() => {
+    if (Date.now() - lastNodeClickAt < 250) return;
     focusedNode = null;
     focusIds = null;
     hoveredNode = null;
