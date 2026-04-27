@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
+SYNC_STATUS_PATH = ROOT / "sync-status.json"
 
 
 def run(cmd: list[str], cwd: Path | None = None) -> None:
@@ -21,6 +22,15 @@ def run(cmd: list[str], cwd: Path | None = None) -> None:
 
 def load_config() -> dict:
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def write_sync_status(timestamp: str, source: Path, commit_message: str) -> None:
+    payload = {
+        "last_sync_local": timestamp,
+        "source_vault_path": str(source),
+        "last_commit": commit_message,
+    }
+    SYNC_STATUS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def repo_clean() -> bool:
@@ -54,6 +64,9 @@ def sync_and_publish(message: str | None = None) -> bool:
         print("Nenhuma mudanca no vault.")
         return False
 
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    commit_message = message or f"Update vault {timestamp}"
+    write_sync_status(timestamp, source, commit_message)
     run(["python3", "build.py"])
     run(["git", "add", "."])
 
@@ -61,7 +74,6 @@ def sync_and_publish(message: str | None = None) -> bool:
         print("Nenhuma mudanca para commit.")
         return False
 
-    commit_message = message or f"Update vault {time.strftime('%Y-%m-%d %H:%M:%S')}"
     run(["git", "commit", "-m", commit_message])
     run(["git", "push"])
     print("Publicado com sucesso.")

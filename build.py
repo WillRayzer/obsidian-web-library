@@ -16,6 +16,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 DIST = ROOT / "dist"
+SYNC_STATUS_PATH = ROOT / "sync-status.json"
 
 
 @dataclass
@@ -41,6 +42,12 @@ class Note:
 def load_config() -> dict[str, Any]:
     with CONFIG_PATH.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_sync_status() -> dict[str, Any]:
+    if not SYNC_STATUS_PATH.exists():
+        return {}
+    return json.loads(SYNC_STATUS_PATH.read_text(encoding="utf-8"))
 
 
 def slugify(value: str) -> str:
@@ -502,7 +509,7 @@ def build_note_pages(notes: list[Note], lookup: dict[str, str], site_name: str) 
         (notes_dir / f"{note.slug}.html").write_text(page_template(note.title, content), encoding="utf-8")
 
 
-def build_index(notes: list[Note], site_name: str) -> None:
+def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) -> None:
     by_area: dict[str, list[Note]] = defaultdict(list)
     all_tags: dict[str, int] = defaultdict(int)
 
@@ -534,6 +541,8 @@ def build_index(notes: list[Note], site_name: str) -> None:
         f'<a class="nav-link" href="#area-{slugify(area)}">{html.escape(area)} <span>{len(area_notes)}</span></a>'
         for area, area_notes in sorted(by_area.items())
     )
+    last_sync = str(sync_status.get("last_sync_local") or "Ainda não publicado automaticamente")
+    last_commit = str(sync_status.get("last_commit") or "—")
 
     content = f"""
 <main class="app-shell">
@@ -553,6 +562,11 @@ def build_index(notes: list[Note], site_name: str) -> None:
       <div class="metric"><strong>{len(notes)}</strong><span>notas</span></div>
       <div class="metric"><strong>{len(by_area)}</strong><span>areas</span></div>
       <div class="metric"><strong>{sum(1 for _ in all_tags)}</strong><span>tags</span></div>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Sincronizacao</span>
+      <p class="sidebar-text"><strong>Ultima publicacao:</strong> {html.escape(last_sync)}</p>
+      <p class="sidebar-text"><strong>Commit:</strong> {html.escape(last_commit)}</p>
     </div>
   </aside>
   <section class="main-column">
@@ -1151,7 +1165,8 @@ def main() -> None:
     lookup = build_lookup(notes)
     build_note_pages(notes, lookup, site_name)
     write_assets()
-    build_index(notes, site_name)
+    sync_status = load_sync_status()
+    build_index(notes, site_name, sync_status)
     build_graph_page(site_name)
     graph_data = build_graph_data(notes, lookup)
     (DIST / "assets" / "graph.json").write_text(json.dumps(graph_data, ensure_ascii=False, indent=2), encoding="utf-8")
