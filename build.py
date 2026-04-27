@@ -1297,8 +1297,8 @@ async function initGraph() {
           "background-color": "data(color)",
           "border-width": 1,
           "border-color": "rgba(255,255,255,0.18)",
-          "width": "mapData(degree, 0, 10, 12, 30)",
-          "height": "mapData(degree, 0, 10, 12, 30)",
+          "width": "mapData(degree, 0, 10, 8, 21)",
+          "height": "mapData(degree, 0, 10, 8, 21)",
           "label": showLabels ? "data(label)" : "",
           "color": "#d9e1ea",
           "font-size": 10,
@@ -1322,12 +1322,12 @@ async function initGraph() {
         selector: ".active",
         style: {
           "background-color": "#8fb5ff",
-          "width": 22,
-          "height": 22,
+          "width": 15,
+          "height": 15,
           "line-color": "#c4e7b8",
           "border-width": 2,
           "border-color": "#dce9ff",
-          "width": 2.4,
+          "width": 2.1,
           "opacity": 1,
           "text-opacity": 1,
           "font-size": 12,
@@ -1448,16 +1448,16 @@ async function initGraph() {
       animate: false,
       randomize: false,
       fit: false,
-      padding: 80,
-      nodeRepulsion: 2800000,
-      idealEdgeLength: nodeCount <= 10 ? 170 : 145,
-      edgeElasticity: 0.1,
-      gravity: 0.06,
+      padding: 42,
+      nodeRepulsion: 1600000,
+      idealEdgeLength: nodeCount <= 10 ? 105 : 92,
+      edgeElasticity: 0.16,
+      gravity: 0.1,
       tile: true,
-      componentSpacing: 120,
+      componentSpacing: 68,
       nodeDimensionsIncludeLabels: true,
-      numIter: nodeCount <= 18 ? 900 : 650,
-      initialEnergyOnIncremental: 0.35,
+      numIter: nodeCount <= 18 ? 780 : 560,
+      initialEnergyOnIncremental: 0.28,
     };
   }
 
@@ -1551,7 +1551,7 @@ async function initGraph() {
       pulseTimer = null;
     }
     pulsePhase = false;
-    cy.nodes(".active").stop().style({ width: 22, height: 22, opacity: 1 });
+    cy.nodes(".active").stop().style({ width: 15, height: 15, opacity: 1 });
     cy.nodes(".neighbor").stop().style({ opacity: 1 });
     cy.edges(".active").stop().style({ opacity: 0.95, width: 2.4 });
   }
@@ -1566,8 +1566,8 @@ async function initGraph() {
       if (!activeNodes.length) return;
       activeNodes.animate({
         style: {
-          width: pulsePhase ? 25 : 22,
-          height: pulsePhase ? 25 : 22,
+          width: pulsePhase ? 17 : 15,
+          height: pulsePhase ? 17 : 15,
           opacity: pulsePhase ? 1 : 0.92,
         },
       }, {
@@ -1600,7 +1600,7 @@ async function initGraph() {
     branch.layout(branchLayoutOptions(branch.nodes().length)).run();
     window.setTimeout(() => {
       resolveNodeOverlaps();
-      cy.animate({ fit: { eles: branch, padding: 150 }, duration: 260 });
+      cy.animate({ fit: { eles: branch, padding: 90 }, duration: 260 });
       startPulse();
     }, 130);
   }
