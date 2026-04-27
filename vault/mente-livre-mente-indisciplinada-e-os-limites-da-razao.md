@@ -22,13 +22,13 @@ tags:
   - foco
 topic: "Reflexão breve sobre liberdade mental, indisciplina e os limites da razão."
 summary: >
-  A conversa explorou duas expressões curtas: 'mente livre testa os limites da razão' e 'mente indisciplinada'.
+  >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -45,6 +45,15 @@ A frase "Mente livre testa os limites da razão" é bastante provocativa e suger
 > Mente indisciplinada
 
 Uma mente indisciplinada frequentemente se refere a um estado mental onde falta foco e controle. Isso pode levar a desafios em manter a concentração em tarefas específicas ou em seguir planos estabelecidos. No entanto, também pode ser vista de forma positiva, como uma fonte de criatividade espontânea e pensamento não linear, onde ideias inovadoras podem surgir da aparente desordem.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 
@@ -77,5 +86,5 @@ Uma mente livre pode ampliar horizontes e desafiar limites conceituais, enquanto
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

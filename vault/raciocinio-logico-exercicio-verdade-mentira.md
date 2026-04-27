@@ -22,7 +22,7 @@ tags:
   - comportamento
 topic: "Análise de um problema lógico com verdade e mentira."
 summary: >
-  A conversa explora o conceito de raciocínio lógico e aprofunda um exercício clássico envolvendo três pessoas e afirmações conflitantes. O resultado demonstra como testar hipóteses para encontrar a única solução consistente.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -78,6 +78,15 @@ Caso 3: C diz a verdade
 
 Conclusão:
 A única solução lógica é que B diz a verdade e C é o culpado.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

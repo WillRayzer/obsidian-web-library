@@ -22,7 +22,7 @@ tags:
   - cerebral
 topic: "Relação entre formação de palavras, atividade neural e magnetismo cerebral."
 summary: >
-  A conversa explora profundamente como palavras são formadas no cérebro através de padrões distribuídos de ativação neural, além de abordar o papel do magnetismo cerebral e da meditação na regulação dessas redes. Também conecta fundamentos físicos, neurobiológicos e cognitivos com observações científicas modernas.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -98,6 +98,15 @@ O cérebro funciona como sistema eletromagnético:
 - oscilações organizam comunicação neural
 - TMS prova causalidade eletromagnética
 - teorias sugerem papel dos campos na consciência
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Formação da palavra no sistema nervoso]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

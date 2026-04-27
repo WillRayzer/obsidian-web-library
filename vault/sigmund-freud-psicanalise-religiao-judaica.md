@@ -22,7 +22,7 @@ tags:
   - consciente
 topic: "Resumo e aprofundamento sobre Freud, sua psicanálise e a influência de sua origem judaica e postura agnóstica."
 summary: >
-  A conversa abordou a vida de Sigmund Freud, sua posição crítica e agnóstica diante da religião e o modo como sua origem judaica influenciou sua formação intelectual. Também foi feito um resumo aprofundado de um texto sobre a psicanálise, incluindo histeria, inconsciente, associação livre, estrutura psíquica e a relevância cultural e científica da obra freudiana.
+  >
 status: complete
 related:
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
@@ -81,6 +81,15 @@ O resumo foi ampliado, explicando com mais detalhes a formação da psicanálise
 > Considere também a influencia da religião judaica
 
 Foi acrescentado que a herança judaica de Freud não aparece apenas como dado biográfico, mas como parte importante de sua formação simbólica e intelectual. Sua familiaridade com a Bíblia, a tradição interpretativa judaica e sua vivência como judeu em contexto hostil contribuíram para a complexidade de seu pensamento. Ao mesmo tempo, reafirmou-se que Freud manteve uma postura crítica diante das religiões institucionalizadas.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

@@ -22,7 +22,7 @@ tags:
   - e-governance
 topic: "Síntese estruturada sobre o que é governança pública, seus elementos centrais e seus principais tipos."
 summary: >
-  A conversa explorou o conceito de governança pública, destacando seus princípios fundamentais, como transparência, responsabilidade, participação cidadã e eficiência.
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -91,6 +91,15 @@ A governança colaborativa envolve múltiplos stakeholders em processos decisór
 A governança local e descentralizada transfere competências para níveis regionais ou municipais, permitindo respostas mais aderentes às necessidades territoriais.
 
 Por fim, a governança participativa enfatiza o envolvimento direto dos cidadãos em consultas, conselhos, fóruns e mecanismos deliberativos, reforçando o exercício democrático.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

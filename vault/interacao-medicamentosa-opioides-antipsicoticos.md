@@ -22,7 +22,7 @@ tags:
   - depressao-do-snc
 topic: "Interação medicamentosa entre analgésicos narcóticos e drogas utilizadas no tratamento da esquizofrenia."
 summary: >
-  Foi elaborada uma explicação sobre as principais interações entre opioides e antipsicóticos, com destaque para depressão do sistema nervoso central, hipotensão, prolongamento do intervalo QT, metabolismo pelo citocromo P450 e risco de síndrome serotoninérgica. Também foram incluídas orientações sobre o papel do farmacêutico clínico, fontes em formato ABNT e uma conclusão acadêmica.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -170,6 +170,15 @@ Em síntese, a associação entre analgésicos narcóticos, como os opioides, e 
 Além disso, alguns fármacos desses grupos podem alterar a condução elétrica cardíaca, aumentando o risco de prolongamento do intervalo QT e arritmias, especialmente em pacientes com fatores de risco prévios. Também é importante considerar as interações metabólicas pelo citocromo P450, que podem modificar a concentração dos medicamentos no organismo e favorecer toxicidade ou falha terapêutica.
 
 Dessa forma, o farmacêutico clínico possui papel fundamental na identificação, prevenção e acompanhamento dessas interações. Sua atuação contribui para orientar o prescritor, ajustar condutas, monitorar sinais de risco e promover o uso racional e seguro dos medicamentos. Portanto, a vigilância farmacêutica é indispensável para garantir maior segurança ao paciente e melhor efetividade no tratamento.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

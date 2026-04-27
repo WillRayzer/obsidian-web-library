@@ -22,7 +22,7 @@ tags:
   - ods
 topic: "Projeto de extensão com dois encontros sobre gratidão, desenvolvimento humano e Psicologia Positiva em contexto comunitário."
 summary: >
-  Foram definidos temas, situações-problema, roteiros e atividades para dois encontros comunitários sobre gratidão na Psicologia Positiva. O projeto foi vinculado aos ODS 3, 4, 10 e 16, com foco em saúde emocional, educação socioemocional, inclusão, vínculos comunitários e cultura de paz. Também foi preenchido o relatório final em Word com base nessa proposta.
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -526,6 +526,15 @@ Foram deixados em aberto apenas os campos que dependiam de informações pessoai
 O arquivo final gerado foi:
 
 **RELATORIO_FINAL_PREENCHIDO_GRATIDAO_PSICOLOGIA_POSITIVA.docx**
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

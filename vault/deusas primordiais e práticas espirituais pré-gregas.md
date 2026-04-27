@@ -97,9 +97,9 @@ Utilizados para induzir transe, cura e conexão espiritual, através de repetiç
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 

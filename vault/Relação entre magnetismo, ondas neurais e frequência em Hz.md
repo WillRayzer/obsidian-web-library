@@ -22,7 +22,7 @@ tags:
   - meditacao
 topic: "Integração entre ondas neurais, magnetismo, emoções e frequência como base de estados humanos."
 summary: >
-  A conversa explorou a relação entre atividade elétrica cerebral, campos magnéticos e frequências em Hz, conectando com emoções, epigenética e estados de consciência. Evoluiu para um modelo integrado aplicável a prática, teoria e desenvolvimento de método terapêutico.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -76,6 +76,15 @@ Integração com conceitos amplos:
 - Cordas: analogia de vibração como essência
 - Micélio: conexão entre indivíduos e redes emocionais
 - TAME: arte e movimento como ferramentas de modulação de frequência
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

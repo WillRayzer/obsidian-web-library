@@ -22,7 +22,7 @@ tags:
   - amizade
 topic: "Criação de um poema de aniversário baseado nas qualidades simbólicas das margaridas amarelas."
 summary: >
-  A conversa explorou primeiro o simbolismo e as propriedades mágicas atribuídas às margaridas amarelas,
+  >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
@@ -61,6 +61,15 @@ O poema foi reescrito para personificar a aniversariante como alguém que carreg
 > inclua neste poema , prosperidade e abundância
 
 A versão final do poema passou a incluir também prosperidade e abundância como qualidades florescendo na vida da aniversariante.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

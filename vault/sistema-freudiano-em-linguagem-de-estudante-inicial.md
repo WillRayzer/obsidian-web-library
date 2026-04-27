@@ -22,7 +22,7 @@ tags:
   - subconsciente
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
 summary: >
-  A conversa focou na análise de um texto sobre o sistema freudiano e na sua reescrita em linguagem mais simples.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -211,6 +211,15 @@ Freud falava também das pulsões, que são tipo forças que nos empurram para f
 Ele dizia que a libido, que é tipo nossa energia sexual, é bem importante. E também que nossa mente tem três partes: o id, onde estão nossos desejos mais selvagens; o ego, que lida com o mundo real; e o superego, que é tipo uma voz da consciência.
 
 No final, o texto fala que Freud influenciou muita gente e até hoje a psicanálise é estudada e discutida, com várias ideias diferentes.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

@@ -22,7 +22,7 @@ tags:
   - desenvolvimento
 topic: "Estruturação de um projeto de assessoria empresarial com base em administração, psicologia e neurociência."
 summary: >
-  A conversa estruturou um projeto profissional de assessoria empresarial focado em desenvolvimento humano e performance organizacional. Foram definidos posicionamento, serviços, metodologia e profundidade técnica da atuação. O resultado é um modelo estratégico aplicável como negócio real.
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -89,6 +89,15 @@ Também foi aprofundada a aplicação prática da neurociência, incluindo:
 Foi reforçado que o diferencial competitivo está em atuar em aspectos que empresas não conseguem estruturar sozinhas, como clima emocional, segurança psicológica e maturidade das lideranças.
 
 Por fim, foi definido que o projeto representa uma atuação de alto nível, comparável a consultorias estratégicas e advisors executivos.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

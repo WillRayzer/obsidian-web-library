@@ -22,7 +22,7 @@ tags:
   - reiki
 topic: "Construção de um perfil de terapeuta holístico com ênfase espiritual e linguagem mais sutil."
 summary: >
-  A conversa desenvolveu a descrição de um terapeuta holístico em diferentes níveis de linguagem:
+  >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
@@ -53,6 +53,15 @@ A resposta evoluiu para um perfil mais explicitamente espiritual. O terapeuta ho
 > Terapeuta holistico com abordagem mais espiritual
 
 A formulação final consolidou o perfil como o de um profissional voltado à cura integral do indivíduo, com forte base espiritual. Foram enfatizados elementos como conexão espiritual profunda, cura energética, intuição, percepção espiritual, uso de práticas ancestrais, criação de ambiente terapêutico sagrado, técnicas de purificação, orientação ao crescimento espiritual e, em alguns casos, rituais e cerimônias de transformação.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

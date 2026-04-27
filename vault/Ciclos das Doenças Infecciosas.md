@@ -112,8 +112,8 @@ Explicadas com ciclos complexos e vetores.
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-CONTEXT-LINKS:END -->

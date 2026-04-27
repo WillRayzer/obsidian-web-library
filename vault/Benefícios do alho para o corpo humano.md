@@ -50,10 +50,10 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Medicina Germânica]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables

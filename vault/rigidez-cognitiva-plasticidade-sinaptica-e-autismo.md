@@ -22,7 +22,7 @@ tags:
   - plasticidade-sinaptica
 topic: "Exploração conceitual da rigidez cognitiva, da plasticidade sináptica e de possíveis relações com o autismo."
 summary: >
-  A conversa abordou inicialmente o conceito de rigidez cognitiva e, em seguida, a relação entre sinapse e rigidez cognitiva. Depois, aprofundou-se a definição de plasticidade sináptica e foram discutidas, de forma geral e introdutória, possíveis particularidades da plasticidade sináptica em pessoas autistas.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -75,6 +75,15 @@ A plasticidade sináptica em indivíduos com autismo pode diferir daquela em ind
 5. **Desenvolvimento Neural**: As diferenças na plasticidade sináptica podem também afetar o desenvolvimento neural geral, incluindo o período e a extensão da poda sináptica durante a infância e a adolescência, que é essencial para o refinamento das funções cerebrais.
 
 Entretanto, é fundamental entender que a neurodiversidade do autismo significa que essas características podem variar amplamente entre indivíduos. Além disso, as pesquisas estão em andamento e continuam a evoluir nossa compreensão das bases neurais do autismo e de sua relação com a plasticidade sináptica.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

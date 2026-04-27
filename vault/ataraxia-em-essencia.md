@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -57,10 +57,10 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
+- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -80,7 +80,7 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 ## Related Notes
 
 - [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 <!-- AUTO-RELATED-LINKS:END -->

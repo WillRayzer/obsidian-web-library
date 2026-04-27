@@ -21,7 +21,7 @@ tags:
   - estuda
 topic: "Conteúdo e áreas de estudo da neurolinguística e PNL."
 summary: >
-  A conversa explorou o que é estudado em neurolinguística, diferenciando a abordagem acadêmica da Programação Neurolinguística (PNL). Foram detalhados conceitos, técnicas e aplicações práticas, especialmente no contexto terapêutico e de desenvolvimento pessoal.
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -84,6 +84,15 @@ Integração com abordagem holística:
 - Trabalho com padrões emocionais
 - Reprogramação de crenças
 - Narrativa pessoal e ressignificação de experiências
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

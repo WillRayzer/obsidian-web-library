@@ -22,7 +22,7 @@ tags:
   - emocional
 topic: "Conhecimentos necessários para comunicar o diagnóstico de TEA à família com menor impacto negativo."
 summary: >
-  A conversa analisou o caso de José, uma criança de cinco anos com sinais compatíveis com transtorno do espectro autista, cuja família recebeu a confirmação diagnóstica por uma psicóloga. Foram sintetizados conhecimentos técnicos, comunicacionais, éticos e familiares que podem tornar a revelação do diagnóstico mais acolhedora, clara e menos prejudicial emocionalmente aos pais.
+  >
 status: complete
 related:
   - "[[Por que adolescentes cometem atos infracionais?]]"
@@ -39,6 +39,15 @@ Descreva em 1 parágrafo o objetivo da conversa ou documento.
 ## Conversation
 
 Inclua aqui todo o conteúdo completo, irrestrito, do inicio da abertura da conversa e não somente parte dela (perguntas e respostas, conclusões, analises, e tudo o conteúdo completo da conversa).
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[Medicina Germânica]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

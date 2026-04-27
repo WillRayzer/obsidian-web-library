@@ -21,7 +21,7 @@ tags:
   - nervoso
 topic: "User: Formacao da palavra dentro do sistema nervoso Assistant: A formação da palavra dentro do sistema nervoso é um balé neurobiológico fascinante — nada de “caixa de texto no cére"
 summary: >
-  User: Formacao da palavra dentro do sistema nervoso Assistant: A formação da palavra dentro do sistema nervoso é um balé neurobiológico fascinante — nada de “caixa de texto no cérebro”, e tudo de redes, impulsos elétricos e memória em ação. Quando você pensa uma palavra, várias áreas entram em cena ao mesmo tempo. O cé
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -118,6 +118,15 @@ Sua resposta deve conter EXCLUSIVAMENTE um arquivo para download (.md)... (promp
 
 Assistant:
 (gerado neste documento conforme instrução)
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

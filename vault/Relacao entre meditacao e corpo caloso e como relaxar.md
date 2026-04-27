@@ -22,7 +22,7 @@ tags:
   - relaxar
 topic: "Relação entre meditação, corpo caloso e integração cerebral."
 summary: >
-  A conversa explora como observar neurônios, avaliar o corpo caloso e compreender a relação da meditação com a integração cerebral. Também inclui métodos clínicos, interpretações funcionais e artigos científicos entre 2015 e 2025.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -168,6 +168,15 @@ Conclusão científica:
 - Existe melhora da conectividade e organização neural  
 
 ---
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

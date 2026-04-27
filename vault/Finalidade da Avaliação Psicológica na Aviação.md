@@ -22,7 +22,7 @@ tags:
   - desempenho-humano
 topic: "Finalidade da avaliação psicológica na aviação"
 summary: >
-  Foi explorada a finalidade da avaliação psicológica no contexto da aviação, destacando seu papel na segurança operacional e na análise de competências emocionais e cognitivas dos profissionais. A resposta abordou os principais aspectos avaliados e sua importância preventiva.
+  >
 status: complete
 related:
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
@@ -52,6 +52,15 @@ Ela busca identificar:
 - Capacidade de manter o foco e atenção por longos períodos  
 
 Essa avaliação é exigida tanto na admissão quanto periodicamente, como parte do controle e da prevenção de riscos relacionados à saúde mental na aviação.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

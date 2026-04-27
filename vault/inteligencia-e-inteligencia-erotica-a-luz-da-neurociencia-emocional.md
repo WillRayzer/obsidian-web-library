@@ -22,7 +22,7 @@ tags:
   - desejo
 topic: "Exploração do conceito de inteligência e do significado de inteligência erótica sob a perspectiva da neurociência emocional."
 summary: >
-  A conversa começou com uma definição geral do termo inteligência e, em seguida, aprofundou o conceito de inteligência erótica.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -116,6 +116,15 @@ Também foram sugeridas aplicações práticas, como:
 - **comunicação aberta**, para construir segurança, reduzir ansiedade e favorecer conexão emocional.
 
 A síntese final mostrou que a inteligência erótica, quando vista pela neurociência emocional, não se restringe ao desejo sexual em si, mas envolve uma integração entre cérebro, emoção, vínculo, autorregulação e bem-estar relacional.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

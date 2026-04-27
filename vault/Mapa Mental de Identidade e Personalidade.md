@@ -22,13 +22,13 @@ tags:
   - psicologiabig-five
 topic: "Estruturação de um mapa mental sobre identidade e personalidade"
 summary: >
-  Foi desenvolvido um mapa mental estruturado integrando os conceitos de identidade e personalidade.
+  >
 status: complete
 related:
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -131,6 +131,15 @@ Criar um mapa mental pode ser um processo muito pessoal e depende de como você 
 
 ---
 
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
+
 ## Conclusions & Deliverables
 
 - Estrutura completa de mapa mental integrando identidade e personalidade.
@@ -154,6 +163,6 @@ Criar um mapa mental pode ser um processo muito pessoal e depende de como você 
 
 - [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

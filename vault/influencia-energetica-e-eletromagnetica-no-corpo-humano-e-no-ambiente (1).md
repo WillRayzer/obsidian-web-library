@@ -22,7 +22,7 @@ tags:
   - interferencia-eletromagnetica
 topic: "Discussão sobre influências energéticas e eletromagnéticas no corpo humano, no ambiente e em estratégias para reduzir exposição em casa."
 summary: >
-  A conversa explorou conjecturas sobre bioenergia, campos eletromagnéticos e possíveis interações entre corpo humano e ambiente, reunindo links sobre terapia eletromagnética, efeitos biológicos da radiação e interferência eletromagnética.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -210,6 +210,15 @@ A resposta dada foi mais conjectural e exploratória, apontando que:
 - algumas teorias de bioenergia atribuem às plantas um campo energético próprio;
 - música, especialmente em frequências consideradas harmonizadoras, poderia influenciar a percepção do ambiente e o equilíbrio fisiológico;
 - não há base apresentada para afirmar que plantas e música bloqueiem de forma efetiva campos eletromagnéticos, mas ambos poderiam colaborar indiretamente para conforto, bem-estar e sensação de harmonização ambiental.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

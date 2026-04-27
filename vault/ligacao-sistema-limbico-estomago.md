@@ -22,7 +22,7 @@ tags:
   - sistema
 topic: "Conexão entre emoções e sistema digestivo."
 summary: >
-  A conversa explora a ligação entre o sistema límbico e o estômago, destacando o eixo cérebro-intestino. São abordados mecanismos como o nervo vago, sistema nervoso entérico e influência emocional na digestão.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -68,6 +68,15 @@ Relação com emoções:
 
 Esse sistema funciona como um ciclo:
 sensação física → interpretação emocional → resposta fisiológica → nova sensação.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Como o corpo armazena o trauma]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

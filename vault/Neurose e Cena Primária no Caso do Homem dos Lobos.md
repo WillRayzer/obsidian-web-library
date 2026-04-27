@@ -22,7 +22,7 @@ tags:
   - sonho
 topic: "Análise da neurose no caso do Homem dos Lobos com foco na cena primária"
 summary: >
-  O documento sintetiza o caso do Homem dos Lobos com foco na neurose e na interpretação freudiana da cena primária. Aborda o papel do sonho, do complexo de Édipo e da transferência, além de críticas pós-freudianas sobre diagnóstico e eficácia terapêutica.
+  >
 status: complete
 related:
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
@@ -61,6 +61,15 @@ A criança não relata diretamente a cena, mas a expressa simbolicamente. O sonh
 > Aponte fontes.
 
 As principais fontes incluem Freud (1918), Brunswick (1928), Mahony (1992), Roudinesco (1997) e Blum (1974), além de bases como SciELO e PEP-Web.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

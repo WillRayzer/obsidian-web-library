@@ -22,7 +22,7 @@ tags:
   - chakras
 topic: "Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização."
 summary: >
-  Exploramos o significado e uso do óleo essencial de rosa branca, desenvolvemos uma oração com abordagem holística e estruturamos um exercício completo de interiorização e integração energética.
+  >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
@@ -73,6 +73,15 @@ Foi estruturado um exercício completo com:
 - encerramento com ancoragem emocional
 
 ---
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Perfil de terapeuta holístico com abordagem espiritual]]
+- [[Auto-hipnose ericksoniana para felicidade]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

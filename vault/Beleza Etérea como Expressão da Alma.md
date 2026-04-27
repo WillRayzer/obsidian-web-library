@@ -96,7 +96,7 @@ Ela deixa de ser atributo e passa a ser fenômeno.
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables

@@ -22,7 +22,7 @@ tags:
   - psicologiahumana
 topic: "Estrutura aprofundada de um mapa mental integrando personalidade e identidade"
 summary: >
-  Foi desenvolvido um mapa mental completo integrando personalidade e identidade, com aprofundamento teórico e estrutural. O conteúdo explora definições, teorias, fatores influenciadores e interseções entre os conceitos. O material foi organizado para aplicação prática em autoconhecimento e análise psicológica.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -222,6 +222,15 @@ A integração dos dois gera:
 - Capacidade de reinvenção
 
 ---
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Mapa Mental de Identidade e Personalidade]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

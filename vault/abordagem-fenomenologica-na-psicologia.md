@@ -142,8 +142,8 @@ A abordagem exige grande cuidado conceitual e interpretativo, o que pode torná-
 ## Context Links
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 

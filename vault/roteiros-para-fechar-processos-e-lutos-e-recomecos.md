@@ -22,7 +22,7 @@ tags:
   - fechar
 topic: "Roteiros práticos para encerramento de ciclos, luto e recomeços."
 summary: >
-  A conversa estruturou um conjunto de roteiros para lidar com fechamento de ciclos, atravessar o luto emocional e iniciar novos começos. Foram apresentados processos práticos, rituais simbólicos e estratégias de retomada gradual da vida.
+  >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
@@ -62,6 +62,15 @@ A resposta foi organizada em três etapas principais:
 - Criação de micro-metas.
 - Práticas de expansão (meditação, aprendizado, generosidade).
 - Ritual simbólico de início (objeto, declaração).
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

@@ -22,7 +22,7 @@ tags:
   - linguagem
 topic: "Síntese da evolução biológica, cognitiva e cultural da mente humana."
 summary: >
-  A conversa tratou de uma explicação geral sobre a evolução da mente humana.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -53,6 +53,15 @@ A conversa abordou ainda o desenvolvimento de capacidades cognitivas complexas, 
 Outro ponto central foi a linguagem, descrita como uma das características mais distintivas da mente humana, por permitir transmissão de conhecimento, cooperação ampliada e formação de culturas complexas.
 
 Por fim, foi ressaltado que a mente humana evoluiu tanto biologicamente quanto culturalmente, sendo altamente adaptável a mudanças ambientais, o que contribuiu para a sobrevivência e expansão da espécie.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

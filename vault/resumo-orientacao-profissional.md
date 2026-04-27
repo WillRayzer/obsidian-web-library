@@ -22,7 +22,7 @@ tags:
   - emocional
 topic: "Resumo integrado sobre orientação profissional para adolescentes."
 summary: >
-  Documento resume os principais conceitos sobre orientação profissional com adolescentes, incluindo planejamento, técnicas, vínculo, ética e teoria. Integra conteúdos dos arquivos analisados e respostas estruturadas para estudo e aplicação prática.
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -59,6 +59,15 @@ Também foi solicitado e entregue um resumo integrado dos arquivos, abordando:
 - A influência da sociedade, mídia e economia nas escolhas profissionais.
 - A importância da ética profissional.
 - A construção da identidade ocupacional e projeto de vida.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

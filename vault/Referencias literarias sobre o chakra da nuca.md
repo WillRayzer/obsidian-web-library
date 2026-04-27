@@ -22,7 +22,7 @@ tags:
   - nuca
 topic: "Referencias literarias sobre upachakras Aqui estão referências literárias e acadêmicas sobre upachakras dentro de tradições tântricas, ayurvédicas e do yoga clássico. O tema é meno"
 summary: >
-  Referencias literarias sobre upachakras Aqui estão referências literárias e acadêmicas sobre upachakras dentro de tradições tântricas, ayurvédicas e do yoga clássico. O tema é menos comum que os sete chakras principais, mas possui fontes relevantes. Textos clássicos: Ṣaṭ-Chakra-Nirūpaṇa (Purnananda Swami) Hatha Yoga Pr
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -125,6 +125,15 @@ Marma Points of Ayurveda – Vasant Lad
 
 Observação:
 Poucos livros tratam exclusivamente do chakra da nuca, mas ele aparece dentro do sistema de chakras secundários, marma points ou centros energéticos posteriores.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

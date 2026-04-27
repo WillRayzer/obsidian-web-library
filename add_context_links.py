@@ -22,6 +22,7 @@ class Note:
     frontmatter: dict[str, object]
     body: str
     manual_links: int
+    has_context_links: bool
 
 
 def should_skip(path: Path) -> bool:
@@ -87,7 +88,15 @@ def read_notes(vault_path: Path) -> list[Note]:
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
         frontmatter, body = parse_frontmatter(text)
-        notes.append(Note(path=path, frontmatter=frontmatter, body=body, manual_links=count_manual_links(body)))
+        notes.append(
+            Note(
+                path=path,
+                frontmatter=frontmatter,
+                body=body,
+                manual_links=count_manual_links(body),
+                has_context_links=CONTEXT_START in body and CONTEXT_END in body,
+            )
+        )
     return notes
 
 
@@ -129,7 +138,7 @@ def main() -> None:
 
     vault_path = args.vault_path.expanduser()
     notes = read_notes(vault_path)
-    candidates = [note for note in notes if note.manual_links == 0]
+    candidates = [note for note in notes if note.manual_links == 0 and not note.has_context_links]
     candidates.sort(key=lambda note: note.path.name.lower())
     changed = 0
 

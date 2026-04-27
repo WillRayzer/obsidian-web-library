@@ -22,7 +22,7 @@ tags:
   - preenchido
 topic: "DADOS DO ALUNO:"
 summary: >
-  DADOS DO ALUNO:
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL]]"
@@ -148,6 +148,15 @@ SELIGMAN, Martin E. P.; CSIKSZENTMIHALYI, Mihaly. Positive psychology: an introd
 AUTOAVALIAÇÃO DA ATIVIDADE:
 Realize a sua avaliação em relação à atividade desenvolvida considerando uma escala de 0 a 10 para cada pergunta, assinalando com um X:
 1. A atividade permitiu o desenvolvimento do projeto de extensão articulando as competên
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[RELATORIO FINAL]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

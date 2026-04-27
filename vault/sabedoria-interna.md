@@ -22,7 +22,7 @@ tags:
   - reflexao
 topic: "A conversa explorou o significado da sabedoria interna e formas de aprofundá-la na vida cotidiana."
 summary: >
-  A conversa definiu sabedoria interna como a capacidade de acessar orientação, discernimento e verdade pessoal a partir do próprio interior.
+  >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
@@ -107,6 +107,15 @@ A sabedoria interna é uma fonte de orientação e insight que reside dentro de 
    - Sensação de serenidade e contentamento menos dependente das circunstâncias externas.
 
 Cultivar a sabedoria interna é um processo contínuo que pode conduzir a uma vida mais plena, consciente e autêntica. Ao se conectar com essa fonte interna, a pessoa amplia sua clareza, propósito e serenidade.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

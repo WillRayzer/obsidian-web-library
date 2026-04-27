@@ -22,7 +22,7 @@ tags:
   - cognicao
 topic: "Definição e compreensão da consciência sob múltiplas perspectivas."
 summary: >
-  A conversa explora o conceito de consciência a partir de diferentes áreas do conhecimento, incluindo filosofia, psicologia, neurociência e espiritualidade. O conteúdo apresenta definições, interpretações e uma síntese integradora sobre o que significa estar consciente.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -51,6 +51,15 @@ Na neurociência, é vista como um fenômeno emergente da atividade cerebral, re
 Na espiritualidade, a consciência é frequentemente considerada uma essência ou energia fundamental, que pode transcender o corpo físico e evoluir em níveis.
 
 Uma definição sintética seria: consciência é a capacidade de estar presente, perceber, sentir e refletir sobre o mundo externo e a própria interioridade.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

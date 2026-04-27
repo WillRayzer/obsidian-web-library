@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[O que é consciência]]"
-  - "[[Benefícios do alho para o corpo humano]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -57,8 +57,8 @@ Principais benefícios:
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
-- [[O que é consciência]]
-- [[Benefícios do alho para o corpo humano]]
+- [[Saúde holística e saúde espiritual]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -76,7 +76,7 @@ Principais benefícios:
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[O que é consciência]]
-- [[Benefícios do alho para o corpo humano]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

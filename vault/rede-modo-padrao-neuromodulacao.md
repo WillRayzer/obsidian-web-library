@@ -22,7 +22,7 @@ tags:
   - magnetismo
 topic: "Exploração profunda da DMN, meditação e neuromodulação."
 summary: >
-  Documento completo reunindo explicações detalhadas sobre a rede de modo padrão (DMN), sua relação com meditação, neuroimagem, regulação e uso de magnetismo (TMS).
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -65,6 +65,15 @@ Resposta: Explicação científica sobre:
 - Redução da ruminação
 - Integração com meditação
 - Limites do magnetismo (o que funciona e o que não funciona)
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Relação entre magnetismo, ondas neurais e frequência em Hz]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Artigos Científicos de Neurofeedback]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

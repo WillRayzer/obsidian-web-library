@@ -22,7 +22,7 @@ tags:
   - virgem
 topic: "Exploração metafísica das energias dos signos e de sua integração como forças cósmicas."
 summary: >
-  A conversa desenvolveu descrições metafísicas e simbólicas das energias de vários signos do zodíaco, evitando em muitos momentos a associação direta com a personalidade humana.
+  >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
@@ -352,6 +352,15 @@ A síntese final foi aprofundada, reposicionando cada signo como princípio arqu
 - Capricórnio: estrutura;
 - Aquário: inovação;
 - Peixes: compaixão e transcendência.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

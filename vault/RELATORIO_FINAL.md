@@ -21,7 +21,7 @@ tags:
   - final
 topic: "DADOS DO ALUNO:"
 summary: >
-  DADOS DO ALUNO:
+  >
 status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
@@ -251,6 +251,15 @@ Realize a sua avaliação em relação à atividade desenvolvida considerando um
 ()
 ()
 7. Caso queira contribuir com maior detalhamento, traga seu depoimento/ sugestão.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

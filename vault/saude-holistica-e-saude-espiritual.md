@@ -22,7 +22,7 @@ tags:
   - meditacao
 topic: "Visão geral sobre saúde holística e saúde espiritual como dimensões complementares do bem-estar."
 summary: >
-  A conversa definiu saúde holística como uma abordagem integral que considera corpo, mente, emoções e espírito. Em seguida, aprofundou a saúde espiritual como dimensão ligada a propósito, conexão, valores, paz interior e resiliência. O resultado foi uma síntese introdutória e organizada desses dois conceitos.
+  >
 status: complete
 related:
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
@@ -59,6 +59,15 @@ Foram destacados os seguintes aspectos da saúde espiritual:
 5. **Resiliência espiritual**: enfrentar desafios com apoio na fé, nas crenças ou em convicções profundas.
 
 Foi concluído que cuidar da saúde espiritual pode ampliar a sensação de felicidade, plenitude e equilíbrio, influenciando positivamente também a saúde física e mental.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

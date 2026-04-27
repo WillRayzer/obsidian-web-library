@@ -22,7 +22,7 @@ tags:
   - hidrocefalia
 topic: "Pesquisas e explicações sobre memórias ruins, reconsolidação emocional, água no corpo e acúmulo de líquido no cérebro."
 summary: >
-  A conversa explorou como memórias ruins podem ser desassociadas ou ter sua carga emocional reduzida por meio de processos como reconsolidação, terapias de reprocessamento, EMDR e reativação de memória durante o sono. Também abordou a diferença entre água corporal, líquido cefalorraquidiano e hidrocefalia, além de conectar metaforicamente trauma, fluxo cerebral, sono, epigenética emocional e neuroplasticidade.
+  >
 status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
@@ -582,6 +582,15 @@ Essas pesquisas oferecem base concreta para as ideias de que:
 Essas evidências podem servir como ponte entre espiritualidade, metafísica, corpo, mente e ciência, desde que a linguagem simbólica não substitua a precisão biológica.
 
 ---
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

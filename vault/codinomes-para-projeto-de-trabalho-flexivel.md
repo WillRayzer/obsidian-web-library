@@ -25,10 +25,10 @@ summary: >
   >
 status: complete
 related:
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -56,10 +56,10 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -81,8 +81,8 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 <!-- AUTO-RELATED-LINKS:END -->

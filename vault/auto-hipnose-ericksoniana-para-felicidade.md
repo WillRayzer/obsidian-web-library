@@ -103,8 +103,8 @@ A proposta foi reforçar internamente essas sugestões enquanto a sensação de 
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
