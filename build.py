@@ -413,6 +413,7 @@ def build_graph_page(site_name: str) -> None:
       <span class="sidebar-label">Navegacao</span>
       <a class="nav-link" href="index.html">Biblioteca</a>
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+      <a class="nav-link" href="graph-experimental.html">Graph Experimental</a>
     </div>
     <div class="sidebar-block">
       <span class="sidebar-label">Uso</span>
@@ -509,6 +510,82 @@ def build_graph_page(site_name: str) -> None:
 </html>
 """
     (DIST / "graph.html").write_text(graph_page, encoding="utf-8")
+
+
+def build_graph_experimental_page(site_name: str) -> None:
+    content = f"""
+<main class="app-shell">
+  <aside class="sidebar">
+    <div class="sidebar-block brand-block">
+      <span class="sidebar-label">Vault</span>
+      <h1>{html.escape(site_name)}</h1>
+      <p>Versao experimental com force-graph para comparar fisica e navegacao.</p>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Navegacao</span>
+      <a class="nav-link" href="index.html">Biblioteca</a>
+      <a class="nav-link" href="graph.html">Graph Atual</a>
+      <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Uso</span>
+      <p class="sidebar-text">Arraste os nos, use a busca para destacar e clique para abrir a nota.</p>
+    </div>
+  </aside>
+  <section class="main-column">
+    <header class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Graph Experimental</span>
+        <h1>Mapa com Force Graph</h1>
+        <p>Experimento paralelo para comparar uma fisica mais organica, proxima do estilo do Obsidian.</p>
+      </div>
+    </header>
+    <section class="toolbar card">
+      <label for="experimental-search">Buscar no grafo</label>
+      <input id="experimental-search" type="search" placeholder="Digite o nome da nota">
+      <p class="helper">Passe o mouse para destacar conexoes e clique para focar o cluster local.</p>
+    </section>
+    <section class="card graph-card">
+      <div class="graph-meta">
+        <strong>Graph Experimental</strong>
+        <div class="graph-controls">
+          <button type="button" class="graph-button" data-exp-action="fit">Centralizar</button>
+          <button type="button" class="graph-button" data-exp-action="labels">Rotulos</button>
+          <button type="button" class="graph-button" data-exp-action="pause">Pausar</button>
+          <span id="experimental-stats">Carregando...</span>
+        </div>
+      </div>
+      <div id="experimental-graph-view" class="graph-view experimental-graph-view"></div>
+      <div id="experimental-selection" class="graph-selection">
+        <strong>Nenhuma nota selecionada</strong>
+        <p>Clique em uma nota para focar o subgrafo local e abrir no segundo clique.</p>
+      </div>
+    </section>
+  </section>
+</main>
+"""
+    page = f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(site_name)} - Graph Experimental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="grain"></div>
+{content}
+<script src="https://unpkg.com/d3-force@3"></script>
+<script src="https://unpkg.com/force-graph@1"></script>
+<script>window.OBSIDIAN_GRAPH_EXPERIMENTAL = true;</script>
+<script src="assets/app-experimental.js"></script>
+</body>
+</html>
+"""
+    (DIST / "graph-experimental.html").write_text(page, encoding="utf-8")
 
 
 def build_note_pages(notes: list[Note], lookup: dict[str, str], site_name: str) -> None:
@@ -626,6 +703,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
       <span class="sidebar-label">Atalhos</span>
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard principal</a>
       <a class="nav-link" href="graph.html">Graph View</a>
+      <a class="nav-link" href="graph-experimental.html">Graph Experimental</a>
       {quick_links}
     </div>
     <div class="sidebar-block metrics-stack">
@@ -649,6 +727,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
         <a class="button primary" href="#colecao">Explorar biblioteca</a>
         <a class="button" href="notes/00-dashboard-biblioteca.html">Abrir dashboard</a>
         <a class="button" href="graph.html">Abrir grafo</a>
+        <a class="button" href="graph-experimental.html">Abrir experimento</a>
       </div>
     </div>
   </header>
@@ -1753,8 +1832,263 @@ async function initGraph() {
 initGraph();
 """
 
+    experimental_script = r"""
+async function initExperimentalGraph() {
+  if (!window.OBSIDIAN_GRAPH_EXPERIMENTAL || !window.ForceGraph) return;
+
+  const container = document.querySelector("#experimental-graph-view");
+  const stats = document.querySelector("#experimental-stats");
+  const searchInput = document.querySelector("#experimental-search");
+  const selection = document.querySelector("#experimental-selection");
+  const actionButtons = [...document.querySelectorAll("[data-exp-action]")];
+  if (!container) return;
+
+  const response = await fetch("assets/graph.json");
+  const graph = await response.json();
+  const areaPalette = {
+    studies: "#8fb5ff",
+    business: "#ffb480",
+    system: "#7caa6d",
+    "sem area": "#b9b9b9",
+  };
+
+  const nodes = graph.nodes.map((node) => ({
+    ...node,
+    group: (node.area || "Sem area").toLowerCase(),
+    color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
+    val: Math.max(3, Math.min(11, 3 + Number(node.degree || 0))),
+  }));
+  const links = graph.edges.map((edge) => ({ ...edge }));
+  const data = { nodes, links };
+
+  const neighbors = new Map();
+  for (const node of nodes) {
+    neighbors.set(node.id, new Set([node.id]));
+  }
+  for (const link of links) {
+    neighbors.get(link.source)?.add(link.target);
+    neighbors.get(link.target)?.add(link.source);
+  }
+
+  let hoveredNode = null;
+  let focusedNode = null;
+  let focusIds = null;
+  let showLabels = true;
+  let paused = false;
+
+  function nodeById(id) {
+    return nodes.find((node) => node.id === id) || null;
+  }
+
+  function focusSet(rootId, depth) {
+    const visited = new Set([rootId]);
+    const queue = [{ id: rootId, level: 0 }];
+    while (queue.length) {
+      const current = queue.shift();
+      if (!current || current.level >= depth) continue;
+      for (const nextId of neighbors.get(current.id) || []) {
+        if (visited.has(nextId)) continue;
+        visited.add(nextId);
+        queue.push({ id: nextId, level: current.level + 1 });
+      }
+    }
+    return visited;
+  }
+
+  function activeIds() {
+    if (focusIds) return focusIds;
+    if (hoveredNode) return neighbors.get(hoveredNode.id) || new Set([hoveredNode.id]);
+    return null;
+  }
+
+  function activeSelectionNode() {
+    return focusedNode || hoveredNode || null;
+  }
+
+  function updateSelection(node) {
+    if (!selection) return;
+    if (!node) {
+      selection.innerHTML = "<strong>Nenhuma nota selecionada</strong><p>Clique em uma nota para focar o subgrafo local e abrir no segundo clique.</p>";
+      return;
+    }
+    selection.innerHTML = `<strong>${node.title}</strong><p>Area: ${node.area || "Sem area"}<br>Conexoes diretas: ${node.degree || 0}<br><a href="${node.url}">Abrir nota</a></p>`;
+  }
+
+  function isActiveLink(link, ids) {
+    const sourceId = typeof link.source === "object" ? link.source.id : link.source;
+    const targetId = typeof link.target === "object" ? link.target.id : link.target;
+    return ids.has(sourceId) && ids.has(targetId);
+  }
+
+  function refreshStyles() {
+    const ids = activeIds();
+    Graph
+      .nodeColor((node) => {
+        if (!ids) return node.color;
+        return ids.has(node.id) ? node.color : "rgba(130, 143, 156, 0.14)";
+      })
+      .linkColor((link) => {
+        if (!ids) return "rgba(143,181,255,0.18)";
+        return isActiveLink(link, ids) ? "rgba(185,213,255,0.9)" : "rgba(120,130,140,0.06)";
+      })
+      .linkWidth((link) => {
+        if (!ids) return 1.2;
+        return isActiveLink(link, ids) ? 2.2 : 0.5;
+      })
+      .linkDirectionalParticles((link) => {
+        if (!focusedNode || !focusIds) return 0;
+        return isActiveLink(link, focusIds) ? 2 : 0;
+      })
+      .linkDirectionalParticleSpeed(() => 0.0045)
+      .linkDirectionalParticleWidth((link) => (focusedNode && focusIds && isActiveLink(link, focusIds) ? 2.2 : 0));
+    Graph.refresh();
+  }
+
+  const Graph = ForceGraph()(container)
+    .graphData(data)
+    .backgroundColor("rgba(0,0,0,0)")
+    .nodeRelSize(4.8)
+    .nodeVal("val")
+    .cooldownTicks(0)
+    .enableNodeDrag(true)
+    .enableZoomInteraction(true)
+    .enablePanInteraction(true)
+    .d3AlphaDecay(0.022)
+    .d3VelocityDecay(0.24)
+    .nodeLabel((node) => node.title)
+    .nodeCanvasObjectMode(() => "after")
+    .nodeCanvasObject((node, ctx, globalScale) => {
+      const ids = activeIds();
+      const visible = showLabels || node === hoveredNode || node === focusedNode;
+      if (!visible) return;
+      if (ids && !ids.has(node.id)) return;
+      const label = node.title;
+      const fontSize = Math.max(7, (node === focusedNode ? 13 : 10) / Math.max(globalScale, 0.45));
+      ctx.font = `${node === focusedNode ? 700 : 500} ${fontSize}px IBM Plex Sans, sans-serif`;
+      const textWidth = ctx.measureText(label).width;
+      const pad = 3 / Math.max(globalScale, 0.45);
+      const x = node.x - textWidth / 2 - pad;
+      const y = node.y + node.val + 8 / Math.max(globalScale, 0.45);
+      const w = textWidth + pad * 2;
+      const h = fontSize + pad * 2;
+      ctx.fillStyle = ids && !ids.has(node.id) ? "rgba(8,12,16,0.06)" : "rgba(8,12,16,0.72)";
+      ctx.fillRect(x, y, w, h);
+      ctx.fillStyle = node === focusedNode ? "#f2f7ff" : "#d9e1ea";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "top";
+      ctx.fillText(label, node.x, y + pad);
+    })
+    .nodeColor((node) => node.color)
+    .linkWidth(1.2)
+    .linkColor(() => "rgba(143,181,255,0.18)")
+    .onNodeHover((node) => {
+      hoveredNode = node || null;
+      container.style.cursor = node ? "pointer" : "default";
+      if (!focusedNode) updateSelection(hoveredNode);
+      refreshStyles();
+    })
+    .onNodeDragEnd((node) => {
+      node.fx = node.x;
+      node.fy = node.y;
+    })
+    .onNodeClick((node) => {
+      if (focusedNode && focusedNode.id === node.id) {
+        window.location.href = node.url;
+        return;
+      }
+      focusedNode = node;
+      focusIds = focusSet(node.id, 1);
+      updateSelection(node);
+      refreshStyles();
+      Graph.centerAt(node.x, node.y, 450);
+      Graph.zoom(2.1, 450);
+      Graph.d3ReheatSimulation();
+    });
+
+  Graph.d3Force("charge").strength(-165);
+  Graph.d3Force("link").distance((link) => {
+    const sourceId = typeof link.source === "object" ? link.source.id : link.source;
+    const targetId = typeof link.target === "object" ? link.target.id : link.target;
+    if (focusedNode && focusIds && focusIds.has(sourceId) && focusIds.has(targetId)) return 90;
+    return 130;
+  });
+  stats.textContent = `${nodes.length} notas, ${links.length} conexoes`;
+
+  function zoomToCurrentFocus() {
+    if (!focusedNode || !focusIds) {
+      Graph.zoomToFit(500, 80);
+      return;
+    }
+    Graph.zoomToFit(500, 110, (node) => focusIds.has(node.id));
+  }
+
+  actionButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const action = button.dataset.expAction;
+      if (action === "fit") {
+        zoomToCurrentFocus();
+      }
+      if (action === "labels") {
+        showLabels = !showLabels;
+        button.classList.toggle("is-active", showLabels);
+        Graph.refresh();
+      }
+      if (action === "pause") {
+        paused = !paused;
+        button.classList.toggle("is-active", paused);
+        button.textContent = paused ? "Retomar" : "Pausar";
+        if (paused) Graph.pauseAnimation();
+        else {
+          Graph.resumeAnimation();
+          Graph.d3ReheatSimulation();
+        }
+      }
+    });
+  });
+
+  searchInput?.addEventListener("input", (event) => {
+    const term = event.target.value.trim().toLowerCase();
+    if (!term) {
+      hoveredNode = null;
+      if (!focusedNode) updateSelection(null);
+      refreshStyles();
+      return;
+    }
+    const match = nodes.find((node) => node.title.toLowerCase().includes(term));
+    if (!match) return;
+    focusedNode = match;
+    focusIds = focusSet(match.id, 1);
+    updateSelection(match);
+    refreshStyles();
+    Graph.centerAt(match.x || 0, match.y || 0, 450);
+    Graph.zoom(2, 450);
+  });
+
+  container.addEventListener("click", (event) => {
+    if (event.target === container || event.target.tagName === "CANVAS") return;
+  });
+
+  Graph.onBackgroundClick(() => {
+    focusedNode = null;
+    focusIds = null;
+    hoveredNode = null;
+    updateSelection(null);
+    refreshStyles();
+    Graph.zoomToFit(500, 80);
+  });
+
+  window.setTimeout(() => {
+    Graph.zoomToFit(800, 80);
+    refreshStyles();
+  }, 180);
+}
+
+initExperimentalGraph();
+"""
+
     (assets / "styles.css").write_text(styles.strip() + "\n", encoding="utf-8")
     (assets / "app.js").write_text(script.strip() + "\n", encoding="utf-8")
+    (assets / "app-experimental.js").write_text(experimental_script.strip() + "\n", encoding="utf-8")
 
 
 def main() -> None:
@@ -1776,6 +2110,7 @@ def main() -> None:
     sync_status = load_sync_status()
     build_index(notes, site_name, sync_status)
     build_graph_page(site_name)
+    build_graph_experimental_page(site_name)
     graph_data = build_graph_data(notes, lookup)
     (DIST / "assets" / "graph.json").write_text(json.dumps(graph_data, ensure_ascii=False, indent=2), encoding="utf-8")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
