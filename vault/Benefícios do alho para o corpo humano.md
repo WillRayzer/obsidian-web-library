@@ -22,7 +22,7 @@ tags:
   - psicologia
 topic: "Benefícios e uso do alho na saúde humana."
 summary: >
-  A conversa explorou os principais benefícios do alho para o corpo humano, incluindo efeitos cardiovasculares, imunológicos e metabólicos. Também abordou o tempo de uso recomendado e cuidados necessários no consumo contínuo.
+  >
 status: complete
 related:
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
@@ -45,6 +45,16 @@ O alho é um alimento funcional com diversos benefícios para a saúde, incluind
 > Por quanto tempo é indicado?
 
 O alho pode ser consumido diariamente e por tempo indefinido quando inserido na alimentação de forma equilibrada. Estudos indicam benefícios significativos após 8 a 12 semanas de uso contínuo.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

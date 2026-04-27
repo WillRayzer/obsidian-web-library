@@ -22,7 +22,7 @@ tags:
   - psicologia
 topic: "A beleza etérea como manifestação da alma e da consciência espiritual"
 summary: >
-  Exploramos o conceito de beleza etérea em níveis progressivos, aprofundando sua relação com espiritualidade, consciência e expressão da alma. A análise evoluiu de uma definição estética para uma compreensão ontológica e energética. Concluímos que a beleza etérea é um fenômeno perceptivo da essência interior manifestada.
+  >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
@@ -88,6 +88,16 @@ A análise atingiu um nível mais profundo, onde a beleza etérea é compreendid
 Ela deixa de ser atributo e passa a ser fenômeno.
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

@@ -22,7 +22,7 @@ tags:
   - virgem
 topic: "Leitura da personalidade e da dimensão espiritual a partir de um mapa natal."
 summary: >
-  A conversa analisou o mapa natal de Luanda com foco inicial na personalidade geral e, em seguida, aprofundou a interpretação simbólica do lado espiritual. Foram destacados traços como intensidade emocional, perfeccionismo, intuição, poder de transformação, comunicação expressiva e busca de sentido. O resultado consolidou uma leitura integrada entre Sol em Virgem, forte ênfase em Escorpião e elementos ligados à expansão espiritual.
+  >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
@@ -160,6 +160,16 @@ A articulação entre **Mercúrio em Leão** e **Netuno** foi lida como potencia
 ### Estrutura espiritual e responsabilidade interior
 
 A leitura também considerou a necessidade de dar forma concreta às transformações. O mapa sugere que os processos espirituais não precisam ficar apenas no campo subjetivo: eles podem ser organizados, integrados e convertidos em serviço, direção de vida ou orientação para outras pessoas.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

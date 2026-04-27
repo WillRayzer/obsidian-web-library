@@ -22,7 +22,7 @@ tags:
   - estagios-do-luto
 topic: "Explanação sobre as ideias de Elizabeth Kübler-Ross e a escuta psicológica no contexto hospitalar."
 summary: >
-  A conversa desenvolveu um texto sobre a obra Sobre a Morte e o Morrer, de Elizabeth Kübler-Ross, abordando os cinco estágios emocionais vivenciados por pacientes em terminalidade. Também foi aprofundado o papel da escuta psicológica hospitalar como prática acolhedora, ética e humanizada diante do sofrimento, da finitude e da relação entre paciente, família e equipe de saúde.
+  >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
@@ -75,6 +75,15 @@ Na fase da depressão, a escuta se torna ainda mais delicada. O paciente pode fi
 Na aceitação, a escuta psicológica pode ajudar o paciente a organizar despedidas, expressar desejos, resolver pendências afetivas e encontrar serenidade dentro do possível. Aceitar não significa estar feliz com a morte, mas alcançar uma forma de paz diante da realidade. O psicólogo pode favorecer conversas importantes entre paciente, família e equipe, sempre respeitando os limites emocionais de todos.
 
 Assim, segundo Kübler-Ross, a escuta psicológica hospitalar deve ser acolhedora, ética, sensível e humanizada. Ela ajuda o paciente a não se sentir reduzido à doença, ao leito ou ao diagnóstico. O psicólogo hospitalar oferece um espaço onde a pessoa pode falar de sua vida, de seus vínculos, de seus medos e de sua finitude. A escuta não elimina o sofrimento, mas permite que ele seja vivido com mais dignidade, presença e respeito.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

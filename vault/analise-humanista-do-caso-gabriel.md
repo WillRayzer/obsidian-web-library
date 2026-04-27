@@ -22,7 +22,7 @@ tags:
   - autoestima
 topic: "Discussão de um estudo de caso sob a perspectiva da psicologia humanista."
 summary: >
-  A conversa analisou o caso de Gabriel, um jovem com ansiedade, tristeza, autocrítica e pressão familiar.
+  >
 status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
@@ -86,6 +86,16 @@ Foi respondido que sim. A análise apontou que experiências familiares, acadêm
 > Por que?
 
 Foi explicado que experiências de vida influenciam diretamente a forma como a pessoa interpreta a si mesma, os outros e o mundo. Elas ajudam a formar crenças, padrões emocionais, modos de enfrentamento e expectativas. No caso de Gabriel, experiências repetidas de cobrança, crítica, pressão ou frustração podem ter fortalecido sentimentos de inadequação, insegurança, tristeza e ansiedade.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

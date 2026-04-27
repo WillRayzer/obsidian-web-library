@@ -1,33 +1,33 @@
 # Relatorio - Notas com Conexao Fraca
 
-- Total de notas analisadas: 68
-- Notas com 0 links manuais: 58
-- Notas com 1 ou menos links manuais: 60
+- Total de notas analisadas: 72
+- Notas com 0 links manuais: 41
+- Notas com 1 ou menos links manuais: 43
 
 ## Prioridade de reforco
 
 | Nota | Area | Links manuais | Related | Tags | Score |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Amostragem Probabilística e Não-Probabilística | Studies | 0 | 5 | 12 | 9 |
-| Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao | Studies | 0 | 5 | 12 | 9 |
-| Análise de personalidade e espiritualidade com base no mapa natal de Luanda | Studies | 0 | 5 | 12 | 9 |
-| Análise humanista do caso Gabriel | Studies | 0 | 5 | 12 | 9 |
-| Aposentadoria especial no RPPS do município de São Bernardo do Campo | Studies | 0 | 5 | 12 | 9 |
-| Aposentadorias especiais no IPREM | Studies | 0 | 5 | 12 | 9 |
-| Ataraxia em Essência | Studies | 0 | 5 | 12 | 9 |
-| Auto-hipnose ericksoniana para felicidade | Studies | 0 | 5 | 12 | 9 |
-| Beleza Etérea como Expressão da Alma e da Espiritualidade | Studies | 0 | 5 | 12 | 9 |
-| Benefícios do alho para o corpo humano | Studies | 0 | 5 | 12 | 9 |
-| Benefícios do Melão para o Corpo | Studies | 0 | 5 | 12 | 9 |
-| Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 0 | 5 | 12 | 9 |
-| Codinomes para projeto de arranjos de trabalho flexíveis | Studies | 0 | 5 | 12 | 9 |
-| Como o corpo armazena o trauma | Studies | 0 | 5 | 11 | 9 |
-| deusas primordiais e práticas espirituais pré-gregas | Studies | 0 | 5 | 12 | 9 |
-| Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente | Studies | 0 | 5 | 12 | 9 |
-| Efeitos e Considerações sobre Psilocybe Cubensis MDK | Studies | 0 | 5 | 12 | 9 |
-| Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar | Studies | 0 | 5 | 12 | 9 |
 | Energia metafísica dos signos do zodíaco e a união de suas forças | Studies | 0 | 5 | 12 | 9 |
 | Evolução da mente humana | Studies | 0 | 5 | 12 | 9 |
+| Finalidade da Avaliação Psicológica na Aviação | Studies | 0 | 5 | 12 | 9 |
+| Formação da palavra no sistema nervoso | Studies | 0 | 5 | 11 | 9 |
+| Governança Pública: conceitos, aprofundamento e tipos | Studies | 0 | 5 | 12 | 9 |
+| Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária | Studies | 0 | 5 | 12 | 9 |
+| Influência energética e eletromagnética no corpo humano e no ambiente | Studies | 0 | 5 | 12 | 9 |
+| Inteligência e inteligência erótica à luz da neurociência emocional | Studies | 0 | 5 | 12 | 9 |
+| Interação Medicamentosa entre Opioides e Antipsicóticos | Studies | 0 | 5 | 12 | 9 |
+| Ligação entre sistema límbico e estômago | Studies | 0 | 5 | 12 | 9 |
+| Mapa Mental de Identidade e Personalidade | Studies | 0 | 5 | 12 | 9 |
+| Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada | Studies | 0 | 5 | 12 | 9 |
+| Memórias Ruins, Reconsolidação Emocional e Água no Cérebro | Studies | 0 | 5 | 12 | 9 |
+| Mente livre, mente indisciplinada e os limites da razão | Studies | 0 | 5 | 12 | 9 |
+| Neurociência, Formação de Palavras e Magnetismo Cerebral | Studies | 0 | 5 | 12 | 9 |
+| Neurose e Cena Primária no Caso do Homem dos Lobos | Studies | 0 | 5 | 12 | 9 |
+| O que se estuda em neurolinguística | Studies | 0 | 5 | 11 | 9 |
+| O que é consciência | Studies | 0 | 5 | 12 | 9 |
+| Perfil de terapeuta holístico com abordagem espiritual | Studies | 0 | 5 | 12 | 9 |
+| Poema de aniversário inspirado nas qualidades mágicas das margaridas amarelas | Studies | 0 | 5 | 12 | 9 |
 
 ## Criterio
 

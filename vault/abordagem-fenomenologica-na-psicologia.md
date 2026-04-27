@@ -22,7 +22,7 @@ tags:
   - experiencia-vivida
 topic: "Síntese conceitual da abordagem fenomenológica na psicologia com estrutura de mapa mental e explicação dos tópicos."
 summary: >
-  A conversa desenvolveu um mapa mental da abordagem fenomenológica na psicologia.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -136,6 +136,16 @@ Por privilegiar a experiência singular, alguns consideram que ela se distancia 
 
 **Complexidade:**  
 A abordagem exige grande cuidado conceitual e interpretativo, o que pode torná-la difícil de aplicar com consistência.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

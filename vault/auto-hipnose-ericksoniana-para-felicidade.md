@@ -22,7 +22,7 @@ tags:
   - sugestoes-positivas
 topic: "Síntese de auto-hipnose ericksoniana com foco em felicidade e relaxamento."
 summary: >
-  A conversa abordou o conceito de auto-hipnose ericksoniana e apresentou um exercício guiado voltado ao cultivo da felicidade. Foram organizados os princípios básicos da prática, incluindo relaxamento, visualização, sugestões positivas e retorno gradual ao estado de alerta.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -96,6 +96,16 @@ A proposta foi reforçar internamente essas sugestões enquanto a sensação de 
 - Abrir os olhos devagar.
 - Alongar o corpo, se necessário.
 - Refletir brevemente sobre as emoções positivas percebidas durante a prática.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

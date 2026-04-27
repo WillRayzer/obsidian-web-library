@@ -22,7 +22,7 @@ tags:
   - psicologiaanalise-simbolica
 topic: "Dinâmica de grupo baseada na psicanálise para explorar o inconsciente através de escolhas simbólicas"
 summary: >
-  Foi estruturada, aprofundada e refinada uma dinâmica baseada na teoria freudiana do inconsciente. O material inclui fundamentação teórica, objetivos, análise simbólica, exemplos de interpretação, reflexão final e conclusão em formato de estimativa de resultados.
+  >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
@@ -81,6 +81,16 @@ A conclusão foi reformulada como estimativa de resultados esperados da dinâmic
 Este documento foi estruturado conforme padrão solicitado para uso em Obsidian.
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

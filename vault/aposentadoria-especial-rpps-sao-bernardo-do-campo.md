@@ -22,7 +22,7 @@ tags:
   - gestao-publica
 topic: "Conversa sobre aposentadoria especial com foco no RPPS municipal de São Bernardo do Campo."
 summary: >
-  A conversa começou com uma explicação geral sobre aposentadoria especial no regime geral e depois foi direcionada ao Regime Próprio de Previdência Social do município de São Bernardo do Campo. Em seguida, foi solicitado o detalhamento da lei municipal aplicável, mas a resposta permaneceu genérica e indicou necessidade de consulta às fontes oficiais. O resultado foi um panorama introdutório, sem identificação conclusiva da norma local específica.
+  >
 status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
@@ -69,6 +69,16 @@ A resposta, no entanto, ficou incompleta e não identificou a norma específica 
 Foi informado que, para obter informações precisas e atualizadas sobre a legislação específica de São Bernardo do Campo relativa ao RPPS e à aposentadoria especial, seria necessário consultar diretamente fontes oficiais do município, o instituto de previdência competente e, se necessário, um advogado especializado em direito previdenciário.
 
 Também foi destacado que leis municipais podem variar e ser atualizadas com frequência, razão pela qual o acesso às fontes oficiais seria essencial. Contudo, a lei municipal específica não foi efetivamente descrita nesta conversa.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Aposentadorias especiais no IPREM]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

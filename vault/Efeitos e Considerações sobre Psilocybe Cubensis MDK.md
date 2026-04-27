@@ -22,7 +22,7 @@ tags:
   - desenvolvimento-humano
 topic: "Efeitos positivos e implicações do uso de Psilocybe cubensis MDK"
 summary: >
-  A conversa explorou o que é o Psilocybe cubensis MDK e seus possíveis efeitos positivos cognitivos, emocionais, sensoriais e terapêuticos. Também abordou a importância do contexto (set & setting) e os cuidados necessários relacionados ao uso.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -64,6 +64,16 @@ Os efeitos positivos são semelhantes aos de outras variedades da mesma espécie
 - Potencial auxílio na superação de vícios
 
 Também foi ressaltado que os efeitos dependem fortemente do contexto psicológico e ambiental (set & setting), além da individualidade de cada pessoa.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

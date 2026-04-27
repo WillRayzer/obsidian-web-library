@@ -22,7 +22,7 @@ tags:
   - amostragem-probabilistica
 topic: "Conceituação e diferenciação entre amostragem probabilística e não-probabilística."
 summary: >
-  A conversa desenvolveu uma explicação sobre amostragem, diferenciando métodos probabilísticos e não-probabilísticos. Foram apresentados os principais tipos, características, vantagens, limitações e exemplos de aplicação. Ao final, foi criada uma pequena introdução e a referência bibliográfica em formato ABNT.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -147,6 +147,16 @@ A amostragem consiste em selecionar, de forma planejada, um subconjunto represen
 > referencia nos termos abnt
 
 CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: Juspodivm, 2016.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

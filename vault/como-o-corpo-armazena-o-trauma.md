@@ -21,7 +21,7 @@ tags:
   - emocional
 topic: "Como o trauma é armazenado no corpo e na mente."
 summary: >
-  A conversa explora como o trauma é armazenado no corpo humano através do sistema nervoso, memória implícita e respostas fisiológicas. Aborda também os impactos emocionais e somáticos, além de caminhos para liberação e integração do trauma.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -46,6 +46,16 @@ O corpo armazena o trauma através de processos fisiológicos, neurológicos e s
 O trauma impacta estruturas como a amígdala, hipocampo e córtex pré-frontal, alterando a forma como memórias são registradas e acessadas. Ele se manifesta como memória implícita, gerando respostas corporais automáticas mesmo sem lembrança consciente. Também afeta o sistema nervoso autônomo, mantendo o corpo em estados de hiperativação ou congelamento.
 
 Além disso, o trauma pode se manifestar em tensões musculares, alterações respiratórias e desregulação hormonal. O corpo, ao não completar o ciclo natural de resposta ao estresse, mantém energia acumulada que se expressa como sintomas físicos e emocionais.
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Ligação entre sistema límbico e estômago]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

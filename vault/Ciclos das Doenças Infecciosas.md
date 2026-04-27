@@ -22,7 +22,7 @@ tags:
   - ciclos-de-doencas
 topic: "Estudo completo dos ciclos, doenças e controle de agentes infecciosos"
 summary: >
-  O trabalho aborda os ciclos de doenças virais, bacterianas, fúngicas e protozoárias, incluindo histórico científico, sintomas, diagnóstico, prevenção e tratamento. Foram integradas diretrizes do Guia de Vigilância em Saúde. Também foram detalhadas doenças específicas de cada grupo.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -107,6 +107,16 @@ Descrita com tipos e prevenção.
 Explicadas com ciclos complexos e vetores.
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

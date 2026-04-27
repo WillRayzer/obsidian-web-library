@@ -22,7 +22,7 @@ tags:
   - arqueologia
 topic: "análise das deusas anteriores à Grécia e das práticas espirituais arcaicas"
 summary: >
-  Exploramos a origem mais antiga de Hécate, outras deusas pré-gregas e o contexto cultural dessas civilizações. Aprofundamos especialmente as práticas espirituais com ervas, sonhos, símbolos naturais e canto como formas de conexão com o invisível.
+  >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
@@ -92,6 +92,16 @@ Elementos como espiral, lua, serpente e árvores usados como canais de energia e
 Utilizados para induzir transe, cura e conexão espiritual, através de repetição, ritmo e instrumentos primitivos.
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

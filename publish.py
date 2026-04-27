@@ -20,6 +20,7 @@ ENRICH_SCRIPT = ROOT / "enrich_vault_metadata.py"
 WEAK_NOTES_REPORT_SCRIPT = ROOT / "report_weak_notes.py"
 AUDIT_SCRIPT = ROOT / "audit_vault_coherence.py"
 INGEST_SCRIPT = ROOT / "ingest_documents.py"
+CONTEXT_LINKS_SCRIPT = ROOT / "add_context_links.py"
 REPORTS_DIR = ROOT / "reports"
 
 
@@ -92,6 +93,7 @@ def ingest_documents(source: Path) -> None:
 def prepare_vault(target: Path) -> None:
     run(["python3", str(NORMALIZE_SCRIPT), str(target), "--write", "--rename-lowercase-ext"])
     run(["python3", str(ENRICH_SCRIPT), str(target), "--write"])
+    run(["python3", str(CONTEXT_LINKS_SCRIPT), str(target), "--write", "--limit", "20"])
 
 
 def update_reports(target: Path) -> None:

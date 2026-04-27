@@ -22,7 +22,7 @@ tags:
   - compulsao-alimentar
 topic: "Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões"
 summary: >
-  Foi analisado um caso clínico com vaginismo, engasgo ao falar e compulsão alimentar, associado a histórico de violência paterna. Identificaram-se mecanismos de defesa como repressão, conversão e regressão. A estrutura psíquica mais provável é neurótica, com traços histéricos e repetição inconsciente de padrões relacionais.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -70,6 +70,16 @@ A análise do caso indica a presença de múltiplos sintomas com forte component
 O caso sugere uma organização histérica com forte carga traumática e repetição inconsciente. O tratamento psicanalítico visa a simbolização dos afetos, elaboração do trauma e reconstrução do desejo.
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

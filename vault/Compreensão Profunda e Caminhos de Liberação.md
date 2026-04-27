@@ -22,7 +22,7 @@ tags:
   - trauma
 topic: "Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las"
 summary: >
-  A conversa explorou o conceito de trava emocional desde uma visão geral até uma análise aprofundada de suas origens, manifestações e estrutura. Foram apresentados caminhos terapêuticos e práticas para identificação e liberação desses bloqueios. O conteúdo oferece uma base teórica e prática para autoconhecimento e aplicação clínica.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -96,6 +96,16 @@ Uma trava emocional é um mecanismo inconsciente de proteção que surge quando 
 - Terapia somática
 
 ---
+
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

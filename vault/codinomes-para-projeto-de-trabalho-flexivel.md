@@ -22,11 +22,11 @@ tags:
   - futuro-do-trabalho
 topic: "Definição de codinomes conceituais para um projeto de trabalho flexível."
 summary: >
-  Foram sugeridos cinco codinomes para um projeto que introduz arranjos de trabalho flexíveis. Cada nome veio acompanhado de um significado estratégico e simbólico, com foco em adaptabilidade, conexão, fluidez, bem-estar e diversidade de formatos de trabalho.
+  >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -52,6 +52,16 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 
 5. **Projeto Kaleidoscope**: Indica a variedade e a mudança constante de padrões no ambiente de trabalho, representando a diversidade e a adaptabilidade dos arranjos de trabalho flexíveis.
 
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
+
 ## Conclusions & Deliverables
 
 - Foram propostos cinco codinomes com posicionamentos conceituais distintos.
@@ -71,8 +81,8 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->
