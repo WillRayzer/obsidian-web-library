@@ -3,9 +3,14 @@ title: "Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protoz
 date: 2026-04-15
 ia: "ChatGPT"
 model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude-infecciosa"
+folder: "04-Studies/saude"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - saude
   - microbiologia
   - epidemiologia
@@ -15,34 +20,20 @@ tags:
   - fungos
   - protozoarios
   - ciclos-de-doencas
-  - influenza
-  - hiv-aids
-  - hepatite-b
-  - pneumonia-bacteriana
-  - sifilis
-  - tuberculose
-  - candidiase
-  - aspergilose
-  - dermatofitose
-  - malaria
-  - doenca-de-chagas
-  - leishmaniose
-  - vigilancia-em-saude
-  - gvs
-  - saude-publica
 topic: "Estudo completo dos ciclos, doenças e controle de agentes infecciosos"
-summary: "O trabalho aborda os ciclos de doenças virais, bacterianas, fúngicas e protozoárias, incluindo histórico científico, sintomas, diagnóstico, prevenção e tratamento. Foram integradas diretrizes do Guia de Vigilância em Saúde. Também foram detalhadas doenças específicas de cada grupo."
-status: "complete"
+summary: >
+  O trabalho aborda os ciclos de doenças virais, bacterianas, fúngicas e protozoárias, incluindo histórico científico, sintomas, diagnóstico, prevenção e tratamento. Foram integradas diretrizes do Guia de Vigilância em Saúde. Também foram detalhadas doenças específicas de cada grupo.
+status: complete
 related:
-  - [[Microbiologia Básica]]
-  - [[Epidemiologia e Vigilância em Saúde]]
-  - [[Sistema Imunológico]]
-  - [[Doenças Infecciosas no Brasil]]
+  - "[[Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Aposentadorias especiais no IPREM]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
-# Ciclos das Doenças Infecciosas
-
 ## Objective
+
 Desenvolver um estudo aprofundado sobre os ciclos das doenças virais, bacterianas, fúngicas e protozoárias, incluindo contexto histórico, mecanismos biológicos, sintomas, diagnóstico, prevenção, tratamento e alinhamento com o Guia de Vigilância em Saúde.
 
 ---

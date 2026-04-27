@@ -3,9 +3,14 @@ title: "Beleza Etérea como Expressão da Alma e da Espiritualidade"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - beleza-eterea
   - espiritualidade
   - alma
@@ -15,28 +20,16 @@ tags:
   - essencia
   - filosofia
   - psicologia
-  - introspeccao
-  - desenvolvimento-pessoal
-  - sensibilidade
-  - empatia
-  - intuicao
-  - sabedoria
-  - presenca
-  - autenticidade
-  - luz-interior
-  - transcendencia
-  - estados-de-consciencia
-  - espiritualidade/beleza
-  - espiritualidade/alma
-  - espiritualidade/essencia
 topic: "A beleza etérea como manifestação da alma e da consciência espiritual"
-summary: "Exploramos o conceito de beleza etérea em níveis progressivos, aprofundando sua relação com espiritualidade, consciência e expressão da alma. A análise evoluiu de uma definição estética para uma compreensão ontológica e energética. Concluímos que a beleza etérea é um fenômeno perceptivo da essência interior manifestada."
+summary: >
+  Exploramos o conceito de beleza etérea em níveis progressivos, aprofundando sua relação com espiritualidade, consciência e expressão da alma. A análise evoluiu de uma definição estética para uma compreensão ontológica e energética. Concluímos que a beleza etérea é um fenômeno perceptivo da essência interior manifestada.
 status: complete
 related:
-  - [[sabedoria-interna]]
-  - [[saude-holistica-e-saude-espiritual]]
-  - [[perfil-de-terapeuta-holistico-com-abordagem-espiritual]]
-  - [[mente-livre-mente-indisciplinada-e-os-limites-da-razao]]
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -136,4 +129,4 @@ Quando esses quatro níveis estão alinhados, a beleza etérea emerge naturalmen
 - [ ] Desenvolver conteúdo para "Ensaios Comestíveis" com abordagem filosófica  
 - [ ] Explorar a relação entre beleza etérea e frequência energética humana  
 - [ ] Aplicar o conceito em branding (ex: YLLA Atelier – estética sensorial e simbólica)  
-- [ ] Criar um artigo ou capítulo de livro com essa estrutura  
+- [ ] Criar um artigo ou capítulo de livro com essa estrutura

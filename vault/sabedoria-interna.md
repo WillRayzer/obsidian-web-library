@@ -3,9 +3,14 @@ title: "Sabedoria interna: autoconhecimento, intuição e discernimento"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - sabedoria-interna
   - autoconhecimento
@@ -15,29 +20,16 @@ tags:
   - desenvolvimento-pessoal
   - espiritualidade
   - reflexao
-  - meditacao
-  - mindfulness
-  - equilibrio-emocional
-  - paz-interior
-  - autenticidade
-  - crescimento-interior
-  - silencio-interior
-  - voz-interior
-  - inteligencia-emocional
-  - autoobservacao
-  - jornada-interior
 topic: "A conversa explorou o significado da sabedoria interna e formas de aprofundá-la na vida cotidiana."
-summary: |
+summary: >
   A conversa definiu sabedoria interna como a capacidade de acessar orientação, discernimento e verdade pessoal a partir do próprio interior.
-  Foram aprofundados seus pilares centrais, como autoconhecimento, intuição, experiência de vida, equilíbrio e práticas contemplativas.
-  Também foram organizadas formas de cultivar essa sabedoria por meio de meditação, auto-reflexão, escrita e práticas espirituais.
-status: "complete"
+status: complete
 related:
-  - "[[Autoconhecimento]]"
-  - "[[Intuição]]"
-  - "[[Mindfulness]]"
-  - "[[Espiritualidade e Consciência]]"
-  - "[[Equilíbrio Emocional]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

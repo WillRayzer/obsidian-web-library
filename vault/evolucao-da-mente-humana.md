@@ -3,9 +3,14 @@ title: "Evolução da mente humana"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - neurociencia
   - psicologia
@@ -15,34 +20,16 @@ tags:
   - cerebro
   - cognicao
   - linguagem
-  - habilidades-sociais
-  - teoria-da-mente
-  - empatia
-  - memoria
-  - raciocinio-abstrato
-  - adaptacao
-  - cultura
-  - primatas
-  - hominideos
-  - comportamento-humano
-  - desenvolvimento-cognitivo
-  - historia-evolutiva
-  - aprendizagem
-  - cooperacao
-  - comunicacao
 topic: "Síntese da evolução biológica, cognitiva e cultural da mente humana."
-summary: |
+summary: >
   A conversa tratou de uma explicação geral sobre a evolução da mente humana.
-  Foram abordados os primatas ancestrais, a expansão e complexificação do cérebro,
-  o desenvolvimento de habilidades sociais, cognição avançada, linguagem, cultura
-  e adaptação ao ambiente como pilares centrais desse processo evolutivo.
-status: "complete"
+status: complete
 related:
-  - "[[Interação das áreas do cérebro]]"
-  - "[[Neuroquímica e comportamento humano]]"
-  - "[[Psicologia evolutiva]]"
-  - "[[Cognição social e teoria da mente]]"
-  - "[[Linguagem e desenvolvimento humano]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -3,9 +3,14 @@ title: "Aposentadoria especial no RPPS do município de São Bernardo do Campo"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - previdencia
   - previdencia-social
   - rpps
@@ -15,42 +20,16 @@ tags:
   - direito-previdenciario
   - administracao-publica
   - gestao-publica
-  - municipio
-  - sao-bernardo-do-campo
-  - legislacao-municipal
-  - aposentadoria
-  - servico-publico
-  - estudo
-  - pesquisa-juridica
-  - governance/public-policy
-  - studies/previdencia
-  - studies/direito
-  - studies/administracao-publica
-  - brazil/municipios
-  - brazil/previdencia
-  - rpps/municipal
-  - aposentadoria/servidor-publico
-  - legislacao/municipal
-  - consulta-juridica
-  - regime-estatutario
-  - poder-publico
-  - beneficio-previdenciario
-  - exposicao-a-agentes-nocivos
-  - tempo-de-contribuicao
-  - idade-minima
-  - regras-de-transicao
-  - iprem
-  - sao-paulo
-  - brasil
 topic: "Conversa sobre aposentadoria especial com foco no RPPS municipal de São Bernardo do Campo."
-summary: "A conversa começou com uma explicação geral sobre aposentadoria especial no regime geral e depois foi direcionada ao Regime Próprio de Previdência Social do município de São Bernardo do Campo. Em seguida, foi solicitado o detalhamento da lei municipal aplicável, mas a resposta permaneceu genérica e indicou necessidade de consulta às fontes oficiais. O resultado foi um panorama introdutório, sem identificação conclusiva da norma local específica."
+summary: >
+  A conversa começou com uma explicação geral sobre aposentadoria especial no regime geral e depois foi direcionada ao Regime Próprio de Previdência Social do município de São Bernardo do Campo. Em seguida, foi solicitado o detalhamento da lei municipal aplicável, mas a resposta permaneceu genérica e indicou necessidade de consulta às fontes oficiais. O resultado foi um panorama introdutório, sem identificação conclusiva da norma local específica.
 status: complete
 related:
-  - "[[Governança Pública]]"
-  - "[[RPPS - Regime Próprio de Previdência Social]]"
-  - "[[Aposentadoria Especial]]"
-  - "[[Direito Previdenciário Municipal]]"
-  - "[[Servidor Público Municipal]]"
+  - "[[Aposentadorias especiais no IPREM]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

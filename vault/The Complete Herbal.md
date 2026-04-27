@@ -3,9 +3,14 @@ title: "Tradução do The Complete Herbal de Nicholas Culpeper (Capítulos 1–1
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/traducoes-e-estudos/herbalismo"
+folder: "04-Studies/saude"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - traducao
   - herbalismo
@@ -15,20 +20,16 @@ tags:
   - fitoterapia
   - historia-da-medicina
   - astrologia-medica
-  - medicina-antiga
-  - ervas
-  - botanica
-  - conhecimento-tradicional
-  - alquimia
-  - projeto/traducao-livro
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
-summary: "Foi realizada a tradução dos primeiros capítulos de The Complete Herbal, com ajuste metodológico para manter os nomes originais das plantas. O processo foi estruturado de forma iterativa, com validação a cada capítulo."
+summary: >
+  Foi realizada a tradução dos primeiros capítulos de The Complete Herbal, com ajuste metodológico para manter os nomes originais das plantas. O processo foi estruturado de forma iterativa, com validação a cada capítulo.
 status: complete
 related:
-  - [[herbalismo-classico]]
-  - [[fitoterapia-tradicional]]
-  - [[nicholas-culpeper-estudo]]
-  - [[traducao-tecnica-metodologia]]
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

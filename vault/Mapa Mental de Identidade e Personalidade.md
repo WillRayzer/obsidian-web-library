@@ -3,9 +3,14 @@ title: "Mapa Mental de Identidade e Personalidade"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-identidade-personalidade"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - identidade
@@ -13,25 +18,18 @@ tags:
   - autoconhecimento
   - desenvolvimento-pessoal
   - mapa-mental
-  - psicologia/teorias
-  - psicologia/big-five
-  - psicologia/freud
-  - psicologia/jung
-  - comportamento-humano
-  - estrutura-mental
-  - analise-psicologica
-  - crescimento-pessoal
+  - psicologiateorias
+  - psicologiabig-five
 topic: "Estruturação de um mapa mental sobre identidade e personalidade"
-summary: |
+summary: >
   Foi desenvolvido um mapa mental estruturado integrando os conceitos de identidade e personalidade.
-  A organização inclui definição, componentes, teorias psicológicas e intersecções entre os dois temas.
-  O resultado serve como base para autoconhecimento e análise comportamental.
 status: complete
 related:
-  - [[Evolução da mente humana]]
-  - [[Psicologia humanista]]
-  - [[Comportamento humano]]
-  - [[Autoconhecimento e desenvolvimento pessoal]]
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -1,15 +1,35 @@
 ---
-title: Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente
+title: "Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies/Psychology
-folder: 03-Studies/Psychology/Dinamicas
-tags: psicologia/psicanalise, psicologia/freud, psicologia/inconsciente, psicologia/mecanismos-de-defesa, dinamicas/grupo, desenvolvimento-humano, autoconhecimento, simbolismo, psicologia/analise-simbolica, psicologia/grupos, psicologia/intervencoes
-topic: Dinâmica de grupo baseada na psicanálise para explorar o inconsciente através de escolhas simbólicas
-summary: Foi estruturada, aprofundada e refinada uma dinâmica baseada na teoria freudiana do inconsciente. O material inclui fundamentação teórica, objetivos, análise simbólica, exemplos de interpretação, reflexão final e conclusão em formato de estimativa de resultados.
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
+tags:
+  - ia
+  - conversa
+  - obsidian
+  - psicologiapsicanalise
+  - psicologiafreud
+  - psicologiainconsciente
+  - psicologiamecanismos-de-defesa
+  - dinamicasgrupo
+  - desenvolvimento-humano
+  - autoconhecimento
+  - simbolismo
+  - psicologiaanalise-simbolica
+topic: "Dinâmica de grupo baseada na psicanálise para explorar o inconsciente através de escolhas simbólicas"
+summary: >
+  Foi estruturada, aprofundada e refinada uma dinâmica baseada na teoria freudiana do inconsciente. O material inclui fundamentação teórica, objetivos, análise simbólica, exemplos de interpretação, reflexão final e conclusão em formato de estimativa de resultados.
 status: complete
-related: [[Psicanálise - Fundamentos Freudianos]], [[Dinâmicas de Grupo Terapêuticas]], [[Autoconhecimento e Simbolismo]], [[Mecanismos de Defesa]]
+related:
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -116,4 +136,4 @@ A atividade promove escuta empática, insights individuais e reflexão coletiva,
 - [ ] Desenvolver cards visuais com objetos e significados  
 - [ ] Adaptar para diferentes públicos (clínico, corporativo, educacional)  
 - [ ] Integrar com outras abordagens (psicologia positiva, TCC)  
-- [ ] Testar aplicação prática em grupo piloto  
+- [ ] Testar aplicação prática em grupo piloto

@@ -1,11 +1,16 @@
 ---
-title: Rosa Branca — Óleo Essencial, Oração Holística e Exercício de Interiorização
+title: "Rosa Branca — Óleo Essencial, Oração Holística e Exercício de Interiorização"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT 5.3
-area: Studies/Spirituality
-folder: 03-Studies/Spirituality
+ia: "ChatGPT"
+model: "GPT 5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - espiritualidade
   - aromaterapia
   - oleos-essenciais
@@ -15,25 +20,20 @@ tags:
   - ritual
   - energia
   - chakras
-  - integracao-interior
-  - respiracao
-  - mindfulness
-  - terapia-holistica
-  - bem-estar
-  - cura-emocional
-  - pratica-espiritual
-  - equilibrio-energetico
-topic: Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização.
-summary: Exploramos o significado e uso do óleo essencial de rosa branca, desenvolvemos uma oração com abordagem holística e estruturamos um exercício completo de interiorização e integração energética.
+topic: "Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização."
+summary: >
+  Exploramos o significado e uso do óleo essencial de rosa branca, desenvolvemos uma oração com abordagem holística e estruturamos um exercício completo de interiorização e integração energética.
 status: complete
 related:
-  - [[aromaterapia-basico]]
-  - [[meditacao-guiada]]
-  - [[chakras-e-alinhamento]]
-  - [[rituais-de-autocuidado]]
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
+  - "[[Auto-hipnose ericksoniana para felicidade]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
+
 Desenvolver uma abordagem integrada e holística utilizando a simbologia e energia da rosa branca para práticas de autocuidado, espiritualidade e interiorização.
 
 ---

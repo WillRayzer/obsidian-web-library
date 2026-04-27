@@ -1,11 +1,16 @@
 ---
-title: Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao
+title: "Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies
-folder: 03-Studies/psicanalise
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - psicologia
   - psicanalise
   - freud
@@ -15,24 +20,20 @@ tags:
   - conversao
   - vaginismo
   - compulsao-alimentar
-  - trauma-infantil
-  - repeticao
-  - identificacao-com-o-agressor
-  - regressao
-  - deslocamento
-  - repressao
-  - clinica-psicanalitica
-topic: Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões
-summary: Foi analisado um caso clínico com vaginismo, engasgo ao falar e compulsão alimentar, associado a histórico de violência paterna. Identificaram-se mecanismos de defesa como repressão, conversão e regressão. A estrutura psíquica mais provável é neurótica, com traços histéricos e repetição inconsciente de padrões relacionais.
+topic: "Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões"
+summary: >
+  Foi analisado um caso clínico com vaginismo, engasgo ao falar e compulsão alimentar, associado a histórico de violência paterna. Identificaram-se mecanismos de defesa como repressão, conversão e regressão. A estrutura psíquica mais provável é neurótica, com traços histéricos e repetição inconsciente de padrões relacionais.
 status: complete
 related:
-  - [[Estruturas Psiquicas Freud]]
-  - [[Mecanismos de Defesa]]
-  - [[Histeria Conversiva]]
-  - [[Trauma e Repeticao]]
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Neurose e Cena Primária no Caso do Homem dos Lobos]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
+
 Realizar uma análise psicanalítica de um caso clínico envolvendo sintomas físicos, comportamento alimentar e histórico de trauma, identificando sintomas, mecanismos de defesa e possível estrutura psíquica.
 
 ---

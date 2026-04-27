@@ -15,6 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 SYNC_STATUS_PATH = ROOT / "sync-status.json"
+NORMALIZE_SCRIPT = ROOT / "normalize_conversations.py"
+ENRICH_SCRIPT = ROOT / "enrich_vault_metadata.py"
 
 
 def run(cmd: list[str], cwd: Path | None = None) -> None:
@@ -50,6 +52,11 @@ def copy_tree(source: Path, target: Path) -> None:
     shutil.copytree(source, target, ignore=shutil.ignore_patterns("workspace.json"))
 
 
+def prepare_vault(target: Path) -> None:
+    run(["python3", str(NORMALIZE_SCRIPT), str(target), "--write", "--rename-lowercase-ext"])
+    run(["python3", str(ENRICH_SCRIPT), str(target), "--write"])
+
+
 def tree_hash(root: Path) -> str:
     digest = hashlib.sha256()
     for path in sorted(p for p in root.rglob("*") if p.is_file()):
@@ -64,6 +71,7 @@ def sync_and_publish(message: str | None = None) -> bool:
     target = ROOT / config["vault_path"]
     before = tree_hash(target) if target.exists() else ""
     copy_tree(source, target)
+    prepare_vault(target)
     after = tree_hash(target)
 
     if before == after and repo_clean():

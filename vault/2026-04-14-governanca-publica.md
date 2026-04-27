@@ -3,9 +3,14 @@ title: "Governança Pública: conceitos, aprofundamento e tipos"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/governanca-publica"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - governanca-publica
   - administracao-publica
   - gestao-publica
@@ -15,32 +20,16 @@ tags:
   - participacao-cidada
   - democracia
   - e-governance
-  - governanca-eletronica
-  - governanca-em-rede
-  - governanca-colaborativa
-  - governanca-participativa
-  - governanca-local
-  - descentralizacao
-  - burocracia
-  - setor-publico
-  - servicos-publicos
-  - inovacao-publica
-  - estudos
-  - resumo
-  - obsidian
 topic: "Síntese estruturada sobre o que é governança pública, seus elementos centrais e seus principais tipos."
-summary: |
+summary: >
   A conversa explorou o conceito de governança pública, destacando seus princípios fundamentais, como transparência, responsabilidade, participação cidadã e eficiência.
-  Em seguida, o tema foi aprofundado com foco em políticas públicas, gestão de recursos, tecnologia, controle e capacitação.
-  Por fim, foram organizados os principais tipos de governança pública, com ênfase em modelos tradicionais, democráticos, colaborativos, em rede e eletrônicos.
 status: complete
 related:
-  - "[[Administração Pública]]"
-  - "[[Gestão Pública]]"
-  - "[[Políticas Públicas]]"
-  - "[[Transparência e Accountability]]"
-  - "[[Participação Cidadã]]"
-  - "[[Governança Eletrônica]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

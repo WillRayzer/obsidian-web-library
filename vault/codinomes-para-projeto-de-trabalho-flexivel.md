@@ -3,9 +3,14 @@ title: "Codinomes para projeto de arranjos de trabalho flexíveis"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Business"
-folder: "05-Projects/trabalho-flexivel"
+folder: "05-Projects/projetos"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - business
   - naming
   - codinomes
@@ -15,21 +20,16 @@ tags:
   - trabalho-flexivel
   - arranjos-de-trabalho
   - futuro-do-trabalho
-  - organizacao
-  - cultura-organizacional
-  - project/codinome
-  - project/trabalho-flexivel
 topic: "Definição de codinomes conceituais para um projeto de trabalho flexível."
 summary: >
-  Foram sugeridos cinco codinomes para um projeto que introduz arranjos de trabalho flexíveis.
-  Cada nome veio acompanhado de um significado estratégico e simbólico, com foco em adaptabilidade,
-  conexão, fluidez, bem-estar e diversidade de formatos de trabalho.
+  Foram sugeridos cinco codinomes para um projeto que introduz arranjos de trabalho flexíveis. Cada nome veio acompanhado de um significado estratégico e simbólico, com foco em adaptabilidade, conexão, fluidez, bem-estar e diversidade de formatos de trabalho.
 status: complete
 related:
-  - "[[Estratégia de Cultura Organizacional]]"
-  - "[[Naming de Projetos Internos]]"
-  - "[[Trabalho Híbrido e Flexibilidade]]"
-  - "[[Transformação Organizacional]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

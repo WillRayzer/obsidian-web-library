@@ -3,9 +3,14 @@ title: "Sigmund Freud, Psicanálise e a Influência da Religião Judaica"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-psicanalise"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - psicanalise
@@ -15,60 +20,16 @@ tags:
   - psicologia-cientifica
   - inconsciente
   - consciente
-  - pre-consciente
-  - subconsciente
-  - histeria
-  - neurose
-  - psicose
-  - associacao-livre
-  - hipnose
-  - charcot
-  - jean-martin-charcot
-  - joseph-breuer
-  - transferencia
-  - sonhos
-  - interpretacao-dos-sonhos
-  - repressao
-  - recalque
-  - libido
-  - pulsao
-  - pulsao-de-vida
-  - pulsao-de-morte
-  - id
-  - ego
-  - superego
-  - aparelho-psiquico
-  - religiao
-  - agnosticismo
-  - judaismo
-  - cultura-judaica
-  - identidade-judaica
-  - filosofia-da-religiao
-  - psicologia-da-religiao
-  - viena
-  - londres
-  - europa
-  - seculo-xix
-  - seculo-xx
-  - ciencia
-  - ciencias-humanas
-  - psicologia-clinica
-  - historia-das-ideias
 topic: "Resumo e aprofundamento sobre Freud, sua psicanálise e a influência de sua origem judaica e postura agnóstica."
 summary: >
-  A conversa abordou a vida de Sigmund Freud, sua posição crítica e agnóstica diante da religião
-  e o modo como sua origem judaica influenciou sua formação intelectual. Também foi feito um
-  resumo aprofundado de um texto sobre a psicanálise, incluindo histeria, inconsciente, associação
-  livre, estrutura psíquica e a relevância cultural e científica da obra freudiana.
-status: "complete"
+  A conversa abordou a vida de Sigmund Freud, sua posição crítica e agnóstica diante da religião e o modo como sua origem judaica influenciou sua formação intelectual. Também foi feito um resumo aprofundado de um texto sobre a psicanálise, incluindo histeria, inconsciente, associação livre, estrutura psíquica e a relevância cultural e científica da obra freudiana.
+status: complete
 related:
-  - "[[História da Psicologia]]"
-  - "[[Psicanálise]]"
-  - "[[Inconsciente em Freud]]"
-  - "[[Religião e Psicanálise]]"
-  - "[[Judaísmo e Modernidade]]"
-  - "[[Jean-Martin Charcot]]"
-  - "[[Histeria e Neurose]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

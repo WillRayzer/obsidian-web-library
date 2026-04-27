@@ -3,9 +3,14 @@ title: "Análise humanista do caso Gabriel"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-humanista"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - psicologia-humanista
@@ -15,31 +20,16 @@ tags:
   - ansiedade
   - depressao
   - autoestima
-  - autorrealizacao
-  - pertencimento
-  - autenticidade
-  - estima
-  - relacoes-interpessoais
-  - pressao-familiar
-  - autocritica
-  - desenvolvimento-pessoal
-  - terapia
-  - carl-rogers
-  - humanismo
-  - estudos/psicologia
-  - estudos/psicologia-humanista
 topic: "Discussão de um estudo de caso sob a perspectiva da psicologia humanista."
-summary: |
+summary: >
   A conversa analisou o caso de Gabriel, um jovem com ansiedade, tristeza, autocrítica e pressão familiar.
-  Foram exploradas suas necessidades básicas, sua forma de tentar satisfazê-las, sua visão de mundo
-  e a influência de suas experiências de vida na situação atual, sempre sob a perspectiva humanista.
 status: complete
 related:
-  - "[[Psicologia Humanista]]"
-  - "[[Carl Rogers]]"
-  - "[[Autorrealização]]"
-  - "[[Autoestima e Autocrítica]]"
-  - "[[Saúde Mental e Pertencimento]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

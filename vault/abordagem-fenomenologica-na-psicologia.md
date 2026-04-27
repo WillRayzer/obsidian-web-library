@@ -3,9 +3,14 @@ title: "Mapa mental e síntese da abordagem fenomenológica na psicologia"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-fenomenologica"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - psicologia-fenomenologica
@@ -15,32 +20,16 @@ tags:
   - consciencia
   - subjetividade
   - experiencia-vivida
-  - edmund-husserl
-  - maurice-merleau-ponty
-  - martin-heidegger
-  - terapia
-  - pesquisa
-  - educacao
-  - reducao-fenomenologica
-  - epoche
-  - intencionalidade
-  - critica-epistemologica
-  - subjetividade-na-psicologia
-  - metodo-fenomenologico
-  - filosofia-e-psicologia
 topic: "Síntese conceitual da abordagem fenomenológica na psicologia com estrutura de mapa mental e explicação dos tópicos."
-summary: |
+summary: >
   A conversa desenvolveu um mapa mental da abordagem fenomenológica na psicologia.
-  Foram organizados os principais eixos: conceitos-chave, fundadores, aplicações, métodos e críticas.
-  Depois, cada tópico foi descrito de forma objetiva, com foco didático e em linguagem clara.
 status: complete
 related:
-  - "[[Fenomenologia]]"
-  - "[[Psicologia Humanista]]"
-  - "[[Edmund Husserl]]"
-  - "[[Maurice Merleau-Ponty]]"
-  - "[[Martin Heidegger]]"
-  - "[[Métodos Qualitativos em Psicologia]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

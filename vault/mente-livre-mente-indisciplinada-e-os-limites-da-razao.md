@@ -3,9 +3,14 @@ title: "Mente livre, mente indisciplinada e os limites da razão"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/filosofia-e-psicologia"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - mente-livre
   - mente-indisciplinada
@@ -15,29 +20,16 @@ tags:
   - criatividade
   - pensamento-nao-linear
   - foco
-  - disciplina-mental
-  - reflexao
-  - filosofia
-  - psicologia
-  - autoconhecimento
-  - comportamento-interno
-  - expansao-do-pensamento
-  - questionamento
-  - inovacao
-  - espontaneidade
-  - discernimento
 topic: "Reflexão breve sobre liberdade mental, indisciplina e os limites da razão."
-summary: |
-  A conversa explorou duas expressões curtas: "mente livre testa os limites da razão" e "mente indisciplinada".
-  Foram discutidas interpretações ligadas à liberdade de pensamento, criatividade, foco e controle mental.
-  O resultado foi uma síntese conceitual breve, útil para estudos de filosofia, psicologia e autoconhecimento.
-status: "complete"
+summary: >
+  A conversa explorou duas expressões curtas: 'mente livre testa os limites da razão' e 'mente indisciplinada'.
+status: complete
 related:
-  - "[[Sabedoria interna]]"
-  - "[[Autoconhecimento]]"
-  - "[[Psicologia fenomenológica]]"
-  - "[[Liberdade de pensamento]]"
-  - "[[Disciplina mental]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Mapa mental e síntese da abordagem fenomenológica na psicologia]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

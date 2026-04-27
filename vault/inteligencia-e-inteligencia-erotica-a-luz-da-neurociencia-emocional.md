@@ -3,9 +3,14 @@ title: "Inteligência e inteligência erótica à luz da neurociência emocional
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/neurociencia-e-psicologia"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - inteligencia
   - inteligencia-erotica
@@ -15,34 +20,16 @@ tags:
   - sexualidade
   - intimidade
   - desejo
-  - emocoes
-  - cerebro
-  - sistema-limbico
-  - amigdala
-  - cortex-pre-frontal
-  - hipotalamo
-  - dopamina
-  - oxitocina
-  - serotonina
-  - cortisol
-  - recompensa
-  - regulacao-emocional
-  - autoconhecimento
-  - relacionamentos
-  - bem-estar
-  - comportamento-humano
 topic: "Exploração do conceito de inteligência e do significado de inteligência erótica sob a perspectiva da neurociência emocional."
-summary: |
+summary: >
   A conversa começou com uma definição geral do termo inteligência e, em seguida, aprofundou o conceito de inteligência erótica.
-  Depois, o tema foi analisado à luz da neurociência e da neurociência emocional, relacionando desejo, intimidade, emoções,
-  neurotransmissores e estruturas cerebrais. O resultado foi uma visão integrada entre sexualidade, regulação emocional e vínculo afetivo.
-status: "complete"
+status: complete
 related:
-  - "[[Neurociência emocional]]"
-  - "[[Psicologia da sexualidade]]"
-  - "[[Sistema de recompensa cerebral]]"
-  - "[[Regulação emocional]]"
-  - "[[Dopamina, oxitocina e serotonina]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

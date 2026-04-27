@@ -3,9 +3,14 @@ title: "Saúde holística e saúde espiritual"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/autoconhecimento-e-espiritualidade"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - saude-holistica
   - saude-espiritual
@@ -15,25 +20,16 @@ tags:
   - corpo-mente-espirito
   - autoconhecimento
   - meditacao
-  - mindfulness
-  - proposito-de-vida
-  - paz-interior
-  - resiliencia-espiritual
-  - valores
-  - etica
-  - conexao
-  - terapias-holisticas
-  - qualidade-de-vida
-  - desenvolvimento-interior
 topic: "Visão geral sobre saúde holística e saúde espiritual como dimensões complementares do bem-estar."
-summary: "A conversa definiu saúde holística como uma abordagem integral que considera corpo, mente, emoções e espírito. Em seguida, aprofundou a saúde espiritual como dimensão ligada a propósito, conexão, valores, paz interior e resiliência. O resultado foi uma síntese introdutória e organizada desses dois conceitos."
-status: "complete"
+summary: >
+  A conversa definiu saúde holística como uma abordagem integral que considera corpo, mente, emoções e espírito. Em seguida, aprofundou a saúde espiritual como dimensão ligada a propósito, conexão, valores, paz interior e resiliência. O resultado foi uma síntese introdutória e organizada desses dois conceitos.
+status: complete
 related:
-  - "[[Sabedoria interna]]"
-  - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
-  - "[[Autoconhecimento e espiritualidade]]"
-  - "[[Meditação e mindfulness]]"
-  - "[[Bem-estar integral]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

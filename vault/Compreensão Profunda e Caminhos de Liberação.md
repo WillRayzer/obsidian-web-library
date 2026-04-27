@@ -1,15 +1,35 @@
 ---
-title: Trava Emocional — Compreensão Profunda e Caminhos de Liberação
+title: "Trava Emocional — Compreensão Profunda e Caminhos de Liberação"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies
-folder: 03-Studies/psychology
-tags: psicologia, desenvolvimento-humano, emocao, trava-emocional, autoconhecimento, psicologia-clinica, psicologia-hospitalar, terapia, trauma, ansiedade, comportamento, mente, corpo, psicossomatica, crescimento-pessoal, cura-emocional, espiritualidade, terapia-holistica, tcc, terapia-somatica, journaling, meditacao, energia, padroes-comportamentais
-topic: Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las
-summary: A conversa explorou o conceito de trava emocional desde uma visão geral até uma análise aprofundada de suas origens, manifestações e estrutura. Foram apresentados caminhos terapêuticos e práticas para identificação e liberação desses bloqueios. O conteúdo oferece uma base teórica e prática para autoconhecimento e aplicação clínica.
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
+tags:
+  - ia
+  - conversa
+  - obsidian
+  - psicologia
+  - desenvolvimento-humano
+  - emocao
+  - trava-emocional
+  - autoconhecimento
+  - psicologia-clinica
+  - psicologia-hospitalar
+  - terapia
+  - trauma
+topic: "Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las"
+summary: >
+  A conversa explorou o conceito de trava emocional desde uma visão geral até uma análise aprofundada de suas origens, manifestações e estrutura. Foram apresentados caminhos terapêuticos e práticas para identificação e liberação desses bloqueios. O conteúdo oferece uma base teórica e prática para autoconhecimento e aplicação clínica.
 status: complete
-related: [[Traumas Emocionais]], [[Psicologia Somática]], [[Autossabotagem]], [[Crenças Limitantes]], [[Terapias Integrativas]], [[Ansiedade e Comportamento]], [[Desenvolvimento Pessoal]]
+related:
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

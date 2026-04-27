@@ -3,9 +3,14 @@ title: "Rigidez cognitiva, plasticidade sináptica e suas relações com sinapse
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - neurociencia
   - psicologia
@@ -15,38 +20,16 @@ tags:
   - sinapse
   - sinapses
   - plasticidade-sinaptica
-  - rigidez-cognitiva
-  - flexibilidade-cognitiva
-  - aprendizagem
-  - memoria
-  - ltp
-  - ltd
-  - autismo
-  - tea
-  - neurodesenvolvimento
-  - processamento-neural
-  - equilibrio-excitatorio-inibitorio
-  - densidade-sinaptica
-  - poda-sinaptica
-  - adaptacao-cerebral
-  - comportamento
-  - funcionamento-cognitivo
-  - estudos/neurociencia
-  - estudos/psicologia
-  - estudos/autismo
 topic: "Exploração conceitual da rigidez cognitiva, da plasticidade sináptica e de possíveis relações com o autismo."
 summary: >
-  A conversa abordou inicialmente o conceito de rigidez cognitiva e, em seguida,
-  a relação entre sinapse e rigidez cognitiva. Depois, aprofundou-se a definição
-  de plasticidade sináptica e foram discutidas, de forma geral e introdutória,
-  possíveis particularidades da plasticidade sináptica em pessoas autistas.
+  A conversa abordou inicialmente o conceito de rigidez cognitiva e, em seguida, a relação entre sinapse e rigidez cognitiva. Depois, aprofundou-se a definição de plasticidade sináptica e foram discutidas, de forma geral e introdutória, possíveis particularidades da plasticidade sináptica em pessoas autistas.
 status: complete
 related:
-  - "[[Flexibilidade Cognitiva]]"
-  - "[[Sinapse e Neurotransmissão]]"
-  - "[[Plasticidade Sináptica]]"
-  - "[[Autismo e Neurodesenvolvimento]]"
-  - "[[Equilíbrio Excitatório-Inibitório]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -3,9 +3,14 @@ title: "Poema de aniversário inspirado nas qualidades mágicas das margaridas a
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/simbolismo-poetico"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - poesia
   - poema-de-aniversario
@@ -15,31 +20,16 @@ tags:
   - alegria
   - felicidade
   - amizade
-  - renovacao
-  - novos-comecos
-  - cura
-  - bem-estar
-  - energia-solar
-  - protecao
-  - prosperidade
-  - abundancia
-  - escrita-criativa
-  - linguagem-poetica
-  - aniversario
-  - flores
-  - espiritualidade-simbolica
 topic: "Criação de um poema de aniversário baseado nas qualidades simbólicas das margaridas amarelas."
-summary: |
+summary: >
   A conversa explorou primeiro o simbolismo e as propriedades mágicas atribuídas às margaridas amarelas,
-  como alegria, amizade, renovação, cura, energia solar e proteção.
-  Em seguida, esses elementos foram convertidos em poemas de aniversário, reduzidos em extensão e reformulados
-  para retratar a aniversariante como alguém que encarna essas qualidades, incluindo também prosperidade e abundância.
 status: complete
 related:
-  - "[[Simbolismo das Flores]]"
-  - "[[Poemas de Aniversário]]"
-  - "[[Escrita Criativa]]"
-  - "[[Energia Solar e Simbolismo Floral]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Auto-hipnose ericksoniana para felicidade]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

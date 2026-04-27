@@ -3,68 +3,33 @@ title: "Energia metafísica dos signos do zodíaco e a união de suas forças"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/astrologia-metafisica"
+folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - astrologia
   - metafisica
-  - astrologia/metafisica
-  - astrologia/signos
+  - astrologiametafisica
+  - astrologiasignos
   - zodiac
   - zodiaco
   - escorpiao
   - virgem
-  - libra
-  - aries
-  - touro
-  - capricornio
-  - leao
-  - sagitario
-  - cancer
-  - peixes
-  - gemeos
-  - aquario
-  - energia-arquetipica
-  - energia-simbolica
-  - campos-arquetipicos
-  - uniao-das-energias
-  - signos-do-zodiaco
-  - simbolismo-esoterico
-  - cosmologia-simbolica
-  - linguagem-arquetipica
-  - alquimia-espiritual
-  - polaridades
-  - integracao-dos-opostos
-  - consciencia
-  - espiritualidade
-  - esoterismo
-  - hermetismo
-  - estudos-simbolicos
-  - imaginario-metafisico
-  - energia-cosmica
-  - arquetipos
-  - obsidian
 topic: "Exploração metafísica das energias dos signos e de sua integração como forças cósmicas."
-summary: |
+summary: >
   A conversa desenvolveu descrições metafísicas e simbólicas das energias de vários signos do zodíaco, evitando em muitos momentos a associação direta com a personalidade humana.
-  Foram aprofundadas especialmente as energias de Escorpião, Virgem, Libra, Áries, Touro, Capricórnio, Leão, Sagitário, Câncer, Peixes, Gêmeos e Aquário.
-  Também foi explorada a união entre Escorpião e Virgem, e ao final a integração de todas as energias zodiacais em uma leitura abstrata, arquetípica e cosmológica.
 status: complete
 related:
-  - "[[Escorpião à luz da metafísica]]"
-  - "[[Virgem à luz da metafísica]]"
-  - "[[Libra à luz da metafísica]]"
-  - "[[Áries à luz da metafísica]]"
-  - "[[Touro à luz da metafísica]]"
-  - "[[Capricórnio à luz da metafísica]]"
-  - "[[Leão à luz da metafísica]]"
-  - "[[Sagitário à luz da metafísica]]"
-  - "[[Câncer à luz da metafísica]]"
-  - "[[Peixes à luz da metafísica]]"
-  - "[[Gêmeos à luz da metafísica]]"
-  - "[[Aquário à luz da metafísica]]"
-  - "[[União metafísica das energias zodiacais]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -3,9 +3,14 @@ title: "Análise de personalidade e espiritualidade com base no mapa natal de Lu
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - astrologia
   - mapa-natal
@@ -15,42 +20,16 @@ tags:
   - analise-astrologica
   - escorpiao
   - virgem
-  - lua-em-escorpiao
-  - ascendente-em-escorpiao
-  - sol-em-virgem
-  - venus-em-virgem
-  - mercurio-em-leao
-  - marte-em-cancer
-  - jupiter-em-leao
-  - saturno-em-virgem
-  - urano-em-escorpiao
-  - netuno-em-sagitario
-  - casa-1
-  - casa-9
-  - casa-10
-  - casa-11
-  - mapa-astral
-  - simbolismo-astrologico
-  - interpretacao-espiritual
-  - profundidade-emocional
-  - transformacao-pessoal
-  - intuicao
-  - sensibilidade
-  - comunicacao
-  - relacionamentos
-  - vocacao
-  - jornada-espiritual
-  - psicologia-simbolica
-  - luanda
 topic: "Leitura da personalidade e da dimensão espiritual a partir de um mapa natal."
-summary: "A conversa analisou o mapa natal de Luanda com foco inicial na personalidade geral e, em seguida, aprofundou a interpretação simbólica do lado espiritual. Foram destacados traços como intensidade emocional, perfeccionismo, intuição, poder de transformação, comunicação expressiva e busca de sentido. O resultado consolidou uma leitura integrada entre Sol em Virgem, forte ênfase em Escorpião e elementos ligados à expansão espiritual."
-status: "complete"
+summary: >
+  A conversa analisou o mapa natal de Luanda com foco inicial na personalidade geral e, em seguida, aprofundou a interpretação simbólica do lado espiritual. Foram destacados traços como intensidade emocional, perfeccionismo, intuição, poder de transformação, comunicação expressiva e busca de sentido. O resultado consolidou uma leitura integrada entre Sol em Virgem, forte ênfase em Escorpião e elementos ligados à expansão espiritual.
+status: complete
 related:
-  - "[[Saúde holística e saúde espiritual]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
-  - "[[Mente livre, mente indisciplinada e os limites da razão]]"
-  - "[[Astrologia e autoconhecimento]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

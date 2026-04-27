@@ -3,9 +3,14 @@ title: "Perfil de terapeuta holístico com abordagem espiritual"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/terapias-holisticas"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - terapeuta-holistico
   - terapia-holistica
@@ -15,29 +20,16 @@ tags:
   - corpo-mente-espirito
   - energia
   - reiki
-  - meditacao
-  - intuicao
-  - autoconhecimento
-  - bem-estar
-  - saude-integral
-  - terapias-integrativas
-  - acolhimento
-  - escuta-ativa
-  - harmonizacao-energetica
-  - praticas-espirituais
 topic: "Construção de um perfil de terapeuta holístico com ênfase espiritual e linguagem mais sutil."
-summary: |
+summary: >
   A conversa desenvolveu a descrição de um terapeuta holístico em diferentes níveis de linguagem:
-  primeiro mais amplo, depois mais sutil e, por fim, com ênfase mais espiritual.
-  O resultado final consolidou um perfil voltado à cura integral, conexão espiritual,
-  harmonização energética, acolhimento e autoconhecimento.
-status: "complete"
+status: complete
 related:
-  - "[[Terapias integrativas]]"
-  - "[[Espiritualidade e cura]]"
-  - "[[Reiki]]"
-  - "[[Autoconhecimento]]"
-  - "[[Saúde integral]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

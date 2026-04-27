@@ -1,11 +1,16 @@
 ---
-title: Efeitos e Considerações sobre Psilocybe Cubensis MDK
+title: "Efeitos e Considerações sobre Psilocybe Cubensis MDK"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies
-folder: 03-Studies/psicologia-e-substancias
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - psicologia
   - psicodelicos
   - psilocibina
@@ -15,20 +20,20 @@ tags:
   - saude-mental
   - consciencia
   - desenvolvimento-humano
-  - terapia
-  - espiritualidade
-  - reducao-de-danos
-topic: Efeitos positivos e implicações do uso de Psilocybe cubensis MDK
-summary: A conversa explorou o que é o Psilocybe cubensis MDK e seus possíveis efeitos positivos cognitivos, emocionais, sensoriais e terapêuticos. Também abordou a importância do contexto (set & setting) e os cuidados necessários relacionados ao uso.
+topic: "Efeitos positivos e implicações do uso de Psilocybe cubensis MDK"
+summary: >
+  A conversa explorou o que é o Psilocybe cubensis MDK e seus possíveis efeitos positivos cognitivos, emocionais, sensoriais e terapêuticos. Também abordou a importância do contexto (set & setting) e os cuidados necessários relacionados ao uso.
 status: complete
 related:
-  - [[psilocibina-e-saude-mental]]
-  - [[psicologia-positiva-e-consciencia]]
-  - [[neurociencia-dos-psicodelicos]]
-  - [[estados-alterados-de-consciencia]]
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
+
 Compreender o que é o Psilocybe cubensis MDK e explorar seus efeitos positivos em nível cognitivo, emocional, sensorial e terapêutico, considerando também aspectos de segurança e contexto.
 
 ## Conversation
@@ -61,6 +66,7 @@ Os efeitos positivos são semelhantes aos de outras variedades da mesma espécie
 Também foi ressaltado que os efeitos dependem fortemente do contexto psicológico e ambiental (set & setting), além da individualidade de cada pessoa.
 
 ## Conclusions & Deliverables
+
 - O Psilocybe cubensis MDK é uma variação de cogumelo com psilocibina, com efeitos similares a outras linhagens.
 - Seus efeitos positivos podem abranger dimensões mentais, emocionais e espirituais.
 - Há evidências científicas emergentes sobre seu potencial terapêutico, especialmente em saúde mental.
@@ -68,6 +74,7 @@ Também foi ressaltado que os efeitos dependem fortemente do contexto psicológi
 - O uso envolve riscos e deve ser tratado com responsabilidade e consciência.
 
 ## Next Steps
+
 - [ ] Aprofundar estudo sobre psilocibina e neuroplasticidade
 - [ ] Explorar pesquisas clínicas recentes sobre psicodélicos
 - [ ] Estudar protocolos terapêuticos e redução de danos

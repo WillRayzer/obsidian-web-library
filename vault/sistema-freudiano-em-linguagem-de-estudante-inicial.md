@@ -3,9 +3,14 @@ title: "Sistema freudiano em linguagem de estudante inicial"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-psicanalise"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - psicanalise
@@ -15,34 +20,16 @@ tags:
   - consciente
   - pre-consciente
   - subconsciente
-  - graus-de-consciencia
-  - id
-  - ego
-  - superego
-  - libido
-  - pulsao
-  - pulsao-de-vida
-  - pulsao-de-morte
-  - repressao
-  - recalque
-  - comportamento
-  - linguagem-simples
-  - linguagem-de-estudante
-  - resumo
-  - reescrita
-  - introducao-a-psicanalise
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
-summary: |
+summary: >
   A conversa focou na análise de um texto sobre o sistema freudiano e na sua reescrita em linguagem mais simples.
-  Primeiro foi feita uma explicação geral do conteúdo, e depois o texto foi adaptado para uma linguagem de estudante inicial.
-  O resultado final apresentou os principais conceitos de Freud de forma mais clara, direta e acessível.
-status: "complete"
+status: complete
 related:
-  - "[[Psicanálise]]"
-  - "[[Sigmund Freud]]"
-  - "[[Inconsciente]]"
-  - "[[Id, Ego e Superego]]"
-  - "[[Introdução à Psicologia]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

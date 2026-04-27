@@ -3,9 +3,14 @@ title: "Auto-hipnose ericksoniana para felicidade"
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/hipnose-e-bem-estar"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - hipnose
   - auto-hipnose
@@ -15,24 +20,16 @@ tags:
   - bem-estar
   - relaxamento
   - sugestoes-positivas
-  - visualizacao
-  - respiracao
-  - inducao
-  - estado-de-relaxamento
-  - exercicio-guiado
-  - autoconhecimento
-  - saude-emocional
-  - mente-e-corpo
-  - pratica-terapeutica
-  - desenvolvimento-pessoal
 topic: "Síntese de auto-hipnose ericksoniana com foco em felicidade e relaxamento."
-summary: "A conversa abordou o conceito de auto-hipnose ericksoniana e apresentou um exercício guiado voltado ao cultivo da felicidade. Foram organizados os princípios básicos da prática, incluindo relaxamento, visualização, sugestões positivas e retorno gradual ao estado de alerta."
-status: "complete"
+summary: >
+  A conversa abordou o conceito de auto-hipnose ericksoniana e apresentou um exercício guiado voltado ao cultivo da felicidade. Foram organizados os princípios básicos da prática, incluindo relaxamento, visualização, sugestões positivas e retorno gradual ao estado de alerta.
+status: complete
 related:
-  - "[[Hipnose e estados ampliados de consciência]]"
-  - "[[Exercícios de relaxamento e respiração]]"
-  - "[[Práticas de bem-estar emocional]]"
-  - "[[Visualização terapêutica]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -1,31 +1,35 @@
 ---
-title: Finalidade da Avaliação Psicológica na Aviação
+title: "Finalidade da Avaliação Psicológica na Aviação"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies
-folder: 03-Studies/psicologia/avaliacao-psicologica
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - psicologia
   - avaliacao-psicologica
-  - psicologia/aviacao
+  - psicologiaaviacao
   - seguranca-operacional
   - comportamento-humano
   - tomada-de-decisao
   - estresse
   - atencao
   - desempenho-humano
-  - psicologia-aplicada
-  - psicologia-hospitalar
-  - estudos
-topic: Finalidade da avaliação psicológica na aviação
-summary: Foi explorada a finalidade da avaliação psicológica no contexto da aviação, destacando seu papel na segurança operacional e na análise de competências emocionais e cognitivas dos profissionais. A resposta abordou os principais aspectos avaliados e sua importância preventiva.
+topic: "Finalidade da avaliação psicológica na aviação"
+summary: >
+  Foi explorada a finalidade da avaliação psicológica no contexto da aviação, destacando seu papel na segurança operacional e na análise de competências emocionais e cognitivas dos profissionais. A resposta abordou os principais aspectos avaliados e sua importância preventiva.
 status: complete
 related:
-  - [[psicologia-do-trabalho]]
-  - [[seguranca-operacional]]
-  - [[processos-cognitivos]]
-  - [[avaliacao-psicologica-contextos]]
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -59,4 +63,4 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 - [ ] Analisar normas brasileiras (ANAC) sobre avaliação psicológica aeronáutica  
 - [ ] Estudar casos reais de falhas humanas na aviação  
 - [ ] Relacionar com psicologia do trabalho e ergonomia cognitiva  
-- [ ] Explorar aplicação prática em contextos de alta responsabilidade  
+- [ ] Explorar aplicação prática em contextos de alta responsabilidade

@@ -1,46 +1,39 @@
 ---
-title: deusas primordiais e práticas espirituais pré-gregas
+title: "deusas primordiais e práticas espirituais pré-gregas"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies
-folder: 03-Studies/mitologia-e-espiritualidade
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - mitologia
-  - mitologia/grega
-  - mitologia/pre-grega
+  - mitologiagrega
+  - mitologiapre-grega
   - espiritualidade
-  - espiritualidade/arcaica
-  - espiritualidade/rituais
+  - espiritualidadearcaica
+  - espiritualidaderituais
   - deusas
-  - arquétipos
+  - arquetipos
   - arqueologia
-  - historia-antiga
-  - antropologia
-  - simbolismo
-  - xamanismo
-  - ervas
-  - sonhos
-  - rituais
-  - tempo-ciclico
-  - grande-deusa
-  - hecate
-  - cultura-neolitica
-  - religiao-antiga
-topic: análise das deusas anteriores à Grécia e das práticas espirituais arcaicas
-summary: Exploramos a origem mais antiga de Hécate, outras deusas pré-gregas e o contexto cultural dessas civilizações. Aprofundamos especialmente as práticas espirituais com ervas, sonhos, símbolos naturais e canto como formas de conexão com o invisível.
+topic: "análise das deusas anteriores à Grécia e das práticas espirituais arcaicas"
+summary: >
+  Exploramos a origem mais antiga de Hécate, outras deusas pré-gregas e o contexto cultural dessas civilizações. Aprofundamos especialmente as práticas espirituais com ervas, sonhos, símbolos naturais e canto como formas de conexão com o invisível.
 status: complete
 related:
-  - [[mitologia-grega-hecate]]
-  - [[grande-deusa-arquetipo]]
-  - [[espiritualidade-ancestral]]
-  - [[simbolismo-arcaico]]
-  - [[rituais-e-transes]]
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
-# 2026-04-27-deusas-primordiais-e-praticas-espirituais-pre-gregas.md
-
 ## Objective
+
 Compreender a origem mais antiga de Hécate, identificar deusas anteriores à Grécia clássica e analisar profundamente a cultura espiritual dessas sociedades, especialmente suas práticas de conexão com o invisível.
 
 ---

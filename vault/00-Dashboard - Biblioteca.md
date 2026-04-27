@@ -1,14 +1,42 @@
 ---
 title: "Dashboard - Biblioteca"
 date: 2026-04-27
-area: "System"
+ia: "ChatGPT"
+model: "GPT-5.4"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/saude"
 tags:
+  - ia
+  - conversa
   - dashboard
   - biblioteca
   - obsidian
   - index
+  - saude
+  - bem-estar
+  - estudos
+  - doencas
+  - infecciosas
+  - herbal
+topic: "# Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Co"
+summary: >
+  # Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Como usar este vault - Abra a pasta `C:\Users\negoc\Documents\geral .md\luanda\Bem` no Obsidian com `Open folder as vault`. - Use esta nota co
 status: active
+related:
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
+
+## Objective
+
+Registrar a conversa com estrutura padronizada para uso no Obsidian, dashboard web e Graph View.
+
+## Conversation
 
 # Dashboard - Biblioteca
 
@@ -90,3 +118,11 @@ As pastas abaixo foram criadas para combinar com o campo `folder:` do seu cabeca
 - `05-Projects/`
 
 Voce pode mover os arquivos para dentro dessas pastas aos poucos, sem perder o uso do vault. O ideal e fazer isso de dentro do proprio Obsidian, para ele atualizar os links automaticamente.
+
+## Conclusions & Deliverables
+
+- [ ] Revisar e resumir os principais pontos
+
+## Next Steps
+
+- [ ] Relacionar com outras notas

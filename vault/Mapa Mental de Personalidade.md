@@ -3,9 +3,14 @@ title: "Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofund
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia-personalidade-identidade"
+folder: "04-Studies/psicologia"
 tags:
+  - ia
+  - conversa
+  - obsidian
   - studies
   - psicologia
   - personalidade
@@ -13,29 +18,22 @@ tags:
   - mapa-mental
   - autoconhecimento
   - desenvolvimento-pessoal
-  - psicologia/teorias
-  - psicologia/humana
-  - comportamento
-  - mente-humana
-  - neurociencia
-  - psicologia/identidade
-  - psicologia/personalidade
-  - aprendizado
-  - estrutura-mental
-  - pensamento-sistemico
+  - psicologiateorias
+  - psicologiahumana
 topic: "Estrutura aprofundada de um mapa mental integrando personalidade e identidade"
-summary: "Foi desenvolvido um mapa mental completo integrando personalidade e identidade, com aprofundamento teórico e estrutural. O conteúdo explora definições, teorias, fatores influenciadores e interseções entre os conceitos. O material foi organizado para aplicação prática em autoconhecimento e análise psicológica."
-status: "complete"
+summary: >
+  Foi desenvolvido um mapa mental completo integrando personalidade e identidade, com aprofundamento teórico e estrutural. O conteúdo explora definições, teorias, fatores influenciadores e interseções entre os conceitos. O material foi organizado para aplicação prática em autoconhecimento e análise psicológica.
+status: complete
 related:
-  - [[Evolução da Mente Humana]]
-  - [[Psicologia Humanista]]
-  - [[Autoconhecimento e Consciência]]
-  - [[Neurociência do Comportamento]]
+  - "[[Mapa Mental de Identidade e Personalidade]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
-# Mapa Mental: Personalidade e Identidade
-
 ## Objective
+
 Desenvolver um mapa mental completo e aprofundado que integre os conceitos de personalidade e identidade, explorando suas estruturas, origens, interações e aplicações práticas no autoconhecimento e desenvolvimento humano.
 
 ---

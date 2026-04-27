@@ -1,18 +1,39 @@
 ---
-title: Neurose e Cena Primária no Caso do Homem dos Lobos
+title: "Neurose e Cena Primária no Caso do Homem dos Lobos"
 date: 2026-04-27
-ia: ChatGPT
-model: GPT-5.3
-area: Studies/Psychology
-folder: 03-Studies/Psychology/Psychoanalysis
-tags: psychology, psychoanalysis, freud, wolf-man, neurose, cena-primaria, complexo-de-edipo, transferencia, sonho, trauma, sexualidade-infantil, diagnostico, borderline, psicose, historia-da-psicanalise, estudos/psicologia, teoria/freud
-topic: Análise da neurose no caso do Homem dos Lobos com foco na cena primária
-summary: O documento sintetiza o caso do Homem dos Lobos com foco na neurose e na interpretação freudiana da cena primária. Aborda o papel do sonho, do complexo de Édipo e da transferência, além de críticas pós-freudianas sobre diagnóstico e eficácia terapêutica.
+ia: "ChatGPT"
+model: "GPT-5.3"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/psicologia"
+tags:
+  - ia
+  - conversa
+  - obsidian
+  - psychology
+  - psychoanalysis
+  - freud
+  - wolf-man
+  - neurose
+  - cena-primaria
+  - complexo-de-edipo
+  - transferencia
+  - sonho
+topic: "Análise da neurose no caso do Homem dos Lobos com foco na cena primária"
+summary: >
+  O documento sintetiza o caso do Homem dos Lobos com foco na neurose e na interpretação freudiana da cena primária. Aborda o papel do sonho, do complexo de Édipo e da transferência, além de críticas pós-freudianas sobre diagnóstico e eficácia terapêutica.
 status: complete
-related: [[Psicanálise Freudiana]], [[Complexo de Édipo]], [[Neurose vs Psicose]], [[Transferência na Clínica]], [[Sonhos na Psicanálise]]
+related:
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao]]"
+  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
+
 Compreender o caso do Homem dos Lobos com foco principal na neurose, destacando a cena primária, o sonho dos lobos e o papel da sexualidade infantil na teoria freudiana, além de contextualizar o caso historicamente e clinicamente.
 
 ## Conversation
@@ -42,6 +63,7 @@ A criança não relata diretamente a cena, mas a expressa simbolicamente. O sonh
 As principais fontes incluem Freud (1918), Brunswick (1928), Mahony (1992), Roudinesco (1997) e Blum (1974), além de bases como SciELO e PEP-Web.
 
 ## Conclusions & Deliverables
+
 - A neurose do Homem dos Lobos é estruturada a partir de um trauma infantil inconsciente.
 - A cena primária é central na explicação freudiana, embora contestada posteriormente.
 - O sonho funciona como via de acesso ao inconsciente.
@@ -49,6 +71,7 @@ As principais fontes incluem Freud (1918), Brunswick (1928), Mahony (1992), Roud
 - O caso permanece como paradigma da psicanálise, mas com debates diagnósticos relevantes.
 
 ## Next Steps
+
 - [ ] Aprofundar leitura do texto original de Freud (1918)
 - [ ] Comparar interpretações pós-freudianas
 - [ ] Estudar conceito de cena primária em outros casos clínicos

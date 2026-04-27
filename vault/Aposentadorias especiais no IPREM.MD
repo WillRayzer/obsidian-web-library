@@ -1,49 +1,42 @@
-title: "Aposentadorias especiais no IPREM e fluxograma explicativo"
-date: 2026-04-14
-ia: ChatGPT
-model: GPT-5.4 Thinking
-area: Studies
-folder: 04-Studies/previdencia-publica
+---
+title: "Aposentadorias especiais no IPREM"
+date: 2026-04-27
+ia: "ChatGPT"
+model: "GPT-5.4"
+source: "OpenAI"
+conversation_type: "chat"
+area: "Studies"
+folder: "04-Studies/previdencia-publica"
 tags:
-
-aposentadoria-especial
-iprem
-decreto-61-151
-previdencia
-previdencia-publica
-servidor-publico
-municipio-de-sao-paulo
-aposentadoria
-aposentadoria-por-risco
-aposentadoria-por-deficiencia
-aposentadoria-de-professor
-magisterio
-atividade-de-risco
-deficiencia
-legislacao
-fluxo-decisorio
-fluxograma
-resumo
-estudos
-direito-previdenciario
-administracao-publica
-brasil
-sao-paulo
-topic: "Síntese das modalidades de aposentadoria especial ligadas ao IPREM, com aprofundamento e representação em fluxograma."
-summary: "A conversa partiu de um pedido sobre aposentadorias especiais com base no Decreto 61.151 do IPREM. Em seguida, houve um aprofundamento explicando os principais tipos mencionados, seus requisitos gerais e pontos de atenção. Por fim, foi criado um fluxograma textual/visual resumindo as categorias tratadas: atividade de risco, deficiência e professor."
+  - ia
+  - conversa
+  - obsidian
+  - aposentadorias-especiais-no-iprem
+  - previdencia
+  - direito-previdenciario
+  - administracao-publica
+  - aposentadoria
+  - iprem
+  - rpps
+  - decreto
+  - aposentadorias
+topic: "Baseado no decreto 61.151 do iprem descreva as aposentadorias especiais O tema foi apresentado como relacionado ao Decreto nº 61.151 e ao IPREM, com uma descrição geral das aposent"
+summary: >
+  Baseado no decreto 61.151 do iprem descreva as aposentadorias especiais O tema foi apresentado como relacionado ao Decreto nº 61.151 e ao IPREM, com uma descrição geral das aposentadorias especiais. Foram listadas três categorias principais: Aposentadoria Especial por Atividade de Risco Voltada a servidores que exercem
 status: complete
 related:
-"[[Direito Previdenciário Municipal]]"
-"[[IPREM - Regras Gerais]]"
-"[[Aposentadoria Especial]]"
-"[[Professor - Regras Previdenciárias]]"
-"[[Pessoa com Deficiência - Benefícios Previdenciários]]"
-"[[Fluxogramas de Estudo]]"
-Objective
+  - "[[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]"
+  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
+  - "[[Mapa mental e síntese da abordagem fenomenológica na psicologia]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
+---
+
+## Objective
 
 Registrar de forma organizada a conversa sobre aposentadorias especiais no contexto do IPREM, incluindo uma versão aprofundada dos tipos citados e um fluxograma-resumo para estudo no Obsidian.
 
-Conversation
+## Conversation
 
 Baseado no decreto 61.151 do iprem descreva as aposentadorias especiais
 
@@ -115,7 +108,9 @@ Importante
 Verificar atualizações legislativas
 Conferir documentação
 Seguir os procedimentos administrativos
-Conclusions & Deliverables
+
+## Conclusions & Deliverables
+
 Foi produzida uma descrição geral das aposentadorias especiais associadas ao tema do Decreto 61.151/IPREM.
 Foi elaborado um aprofundamento conceitual das três modalidades mencionadas na conversa:
 atividade de risco;
@@ -127,8 +122,10 @@ Entregáveis gerados
 Resumo explicativo das aposentadorias especiais.
 Aprofundamento por categoria.
 Fluxograma textual consolidado.
-Next Steps
- Conferir o texto integral do Decreto 61.151 para validar cada categoria com precisão normativa.
+
+## Next Steps
+
+Conferir o texto integral do Decreto 61.151 para validar cada categoria com precisão normativa.
  Verificar se as hipóteses citadas constam expressamente do decreto ou se dependem de legislação complementar.
  Mapear requisitos objetivos de cada modalidade: idade, tempo de contribuição e critérios de cálculo.
  Separar quais regras são constitucionais, quais são municipais e quais dependem de perícia.
