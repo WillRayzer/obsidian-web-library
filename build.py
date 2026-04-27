@@ -451,6 +451,7 @@ def build_graph_page(site_name: str) -> None:
 <body>
 <div class="grain"></div>
 {content}
+<script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
 <script>window.OBSIDIAN_GRAPH = true;</script>
 <script src="assets/app.js"></script>
 </body>
@@ -963,62 +964,6 @@ a { color: inherit; }
   overflow: hidden;
   position: relative;
 }
-.graph-view::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-  background-size: 32px 32px;
-  pointer-events: none;
-}
-.graph-view svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.graph-link {
-  stroke: rgba(143, 181, 255, 0.16);
-  stroke-width: 1;
-}
-.graph-link.active {
-  stroke: rgba(191, 225, 179, 0.9);
-  stroke-width: 1.8;
-}
-.graph-link.dimmed {
-  stroke-opacity: 0.08;
-}
-.graph-node {
-  cursor: pointer;
-}
-.graph-node circle {
-  fill: rgba(124, 170, 109, 0.72);
-  stroke: rgba(255, 255, 255, 0.2);
-  stroke-width: 1;
-  transition: transform 120ms ease, fill 120ms ease, opacity 120ms ease;
-}
-.graph-node.active circle {
-  fill: #8fb5ff;
-}
-.graph-node.neighbor circle {
-  fill: #c4e7b8;
-}
-.graph-node.dimmed circle {
-  opacity: 0.22;
-}
-.graph-node text {
-  fill: #d9e1ea;
-  font-size: 10px;
-  opacity: 0.82;
-  pointer-events: none;
-}
-.graph-node.dimmed text {
-  opacity: 0.16;
-}
-.graph-node.hide-label text {
-  display: none;
-}
 @media (max-width: 980px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -1052,7 +997,7 @@ if (search) {
 }
 
 async function initGraph() {
-  if (!window.OBSIDIAN_GRAPH) return;
+  if (!window.OBSIDIAN_GRAPH || !window.cytoscape) return;
 
   const container = document.querySelector("#graph-view");
   const stats = document.querySelector("#graph-stats");
@@ -1061,236 +1006,172 @@ async function initGraph() {
 
   const response = await fetch("assets/graph.json");
   const graph = await response.json();
-  const width = container.clientWidth || 900;
-  const height = container.clientHeight || 600;
   const actionButtons = [...document.querySelectorAll("[data-graph-action]")];
   let showLabels = true;
-  let camera = { x: width / 2, y: height / 2, scale: 1 };
-  let pan = null;
-  let activeNodeId = null;
   const areaPalette = {
-    studies: "rgba(143, 181, 255, 0.82)",
-    business: "rgba(255, 180, 128, 0.82)",
-    system: "rgba(124, 170, 109, 0.82)",
-    "sem area": "rgba(185, 185, 185, 0.72)",
+    studies: "#8fb5ff",
+    business: "#ffb480",
+    system: "#7caa6d",
+    "sem area": "#b9b9b9",
   };
 
   stats.textContent = `${graph.nodes.length} notas, ${graph.edges.length} conexoes`;
-
-  const nodeMap = new Map(
-    graph.nodes.map((node, index) => [
-      node.id,
-      {
-        ...node,
-        x: (index % 6) * 160 - ((index % 6) * 12),
-        y: Math.floor(index / 6) * 110,
-        vx: 0,
-        vy: 0,
+  const elements = [
+    ...graph.nodes.map((node) => ({
+      data: {
+        id: node.id,
+        label: node.title,
+        area: node.area,
+        url: node.url,
         areaKey: (node.area || "").toLowerCase(),
+        color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
       },
-    ])
-  );
+    })),
+    ...graph.edges.map((edge) => ({
+      data: {
+        id: `${edge.source}__${edge.target}`,
+        source: edge.source,
+        target: edge.target,
+      },
+    })),
+  ];
 
-  const nodes = [...nodeMap.values()];
-  const edges = graph.edges
-    .map((edge) => ({ ...edge, sourceNode: nodeMap.get(edge.source), targetNode: nodeMap.get(edge.target) }))
-    .filter((edge) => edge.sourceNode && edge.targetNode);
+  const cy = window.cytoscape({
+    container,
+    elements,
+    layout: {
+      name: "cose",
+      animate: false,
+      padding: 50,
+      nodeRepulsion: 900000,
+      idealEdgeLength: 130,
+      edgeElasticity: 0.2,
+      gravity: 0.2,
+    },
+    style: [
+      {
+        selector: "node",
+        style: {
+          "background-color": "data(color)",
+          "border-width": 1,
+          "border-color": "rgba(255,255,255,0.18)",
+          "width": 12,
+          "height": 12,
+          "label": showLabels ? "data(label)" : "",
+          "color": "#d9e1ea",
+          "font-size": 10,
+          "text-wrap": "wrap",
+          "text-max-width": 120,
+          "text-valign": "bottom",
+          "text-halign": "center",
+          "text-margin-y": 8,
+        },
+      },
+      {
+        selector: "edge",
+        style: {
+          "width": 1,
+          "line-color": "rgba(143,181,255,0.14)",
+          "curve-style": "bezier",
+          "opacity": 0.9,
+        },
+      },
+      {
+        selector: ".active",
+        style: {
+          "background-color": "#8fb5ff",
+          "width": 16,
+          "height": 16,
+          "line-color": "#c4e7b8",
+          "width": 2,
+          "opacity": 1,
+          "z-index": 999,
+        },
+      },
+      {
+        selector: ".neighbor",
+        style: {
+          "background-color": "#c4e7b8",
+          "opacity": 1,
+        },
+      },
+      {
+        selector: ".dimmed",
+        style: {
+          "opacity": 0.12,
+          "text-opacity": 0.08,
+        },
+      },
+    ],
+    wheelSensitivity: 0.18,
+    minZoom: 0.2,
+    maxZoom: 3,
+  });
 
-  const svgNS = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(svgNS, "svg");
-  const viewport = document.createElementNS(svgNS, "g");
-  container.replaceChildren(svg);
-  svg.appendChild(viewport);
-
-  const adjacency = new Map(nodes.map((node) => [node.id, new Set()]));
-  for (const edge of edges) {
-    adjacency.get(edge.source)?.add(edge.target);
-    adjacency.get(edge.target)?.add(edge.source);
+  function applyLabels() {
+    cy.style().selector("node").style("label", showLabels ? "data(label)" : "").update();
   }
 
-  edges.forEach((edge) => {
-    const line = document.createElementNS(svgNS, "line");
-    line.setAttribute("class", "graph-link");
-    viewport.appendChild(line);
-    edge.el = line;
-  });
-
-  nodes.forEach((node) => {
-    const g = document.createElementNS(svgNS, "g");
-    g.setAttribute("class", "graph-node");
-    const circle = document.createElementNS(svgNS, "circle");
-    circle.setAttribute("r", "6");
-    circle.setAttribute("fill", areaPalette[node.areaKey] || "rgba(124, 170, 109, 0.72)");
-    const text = document.createElementNS(svgNS, "text");
-    text.textContent = node.title;
-    text.setAttribute("dx", "10");
-    text.setAttribute("dy", "4");
-    g.append(circle, text);
-    g.addEventListener("click", () => {
-      setActiveNode(node.id);
-    });
-    makeDraggable(g, node);
-    node.el = g;
-    viewport.appendChild(g);
-  });
-
-  svg.addEventListener("dblclick", () => fitToView());
-  svg.addEventListener("wheel", (event) => {
-    event.preventDefault();
-    const delta = event.deltaY < 0 ? 1.08 : 0.92;
-    camera.scale = Math.min(2.8, Math.max(0.35, camera.scale * delta));
-  }, { passive: false });
-  svg.addEventListener("pointerdown", (event) => {
-    if (event.target.closest(".graph-node")) return;
-    pan = { x: event.clientX, y: event.clientY };
-  });
-  svg.addEventListener("pointermove", (event) => {
-    if (!pan) return;
-    camera.x += event.clientX - pan.x;
-    camera.y += event.clientY - pan.y;
-    pan = { x: event.clientX, y: event.clientY };
-  });
-  svg.addEventListener("pointerup", () => { pan = null; });
-  svg.addEventListener("pointerleave", () => { pan = null; });
-
-  function fitToView() {
-    const xs = nodes.map((node) => node.x);
-    const ys = nodes.map((node) => node.y);
-    const minX = Math.min(...xs, 0);
-    const maxX = Math.max(...xs, 100);
-    const minY = Math.min(...ys, 0);
-    const maxY = Math.max(...ys, 100);
-    const graphWidth = Math.max(maxX - minX, 240);
-    const graphHeight = Math.max(maxY - minY, 240);
-    camera.scale = Math.min(width / (graphWidth + 160), height / (graphHeight + 160), 1.25);
-    camera.x = width / 2 - ((minX + maxX) / 2) * camera.scale;
-    camera.y = height / 2 - ((minY + maxY) / 2) * camera.scale;
+  function clearState() {
+    cy.elements().removeClass("active neighbor dimmed");
   }
 
-  function setActiveNode(nodeId) {
-    if (activeNodeId === nodeId) {
-      window.location.href = nodes.find((node) => node.id === nodeId)?.url || "";
+  function focusNode(node) {
+    clearState();
+    const neighborhood = node.closedNeighborhood();
+    cy.elements().difference(neighborhood).addClass("dimmed");
+    node.addClass("active");
+    node.neighborhood("node").addClass("neighbor");
+    node.connectedEdges().addClass("active");
+    cy.animate({ fit: { eles: neighborhood, padding: 90 }, duration: 220 });
+  }
+
+  function filterByText(term) {
+    clearState();
+    const normalized = term.trim().toLowerCase();
+    if (!normalized) return;
+    const matches = cy.nodes().filter((node) => node.data("label").toLowerCase().includes(normalized));
+    if (!matches.length) {
+      cy.elements().addClass("dimmed");
       return;
     }
-    activeNodeId = nodeId;
-    const neighbors = adjacency.get(nodeId) || new Set();
-    for (const node of nodes) {
-      const isActive = node.id === nodeId;
-      const isNeighbor = neighbors.has(node.id);
-      node.el.classList.toggle("active", isActive);
-      node.el.classList.toggle("neighbor", !isActive && isNeighbor);
-      node.el.classList.toggle("dimmed", !isActive && !isNeighbor);
-    }
-    for (const edge of edges) {
-      const isAttached = edge.source === nodeId || edge.target === nodeId;
-      edge.el.classList.toggle("active", isAttached);
-      edge.el.classList.toggle("dimmed", !isAttached);
-    }
+    const keep = matches.union(matches.neighborhood());
+    cy.elements().difference(keep).addClass("dimmed");
+    matches.addClass("active");
+    matches.neighborhood("node").addClass("neighbor");
+    matches.connectedEdges().addClass("active");
+    cy.animate({ fit: { eles: keep, padding: 100 }, duration: 220 });
   }
 
-  function makeDraggable(element, node) {
-    let dragging = false;
-    element.addEventListener("pointerdown", (event) => {
-      dragging = true;
-      element.setPointerCapture(event.pointerId);
-      event.stopPropagation();
-    });
-    element.addEventListener("pointermove", (event) => {
-      if (!dragging) return;
-      const rect = svg.getBoundingClientRect();
-      node.x = (event.clientX - rect.left - camera.x) / camera.scale;
-      node.y = (event.clientY - rect.top - camera.y) / camera.scale;
-      node.vx = 0;
-      node.vy = 0;
-    });
-    element.addEventListener("pointerup", () => {
-      dragging = false;
-    });
-  }
-
-  function tick() {
-    for (const edge of edges) {
-      const dx = edge.targetNode.x - edge.sourceNode.x;
-      const dy = edge.targetNode.y - edge.sourceNode.y;
-      const distance = Math.max(Math.hypot(dx, dy), 1);
-      const force = (distance - 150) * 0.0006;
-      const fx = dx * force;
-      const fy = dy * force;
-      edge.sourceNode.vx += fx;
-      edge.sourceNode.vy += fy;
-      edge.targetNode.vx -= fx;
-      edge.targetNode.vy -= fy;
+  cy.on("tap", "node", (event) => {
+    const node = event.target;
+    if (node.hasClass("active")) {
+      window.location.href = node.data("url");
+      return;
     }
+    focusNode(node);
+  });
 
-    for (let i = 0; i < nodes.length; i++) {
-      for (let j = i + 1; j < nodes.length; j++) {
-        const a = nodes[i];
-        const b = nodes[j];
-        const dx = b.x - a.x;
-        const dy = b.y - a.y;
-        const distance = Math.max(Math.hypot(dx, dy), 1);
-        if (distance > 190) continue;
-        const force = 26 / (distance * distance);
-        const fx = dx * force;
-        const fy = dy * force;
-        a.vx -= fx;
-        a.vy -= fy;
-        b.vx += fx;
-        b.vy += fy;
-      }
-    }
-
-    for (const node of nodes) {
-      node.vx *= 0.92;
-      node.vy *= 0.92;
-      node.x += node.vx;
-      node.y += node.vy;
-    }
-
-    viewport.setAttribute("transform", `translate(${camera.x}, ${camera.y}) scale(${camera.scale})`);
-
-    for (const edge of edges) {
-      edge.el.setAttribute("x1", edge.sourceNode.x);
-      edge.el.setAttribute("y1", edge.sourceNode.y);
-      edge.el.setAttribute("x2", edge.targetNode.x);
-      edge.el.setAttribute("y2", edge.targetNode.y);
-    }
-
-    for (const node of nodes) {
-      node.el.setAttribute("transform", `translate(${node.x}, ${node.y})`);
-      node.el.classList.toggle("hide-label", !showLabels && node.id !== activeNodeId);
-    }
-
-    requestAnimationFrame(tick);
-  }
-
-  function highlight(term) {
-    const normalized = term.trim().toLowerCase();
-    const active = new Set();
-    for (const node of nodes) {
-      const match = normalized && node.title.toLowerCase().includes(normalized);
-      node.el.classList.toggle("active", Boolean(match));
-      node.el.classList.toggle("dimmed", normalized && !match);
-      if (match) active.add(node.id);
-    }
-    for (const edge of edges) {
-      const isActive = active.has(edge.source) || active.has(edge.target);
-      edge.el.classList.toggle("active", isActive);
-      edge.el.classList.toggle("dimmed", normalized && !isActive);
-    }
-  }
+  cy.on("tap", (event) => {
+    if (event.target === cy) clearState();
+  });
 
   actionButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const action = button.dataset.graphAction;
-      if (action === "fit") fitToView();
-      if (action === "labels") showLabels = !showLabels;
+      if (action === "fit") {
+        clearState();
+        cy.fit(cy.elements(), 80);
+      }
+      if (action === "labels") {
+        showLabels = !showLabels;
+        applyLabels();
+      }
     });
   });
 
-  fitToView();
-  searchInput?.addEventListener("input", (event) => highlight(event.target.value));
-  tick();
+  searchInput?.addEventListener("input", (event) => filterByText(event.target.value));
+  cy.ready(() => cy.fit(cy.elements(), 80));
 }
 
 initGraph();
