@@ -1643,14 +1643,28 @@ async function initGraph() {
   }
 
   function localNeighborhood(startNode, depth) {
-    let current = startNode;
-    let result = startNode.union(startNode.connectedEdges());
-    for (let i = 0; i < depth; i++) {
-      current = current.neighborhood();
-      result = result.union(current);
-      current = current.nodes();
+    const visitedNodes = new Set([startNode.id()]);
+    const branch = cy.collection().union(startNode);
+    const queue = [{ node: startNode, level: 0 }];
+
+    while (queue.length) {
+      const current = queue.shift();
+      if (!current || current.level >= depth) continue;
+
+      current.node.connectedEdges().forEach((edge) => {
+        const endpoints = edge.connectedNodes().toArray();
+        const neighbor = endpoints[0].id() === current.node.id() ? endpoints[1] : endpoints[0];
+        if (!neighbor) return;
+        if (visitedNodes.has(neighbor.id())) return;
+
+        visitedNodes.add(neighbor.id());
+        branch.merge(edge);
+        branch.merge(neighbor);
+        queue.push({ node: neighbor, level: current.level + 1 });
+      });
     }
-    return result;
+
+    return branch;
   }
 
   function applyLocalMode() {
