@@ -1275,19 +1275,36 @@ async function initGraph() {
     const columns = Math.max(1, Math.ceil(Math.sqrt(areaBuckets.length)));
     const col = areaIndex % columns;
     const row = Math.floor(areaIndex / columns);
-    const baseX = 260 + col * 420;
-    const baseY = 220 + row * 320;
-    const angle = indexInArea * 0.72;
-    const radius = 30 + (indexInArea % 8) * 18;
+    const baseX = 320 + col * 760;
+    const baseY = 260 + row * 560;
+    const ring = Math.floor(indexInArea / 10);
+    const ringIndex = indexInArea % 10;
+    const angle = ringIndex * (Math.PI * 2 / 10);
+    const radius = 60 + ring * 90;
     return {
       x: baseX + Math.cos(angle) * radius,
       y: baseY + Math.sin(angle) * radius,
     };
   }
 
+  function isolatedAnchor(index) {
+    const columns = 6;
+    const col = index % columns;
+    const row = Math.floor(index / columns);
+    return {
+      x: 220 + col * 240,
+      y: 1200 + row * 180,
+    };
+  }
+
   function seedClusterPositions() {
     const grouped = new Map();
+    const isolated = [];
     cy.nodes().forEach((node) => {
+      if (Number(node.data("degree") || 0) === 0) {
+        isolated.push(node);
+        return;
+      }
       const key = node.data("areaKey") || "sem area";
       const bucket = grouped.get(key) || [];
       bucket.push(node);
@@ -1299,6 +1316,10 @@ async function initGraph() {
         .sort((a, b) => Number(b.data("degree") || 0) - Number(a.data("degree") || 0))
         .forEach((node, index) => node.position(areaAnchor(key, index)));
     });
+
+    isolated
+      .sort((a, b) => a.data("label").localeCompare(b.data("label")))
+      .forEach((node, index) => node.position(isolatedAnchor(index)));
   }
 
   function layoutOptions() {
@@ -1308,13 +1329,17 @@ async function initGraph() {
       animate: false,
       randomize: false,
       fit: false,
-      padding: 50,
-      nodeRepulsion: 1200000,
-      idealEdgeLength: clusterByArea ? 120 : 150,
-      edgeElasticity: 0.08,
-      gravity: 0.1,
+      padding: 120,
+      nodeRepulsion: 4500000,
+      idealEdgeLength: clusterByArea ? 240 : 210,
+      edgeElasticity: 0.04,
+      gravity: 0.03,
       nestingFactor: 0.9,
       tile: true,
+      componentSpacing: 260,
+      tilingPaddingVertical: 120,
+      tilingPaddingHorizontal: 120,
+      nodeDimensionsIncludeLabels: true,
       numIter: visibleNodeCount < 80 ? 1800 : 1200,
       gravityRangeCompound: 1.3,
       gravityCompound: 1.0,
@@ -1328,7 +1353,7 @@ async function initGraph() {
     if (clusterByArea) seedClusterPositions();
     visible.layout(layoutOptions()).run();
     if (fitGraph) {
-      setTimeout(() => cy.fit(visibleElements(), 80), 60);
+      setTimeout(() => cy.fit(visibleElements(), 140), 80);
     }
   }
 
@@ -1442,7 +1467,7 @@ async function initGraph() {
     matches.addClass("active");
     matches.neighborhood("node").addClass("neighbor");
     matches.connectedEdges().addClass("active");
-    cy.animate({ fit: { eles: keep, padding: 100 }, duration: 220 });
+    cy.animate({ fit: { eles: keep, padding: 140 }, duration: 220 });
   }
 
   function localNeighborhood(startNode, depth) {
@@ -1462,16 +1487,16 @@ async function initGraph() {
     const visible = localNeighborhood(activeNode, depth);
     visibleElements().difference(visible).style("display", "none");
     visible.style("display", "element");
-    cy.fit(visible, 90);
+    cy.fit(visible, 140);
   }
 
   function setMode(mode) {
     graphMode = mode;
     modeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.graphMode === mode));
     applyVisibility(false);
-    if (mode === "global") {
+      if (mode === "global") {
       if (activeNode) focusNode(activeNode);
-      else cy.fit(visibleElements(), 80);
+      else cy.fit(visibleElements(), 140);
       return;
     }
     if (activeNode) {
@@ -1502,7 +1527,7 @@ async function initGraph() {
         if (graphMode === "local" && activeNode) applyLocalMode();
         else {
           clearState();
-          cy.fit(visibleElements(), 80);
+          cy.fit(visibleElements(), 140);
         }
       }
       if (action === "cluster") {
