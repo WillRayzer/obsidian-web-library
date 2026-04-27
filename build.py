@@ -840,7 +840,7 @@ a { color: inherit; }
 .sidebar-label {
   display: inline-block;
   margin-bottom: 8px;
-  color: var(--muted);
+  color: var(--accent-2);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.75rem;
@@ -856,7 +856,7 @@ a { color: inherit; }
   text-decoration: none;
 }
 .nav-link:hover {
-  background: rgba(255, 255, 255, 0.04);
+  background: linear-gradient(90deg, rgba(184, 211, 255, 0.10), rgba(227, 166, 192, 0.08));
 }
 .nav-link span {
   color: var(--muted);
@@ -867,6 +867,11 @@ a { color: inherit; }
 .hero {
   padding: 28px;
   margin-bottom: 24px;
+  background:
+    radial-gradient(circle at right top, rgba(184, 211, 255, 0.20), transparent 30%),
+    radial-gradient(circle at left bottom, rgba(227, 166, 192, 0.16), transparent 28%),
+    linear-gradient(135deg, rgba(216, 178, 108, 0.10), rgba(255,255,255,0.01)),
+    var(--surface);
 }
 .hero-copy h1, .note-hero h1 {
   margin: 8px 0 14px;
@@ -882,8 +887,8 @@ a { color: inherit; }
   display: inline-block;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(216, 178, 108, 0.14);
-  color: #f4e3be;
+  background: linear-gradient(90deg, rgba(216, 178, 108, 0.30), rgba(184, 211, 255, 0.20), rgba(227, 166, 192, 0.20));
+  color: #fff4d6;
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -915,7 +920,7 @@ a { color: inherit; }
 .metric {
   padding: 16px;
   border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  background: linear-gradient(180deg, rgba(184, 211, 255, 0.08), rgba(227, 166, 192, 0.05));
   border: 1px solid var(--border);
 }
 .metric strong {
@@ -1002,8 +1007,8 @@ a { color: inherit; }
   min-height: 30px;
   padding: 0 10px;
   border-radius: 999px;
-  background: rgba(184, 211, 255, 0.13);
-  color: #dce9ff;
+  background: linear-gradient(90deg, rgba(184, 211, 255, 0.16), rgba(227, 166, 192, 0.14));
+  color: #f5f7ff;
   font-size: 0.84rem;
 }
 .tag.large {
@@ -1029,8 +1034,8 @@ a { color: inherit; }
   padding: 32px;
   margin: 0;
   background:
-    linear-gradient(135deg, rgba(184, 211, 255, 0.10), rgba(216, 178, 108, 0.10), rgba(227, 166, 192, 0.08)),
-    rgba(18, 14, 22, 0.25);
+    linear-gradient(135deg, rgba(184, 211, 255, 0.18), rgba(216, 178, 108, 0.18), rgba(227, 166, 192, 0.16)),
+    rgba(18, 14, 22, 0.18);
 }
 .note-content, .related {
   padding: 0 32px 32px;
@@ -1092,7 +1097,7 @@ a { color: inherit; }
 }
 .graph-button {
   border: 1px solid var(--border);
-  background: rgba(255,255,255,0.04);
+  background: rgba(184, 211, 255, 0.08);
   color: var(--text);
   border-radius: 999px;
   min-height: 34px;
@@ -1100,17 +1105,17 @@ a { color: inherit; }
   cursor: pointer;
 }
 .graph-button:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(216, 178, 108, 0.22);
 }
 .graph-button.is-active {
-  background: rgba(216, 178, 108, 0.18);
-  color: #f4e3be;
+  background: linear-gradient(90deg, rgba(216, 178, 108, 0.42), rgba(184, 211, 255, 0.26), rgba(227, 166, 192, 0.20));
+  color: #fff4d6;
 }
 .graph-select {
   min-height: 34px;
   border-radius: 10px;
   border: 1px solid var(--border);
-  background: rgba(255,255,255,0.04);
+  background: rgba(227, 166, 192, 0.08);
   color: var(--text);
   padding: 0 10px;
 }
@@ -1124,8 +1129,10 @@ a { color: inherit; }
   border-radius: 16px;
   border: 1px solid var(--border);
   background:
-    radial-gradient(circle at center, rgba(143, 181, 255, 0.06), transparent 40%),
-    rgba(8, 12, 16, 0.82);
+    radial-gradient(circle at center, rgba(184, 211, 255, 0.16), transparent 34%),
+    radial-gradient(circle at top right, rgba(216, 178, 108, 0.16), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(227, 166, 192, 0.14), transparent 28%),
+    rgba(10, 8, 13, 0.84);
   overflow: hidden;
   position: relative;
 }
@@ -1134,14 +1141,14 @@ a { color: inherit; }
   padding: 14px 16px;
   border-radius: 14px;
   border: 1px solid var(--border);
-  background: rgba(255,255,255,0.03);
+  background: linear-gradient(180deg, rgba(184, 211, 255, 0.10), rgba(255,255,255,0.03));
 }
 .graph-highlights {
   margin-top: 14px;
   padding: 14px 16px;
   border-radius: 14px;
   border: 1px solid var(--border);
-  background: rgba(255,255,255,0.03);
+  background: linear-gradient(180deg, rgba(216, 178, 108, 0.10), rgba(255,255,255,0.03));
 }
 .graph-selection strong {
   display: block;
@@ -1168,14 +1175,14 @@ a { color: inherit; }
   width: 100%;
   padding: 10px 12px;
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.06);
-  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(216, 178, 108, 0.22);
+  background: rgba(184, 211, 255, 0.04);
   color: var(--text);
   cursor: pointer;
   text-align: left;
 }
 .graph-highlight-item:hover {
-  background: rgba(255,255,255,0.06);
+  background: linear-gradient(90deg, rgba(184, 211, 255, 0.14), rgba(227, 166, 192, 0.14));
 }
 .graph-highlight-item span {
   color: var(--muted);
