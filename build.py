@@ -1856,7 +1856,7 @@ async function initExperimentalGraph() {
     ...node,
     group: (node.area || "Sem area").toLowerCase(),
     color: areaPalette[(node.area || "").toLowerCase()] || "#7caa6d",
-    val: Math.max(2, Math.min(7, Math.round((3 + Number(node.degree || 0)) * 0.6))),
+    val: Math.max(1, Math.min(4, Math.round((2 + Number(node.degree || 0)) * 0.4))),
   }));
   const links = graph.edges.map((edge) => ({ ...edge }));
   const data = { nodes, links };
@@ -1963,7 +1963,7 @@ async function initExperimentalGraph() {
   const Graph = ForceGraph()(container)
     .graphData(data)
     .backgroundColor("rgba(0,0,0,0)")
-    .nodeRelSize(4.8)
+    .nodeRelSize(3.1)
     .nodeVal("val")
     .cooldownTicks(240)
     .enableNodeDrag(true)
