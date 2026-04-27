@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import os
+import stat
 import shutil
 import subprocess
 import time
@@ -38,9 +39,14 @@ def repo_clean() -> bool:
     return not result.stdout.strip()
 
 
+def handle_remove_readonly(func, path, exc_info) -> None:
+    os.chmod(path, stat.S_IWRITE | stat.S_IREAD | stat.S_IEXEC)
+    func(path)
+
+
 def copy_tree(source: Path, target: Path) -> None:
     if target.exists():
-        shutil.rmtree(target)
+        shutil.rmtree(target, onexc=handle_remove_readonly)
     shutil.copytree(source, target, ignore=shutil.ignore_patterns("workspace.json"))
 
 
