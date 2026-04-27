@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Relação entre magnetismo, ondas neurais e frequência em Hz]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Artigos Científicos de Neurofeedback]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -95,6 +95,6 @@ Resposta: Explicação científica sobre:
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Relação entre magnetismo, ondas neurais e frequência em Hz]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

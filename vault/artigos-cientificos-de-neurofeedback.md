@@ -6,7 +6,7 @@ model: "GPT-5.5 Thinking"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/psicologia"
+folder: "04-Studies/neurociencia-psicologia"
 tags:
   - ia
   - conversa
@@ -35,6 +35,8 @@ related:
 ## Objective
 
 O objetivo da conversa foi elencar artigos científicos relevantes sobre neurofeedback, organizando referências iniciais por áreas de aplicação, como revisões gerais, TDAH, depressão, TEPT, neurofeedback por fMRI em tempo real, desempenho motor e Parkinson. A finalidade principal foi criar uma base de estudo para aprofundamento posterior, com foco em revisões sistemáticas, meta-análises e estudos clínicos randomizados.
+
+Esta nota se conecta especialmente com [[O que se estuda em neurolinguística]], [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]], [[Inteligência e inteligência erótica à luz da neurociência emocional]] e [[Rigidez cognitiva, plasticidade sináptica e autismo]] por compartilhar temas de neurociência aplicada, plasticidade cerebral e regulação emocional.
 
 ## Conversation
 
@@ -155,6 +157,7 @@ Claro, Will! Aqui vai uma lista curada, com foco em revisões sistemáticas, met
 - Foram destacados critérios de leitura crítica, especialmente presença de controle sham, cegamento, padronização de protocolo, heterogeneidade dos métodos e acompanhamento longitudinal.
 - O conteúdo foi convertido para uma nota Markdown estruturada, pronta para uso no Obsidian.
 - O arquivo gerado serve como ponto de partida para uma bibliografia comentada sobre neurofeedback.
+- A nota pode funcionar como ponte entre estudos de [[O que se estuda em neurolinguística]], memória e trauma em [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]] e intervenções sobre cognição em [[Rigidez cognitiva, plasticidade sináptica e autismo]].
 
 ## Next Steps
 
