@@ -595,3 +595,12 @@ Essa organização permite articular teoria, prática, reflexão e participaçã
 - [ ] Validar se a autoavaliação com nota máxima ou alta condiz com a experiência real.
 - [ ] Fazer leitura final do arquivo Word antes de enviar no AVA.
 - [ ] Guardar este arquivo Markdown no Obsidian na pasta `03-Studies/Psicologia/Projeto-de-Extensao`.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -6,7 +6,7 @@ model: "GPT 5.3"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/logica"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -17,6 +17,9 @@ tags:
   - exercicio
   - verdade
   - mentira
+  - psicologia
+  - mente
+  - comportamento
 topic: "Análise de um problema lógico com verdade e mentira."
 summary: >
   A conversa explora o conceito de raciocínio lógico e aprofunda um exercício clássico envolvendo três pessoas e afirmações conflitantes. O resultado demonstra como testar hipóteses para encontrar a única solução consistente.
@@ -25,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Amostragem Probabilística e Não-Probabilística]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -88,3 +91,12 @@ A única solução lógica é que B diz a verdade e C é o culpado.
 - [ ] Praticar outros exercícios de lógica
 - [ ] Estudar tabelas-verdade
 - [ ] Relacionar com lógica proposicional
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Amostragem Probabilística e Não-Probabilística]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-RELATED-LINKS:END -->

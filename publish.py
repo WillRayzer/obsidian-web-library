@@ -17,6 +17,8 @@ CONFIG_PATH = ROOT / "config.json"
 SYNC_STATUS_PATH = ROOT / "sync-status.json"
 NORMALIZE_SCRIPT = ROOT / "normalize_conversations.py"
 ENRICH_SCRIPT = ROOT / "enrich_vault_metadata.py"
+WEAK_NOTES_REPORT_SCRIPT = ROOT / "report_weak_notes.py"
+REPORTS_DIR = ROOT / "reports"
 
 
 def run(cmd: list[str], cwd: Path | None = None) -> None:
@@ -54,7 +56,15 @@ def copy_tree(source: Path, target: Path) -> None:
     shutil.copytree(
         source,
         temp_target,
-        ignore=shutil.ignore_patterns("workspace.json", "00-Backups", ".obsidian"),
+        ignore=shutil.ignore_patterns(
+            "workspace.json",
+            "00-Backups",
+            "00-Templates",
+            ".obsidian",
+            "*.docx",
+            "*.pdf",
+            "*.canvas",
+        ),
     )
 
     target.mkdir(parents=True, exist_ok=True)
@@ -77,6 +87,19 @@ def prepare_vault(target: Path) -> None:
     run(["python3", str(ENRICH_SCRIPT), str(target), "--write"])
 
 
+def update_reports(target: Path) -> None:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    run(
+        [
+            "python3",
+            str(WEAK_NOTES_REPORT_SCRIPT),
+            str(target),
+            "--output",
+            str(REPORTS_DIR / "weak-notes-report.md"),
+        ]
+    )
+
+
 def tree_hash(root: Path) -> str:
     digest = hashlib.sha256()
     for path in sorted(p for p in root.rglob("*") if p.is_file()):
@@ -92,6 +115,7 @@ def sync_and_publish(message: str | None = None) -> bool:
     before = tree_hash(target) if target.exists() else ""
     copy_tree(source, target)
     prepare_vault(target)
+    update_reports(target)
     after = tree_hash(target)
 
     if before == after and repo_clean():

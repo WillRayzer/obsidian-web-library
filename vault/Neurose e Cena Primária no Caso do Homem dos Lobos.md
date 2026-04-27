@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -77,3 +77,12 @@ As principais fontes incluem Freud (1918), Brunswick (1928), Mahony (1992), Roud
 - [ ] Estudar conceito de cena primária em outros casos clínicos
 - [ ] Relacionar com teoria contemporânea (borderline e trauma)
 - [ ] Criar mapa comparativo entre neurose, psicose e borderline
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

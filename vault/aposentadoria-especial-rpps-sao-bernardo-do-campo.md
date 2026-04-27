@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -92,3 +92,12 @@ Entregável desta nota:
 - [ ] Verificar requisitos de tempo, idade, transição e forma de cálculo do benefício.
 - [ ] Confirmar qual órgão gestor do RPPS municipal é competente pelo tema.
 - [ ] Comparar a norma municipal com a Constituição Federal, a EC 103/2019 e a jurisprudência aplicável.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Aposentadorias especiais no IPREM]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

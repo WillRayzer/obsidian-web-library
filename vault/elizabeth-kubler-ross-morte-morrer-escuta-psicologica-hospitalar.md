@@ -101,3 +101,12 @@ No ambiente hospitalar, essas ideias podem orientar uma prática mais humanizada
 - [ ] Complementar com uma breve reflexão sobre ética, comunicação de más notícias e humanização hospitalar.
 - [ ] Criar uma versão resumida para estudo rápido dos cinco estágios.
 - [ ] Criar um mapa mental sobre morte, morrer, terminalidade e escuta psicológica.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-RELATED-LINKS:END -->

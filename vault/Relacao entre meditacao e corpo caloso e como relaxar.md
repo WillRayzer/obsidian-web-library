@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -183,3 +183,12 @@ Conclusão científica:
 - [ ] Aprofundar estudos com DTI e EEG
 - [ ] Relacionar com HRV e coerência cardíaca
 - [ ] Expandir revisão científica para meta-análise
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

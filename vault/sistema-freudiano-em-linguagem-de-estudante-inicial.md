@@ -244,3 +244,12 @@ Texto reescrito em linguagem de estudante inicial:
 - [ ] Transformar a explicação em resumo para atividade escolar ou acadêmica.
 - [ ] Criar uma versão em tópicos para facilitar estudo e memorização.
 - [ ] Comparar o sistema freudiano com outros autores da psicologia.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->

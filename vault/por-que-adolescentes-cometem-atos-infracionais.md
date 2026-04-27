@@ -171,3 +171,12 @@ Se você realmente precisar em **.doc** (formato antigo), me avise que eu conver
 - [ ] Criar uma nota complementar sobre violência, assimetria de poder e negação do outro enquanto sujeito.
 - [ ] Transformar a análise em resposta acadêmica curta para atividade de sistematização.
 - [ ] Relacionar com outras notas em `[[00-Dashboard - Biblioteca]]`.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[Medicina Germânica]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-RELATED-LINKS:END -->

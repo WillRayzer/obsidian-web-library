@@ -19,14 +19,15 @@ tags:
   - orientacao
   - profissional
   - adolescentes
+  - emocional
 topic: "Resumo integrado sobre orientação profissional para adolescentes."
 summary: >
   Documento resume os principais conceitos sobre orientação profissional com adolescentes, incluindo planejamento, técnicas, vínculo, ética e teoria. Integra conteúdos dos arquivos analisados e respostas estruturadas para estudo e aplicação prática.
 status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -75,3 +76,12 @@ Também foi solicitado e entregue um resumo integrado dos arquivos, abordando:
 - [ ] Criar versão resumida para prova
 - [ ] Relacionar com outras notas de psicologia e desenvolvimento
 - [ ] Expandir com casos práticos de aplicação
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Por que adolescentes cometem atos infracionais?]]
+<!-- AUTO-RELATED-LINKS:END -->

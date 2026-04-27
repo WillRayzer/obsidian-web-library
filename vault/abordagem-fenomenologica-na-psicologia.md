@@ -179,3 +179,12 @@ A conversa resultou em uma síntese organizada da **abordagem fenomenológica na
 - [ ] Expandir cada autor com contexto histórico e contribuições específicas
 - [ ] Relacionar a fenomenologia com a psicologia humanista e existencial
 - [ ] Criar uma versão visual limpa do mapa mental em português
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->

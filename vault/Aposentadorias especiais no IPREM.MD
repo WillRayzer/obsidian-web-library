@@ -133,3 +133,12 @@ Conferir o texto integral do Decreto 61.151 para validar cada categoria com prec
  Produzir uma versão visual mais limpa do fluxograma para estudo ou apresentação.
  Adicionar referências legais específicas ao arquivo, artigo por artigo.
  Relacionar este conteúdo com notas futuras sobre IPREM, RPPS e direito previdenciário municipal.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

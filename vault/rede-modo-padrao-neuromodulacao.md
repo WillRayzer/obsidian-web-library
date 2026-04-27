@@ -80,3 +80,12 @@ Resposta: Explicação científica sobre:
 - [ ] Explorar aplicação prática em protocolos pessoais
 - [ ] Criar conexão com espiritualidade e consciência
 - [ ] Relacionar com outras notas sobre mente e comportamento
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Relação entre magnetismo, ondas neurais e frequência em Hz]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Artigos Científicos de Neurofeedback]]
+<!-- AUTO-RELATED-LINKS:END -->

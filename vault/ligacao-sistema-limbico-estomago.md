@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Como o corpo armazena o trauma]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -82,3 +82,12 @@ sensação física → interpretação emocional → resposta fisiológica → n
 - [ ] Explorar aprofundamento sobre microbiota intestinal e comportamento
 - [ ] Relacionar com práticas terapêuticas (respiração, alimentação, regulação emocional)
 - [ ] Criar conexão com estudos de epigenética emocional
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Como o corpo armazena o trauma]]
+<!-- AUTO-RELATED-LINKS:END -->

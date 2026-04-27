@@ -6,7 +6,7 @@ model: "GPT 5.3"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/autoconhecimento-e-espiritualidade"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -18,15 +18,17 @@ tags:
   - beneficios
   - melao
   - corpo
+  - psicologia
+  - mente
 topic: "Benefícios do melão para a saúde."
 summary: >
   A conversa aborda os principais benefícios do melão para o corpo, incluindo hidratação, vitaminas e suporte à saúde. Também destaca seu papel na digestão, controle de peso e bem-estar geral.
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Benefícios do alho para o corpo humano]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -59,3 +61,12 @@ Principais benefícios:
 
 - [ ] Aprofundar análise nutricional com tabela detalhada
 - [ ] Relacionar com outras frutas funcionais
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Saúde holística e saúde espiritual]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-RELATED-LINKS:END -->

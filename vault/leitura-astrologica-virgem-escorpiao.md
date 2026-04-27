@@ -87,3 +87,12 @@ O Ascendente indica como a pessoa se manifesta externamente.
 - [ ] Relacionar com [[Astrologia Psicológica]]
 - [ ] Explorar missão de vida com base em mapa completo
 - [ ] Integrar com estudos de [[Autoconhecimento]] e [[Espiritualidade]]
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

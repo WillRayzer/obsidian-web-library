@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -110,3 +110,12 @@ Cada capítulo foi traduzido respeitando:
 - [ ] Integrar conteúdo com estudos de fitoterapia moderna
 - [ ] Cruzar informações com neurociência e saúde holística (seu campo de interesse)
 - [ ] Criar banco de dados das ervas (para uso em app ou ERP futuro)
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

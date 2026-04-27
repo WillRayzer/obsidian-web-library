@@ -25,10 +25,10 @@ summary: >
   Foi explorada a finalidade da avaliação psicológica no contexto da aviação, destacando seu papel na segurança operacional e na análise de competências emocionais e cognitivas dos profissionais. A resposta abordou os principais aspectos avaliados e sua importância preventiva.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -64,3 +64,12 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 - [ ] Estudar casos reais de falhas humanas na aviação  
 - [ ] Relacionar com psicologia do trabalho e ergonomia cognitiva  
 - [ ] Explorar aplicação prática em contextos de alta responsabilidade
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-RELATED-LINKS:END -->

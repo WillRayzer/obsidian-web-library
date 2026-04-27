@@ -75,3 +75,12 @@ Como entrega, esta nota em Markdown organiza o conteúdo da conversa em formato 
 - [ ] Explorar o papel da linguagem no pensamento abstrato.
 - [ ] Comparar evolução biológica e evolução cultural.
 - [ ] Criar uma nota complementar sobre psicologia evolutiva.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

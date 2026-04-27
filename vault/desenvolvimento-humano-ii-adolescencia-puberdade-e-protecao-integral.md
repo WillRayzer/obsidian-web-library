@@ -214,3 +214,12 @@ Segundo o ECA, é dever da família, da sociedade e do poder público assegurar 
 - [ ] Transformar as 17 respostas em versão mais curta para estudo antes de prova ou atividade avaliativa.
 - [ ] Criar flashcards no Obsidian com perguntas e respostas sobre puberdade, adolescência, Freud, Erikson, TCC, Bauman, tecnologia e ECA.
 - [ ] Relacionar esta nota com outras notas sobre [[Psicologia do Desenvolvimento]], [[Adolescência]], [[Educação Básica]], [[ECA]] e [[Projeto de Vida]].
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Medicina Germânica]]
+<!-- AUTO-RELATED-LINKS:END -->

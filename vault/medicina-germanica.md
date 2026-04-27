@@ -6,7 +6,7 @@ model: "GPT-5.5 Thinking"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -134,3 +134,12 @@ Caso a busca seja por uma abordagem **integrativa e holística**, o caminho mais
 - [ ] Relacionar este tema com estudos sobre psicossomática, trauma, estresse e saúde corpo-mente.
 - [ ] Pesquisar fontes médicas confiáveis sobre abordagens mente-corpo com evidência científica.
 - [ ] Evitar qualquer substituição de tratamento médico convencional por práticas sem comprovação.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-RELATED-LINKS:END -->

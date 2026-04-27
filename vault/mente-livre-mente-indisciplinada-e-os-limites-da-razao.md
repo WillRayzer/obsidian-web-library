@@ -25,9 +25,9 @@ summary: >
   A conversa explorou duas expressões curtas: 'mente livre testa os limites da razão' e 'mente indisciplinada'.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -70,3 +70,12 @@ Uma mente livre pode ampliar horizontes e desafiar limites conceituais, enquanto
 - [ ] Relacionar o tema com filosofia existencial, fenomenologia ou psicologia humanista.
 - [ ] Explorar como criatividade e foco podem coexistir.
 - [ ] Criar uma versão expandida em formato de ensaio reflexivo.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

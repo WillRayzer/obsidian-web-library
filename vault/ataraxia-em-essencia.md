@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
   - "[[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -65,3 +65,12 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 
 - [ ] Criar uma rotina diária baseada nos exercícios apresentados
 - [ ] Conectar com outras notas sobre estoicismo e mindfulness
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
+- [[Elizabeth Kübler-Ross, morte, morrer e escuta psicológica hospitalar]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -25,9 +25,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -99,3 +99,12 @@ Integração com abordagem holística:
 - [ ] Avaliar cursos com base em objetivos terapêuticos
 - [ ] Integrar técnicas de PNL na prática profissional
 - [ ] Criar nota complementar sobre aplicações terapêuticas específicas
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]
+<!-- AUTO-RELATED-LINKS:END -->

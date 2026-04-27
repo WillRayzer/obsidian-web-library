@@ -25,10 +25,10 @@ summary: >
   A conversa analisou o caso de José, uma criança de cinco anos com sinais compatíveis com transtorno do espectro autista, cuja família recebeu a confirmação diagnóstica por uma psicóloga. Foram sintetizados conhecimentos técnicos, comunicacionais, éticos e familiares que podem tornar a revelação do diagnóstico mais acolhedora, clara e menos prejudicial emocionalmente aos pais.
 status: complete
 related:
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Artigos Científicos de Neurofeedback]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Medicina Germânica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -57,3 +57,12 @@ Inclua aqui todo o conteúdo completo, irrestrito, do inicio da abertura da conv
 - [ ] Relacionar esta nota com estudos sobre desenvolvimento infantil, inclusão escolar e intervenção precoce.
 - [ ] Criar uma nota específica sobre protocolos de comunicação de más notícias, como SPIKES e NURSE.
 - [ ] Criar uma nota complementar sobre direitos educacionais e terapêuticos de crianças com TEA no Brasil.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Artigos Científicos de Neurofeedback]]
+- [[Medicina Germânica]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -6,7 +6,7 @@ model: "GPT-5.5 Thinking"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "03-Studies/estatistica"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -184,3 +184,12 @@ CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: 
 - [ ] Manter a referência bibliográfica em formato ABNT ao final do trabalho.
 - [ ] Se necessário, acrescentar exemplos práticos em cada tipo de amostragem.
 - [ ] Verificar se a instituição exige citação direta ou indireta no corpo do texto.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+<!-- AUTO-RELATED-LINKS:END -->

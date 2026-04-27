@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -116,3 +116,12 @@ Uma trava emocional é um mecanismo inconsciente de proteção que surge quando 
 - [ ] Avaliar abordagem terapêutica mais adequada (clínica ou integrativa)
 - [ ] Desenvolver um protocolo pessoal de autoconhecimento
 - [ ] Integrar práticas corporais para liberação emocional
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+<!-- AUTO-RELATED-LINKS:END -->

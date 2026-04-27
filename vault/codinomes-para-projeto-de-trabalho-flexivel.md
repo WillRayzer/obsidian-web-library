@@ -25,10 +25,10 @@ summary: >
   Foram sugeridos cinco codinomes para um projeto que introduz arranjos de trabalho flexíveis. Cada nome veio acompanhado de um significado estratégico e simbólico, com foco em adaptabilidade, conexão, fluidez, bem-estar e diversidade de formatos de trabalho.
 status: complete
 related:
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -67,3 +67,12 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 - [ ] Definir se o tom desejado é mais corporativo, humano, inovador ou simbólico.
 - [ ] Testar os nomes com liderança e stakeholders internos.
 - [ ] Verificar se o codinome escolhido pode evoluir para identidade visual ou nome de programa interno.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+<!-- AUTO-RELATED-LINKS:END -->

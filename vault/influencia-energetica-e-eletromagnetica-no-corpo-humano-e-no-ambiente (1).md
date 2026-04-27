@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -255,3 +255,12 @@ A resposta dada foi mais conjectural e exploratória, apontando que:
 - [ ] Consultar um engenheiro eletricista ou especialista em compatibilidade eletromagnética para um projeto mais seguro e eficaz.
 - [ ] Definir se o objetivo do quarto será apenas redução prática de exposição ou também harmonização subjetiva do ambiente.
 - [ ] Usar plantas e música como complementos de conforto e ambiência, sem tratá-los como substitutos para medição e blindagem real.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

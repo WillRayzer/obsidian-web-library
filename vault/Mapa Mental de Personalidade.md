@@ -25,10 +25,10 @@ summary: >
   Foi desenvolvido um mapa mental completo integrando personalidade e identidade, com aprofundamento teórico e estrutural. O conteúdo explora definições, teorias, fatores influenciadores e interseções entre os conceitos. O material foi organizado para aplicação prática em autoconhecimento e análise psicológica.
 status: complete
 related:
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Mapa Mental de Identidade e Personalidade]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Mapa Mental de Identidade e Personalidade]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -249,3 +249,12 @@ A integração dos dois gera:
 - [ ] Criar versão narrativa para livro ou conteúdo
 
 ---
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Mapa Mental de Identidade e Personalidade]]
+<!-- AUTO-RELATED-LINKS:END -->

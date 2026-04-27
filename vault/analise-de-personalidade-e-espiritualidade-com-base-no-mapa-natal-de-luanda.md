@@ -206,3 +206,12 @@ A conversa levou às seguintes conclusões centrais sobre a personalidade e a es
 - [ ] Organizar os aspectos desafiadores do mapa em formato de “sombras e potenciais”.
 - [ ] Cruzar esta leitura com arquétipos espirituais ou psicológicos.
 - [ ] Produzir uma versão resumida e poética para uso pessoal, ritualístico ou contemplativo.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

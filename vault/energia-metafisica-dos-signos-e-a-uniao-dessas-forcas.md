@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -384,3 +384,12 @@ Um registro conceitual consistente das energias metafísicas dos signos do zodí
 - [ ] Converter as descrições em linguagem mais poética, filosófica ou hermética
 - [ ] Relacionar os signos aos elementos, modalidades e planetas sob a mesma ótica metafísica
 - [ ] Criar conexões com alquimia, cabala, hermetismo e cosmologia simbólica
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->

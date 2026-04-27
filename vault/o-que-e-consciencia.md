@@ -6,7 +6,7 @@ model: "GPT-5.5 Thinking"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/autoconhecimento-e-espiritualidade"
+folder: "04-Studies/neurociencia-psicologia"
 tags:
   - ia
   - conversa
@@ -18,15 +18,17 @@ tags:
   - espiritualidade
   - autoconhecimento
   - energia
+  - cerebro
+  - cognicao
 topic: "Definição e compreensão da consciência sob múltiplas perspectivas."
 summary: >
   A conversa explora o conceito de consciência a partir de diferentes áreas do conhecimento, incluindo filosofia, psicologia, neurociência e espiritualidade. O conteúdo apresenta definições, interpretações e uma síntese integradora sobre o que significa estar consciente.
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -62,3 +64,12 @@ Uma definição sintética seria: consciência é a capacidade de estar presente
 - [ ] Aprofundar em uma das áreas específicas, como neurociência ou espiritualidade
 - [ ] Criar nota comparativa entre modelos de consciência
 - [ ] Relacionar com conceitos como mente, ego e identidade
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-RELATED-LINKS:END -->

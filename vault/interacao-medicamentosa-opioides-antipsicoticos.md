@@ -6,7 +6,7 @@ model: "GPT-5.5 Thinking"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -198,3 +198,12 @@ Conclui-se que o uso concomitante de analgésicos narcóticos e medicamentos uti
 - [ ] Revisar o texto final para adequação à norma ABNT exigida pela instituição.
 - [ ] Inserir a conclusão no trabalho acadêmico, mantendo linguagem clara e objetiva.
 - [ ] Caso necessário, transformar o conteúdo em texto corrido para entrega formal.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

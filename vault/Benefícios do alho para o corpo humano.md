@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "chat"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -19,15 +19,16 @@ tags:
   - beneficios
   - corpo
   - humano
+  - psicologia
 topic: "Benefícios e uso do alho na saúde humana."
 summary: >
   A conversa explorou os principais benefícios do alho para o corpo humano, incluindo efeitos cardiovasculares, imunológicos e metabólicos. Também abordou o tempo de uso recomendado e cuidados necessários no consumo contínuo.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Benefícios do Melão para o Corpo]]"
-  - "[[Medicina Germânica]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Medicina Germânica]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -58,3 +59,12 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 - [ ] Explorar outros alimentos funcionais com benefícios semelhantes
 - [ ] Criar uma rotina alimentar que inclua o alho de forma equilibrada
 - [ ] Relacionar com notas de nutrição e saúde no vault
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Medicina Germânica]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-RELATED-LINKS:END -->

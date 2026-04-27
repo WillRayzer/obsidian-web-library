@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -92,3 +92,12 @@ Os olhos estão ligados ao Fígado, e alterações como inflamação e dor indic
 - [ ] Aprofundar relação olhos-Fígado na MTC
 - [ ] Integrar com protocolos naturais e alimentação
 - [ ] Relacionar com outras manifestações inflamatórias
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Por que adolescentes cometem atos infracionais?]]
+<!-- AUTO-RELATED-LINKS:END -->

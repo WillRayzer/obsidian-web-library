@@ -187,3 +187,12 @@ Frase-síntese da reflexão:
 - [ ] Praticar a técnica dos 2 minutos sempre que surgir bloqueio.
 - [ ] Definir uma pequena ação diária que represente avanço, mesmo sem sensação de segurança total.
 - [ ] Revisar semanalmente se o padrão foi reduzido, repetido ou substituído por uma ação concreta.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-RELATED-LINKS:END -->

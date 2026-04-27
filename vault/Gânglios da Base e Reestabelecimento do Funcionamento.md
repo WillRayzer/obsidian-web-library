@@ -106,3 +106,12 @@ Os gânglios da base funcionam como um sistema de **filtro e ajuste fino do comp
 - [ ] Aprofundar estudo em [[Neuroplasticidade]]  
 - [ ] Relacionar com [[Dopamina e Sistema de Recompensa]]  
 - [ ] Expandir para aplicações em performance e comportamento
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Relacao entre meditacao e corpo caloso e como relaxar]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

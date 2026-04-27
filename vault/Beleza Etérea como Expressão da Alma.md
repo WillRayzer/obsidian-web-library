@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -130,3 +130,12 @@ Quando esses quatro níveis estão alinhados, a beleza etérea emerge naturalmen
 - [ ] Explorar a relação entre beleza etérea e frequência energética humana  
 - [ ] Aplicar o conceito em branding (ex: YLLA Atelier – estética sensorial e simbólica)  
 - [ ] Criar um artigo ou capítulo de livro com essa estrutura
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+<!-- AUTO-RELATED-LINKS:END -->

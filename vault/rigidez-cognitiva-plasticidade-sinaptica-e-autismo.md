@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -91,3 +91,12 @@ Entretanto, é fundamental entender que a neurodiversidade do autismo significa 
 - [ ] Estudar a participação do córtex pré-frontal e de circuitos corticoestriatais.
 - [ ] Revisar literatura científica sobre plasticidade sináptica no autismo.
 - [ ] Comparar rigidez cognitiva em TEA, TDAH, TOC e transtornos neurodegenerativos.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -112,3 +112,12 @@ Como entrega prática da conversa, ficaram consolidadas respostas para as seguin
 - [ ] Relacionar o caso com conceitos de Carl Rogers
 - [ ] Comparar a leitura humanista com outras abordagens psicológicas
 - [ ] Produzir uma versão resumida para apresentação oral
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+<!-- AUTO-RELATED-LINKS:END -->

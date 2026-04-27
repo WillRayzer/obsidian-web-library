@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -110,3 +110,12 @@ Utilizados para induzir transe, cura e conexão espiritual, através de repetiç
 - [ ] Mapear símbolos e seus significados em diferentes culturas
 - [ ] Integrar esses conceitos no universo narrativo de Eileen
 - [ ] Explorar aplicação moderna (psicológica e simbólica) dessas práticas
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->

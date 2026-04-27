@@ -75,6 +75,9 @@ STOPWORDS = {
     "se", "ou", "sem", "sua", "seu", "suas", "seus", "del", "la", "el", "the",
 }
 
+AUTO_RELATED_START = "<!-- AUTO-RELATED-LINKS:START -->"
+AUTO_RELATED_END = "<!-- AUTO-RELATED-LINKS:END -->"
+
 
 @dataclass
 class Note:
@@ -254,6 +257,31 @@ def infer_related(note: Note, notes: list[Note], tags: list[str]) -> list[str]:
     return related[:5]
 
 
+def ensure_body_related_links(body: str, related: list[str]) -> str:
+    cleaned = body.strip()
+    pattern = re.compile(
+        rf"\n?{re.escape(AUTO_RELATED_START)}.*?{re.escape(AUTO_RELATED_END)}\n?",
+        re.S,
+    )
+    cleaned = re.sub(pattern, "\n", cleaned).strip()
+
+    links = [link for link in related if link and link != "[[00-Dashboard - Biblioteca]]"]
+    if not links:
+        return cleaned + "\n"
+
+    section_lines = [
+        AUTO_RELATED_START,
+        "## Related Notes",
+        "",
+        *[f"- {link}" for link in links],
+        AUTO_RELATED_END,
+    ]
+    section = "\n".join(section_lines)
+    if cleaned:
+        return cleaned + "\n\n" + section + "\n"
+    return section + "\n"
+
+
 def backup_file(path: Path, backup_root: Path, vault_root: Path) -> None:
     destination = backup_root / path.relative_to(vault_root)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -283,7 +311,8 @@ def main() -> None:
         front["folder"] = theme["folder"] if theme else str(front.get("folder") or "04-Studies/tema")
         front["tags"] = tags
         front["related"] = related
-        serialized = dump_frontmatter(front).strip() + "\n\n" + note.body.strip() + "\n"
+        enriched_body = ensure_body_related_links(note.body, related)
+        serialized = dump_frontmatter(front).strip() + "\n\n" + enriched_body.strip() + "\n"
         current = note.path.read_text(encoding="utf-8", errors="replace")
         if serialized == current:
             continue

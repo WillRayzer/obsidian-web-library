@@ -6,22 +6,25 @@ model: "GPT-5.4"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/tema"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
   - obsidian
   - bem-vindo
   - vindo
+  - psicologia
+  - mente
+  - comportamento
 topic: "Este é o seu novo *Cofre*. Anote algo, [[crie um link]], ou tente [o Importer](https://help.obsidian.md/Plugins/Importer)! Quando estiver pronto, exclua esta nota e monte o cofre d"
 summary: >
   Este é o seu novo *Cofre*. Anote algo, [[crie um link]], ou tente [o Importer](https://help.obsidian.md/Plugins/Importer)! Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 status: complete
 related:
   - "[[Dashboard - Biblioteca]]"
-  - "[[Medicina Germânica]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -44,3 +47,12 @@ Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 ## Next Steps
 
 - [ ] Relacionar com outras notas
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Dashboard - Biblioteca]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Por que adolescentes cometem atos infracionais?]]
+<!-- AUTO-RELATED-LINKS:END -->

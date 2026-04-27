@@ -137,3 +137,12 @@ A atividade promove escuta empática, insights individuais e reflexão coletiva,
 - [ ] Adaptar para diferentes públicos (clínico, corporativo, educacional)  
 - [ ] Integrar com outras abordagens (psicologia positiva, TCC)  
 - [ ] Testar aplicação prática em grupo piloto
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->

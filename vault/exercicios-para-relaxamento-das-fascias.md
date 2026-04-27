@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]"
+  - "[[O que se estuda em neurolinguística]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -72,3 +72,12 @@ Foram sugeridos exercícios práticos para relaxamento das fáscias:
 - [ ] Integrar exercícios com prática de respiração diária
 - [ ] Explorar técnicas terapêuticas como liberação miofascial profissional
 - [ ] Relacionar com [[mobilidade corporal]] e [[postura]]
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]
+- [[O que se estuda em neurolinguística]]
+<!-- AUTO-RELATED-LINKS:END -->

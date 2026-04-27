@@ -163,3 +163,12 @@ Claro, Will! Aqui vai uma lista curada, com foco em revisões sistemáticas, met
 - [ ] Criar uma tabela comparativa com ano, população, protocolo, número de sessões, grupo controle, resultados e limitações.
 - [ ] Montar uma bibliografia em ABNT e APA.
 - [ ] Relacionar esta nota com outras notas sobre neurociência, trauma, TDAH, depressão, TEPT, regulação emocional e plasticidade cerebral.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Medicina Germânica]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -6,7 +6,7 @@ model: "GPT-5.4"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude"
+folder: "04-Studies/neurociencia-psicologia"
 tags:
   - ia
   - conversa
@@ -26,9 +26,9 @@ summary: >
 status: active
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -126,3 +126,12 @@ Voce pode mover os arquivos para dentro dessas pastas aos poucos, sem perder o u
 ## Next Steps
 
 - [ ] Relacionar com outras notas
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

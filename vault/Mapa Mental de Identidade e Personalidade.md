@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -148,3 +148,12 @@ Criar um mapa mental pode ser um processo muito pessoal e depende de como você 
 - [ ] Relacionar identidade com objetivos de vida e carreira
 - [ ] Integrar este modelo com projetos como Oráculo Integrado ou TAME
 - [ ] Expandir para análise energética/comportamental avançada
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

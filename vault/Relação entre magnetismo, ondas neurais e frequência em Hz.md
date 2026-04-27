@@ -95,3 +95,12 @@ Integração com conceitos amplos:
 - [ ] Desenvolver protocolo terapêutico detalhado por tipo de emoção
 - [ ] Integrar com outras notas sobre epigenética emocional
 - [ ] Conectar com projeto TAME e universo narrativo do usuário
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
+  - "[[Resumo Orientação Profissional para Adolescentes]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -58,3 +58,12 @@ Conteúdo consolidado da conversa:
 - [ ] Criar nota [[Saúde Mental na Adolescência]]
 - [ ] Expandir para aplicação prática
 - [ ] Relacionar com [[Escolha Profissional e Vocação]]
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Por que adolescentes cometem atos infracionais?]]
+- [[Resumo Orientação Profissional para Adolescentes]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

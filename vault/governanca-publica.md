@@ -6,7 +6,7 @@ model: "GPT-5.4 Thinking"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/governanca-publica"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -130,3 +130,12 @@ A conversa consolidou três entregáveis intelectuais principais:
 - [ ] Adicionar exemplos práticos de governança pública no Brasil
 - [ ] Inserir referências bibliográficas e autores-chave do tema
 - [ ] Expandir cada tipo de governança com vantagens, limites e aplicações
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-RELATED-LINKS:END -->

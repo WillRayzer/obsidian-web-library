@@ -25,10 +25,10 @@ summary: >
   A conversa explorou primeiro o simbolismo e as propriedades mágicas atribuídas às margaridas amarelas,
 status: complete
 related:
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -95,3 +95,12 @@ Cheio de encantos, força e aquarela.
 - [ ] Criar uma versão mais curta para cartão de aniversário
 - [ ] Adaptar o poema para legenda de rede social
 - [ ] Produzir uma versão com linguagem mais clássica ou romântica
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+<!-- AUTO-RELATED-LINKS:END -->

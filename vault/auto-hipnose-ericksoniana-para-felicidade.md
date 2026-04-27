@@ -120,3 +120,12 @@ A conversa resultou em dois entregáveis principais:
 - [ ] Desenvolver uma versão em áudio para prática guiada.
 - [ ] Personalizar as sugestões positivas conforme objetivos emocionais específicos.
 - [ ] Relacionar esta prática com outras técnicas de relaxamento e visualização terapêutica.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

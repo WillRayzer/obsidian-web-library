@@ -6,7 +6,7 @@ model: "GPT-5.3"
 source: "OpenAI"
 conversation_type: "chat"
 area: "Studies"
-folder: "04-Studies/saude"
+folder: "04-Studies/psicologia"
 tags:
   - ia
   - conversa
@@ -25,10 +25,10 @@ summary: >
   O trabalho aborda os ciclos de doenças virais, bacterianas, fúngicas e protozoárias, incluindo histórico científico, sintomas, diagnóstico, prevenção e tratamento. Foram integradas diretrizes do Guia de Vigilância em Saúde. Também foram detalhadas doenças específicas de cada grupo.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -135,3 +135,12 @@ Explicadas com ciclos complexos e vetores.
 - [ ] Integrar com outros estudos de microbiologia  
 
 ---
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-RELATED-LINKS:END -->

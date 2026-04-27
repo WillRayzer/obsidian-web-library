@@ -137,3 +137,12 @@ Como resultado, a conversa produziu uma visão organizada e aprofundada do tema,
 - [ ] Estruturar uma rotina semanal de **silêncio, escrita e observação emocional**.
 - [ ] Relacionar sabedoria interna com **autenticidade, propósito e paz interior**.
 - [ ] Expandir o tema para uma abordagem terapêutica ou espiritual mais aplicada.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Saúde holística e saúde espiritual]]
+<!-- AUTO-RELATED-LINKS:END -->

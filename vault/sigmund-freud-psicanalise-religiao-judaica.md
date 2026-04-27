@@ -139,3 +139,12 @@ O conceito proposto ao longo da conversa permite entender Freud como uma figura 
 - [ ] Criar uma linha do tempo da vida de Freud
 - [ ] Produzir um resumo separado apenas sobre Freud e religião
 - [ ] Produzir um resumo separado apenas sobre histeria e início da psicanálise
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

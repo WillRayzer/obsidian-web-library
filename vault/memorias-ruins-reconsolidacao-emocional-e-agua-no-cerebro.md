@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -616,3 +616,12 @@ Essas evidências podem servir como ponte entre espiritualidade, metafísica, co
 - [ ] Relacionar este conteúdo com práticas terapêuticas corporais e somáticas.
 - [ ] Relacionar com outras notas sobre trauma, memória, cérebro, espiritualidade e neuroplasticidade.
 - [ ] Buscar artigos científicos completos em PDF sobre reconsolidação, EMDR, TMR, TEPT e memória de medo.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+<!-- AUTO-RELATED-LINKS:END -->

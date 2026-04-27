@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -76,3 +76,12 @@ Um terapeuta holístico com abordagem mais espiritual é um profissional que aco
 - [ ] Criar uma versão mais poética e sensível do perfil.
 - [ ] Desenvolver uma versão mais técnica e profissional, caso necessário.
 - [ ] Relacionar esse perfil a métodos terapêuticos específicos já utilizados.
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-RELATED-LINKS:END -->

@@ -75,3 +75,12 @@ A resposta foi organizada em três etapas principais:
 - [ ] Transformar em diário guiado ou protocolo semanal
 - [ ] Criar versão em PDF ou material terapêutico
 - [ ] Integrar com outras notas de desenvolvimento pessoal
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+<!-- AUTO-RELATED-LINKS:END -->

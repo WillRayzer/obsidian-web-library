@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -88,3 +88,12 @@ O caso sugere uma organização histérica com forte carga traumática e repeti�
 - [ ] Investigar relação com o corpo e sexualidade na história da paciente
 - [ ] Desenvolver hipótese de transferência no setting clínico
 - [ ] Estruturar plano de escuta psicanalítica para intervenção
+
+<!-- AUTO-RELATED-LINKS:START -->
+## Related Notes
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+<!-- AUTO-RELATED-LINKS:END -->
