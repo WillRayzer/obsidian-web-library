@@ -49,7 +49,11 @@ def handle_remove_readonly(func, path, exc_info) -> None:
 def copy_tree(source: Path, target: Path) -> None:
     if target.exists():
         shutil.rmtree(target, onexc=handle_remove_readonly)
-    shutil.copytree(source, target, ignore=shutil.ignore_patterns("workspace.json"))
+    shutil.copytree(
+        source,
+        target,
+        ignore=shutil.ignore_patterns("workspace.json", "00-Backups"),
+    )
 
 
 def prepare_vault(target: Path) -> None:
