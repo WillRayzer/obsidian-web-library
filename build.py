@@ -433,11 +433,25 @@ def build_graph_page(site_name: str) -> None:
   </section>
 </main>
 """
-    graph_page = index_template(content, f"{site_name} - Graph")
-    graph_page = graph_page.replace(
-        '<script src="assets/app.js"></script>',
-        '<script src="assets/app.js"></script>\n<script>window.OBSIDIAN_GRAPH = true;</script>',
-    )
+    graph_page = f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(site_name)} - Graph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="grain"></div>
+{content}
+<script>window.OBSIDIAN_GRAPH = true;</script>
+<script src="assets/app.js"></script>
+</body>
+</html>
+"""
     (DIST / "graph.html").write_text(graph_page, encoding="utf-8")
 
 
