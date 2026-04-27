@@ -1154,6 +1154,8 @@ async function initGraph() {
   let activeNode = null;
   let searchTerm = "";
   let clusterByArea = true;
+  let pulseTimer = null;
+  let pulsePhase = false;
   const areaPalette = {
     studies: "#8fb5ff",
     business: "#ffb480",
@@ -1360,6 +1362,25 @@ async function initGraph() {
     };
   }
 
+  function branchLayoutOptions(nodeCount) {
+    return {
+      name: window.cytoscapeCoseBilkent ? "cose-bilkent" : "cose",
+      animate: false,
+      randomize: false,
+      fit: false,
+      padding: 80,
+      nodeRepulsion: 2800000,
+      idealEdgeLength: nodeCount <= 10 ? 170 : 145,
+      edgeElasticity: 0.1,
+      gravity: 0.06,
+      tile: true,
+      componentSpacing: 120,
+      nodeDimensionsIncludeLabels: true,
+      numIter: nodeCount <= 18 ? 900 : 650,
+      initialEnergyOnIncremental: 0.35,
+    };
+  }
+
   function resolveNodeOverlaps() {
     const nodes = visibleElements().nodes().toArray();
     const minGap = showLabels ? 32 : 20;
@@ -1444,6 +1465,66 @@ async function initGraph() {
     }, 120);
   }
 
+  function stopPulse() {
+    if (pulseTimer) {
+      window.clearInterval(pulseTimer);
+      pulseTimer = null;
+    }
+    pulsePhase = false;
+    cy.nodes(".active").stop().style({ width: 22, height: 22, opacity: 1 });
+    cy.nodes(".neighbor").stop().style({ opacity: 1 });
+    cy.edges(".active").stop().style({ opacity: 0.95, width: 2.4 });
+  }
+
+  function startPulse() {
+    stopPulse();
+    pulseTimer = window.setInterval(() => {
+      pulsePhase = !pulsePhase;
+      const activeNodes = cy.nodes(".active");
+      const neighborNodes = cy.nodes(".neighbor");
+      const activeEdges = cy.edges(".active");
+      if (!activeNodes.length) return;
+      activeNodes.animate({
+        style: {
+          width: pulsePhase ? 25 : 22,
+          height: pulsePhase ? 25 : 22,
+          opacity: pulsePhase ? 1 : 0.92,
+        },
+      }, {
+        duration: 900,
+        queue: false,
+      });
+      neighborNodes.animate({
+        style: {
+          opacity: pulsePhase ? 0.98 : 0.82,
+        },
+      }, {
+        duration: 900,
+        queue: false,
+      });
+      activeEdges.animate({
+        style: {
+          opacity: pulsePhase ? 1 : 0.72,
+          width: pulsePhase ? 2.7 : 2.2,
+        },
+      }, {
+        duration: 900,
+        queue: false,
+      });
+    }, 1050);
+  }
+
+  function relayoutNeighborhood(node, depth = 1) {
+    const branch = localNeighborhood(node, depth);
+    if (!branch || !branch.length) return;
+    branch.layout(branchLayoutOptions(branch.nodes().length)).run();
+    window.setTimeout(() => {
+      resolveNodeOverlaps();
+      cy.animate({ fit: { eles: branch, padding: 150 }, duration: 260 });
+      startPulse();
+    }, 130);
+  }
+
   function applyLabels() {
     cy.style().selector("node").style("label", showLabels ? "data(label)" : "").update();
     resolveNodeOverlaps();
@@ -1493,6 +1574,7 @@ async function initGraph() {
   }
 
   function clearState() {
+    stopPulse();
     cy.elements().removeClass("active neighbor dimmed");
     if (selection) {
       selection.innerHTML = "<strong>Nenhuma nota selecionada</strong><p>Clique em um nó para focar conexões locais e abrir detalhes.</p>";
@@ -1532,8 +1614,8 @@ async function initGraph() {
     node.neighborhood("node").addClass("neighbor");
     node.connectedEdges().addClass("active");
     if (selection) selection.innerHTML = nodeSummary(node);
-    cy.animate({ fit: { eles: neighborhood, padding: 90 }, duration: 220 });
-    if (graphMode === "local") applyLocalMode();
+    const depth = graphMode === "local" ? Number(depthSelect?.value || 2) : 1;
+    relayoutNeighborhood(node, depth);
   }
 
   function filterByText(term) {
@@ -1556,6 +1638,7 @@ async function initGraph() {
     matches.neighborhood("node").addClass("neighbor");
     matches.connectedEdges().addClass("active");
     cy.animate({ fit: { eles: keep, padding: 140 }, duration: 220 });
+    startPulse();
   }
 
   function localNeighborhood(startNode, depth) {
@@ -1575,7 +1658,7 @@ async function initGraph() {
     const visible = localNeighborhood(activeNode, depth);
     visibleElements().difference(visible).style("display", "none");
     visible.style("display", "element");
-    cy.fit(visible, 140);
+    relayoutNeighborhood(activeNode, depth);
   }
 
   function setMode(mode) {
