@@ -1221,10 +1221,10 @@ async function initGraph() {
           "color": "#d9e1ea",
           "font-size": 10,
           "text-wrap": "wrap",
-          "text-max-width": 110,
+          "text-max-width": 96,
           "text-valign": "bottom",
           "text-halign": "center",
-          "text-margin-y": 10,
+          "text-margin-y": 14,
         },
       },
       {
@@ -1362,32 +1362,70 @@ async function initGraph() {
 
   function resolveNodeOverlaps() {
     const nodes = visibleElements().nodes().toArray();
-    const minGap = showLabels ? 42 : 24;
+    const minGap = showLabels ? 32 : 20;
+
+    function labelMetrics(node) {
+      const text = String(node.data("label") || "");
+      const wrapWidth = showLabels ? 96 : 0;
+      const fontSize = node.hasClass("active") ? 12 : 10;
+      const charsPerLine = Math.max(8, Math.floor(wrapWidth / (fontSize * 0.56)));
+      const lines = showLabels ? Math.max(1, Math.ceil(text.length / charsPerLine)) : 0;
+      const labelWidth = showLabels ? Math.min(wrapWidth, Math.max(36, text.length * fontSize * 0.38)) : 0;
+      const labelHeight = showLabels ? Math.max(0, lines * (fontSize * 1.28)) : 0;
+      return { labelWidth, labelHeight, fontSize };
+    }
+
+    function footprint(node) {
+      const pos = node.position();
+      const nodeSize = Math.max(node.renderedWidth(), node.renderedHeight()) / Math.max(cy.zoom(), 0.001);
+      const { labelWidth, labelHeight } = labelMetrics(node);
+      const textOffset = showLabels ? 14 : 0;
+      const halfWidth = Math.max(nodeSize / 2, labelWidth / 2) + minGap / 2;
+      const top = pos.y - nodeSize / 2 - minGap / 2;
+      const bottom = pos.y + nodeSize / 2 + textOffset + labelHeight + minGap / 2;
+      return {
+        left: pos.x - halfWidth,
+        right: pos.x + halfWidth,
+        top,
+        bottom,
+        centerX: pos.x,
+        centerY: (top + bottom) / 2,
+      };
+    }
+
     for (let iteration = 0; iteration < 18; iteration++) {
       let moved = false;
       for (let i = 0; i < nodes.length; i++) {
         const a = nodes[i];
-        const posA = a.position();
-        const sizeA = Math.max(a.renderedWidth(), a.renderedHeight()) / Math.max(cy.zoom(), 0.001);
+        const boxA = footprint(a);
         for (let j = i + 1; j < nodes.length; j++) {
           const b = nodes[j];
-          const posB = b.position();
-          const sizeB = Math.max(b.renderedWidth(), b.renderedHeight()) / Math.max(cy.zoom(), 0.001);
-          let dx = posB.x - posA.x;
-          let dy = posB.y - posA.y;
-          let distance = Math.hypot(dx, dy);
-          const minDistance = (sizeA + sizeB) / 2 + minGap;
-          if (distance >= minDistance) continue;
-          if (distance < 0.001) {
-            dx = (j % 2 === 0 ? 1 : -1) * 0.5;
-            dy = (j % 3 === 0 ? 1 : -1) * 0.5;
-            distance = Math.hypot(dx, dy);
+          const boxB = footprint(b);
+          const overlapX = Math.min(boxA.right, boxB.right) - Math.max(boxA.left, boxB.left);
+          const overlapY = Math.min(boxA.bottom, boxB.bottom) - Math.max(boxA.top, boxB.top);
+          if (overlapX <= 0 || overlapY <= 0) continue;
+
+          let dx = boxB.centerX - boxA.centerX;
+          let dy = boxB.centerY - boxA.centerY;
+          if (Math.abs(dx) < 0.001 && Math.abs(dy) < 0.001) {
+            dx = j % 2 === 0 ? 1 : -1;
+            dy = j % 3 === 0 ? 1 : -1;
           }
-          const push = (minDistance - distance) / 2;
-          const ux = dx / distance;
-          const uy = dy / distance;
-          a.position({ x: posA.x - ux * push, y: posA.y - uy * push });
-          b.position({ x: posB.x + ux * push, y: posB.y + uy * push });
+
+          const pushX = overlapX / 2 + minGap / 6;
+          const pushY = overlapY / 2 + minGap / 6;
+          const posA = a.position();
+          const posB = b.position();
+
+          if (overlapY > overlapX * 0.8) {
+            const dirY = dy >= 0 ? 1 : -1;
+            a.position({ x: posA.x, y: posA.y - dirY * pushY });
+            b.position({ x: posB.x, y: posB.y + dirY * pushY });
+          } else {
+            const dirX = dx >= 0 ? 1 : -1;
+            a.position({ x: posA.x - dirX * pushX, y: posA.y });
+            b.position({ x: posB.x + dirX * pushX, y: posB.y });
+          }
           moved = true;
         }
       }
