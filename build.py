@@ -422,6 +422,16 @@ def build_graph_page(site_name: str) -> None:
       <label for="graph-search">Buscar no grafo</label>
       <input id="graph-search" type="search" placeholder="Digite o nome da nota">
       <p class="helper">A busca destaca o no correspondente e suas ligacoes.</p>
+      <div class="graph-toolbar-row">
+        <button type="button" class="graph-button is-active" data-graph-mode="global">Global</button>
+        <button type="button" class="graph-button" data-graph-mode="local">Local</button>
+        <label class="graph-depth-label" for="graph-depth">Profundidade</label>
+        <select id="graph-depth" class="graph-select">
+          <option value="1">1 salto</option>
+          <option value="2" selected>2 saltos</option>
+          <option value="3">3 saltos</option>
+        </select>
+      </div>
     </section>
     <section class="card graph-card">
       <div class="graph-meta">
@@ -433,6 +443,10 @@ def build_graph_page(site_name: str) -> None:
         </div>
       </div>
       <div id="graph-view" class="graph-view"></div>
+      <div id="graph-selection" class="graph-selection">
+        <strong>Nenhuma nota selecionada</strong>
+        <p>Clique em um nó para focar conexões locais e abrir detalhes.</p>
+      </div>
     </section>
   </section>
 </main>
@@ -941,6 +955,13 @@ a { color: inherit; }
   gap: 10px;
   flex-wrap: wrap;
 }
+.graph-toolbar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
 .graph-button {
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.04);
@@ -953,6 +974,22 @@ a { color: inherit; }
 .graph-button:hover {
   background: rgba(255,255,255,0.08);
 }
+.graph-button.is-active {
+  background: rgba(124, 170, 109, 0.18);
+  color: #c4e7b8;
+}
+.graph-select {
+  min-height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  padding: 0 10px;
+}
+.graph-depth-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
 .graph-view {
   width: 100%;
   height: 68vh;
@@ -963,6 +1000,22 @@ a { color: inherit; }
     rgba(8, 12, 16, 0.82);
   overflow: hidden;
   position: relative;
+}
+.graph-selection {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+}
+.graph-selection strong {
+  display: block;
+  margin-bottom: 8px;
+}
+.graph-selection p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
 }
 @media (max-width: 980px) {
   .app-shell {
@@ -1002,12 +1055,17 @@ async function initGraph() {
   const container = document.querySelector("#graph-view");
   const stats = document.querySelector("#graph-stats");
   const searchInput = document.querySelector("#graph-search");
+  const selection = document.querySelector("#graph-selection");
+  const depthSelect = document.querySelector("#graph-depth");
+  const modeButtons = [...document.querySelectorAll("[data-graph-mode]")];
   if (!container) return;
 
   const response = await fetch("assets/graph.json");
   const graph = await response.json();
   const actionButtons = [...document.querySelectorAll("[data-graph-action]")];
   let showLabels = true;
+  let graphMode = "global";
+  let activeNode = null;
   const areaPalette = {
     studies: "#8fb5ff",
     business: "#ffb480",
@@ -1114,16 +1172,29 @@ async function initGraph() {
 
   function clearState() {
     cy.elements().removeClass("active neighbor dimmed");
+    cy.elements().style("display", "element");
+    if (selection) {
+      selection.innerHTML = "<strong>Nenhuma nota selecionada</strong><p>Clique em um nó para focar conexões locais e abrir detalhes.</p>";
+    }
+  }
+
+  function nodeSummary(node) {
+    const neighbors = node.neighborhood("node").length;
+    const area = node.data("area") || "Sem área";
+    return `<strong>${node.data("label")}</strong><p>Área: ${area}<br>Conexões diretas: ${neighbors}<br><a href="${node.data("url")}">Abrir nota</a></p>`;
   }
 
   function focusNode(node) {
+    activeNode = node;
     clearState();
     const neighborhood = node.closedNeighborhood();
     cy.elements().difference(neighborhood).addClass("dimmed");
     node.addClass("active");
     node.neighborhood("node").addClass("neighbor");
     node.connectedEdges().addClass("active");
+    if (selection) selection.innerHTML = nodeSummary(node);
     cy.animate({ fit: { eles: neighborhood, padding: 90 }, duration: 220 });
+    if (graphMode === "local") applyLocalMode();
   }
 
   function filterByText(term) {
@@ -1143,6 +1214,44 @@ async function initGraph() {
     cy.animate({ fit: { eles: keep, padding: 100 }, duration: 220 });
   }
 
+  function localNeighborhood(startNode, depth) {
+    let current = startNode;
+    let result = startNode.union(startNode.connectedEdges());
+    for (let i = 0; i < depth; i++) {
+      current = current.neighborhood();
+      result = result.union(current);
+      current = current.nodes();
+    }
+    return result;
+  }
+
+  function applyLocalMode() {
+    if (!activeNode) return;
+    const depth = Number(depthSelect?.value || 2);
+    const visible = localNeighborhood(activeNode, depth);
+    cy.elements().difference(visible).style("display", "none");
+    visible.style("display", "element");
+    cy.fit(visible, 90);
+  }
+
+  function setMode(mode) {
+    graphMode = mode;
+    modeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.graphMode === mode));
+    cy.elements().style("display", "element");
+    if (mode === "global") {
+      if (activeNode) focusNode(activeNode);
+      else cy.fit(cy.elements(), 80);
+      return;
+    }
+    if (activeNode) {
+      applyLocalMode();
+      focusNode(activeNode);
+    } else {
+      clearState();
+      selection.innerHTML = "<strong>Modo local ativo</strong><p>Selecione uma nota para visualizar seu grafo local.</p>";
+    }
+  }
+
   cy.on("tap", "node", (event) => {
     const node = event.target;
     if (node.hasClass("active")) {
@@ -1160,14 +1269,25 @@ async function initGraph() {
     button.addEventListener("click", () => {
       const action = button.dataset.graphAction;
       if (action === "fit") {
-        clearState();
-        cy.fit(cy.elements(), 80);
+        if (graphMode === "local" && activeNode) applyLocalMode();
+        else {
+          clearState();
+          cy.fit(cy.elements(), 80);
+        }
       }
       if (action === "labels") {
         showLabels = !showLabels;
         applyLabels();
       }
     });
+  });
+
+  modeButtons.forEach((button) => {
+    button.addEventListener("click", () => setMode(button.dataset.graphMode));
+  });
+
+  depthSelect?.addEventListener("change", () => {
+    if (graphMode === "local" && activeNode) applyLocalMode();
   });
 
   searchInput?.addEventListener("input", (event) => filterByText(event.target.value));
