@@ -47,13 +47,29 @@ def handle_remove_readonly(func, path, exc_info) -> None:
 
 
 def copy_tree(source: Path, target: Path) -> None:
-    if target.exists():
-        shutil.rmtree(target, onexc=handle_remove_readonly)
+    temp_target = ROOT / f"{target.name}.tmp"
+    if temp_target.exists():
+        shutil.rmtree(temp_target, onexc=handle_remove_readonly)
+
     shutil.copytree(
         source,
-        target,
-        ignore=shutil.ignore_patterns("workspace.json", "00-Backups"),
+        temp_target,
+        ignore=shutil.ignore_patterns("workspace.json", "00-Backups", ".obsidian"),
     )
+
+    target.mkdir(parents=True, exist_ok=True)
+    for child in list(target.iterdir()):
+        if child.name == ".obsidian":
+            continue
+        if child.is_dir():
+            shutil.rmtree(child, onexc=handle_remove_readonly)
+        else:
+            child.unlink()
+
+    for child in temp_target.iterdir():
+        shutil.move(str(child), str(target / child.name))
+
+    shutil.rmtree(temp_target, onexc=handle_remove_readonly)
 
 
 def prepare_vault(target: Path) -> None:

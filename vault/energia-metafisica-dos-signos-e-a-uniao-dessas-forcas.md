@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

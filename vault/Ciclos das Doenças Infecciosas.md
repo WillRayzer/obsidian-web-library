@@ -25,10 +25,10 @@ summary: >
   O trabalho aborda os ciclos de doenças virais, bacterianas, fúngicas e protozoárias, incluindo histórico científico, sintomas, diagnóstico, prevenção e tratamento. Foram integradas diretrizes do Guia de Vigilância em Saúde. Também foram detalhadas doenças específicas de cada grupo.
 status: complete
 related:
-  - "[[Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Aposentadorias especiais no IPREM]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

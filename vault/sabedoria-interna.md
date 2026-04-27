@@ -25,10 +25,10 @@ summary: >
   A conversa definiu sabedoria interna como a capacidade de acessar orientação, discernimento e verdade pessoal a partir do próprio interior.
 status: complete
 related:
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Saúde holística e saúde espiritual]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

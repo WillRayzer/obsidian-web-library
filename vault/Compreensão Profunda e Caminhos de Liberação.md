@@ -25,10 +25,10 @@ summary: >
   A conversa explorou o conceito de trava emocional desde uma visão geral até uma análise aprofundada de suas origens, manifestações e estrutura. Foram apresentados caminhos terapêuticos e práticas para identificação e liberação desses bloqueios. O conteúdo oferece uma base teórica e prática para autoconhecimento e aplicação clínica.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

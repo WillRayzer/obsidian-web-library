@@ -25,10 +25,10 @@ summary: >
   Foi analisado um caso clínico com vaginismo, engasgo ao falar e compulsão alimentar, associado a histórico de violência paterna. Identificaram-se mecanismos de defesa como repressão, conversão e regressão. A estrutura psíquica mais provável é neurótica, com traços histéricos e repetição inconsciente de padrões relacionais.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Neurose e Cena Primária no Caso do Homem dos Lobos]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

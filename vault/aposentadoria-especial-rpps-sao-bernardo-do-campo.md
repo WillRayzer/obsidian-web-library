@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
-  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

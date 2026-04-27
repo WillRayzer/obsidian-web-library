@@ -25,10 +25,10 @@ summary: >
   A conversa abordou o conceito de auto-hipnose ericksoniana e apresentou um exercício guiado voltado ao cultivo da felicidade. Foram organizados os princípios básicos da prática, incluindo relaxamento, visualização, sugestões positivas e retorno gradual ao estado de alerta.
 status: complete
 related:
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

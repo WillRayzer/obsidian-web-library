@@ -25,10 +25,10 @@ summary: >
   Foi estruturada, aprofundada e refinada uma dinâmica baseada na teoria freudiana do inconsciente. O material inclui fundamentação teórica, objetivos, análise simbólica, exemplos de interpretação, reflexão final e conclusão em formato de estimativa de resultados.
 status: complete
 related:
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

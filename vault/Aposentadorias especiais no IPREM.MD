@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]"
-  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
-  - "[[Mapa mental e síntese da abordagem fenomenológica na psicologia]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

@@ -25,10 +25,10 @@ summary: >
   A conversa explorou duas expressões curtas: 'mente livre testa os limites da razão' e 'mente indisciplinada'.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Mapa mental e síntese da abordagem fenomenológica na psicologia]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

@@ -25,10 +25,10 @@ summary: >
   A conversa analisou o caso de Gabriel, um jovem com ansiedade, tristeza, autocrítica e pressão familiar.
 status: complete
 related:
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

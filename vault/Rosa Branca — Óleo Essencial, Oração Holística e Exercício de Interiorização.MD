@@ -25,10 +25,10 @@ summary: >
   Exploramos o significado e uso do óleo essencial de rosa branca, desenvolvemos uma oração com abordagem holística e estruturamos um exercício completo de interiorização e integração energética.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
   - "[[Auto-hipnose ericksoniana para felicidade]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

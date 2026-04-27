@@ -25,10 +25,10 @@ summary: >
   Exploramos a origem mais antiga de Hécate, outras deusas pré-gregas e o contexto cultural dessas civilizações. Aprofundamos especialmente as práticas espirituais com ervas, sonhos, símbolos naturais e canto como formas de conexão com o invisível.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

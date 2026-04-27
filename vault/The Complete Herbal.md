@@ -25,10 +25,10 @@ summary: >
   Foi realizada a tradução dos primeiros capítulos de The Complete Herbal, com ajuste metodológico para manter os nomes originais das plantas. O processo foi estruturado de forma iterativa, com validação a cada capítulo.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

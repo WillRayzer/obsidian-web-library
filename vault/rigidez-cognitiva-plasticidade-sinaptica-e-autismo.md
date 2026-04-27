@@ -25,10 +25,10 @@ summary: >
   A conversa abordou inicialmente o conceito de rigidez cognitiva e, em seguida, a relação entre sinapse e rigidez cognitiva. Depois, aprofundou-se a definição de plasticidade sináptica e foram discutidas, de forma geral e introdutória, possíveis particularidades da plasticidade sináptica em pessoas autistas.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Governança Pública: conceitos, aprofundamento e tipos]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

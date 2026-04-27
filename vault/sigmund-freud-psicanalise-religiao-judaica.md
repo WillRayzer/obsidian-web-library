@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

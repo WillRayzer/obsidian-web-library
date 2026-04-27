@@ -25,10 +25,10 @@ summary: >
   # Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Como usar este vault - Abra a pasta `C:\Users\negoc\Documents\geral .md\luanda\Bem` no Obsidian com `Open folder as vault`. - Use esta nota co
 status: active
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

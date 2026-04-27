@@ -25,10 +25,10 @@ summary: >
   Foram sugeridos cinco codinomes para um projeto que introduz arranjos de trabalho flexíveis. Cada nome veio acompanhado de um significado estratégico e simbólico, com foco em adaptabilidade, conexão, fluidez, bem-estar e diversidade de formatos de trabalho.
 status: complete
 related:
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

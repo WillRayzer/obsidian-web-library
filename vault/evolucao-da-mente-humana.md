@@ -25,10 +25,10 @@ summary: >
   A conversa tratou de uma explicação geral sobre a evolução da mente humana.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

@@ -25,10 +25,10 @@ summary: >
   A conversa desenvolveu um mapa mental da abordagem fenomenológica na psicologia.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

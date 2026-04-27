@@ -25,10 +25,10 @@ summary: >
   A conversa explorou o que é o Psilocybe cubensis MDK e seus possíveis efeitos positivos cognitivos, emocionais, sensoriais e terapêuticos. Também abordou a importância do contexto (set & setting) e os cuidados necessários relacionados ao uso.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Saúde holística e saúde espiritual]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

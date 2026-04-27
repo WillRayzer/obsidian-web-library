@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

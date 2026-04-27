@@ -25,10 +25,10 @@ summary: >
   A conversa começou com uma definição geral do termo inteligência e, em seguida, aprofundou o conceito de inteligência erótica.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

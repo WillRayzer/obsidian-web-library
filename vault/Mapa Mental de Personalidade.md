@@ -25,10 +25,10 @@ summary: >
   Foi desenvolvido um mapa mental completo integrando personalidade e identidade, com aprofundamento teórico e estrutural. O conteúdo explora definições, teorias, fatores influenciadores e interseções entre os conceitos. O material foi organizado para aplicação prática em autoconhecimento e análise psicológica.
 status: complete
 related:
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Mapa Mental de Identidade e Personalidade]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

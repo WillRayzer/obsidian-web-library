@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

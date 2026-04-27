@@ -25,10 +25,10 @@ summary: >
   A conversa definiu saúde holística como uma abordagem integral que considera corpo, mente, emoções e espírito. Em seguida, aprofundou a saúde espiritual como dimensão ligada a propósito, conexão, valores, paz interior e resiliência. O resultado foi uma síntese introdutória e organizada desses dois conceitos.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

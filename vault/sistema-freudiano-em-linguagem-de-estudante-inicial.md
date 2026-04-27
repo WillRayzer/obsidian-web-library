@@ -25,10 +25,10 @@ summary: >
   A conversa focou na análise de um texto sobre o sistema freudiano e na sua reescrita em linguagem mais simples.
 status: complete
 related:
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

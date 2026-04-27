@@ -25,10 +25,10 @@ summary: >
   A conversa explorou primeiro o simbolismo e as propriedades mágicas atribuídas às margaridas amarelas,
 status: complete
 related:
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Auto-hipnose ericksoniana para felicidade]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

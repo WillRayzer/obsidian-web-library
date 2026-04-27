@@ -26,9 +26,9 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Saúde holística e saúde espiritual]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 

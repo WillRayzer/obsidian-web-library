@@ -19,9 +19,9 @@ summary: >
 status: complete
 related:
   - "[[Dashboard - Biblioteca]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[Auto-hipnose ericksoniana para felicidade]]"
+  - "[[Medicina Germânica]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
