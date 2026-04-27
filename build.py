@@ -470,6 +470,8 @@ def build_graph_page(site_name: str) -> None:
         <strong>Graph View</strong>
         <div class="graph-controls">
           <button type="button" class="graph-button" data-graph-action="fit">Centralizar</button>
+          <button type="button" class="graph-button is-active" data-graph-action="cluster">Agrupar areas</button>
+          <button type="button" class="graph-button" data-graph-action="layout">Reorganizar</button>
           <button type="button" class="graph-button" data-graph-action="labels">Rotulos</button>
           <span id="graph-stats">Carregando...</span>
         </div>
@@ -479,6 +481,7 @@ def build_graph_page(site_name: str) -> None:
         <strong>Nenhuma nota selecionada</strong>
         <p>Clique em um nó para focar conexões locais e abrir detalhes.</p>
       </div>
+      <div id="graph-highlights" class="graph-highlights"></div>
     </section>
   </section>
 </main>
@@ -498,6 +501,7 @@ def build_graph_page(site_name: str) -> None:
 <div class="grain"></div>
 {content}
 <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/cytoscape-cose-bilkent@4.1.0/cytoscape-cose-bilkent.js"></script>
 <script>window.OBSIDIAN_GRAPH = true;</script>
 <script src="assets/app.js"></script>
 </body>
@@ -1050,14 +1054,50 @@ a { color: inherit; }
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.03);
 }
+.graph-highlights {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+}
 .graph-selection strong {
   display: block;
   margin-bottom: 8px;
 }
-.graph-selection p {
+.graph-selection p, .graph-highlights p {
   margin: 0;
   color: var(--muted);
   line-height: 1.5;
+}
+.graph-highlights strong {
+  display: block;
+  margin-bottom: 10px;
+}
+.graph-highlights-list {
+  display: grid;
+  gap: 8px;
+}
+.graph-highlight-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.02);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+.graph-highlight-item:hover {
+  background: rgba(255,255,255,0.06);
+}
+.graph-highlight-item span {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 @media (max-width: 980px) {
   .app-shell {
@@ -1098,6 +1138,7 @@ async function initGraph() {
   const stats = document.querySelector("#graph-stats");
   const searchInput = document.querySelector("#graph-search");
   const selection = document.querySelector("#graph-selection");
+  const highlights = document.querySelector("#graph-highlights");
   const depthSelect = document.querySelector("#graph-depth");
   const areaSelect = document.querySelector("#graph-area");
   const tagSelect = document.querySelector("#graph-tag");
@@ -1112,6 +1153,7 @@ async function initGraph() {
   let graphMode = "global";
   let activeNode = null;
   let searchTerm = "";
+  let clusterByArea = true;
   const areaPalette = {
     studies: "#8fb5ff",
     business: "#ffb480",
@@ -1163,13 +1205,8 @@ async function initGraph() {
     container,
     elements,
     layout: {
-      name: "cose",
+      name: "preset",
       animate: false,
-      padding: 50,
-      nodeRepulsion: 900000,
-      idealEdgeLength: 130,
-      edgeElasticity: 0.2,
-      gravity: 0.2,
     },
     style: [
       {
@@ -1231,6 +1268,70 @@ async function initGraph() {
     maxZoom: 3,
   });
 
+  const areaBuckets = [...new Set(cy.nodes().map((node) => node.data("areaKey") || "sem area"))];
+
+  function areaAnchor(areaKey, indexInArea) {
+    const areaIndex = Math.max(0, areaBuckets.indexOf(areaKey));
+    const columns = Math.max(1, Math.ceil(Math.sqrt(areaBuckets.length)));
+    const col = areaIndex % columns;
+    const row = Math.floor(areaIndex / columns);
+    const baseX = 260 + col * 420;
+    const baseY = 220 + row * 320;
+    const angle = indexInArea * 0.72;
+    const radius = 30 + (indexInArea % 8) * 18;
+    return {
+      x: baseX + Math.cos(angle) * radius,
+      y: baseY + Math.sin(angle) * radius,
+    };
+  }
+
+  function seedClusterPositions() {
+    const grouped = new Map();
+    cy.nodes().forEach((node) => {
+      const key = node.data("areaKey") || "sem area";
+      const bucket = grouped.get(key) || [];
+      bucket.push(node);
+      grouped.set(key, bucket);
+    });
+
+    grouped.forEach((nodes, key) => {
+      nodes
+        .sort((a, b) => Number(b.data("degree") || 0) - Number(a.data("degree") || 0))
+        .forEach((node, index) => node.position(areaAnchor(key, index)));
+    });
+  }
+
+  function layoutOptions() {
+    const visibleNodeCount = visibleElements().nodes().length || cy.nodes().length;
+    return {
+      name: window.cytoscapeCoseBilkent ? "cose-bilkent" : "cose",
+      animate: false,
+      randomize: false,
+      fit: false,
+      padding: 50,
+      nodeRepulsion: 1200000,
+      idealEdgeLength: clusterByArea ? 120 : 150,
+      edgeElasticity: 0.08,
+      gravity: 0.1,
+      nestingFactor: 0.9,
+      tile: true,
+      numIter: visibleNodeCount < 80 ? 1800 : 1200,
+      gravityRangeCompound: 1.3,
+      gravityCompound: 1.0,
+      initialEnergyOnIncremental: 0.4,
+    };
+  }
+
+  function runLayout(fitGraph = true) {
+    const visible = visibleElements();
+    if (!visible.length) return;
+    if (clusterByArea) seedClusterPositions();
+    visible.layout(layoutOptions()).run();
+    if (fitGraph) {
+      setTimeout(() => cy.fit(visibleElements(), 80), 60);
+    }
+  }
+
   function applyLabels() {
     cy.style().selector("node").style("label", showLabels ? "data(label)" : "").update();
   }
@@ -1285,6 +1386,23 @@ async function initGraph() {
     }
   }
 
+  function renderHighlights() {
+    if (!highlights) return;
+    const topNodes = [...cy.nodes()]
+      .sort((a, b) => Number(b.data("degree") || 0) - Number(a.data("degree") || 0))
+      .slice(0, 6);
+    const items = topNodes.map((node) => (
+      `<button type="button" class="graph-highlight-item" data-node-id="${node.id()}"><strong>${node.data("label")}</strong><span>${node.data("degree")} conexoes</span></button>`
+    )).join("");
+    highlights.innerHTML = `<strong>Notas centrais</strong><div class="graph-highlights-list">${items}</div>`;
+    highlights.querySelectorAll("[data-node-id]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const node = cy.getElementById(button.dataset.nodeId);
+        if (node && node.length) focusNode(node);
+      });
+    });
+  }
+
   function nodeSummary(node) {
     const neighbors = node.neighborhood("node").length;
     const area = node.data("area") || "Sem área";
@@ -1310,7 +1428,7 @@ async function initGraph() {
     clearState();
     const visible = applyVisibility(false);
     if (!searchTerm) {
-      cy.fit(visible, 80);
+      runLayout();
       return;
     }
     const matches = visible.nodes().filter((node) => String(node.data("search") || "").includes(searchTerm));
@@ -1379,13 +1497,21 @@ async function initGraph() {
 
   actionButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      const action = button.dataset.graphAction;
+    const action = button.dataset.graphAction;
       if (action === "fit") {
         if (graphMode === "local" && activeNode) applyLocalMode();
         else {
           clearState();
           cy.fit(visibleElements(), 80);
         }
+      }
+      if (action === "cluster") {
+        clusterByArea = !clusterByArea;
+        button.classList.toggle("is-active", clusterByArea);
+        runLayout();
+      }
+      if (action === "layout") {
+        runLayout();
       }
       if (action === "labels") {
         showLabels = !showLabels;
@@ -1408,7 +1534,8 @@ async function initGraph() {
   searchInput?.addEventListener("input", (event) => filterByText(event.target.value));
   cy.ready(() => {
     applyVisibility(false);
-    cy.fit(visibleElements(), 80);
+    renderHighlights();
+    runLayout();
   });
 }
 
