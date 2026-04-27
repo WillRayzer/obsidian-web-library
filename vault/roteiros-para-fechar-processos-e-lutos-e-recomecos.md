@@ -67,9 +67,9 @@ A resposta foi organizada em três etapas principais:
 ## Context Links
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables

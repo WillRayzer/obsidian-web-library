@@ -1,17 +1,13 @@
 # Relatorio - Notas com Conexao Fraca
 
 - Total de notas analisadas: 72
-- Notas com 0 links manuais: 4
-- Notas com 1 ou menos links manuais: 6
+- Notas com 0 links manuais: 0
+- Notas com 1 ou menos links manuais: 2
 
 ## Prioridade de reforco
 
 | Nota | Area | Links manuais | Related | Tags | Score |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Terçol na Medicina Chinesa | Studies | 0 | 5 | 12 | 9 |
-| TRABALHO AEC | Studies | 0 | 5 | 11 | 9 |
-| Tradução do The Complete Herbal de Nicholas Culpeper (Capítulos 1–10) | Studies | 0 | 5 | 12 | 9 |
-| Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação | Studies | 0 | 5 | 12 | 9 |
 | Artigos Científicos de Neurofeedback | Studies | 1 | 5 | 12 | 11 |
 | Bem vindo | Studies | 1 | 5 | 8 | 11 |
 | Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 12 | 13 |
@@ -28,6 +24,10 @@
 | Aposentadorias especiais no IPREM | Studies | 4 | 5 | 12 | 17 |
 | Ataraxia em Essência | Studies | 4 | 5 | 12 | 17 |
 | Auto-hipnose ericksoniana para felicidade | Studies | 4 | 5 | 12 | 17 |
+| Beleza Etérea como Expressão da Alma e da Espiritualidade | Studies | 4 | 5 | 12 | 17 |
+| Benefícios do alho para o corpo humano | Studies | 4 | 5 | 12 | 17 |
+| Benefícios do Melão para o Corpo | Studies | 4 | 5 | 12 | 17 |
+| Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 4 | 5 | 12 | 17 |
 
 ## Criterio
 

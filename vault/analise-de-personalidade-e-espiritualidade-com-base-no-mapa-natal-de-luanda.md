@@ -28,7 +28,7 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -223,5 +223,5 @@ A conversa levou às seguintes conclusões centrais sobre a personalidade e a es
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

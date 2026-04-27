@@ -84,7 +84,7 @@ A única solução lógica é que B diz a verdade e C é o culpado.
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Amostragem Probabilística e Não-Probabilística]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 

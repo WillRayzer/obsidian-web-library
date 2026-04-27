@@ -113,8 +113,8 @@ Cultivar a sabedoria interna é um processo contínuo que pode conduzir a uma vi
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Saúde holística e saúde espiritual]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables

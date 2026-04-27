@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[O que é consciência]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[O que é consciência]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -76,7 +76,7 @@ Principais benefícios:
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[O que é consciência]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[O que é consciência]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

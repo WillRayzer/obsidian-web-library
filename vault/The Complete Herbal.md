@@ -22,7 +22,7 @@ tags:
   - astrologia-medica
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
 summary: >
-  Foi realizada a tradução dos primeiros capítulos de The Complete Herbal, com ajuste metodológico para manter os nomes originais das plantas. O processo foi estruturado de forma iterativa, com validação a cada capítulo.
+  >
 status: complete
 related:
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
@@ -87,6 +87,15 @@ Cada capítulo foi traduzido respeitando:
 - Fidelidade ao contexto histórico
 
 ---
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

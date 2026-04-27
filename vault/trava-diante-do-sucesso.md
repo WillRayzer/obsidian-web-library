@@ -22,7 +22,7 @@ tags:
   - medo-do-julgamento
 topic: "Reflexão sobre o padrão de travar quando se está próximo de alcançar o sucesso."
 summary: >
-  A conversa identificou um padrão recorrente: alternância entre aprofundar e simplificar decisões, gerando sensação de andar em círculos. A principal trava emocional apareceu ligada ao medo de recomeçar, ao receio de ser visto como incapaz, à dúvida, à ansiedade sentida no estômago e à procrastinação. Foram levantadas perguntas de aprofundamento e estratégias práticas para observar o padrão antes que ele paralise a ação.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -150,6 +150,15 @@ Usar a técnica da ação mínima:
 - tomar uma decisão pequena e reversível.
 
 A intenção é atravessar a barreira inicial. Muitas vezes, o bloqueio é mais forte antes do começo do que durante a execução.
+
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+<!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
 

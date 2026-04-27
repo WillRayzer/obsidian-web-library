@@ -131,7 +131,7 @@ Poucos livros tratam exclusivamente do chakra da nuca, mas ele aparece dentro do
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 

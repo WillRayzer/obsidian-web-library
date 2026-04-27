@@ -22,13 +22,13 @@ tags:
   - umidade-calor
 topic: "Interpretação do terçol na Medicina Tradicional Chinesa como manifestação de desequilíbrios energéticos."
 summary: >
-  O conteúdo explica o terçol sob a perspectiva da Medicina Tradicional Chinesa, relacionando-o a padrões como Calor no Fígado, Vento-Calor e Umidade-Calor. Também aborda tratamentos como acupuntura e fitoterapia, além de orientações preventivas. A abordagem integra fatores emocionais, alimentares e energéticos.
+  >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -78,6 +78,15 @@ Os olhos estão ligados ao Fígado, e alterações como inflamação e dor indic
 - Usar chás refrescantes
 - Compressas mornas quando indicado
 
+<!-- AUTO-CONTEXT-LINKS:START -->
+## Context Links
+
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Por que adolescentes cometem atos infracionais?]]
+<!-- AUTO-CONTEXT-LINKS:END -->
+
 ## Conclusions & Deliverables
 
 - O terçol pode refletir desequilíbrios internos e não apenas infecção local.
@@ -98,6 +107,6 @@ Os olhos estão ligados ao Fígado, e alterações como inflamação e dor indic
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Por que adolescentes cometem atos infracionais?]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Por que adolescentes cometem atos infracionais?]]
 <!-- AUTO-RELATED-LINKS:END -->

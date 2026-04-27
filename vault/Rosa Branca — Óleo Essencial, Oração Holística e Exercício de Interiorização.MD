@@ -77,9 +77,9 @@ Foi estruturado um exercício completo com:
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Perfil de terapeuta holístico com abordagem espiritual]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Perfil de terapeuta holístico com abordagem espiritual]]
 - [[Auto-hipnose ericksoniana para felicidade]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 

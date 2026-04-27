@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -84,5 +84,5 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

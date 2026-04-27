@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -81,6 +81,6 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 
 - [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->
