@@ -426,7 +426,11 @@ def build_graph_page(site_name: str) -> None:
     <section class="card graph-card">
       <div class="graph-meta">
         <strong>Graph View</strong>
-        <span id="graph-stats">Carregando...</span>
+        <div class="graph-controls">
+          <button type="button" class="graph-button" data-graph-action="fit">Centralizar</button>
+          <button type="button" class="graph-button" data-graph-action="labels">Rotulos</button>
+          <span id="graph-stats">Carregando...</span>
+        </div>
       </div>
       <div id="graph-view" class="graph-view"></div>
     </section>
@@ -930,6 +934,24 @@ a { color: inherit; }
   align-items: center;
   margin-bottom: 14px;
 }
+.graph-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.graph-button {
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  border-radius: 999px;
+  min-height: 34px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+.graph-button:hover {
+  background: rgba(255,255,255,0.08);
+}
 .graph-view {
   width: 100%;
   height: 68vh;
@@ -941,35 +963,61 @@ a { color: inherit; }
   overflow: hidden;
   position: relative;
 }
+.graph-view::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+}
 .graph-view svg {
   width: 100%;
   height: 100%;
   display: block;
 }
 .graph-link {
-  stroke: rgba(143, 181, 255, 0.22);
-  stroke-width: 1.2;
+  stroke: rgba(143, 181, 255, 0.16);
+  stroke-width: 1;
 }
 .graph-link.active {
-  stroke: rgba(124, 170, 109, 0.9);
+  stroke: rgba(191, 225, 179, 0.9);
   stroke-width: 1.8;
+}
+.graph-link.dimmed {
+  stroke-opacity: 0.08;
 }
 .graph-node {
   cursor: pointer;
 }
 .graph-node circle {
-  fill: rgba(124, 170, 109, 0.88);
+  fill: rgba(124, 170, 109, 0.72);
   stroke: rgba(255, 255, 255, 0.2);
   stroke-width: 1;
+  transition: transform 120ms ease, fill 120ms ease, opacity 120ms ease;
 }
 .graph-node.active circle {
   fill: #8fb5ff;
-  r: 8;
+}
+.graph-node.neighbor circle {
+  fill: #c4e7b8;
+}
+.graph-node.dimmed circle {
+  opacity: 0.22;
 }
 .graph-node text {
   fill: #d9e1ea;
-  font-size: 11px;
+  font-size: 10px;
+  opacity: 0.82;
   pointer-events: none;
+}
+.graph-node.dimmed text {
+  opacity: 0.16;
+}
+.graph-node.hide-label text {
+  display: none;
 }
 @media (max-width: 980px) {
   .app-shell {
@@ -1015,6 +1063,17 @@ async function initGraph() {
   const graph = await response.json();
   const width = container.clientWidth || 900;
   const height = container.clientHeight || 600;
+  const actionButtons = [...document.querySelectorAll("[data-graph-action]")];
+  let showLabels = true;
+  let camera = { x: width / 2, y: height / 2, scale: 1 };
+  let pan = null;
+  let activeNodeId = null;
+  const areaPalette = {
+    studies: "rgba(143, 181, 255, 0.82)",
+    business: "rgba(255, 180, 128, 0.82)",
+    system: "rgba(124, 170, 109, 0.82)",
+    "sem area": "rgba(185, 185, 185, 0.72)",
+  };
 
   stats.textContent = `${graph.nodes.length} notas, ${graph.edges.length} conexoes`;
 
@@ -1023,10 +1082,11 @@ async function initGraph() {
       node.id,
       {
         ...node,
-        x: (index % 7) * (width / 7) + 60,
-        y: Math.floor(index / 7) * 90 + 70,
+        x: (index % 6) * 160 - ((index % 6) * 12),
+        y: Math.floor(index / 6) * 110,
         vx: 0,
         vy: 0,
+        areaKey: (node.area || "").toLowerCase(),
       },
     ])
   );
@@ -1038,45 +1098,108 @@ async function initGraph() {
 
   const svgNS = "http://www.w3.org/2000/svg";
   const svg = document.createElementNS(svgNS, "svg");
+  const viewport = document.createElementNS(svgNS, "g");
   container.replaceChildren(svg);
+  svg.appendChild(viewport);
 
-  const linkEls = edges.map((edge) => {
+  const adjacency = new Map(nodes.map((node) => [node.id, new Set()]));
+  for (const edge of edges) {
+    adjacency.get(edge.source)?.add(edge.target);
+    adjacency.get(edge.target)?.add(edge.source);
+  }
+
+  edges.forEach((edge) => {
     const line = document.createElementNS(svgNS, "line");
     line.setAttribute("class", "graph-link");
-    svg.appendChild(line);
+    viewport.appendChild(line);
     edge.el = line;
-    return line;
   });
 
   nodes.forEach((node) => {
     const g = document.createElementNS(svgNS, "g");
     g.setAttribute("class", "graph-node");
     const circle = document.createElementNS(svgNS, "circle");
-    circle.setAttribute("r", "5.5");
+    circle.setAttribute("r", "6");
+    circle.setAttribute("fill", areaPalette[node.areaKey] || "rgba(124, 170, 109, 0.72)");
     const text = document.createElementNS(svgNS, "text");
     text.textContent = node.title;
     text.setAttribute("dx", "10");
     text.setAttribute("dy", "4");
     g.append(circle, text);
     g.addEventListener("click", () => {
-      window.location.href = node.url;
+      setActiveNode(node.id);
     });
     makeDraggable(g, node);
     node.el = g;
-    svg.appendChild(g);
+    viewport.appendChild(g);
   });
+
+  svg.addEventListener("dblclick", () => fitToView());
+  svg.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const delta = event.deltaY < 0 ? 1.08 : 0.92;
+    camera.scale = Math.min(2.8, Math.max(0.35, camera.scale * delta));
+  }, { passive: false });
+  svg.addEventListener("pointerdown", (event) => {
+    if (event.target.closest(".graph-node")) return;
+    pan = { x: event.clientX, y: event.clientY };
+  });
+  svg.addEventListener("pointermove", (event) => {
+    if (!pan) return;
+    camera.x += event.clientX - pan.x;
+    camera.y += event.clientY - pan.y;
+    pan = { x: event.clientX, y: event.clientY };
+  });
+  svg.addEventListener("pointerup", () => { pan = null; });
+  svg.addEventListener("pointerleave", () => { pan = null; });
+
+  function fitToView() {
+    const xs = nodes.map((node) => node.x);
+    const ys = nodes.map((node) => node.y);
+    const minX = Math.min(...xs, 0);
+    const maxX = Math.max(...xs, 100);
+    const minY = Math.min(...ys, 0);
+    const maxY = Math.max(...ys, 100);
+    const graphWidth = Math.max(maxX - minX, 240);
+    const graphHeight = Math.max(maxY - minY, 240);
+    camera.scale = Math.min(width / (graphWidth + 160), height / (graphHeight + 160), 1.25);
+    camera.x = width / 2 - ((minX + maxX) / 2) * camera.scale;
+    camera.y = height / 2 - ((minY + maxY) / 2) * camera.scale;
+  }
+
+  function setActiveNode(nodeId) {
+    if (activeNodeId === nodeId) {
+      window.location.href = nodes.find((node) => node.id === nodeId)?.url || "";
+      return;
+    }
+    activeNodeId = nodeId;
+    const neighbors = adjacency.get(nodeId) || new Set();
+    for (const node of nodes) {
+      const isActive = node.id === nodeId;
+      const isNeighbor = neighbors.has(node.id);
+      node.el.classList.toggle("active", isActive);
+      node.el.classList.toggle("neighbor", !isActive && isNeighbor);
+      node.el.classList.toggle("dimmed", !isActive && !isNeighbor);
+    }
+    for (const edge of edges) {
+      const isAttached = edge.source === nodeId || edge.target === nodeId;
+      edge.el.classList.toggle("active", isAttached);
+      edge.el.classList.toggle("dimmed", !isAttached);
+    }
+  }
 
   function makeDraggable(element, node) {
     let dragging = false;
     element.addEventListener("pointerdown", (event) => {
       dragging = true;
       element.setPointerCapture(event.pointerId);
+      event.stopPropagation();
     });
     element.addEventListener("pointermove", (event) => {
       if (!dragging) return;
       const rect = svg.getBoundingClientRect();
-      node.x = event.clientX - rect.left;
-      node.y = event.clientY - rect.top;
+      node.x = (event.clientX - rect.left - camera.x) / camera.scale;
+      node.y = (event.clientY - rect.top - camera.y) / camera.scale;
       node.vx = 0;
       node.vy = 0;
     });
@@ -1090,7 +1213,7 @@ async function initGraph() {
       const dx = edge.targetNode.x - edge.sourceNode.x;
       const dy = edge.targetNode.y - edge.sourceNode.y;
       const distance = Math.max(Math.hypot(dx, dy), 1);
-      const force = (distance - 120) * 0.0009;
+      const force = (distance - 150) * 0.0006;
       const fx = dx * force;
       const fy = dy * force;
       edge.sourceNode.vx += fx;
@@ -1106,8 +1229,8 @@ async function initGraph() {
         const dx = b.x - a.x;
         const dy = b.y - a.y;
         const distance = Math.max(Math.hypot(dx, dy), 1);
-        if (distance > 140) continue;
-        const force = 18 / (distance * distance);
+        if (distance > 190) continue;
+        const force = 26 / (distance * distance);
         const fx = dx * force;
         const fy = dy * force;
         a.vx -= fx;
@@ -1120,9 +1243,11 @@ async function initGraph() {
     for (const node of nodes) {
       node.vx *= 0.92;
       node.vy *= 0.92;
-      node.x = Math.min(width - 24, Math.max(24, node.x + node.vx));
-      node.y = Math.min(height - 24, Math.max(24, node.y + node.vy));
+      node.x += node.vx;
+      node.y += node.vy;
     }
+
+    viewport.setAttribute("transform", `translate(${camera.x}, ${camera.y}) scale(${camera.scale})`);
 
     for (const edge of edges) {
       edge.el.setAttribute("x1", edge.sourceNode.x);
@@ -1133,6 +1258,7 @@ async function initGraph() {
 
     for (const node of nodes) {
       node.el.setAttribute("transform", `translate(${node.x}, ${node.y})`);
+      node.el.classList.toggle("hide-label", !showLabels && node.id !== activeNodeId);
     }
 
     requestAnimationFrame(tick);
@@ -1144,14 +1270,25 @@ async function initGraph() {
     for (const node of nodes) {
       const match = normalized && node.title.toLowerCase().includes(normalized);
       node.el.classList.toggle("active", Boolean(match));
+      node.el.classList.toggle("dimmed", normalized && !match);
       if (match) active.add(node.id);
     }
     for (const edge of edges) {
       const isActive = active.has(edge.source) || active.has(edge.target);
       edge.el.classList.toggle("active", isActive);
+      edge.el.classList.toggle("dimmed", normalized && !isActive);
     }
   }
 
+  actionButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const action = button.dataset.graphAction;
+      if (action === "fit") fitToView();
+      if (action === "labels") showLabels = !showLabels;
+    });
+  });
+
+  fitToView();
   searchInput?.addEventListener("input", (event) => highlight(event.target.value));
   tick();
 }
