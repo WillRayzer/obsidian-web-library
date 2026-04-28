@@ -64,6 +64,7 @@ def copy_tree(source: Path, target: Path) -> None:
             "00-Backups",
             "00-Templates",
             "99-Archive",
+            "Pending",
             ".obsidian",
             "*.docx",
             "*.pdf",

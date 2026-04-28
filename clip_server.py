@@ -221,13 +221,13 @@ def build_markdown(url: str, title: str, description: str, links: list[str], bod
         f'source_domain: "{source_domain.replace(chr(34), chr(39))}"',
         'conversation_type: "web-clip"',
         'area: "Inbox"',
-        'folder: "00-Inbox/Web Clips"',
+        'folder: "00-Inbox/Web Clips/Pending"',
         "tags:",
     ]
     lines.extend(f"  - {tag}" for tag in tags)
     lines.extend([
         f'summary: >\n  {summary.replace(chr(34), chr(39)) or "Captura de pagina web."}',
-        "status: inbox",
+        "status: review",
         "related:",
         '  - "[[00-Dashboard - Biblioteca]]"',
         "---",
