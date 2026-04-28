@@ -13,9 +13,9 @@ summary: >
   >
 status: complete
 related:
+  - "[[O que é neurociência?]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[Dashboard - Biblioteca]]"
-  - "[[O que é Neurociência?]]"
   - "[[Bem vindo]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -47,9 +47,9 @@ Esta nota funciona como porta de entrada temática para outras notas do vault li
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[O que é neurociência?]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Dashboard - Biblioteca]]
-- [[O que é Neurociência?]]
 - [[Bem vindo]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
@@ -64,8 +64,8 @@ Esta nota funciona como porta de entrada temática para outras notas do vault li
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[O que é neurociência?]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Dashboard - Biblioteca]]
-- [[O que é Neurociência?]]
 - [[Bem vindo]]
 <!-- AUTO-RELATED-LINKS:END -->

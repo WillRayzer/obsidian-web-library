@@ -14,8 +14,8 @@ summary: >
 status: complete
 related:
   - "[[Dashboard - Biblioteca]]"
-  - "[[O que é Neurociência?]]"
   - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
+  - "[[O que é neurociência?]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -44,7 +44,7 @@ Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 ## Related Notes
 
 - [[Dashboard - Biblioteca]]
-- [[O que é Neurociência?]]
 - [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
+- [[O que é neurociência?]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 <!-- AUTO-RELATED-LINKS:END -->
