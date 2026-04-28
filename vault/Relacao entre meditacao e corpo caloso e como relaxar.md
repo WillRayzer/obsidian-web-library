@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurociencia
   - cerebro
   - cognicao

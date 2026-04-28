@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - adolescencia
   - saude-mental
   - pertencimento
@@ -20,6 +17,9 @@ tags:
   - desenvolvimento-humano
   - mente
   - comportamento
+  - emocional
+  - contemporaneidade
+  - saude
 topic: "Impacto do pertencimento, saúde mental e fatores sociais na trajetória escolar e profissional do adolescente."
 summary: >
   A nota sintetiza como fatores sociais, emocionais e o sentimento de pertencimento influenciam o desenvolvimento do adolescente. Explora como esses elementos impactam o desempenho escolar e a escolha profissional. O resultado é uma visão integrada da adolescência contemporânea e seus desafios.

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - psicologia
   - psicologia-fenomenologica
@@ -20,15 +17,18 @@ tags:
   - consciencia
   - subjetividade
   - experiencia-vivida
+  - mente
+  - comportamento
+  - psicanalise
 topic: "Síntese conceitual da abordagem fenomenológica na psicologia com estrutura de mapa mental e explicação dos tópicos."
 summary: >
   >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -194,7 +194,7 @@ A conversa resultou em uma síntese organizada da **abordagem fenomenológica na
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Sistema freudiano em linguagem de estudante inicial]]
-- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

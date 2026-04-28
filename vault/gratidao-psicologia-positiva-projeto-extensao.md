@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicologia-positiva
   - gratidao
@@ -20,6 +17,9 @@ tags:
   - comunidade
   - comunidade-nivel-medio
   - ods
+  - mente
+  - comportamento
+  - emocional
 topic: "Projeto de extensão com dois encontros sobre gratidão, desenvolvimento humano e Psicologia Positiva em contexto comunitário."
 summary: >
   >

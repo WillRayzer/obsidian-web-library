@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicanalise
   - sigmund-freud
@@ -20,6 +17,9 @@ tags:
   - inconsciente
   - consciente
   - mente
+  - comportamento
+  - emocional
+  - sigmund
 topic: "Resumo e aprofundamento sobre Freud, sua psicanálise e a influência de sua origem judaica e postura agnóstica."
 summary: >
   >

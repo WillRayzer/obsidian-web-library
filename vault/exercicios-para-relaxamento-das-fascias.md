@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - fascia
   - alongamento
   - mobilidade
@@ -20,14 +17,16 @@ tags:
   - comportamento
   - exercicios
   - relaxamento
+  - emocional
+  - fascias
 topic: "Exercícios e práticas para relaxar e manter as fáscias saudáveis."
 summary: >
   A conversa explorou o conceito de fáscias e evoluiu para práticas práticas de relaxamento. Foram apresentados exercícios, técnicas de mobilidade e liberação miofascial. O resultado é um guia funcional para aplicação diária focado em flexibilidade e redução de tensões.
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[O que se estuda em neurolinguística]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -77,7 +76,7 @@ Foram sugeridos exercícios práticos para relaxamento das fáscias:
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[O que se estuda em neurolinguística]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

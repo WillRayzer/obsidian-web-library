@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - raciocinio-logico
   - raciocinio
   - logico
@@ -20,14 +17,15 @@ tags:
   - psicologia
   - mente
   - comportamento
+  - emocional
 topic: "Análise de um problema lógico com verdade e mentira."
 summary: >
   >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -105,7 +103,7 @@ A única solução lógica é que B diz a verdade e C é o culpado.
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

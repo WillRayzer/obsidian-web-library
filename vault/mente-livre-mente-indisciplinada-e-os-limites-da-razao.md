@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - mente-livre
   - mente-indisciplinada
@@ -20,6 +17,9 @@ tags:
   - criatividade
   - pensamento-nao-linear
   - foco
+  - psicologia
+  - mente
+  - comportamento
 topic: "Reflexão breve sobre liberdade mental, indisciplina e os limites da razão."
 summary: >
   >

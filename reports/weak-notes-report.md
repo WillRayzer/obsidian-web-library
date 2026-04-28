@@ -8,8 +8,8 @@
 
 | Nota | Area | Links manuais | Related | Tags | Score |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Bem vindo | Studies | 1 | 5 | 5 | 11 |
-| Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 12 | 13 |
+| Bem vindo | Studies | 1 | 5 | 2 | 9 |
+| Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 11 | 13 |
 | Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 5 | 12 | 13 |
 | Medicina Germânica | Studies | 2 | 5 | 12 | 13 |
 | Por que adolescentes cometem atos infracionais? | Studies | 2 | 5 | 12 | 13 |
@@ -20,12 +20,12 @@
 | Análise de personalidade e espiritualidade com base no mapa natal de Luanda | Studies | 4 | 5 | 12 | 17 |
 | Análise humanista do caso Gabriel | Studies | 4 | 5 | 12 | 17 |
 | Aposentadoria especial no RPPS do município de São Bernardo do Campo | Studies | 4 | 5 | 12 | 17 |
-| Aposentadorias especiais no IPREM | Studies | 4 | 5 | 12 | 17 |
+| Aposentadorias especiais no IPREM | Studies | 4 | 5 | 10 | 17 |
 | Ataraxia em Essência | Studies | 4 | 5 | 12 | 17 |
 | Auto-hipnose ericksoniana para felicidade | Studies | 4 | 5 | 12 | 17 |
 | Beleza Etérea como Expressão da Alma e da Espiritualidade | Studies | 4 | 5 | 12 | 17 |
 | Benefícios do alho para o corpo humano | Studies | 4 | 5 | 12 | 17 |
-| Benefícios do Melão para o Corpo | Studies | 4 | 5 | 12 | 17 |
+| Benefícios do Melão para o Corpo | Studies | 4 | 5 | 10 | 17 |
 | Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 4 | 5 | 12 | 17 |
 | Codinomes para projeto de arranjos de trabalho flexíveis | Studies | 4 | 5 | 12 | 17 |
 

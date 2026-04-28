@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - avaliacao-psicologica
   - psicologiaaviacao
@@ -20,13 +17,16 @@ tags:
   - estresse
   - atencao
   - desempenho-humano
+  - mente
+  - comportamento
+  - emocional
 topic: "Finalidade da avaliação psicológica na aviação"
 summary: >
   >
 status: complete
 related:
-  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -77,8 +77,8 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

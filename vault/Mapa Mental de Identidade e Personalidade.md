@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - psicologia
   - identidade
@@ -20,6 +17,9 @@ tags:
   - mapa-mental
   - psicologiateorias
   - psicologiabig-five
+  - mente
+  - comportamento
+  - freud
 topic: "Estruturação de um mapa mental sobre identidade e personalidade"
 summary: >
   >
@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -163,6 +163,6 @@ Criar um mapa mental pode ser um processo muito pessoal e depende de como você 
 
 - [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

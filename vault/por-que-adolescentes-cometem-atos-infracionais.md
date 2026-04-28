@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - adolescencia
   - atos-infracionais
   - violencia
@@ -20,6 +17,9 @@ tags:
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - adolescentes
+  - cometem
 topic: "Análise sobre por que adolescentes cometem atos infracionais a partir de Rousseau, da psicologia do desenvolvimento e da sociologia."
 summary: >
   A conversa analisou a aparente contradição entre a ideia rousseauniana de que a criança é naturalmente piedosa e o fato de adolescentes cometerem atos infracionais. A resposta articulou Rousseau, neurodesenvolvimento, pertencimento a pares, aprendizagem social, traumas, fracasso escolar e teorias sociológicas para explicar como contextos assimétricos podem transformar agressividade defensiva em violência intencional. Também foi gerado um documento em Word com a análise formatada.

@@ -125,6 +125,9 @@ def normalize_tags(value: object) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+BANNED_TAGS = {"ia", "conversa", "obsidian", "web", "clip", "inbox"}
+
+
 def extract_sections(body: str) -> dict[str, str]:
     text = body.strip().replace("\r\n", "\n")
     replacements = {
@@ -213,7 +216,9 @@ def normalize_content(path: Path) -> str:
     status = str(frontmatter.get("status") or "complete").strip('"')
     tags = normalize_tags(frontmatter.get("tags"))
     if not tags:
-        tags = ["ia", "conversa", "obsidian", slugify(title)[:48] or "tema"]
+        fallback = slugify(title)[:48]
+        tags = [fallback] if fallback and fallback not in BANNED_TAGS else []
+    tags = [tag for tag in tags if tag and tag not in BANNED_TAGS]
     related = normalize_related(frontmatter.get("related"))
 
     yaml_lines = [

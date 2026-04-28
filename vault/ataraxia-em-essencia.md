@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - filosofia
   - ataraxia
   - estoicismo
@@ -20,15 +17,18 @@ tags:
   - mente
   - comportamento
   - emocional
+  - espiritualidade
+  - autoconhecimento
+  - consciencia
 topic: "A essência da ataraxia como estado de serenidade interior."
 summary: >
   >
 status: complete
 related:
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -80,7 +80,7 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 ## Related Notes
 
 - [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 <!-- AUTO-RELATED-LINKS:END -->

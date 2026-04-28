@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - nutricao
   - espiritualidade
   - autoconhecimento
@@ -20,6 +17,7 @@ tags:
   - corpo
   - psicologia
   - mente
+  - holistica
 topic: "Benefícios do melão para a saúde."
 summary: >
   >

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - previdencia
   - previdencia-social
   - rpps
@@ -20,6 +17,9 @@ tags:
   - direito-previdenciario
   - administracao-publica
   - gestao-publica
+  - aposentadoria
+  - iprem
+  - servidor
 topic: "Conversa sobre aposentadoria especial com foco no RPPS municipal de São Bernardo do Campo."
 summary: >
   >

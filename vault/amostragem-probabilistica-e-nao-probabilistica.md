@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - estatistica
   - estatistica-basica
   - metodologia-cientifica
@@ -20,6 +17,9 @@ tags:
   - populacao
   - inferencia-estatistica
   - amostragem-probabilistica
+  - psicologia
+  - mente
+  - comportamento
 topic: "Conceituação e diferenciação entre amostragem probabilística e não-probabilística."
 summary: >
   >

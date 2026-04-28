@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - espiritualidade
   - aromaterapia
   - oleos-essenciais
@@ -20,6 +17,9 @@ tags:
   - ritual
   - energia
   - chakras
+  - autoconhecimento
+  - consciencia
+  - holistica
 topic: "Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização."
 summary: >
   >
@@ -28,7 +28,7 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
-  - "[[Auto-hipnose ericksoniana para felicidade]]"
+  - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -111,5 +111,5 @@ Foi estruturado um exercício completo com:
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Perfil de terapeuta holístico com abordagem espiritual]]
-- [[Auto-hipnose ericksoniana para felicidade]]
+- [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
 <!-- AUTO-RELATED-LINKS:END -->

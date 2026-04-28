@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - aposentadorias-especiais-no-iprem
   - previdencia
   - direito-previdenciario
@@ -20,6 +17,7 @@ tags:
   - rpps
   - decreto
   - aposentadorias
+  - especiais
 topic: "Baseado no decreto 61.151 do iprem descreva as aposentadorias especiais O tema foi apresentado como relacionado ao Decreto nº 61.151 e ao IPREM, com uma descrição geral das aposent"
 summary: >
   >

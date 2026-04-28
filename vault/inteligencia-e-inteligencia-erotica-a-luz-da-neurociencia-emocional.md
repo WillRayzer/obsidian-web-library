@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - inteligencia
   - inteligencia-erotica
@@ -20,6 +17,9 @@ tags:
   - sexualidade
   - intimidade
   - desejo
+  - mente
+  - comportamento
+  - trauma
 topic: "Exploração do conceito de inteligência e do significado de inteligência erótica sob a perspectiva da neurociência emocional."
 summary: >
   >

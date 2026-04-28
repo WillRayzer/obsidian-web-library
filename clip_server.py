@@ -18,6 +18,16 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
+BANNED_TAGS = {
+    "ia", "conversa", "obsidian", "web", "clip", "inbox", "local", "capture", "captura",
+    "documento", "pagina", "article", "post", "news", "site",
+}
+STOPWORDS = {
+    "de", "da", "do", "das", "dos", "e", "em", "na", "no", "para", "com", "um", "uma",
+    "o", "a", "os", "as", "por", "sobre", "ao", "aos", "que", "como", "mais", "menos",
+    "se", "ou", "sem", "sua", "seu", "suas", "seus", "the", "and", "for", "with",
+    "from", "into", "this", "that", "was", "are", "been", "can", "will", "not", "too",
+}
 
 
 def load_config() -> dict:
@@ -36,6 +46,12 @@ def normalize_text(text: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
+
+def tokenize(text: str) -> list[str]:
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii").lower()
+    parts = re.findall(r"[a-z0-9]{3,}", text)
+    return [part for part in parts if part not in STOPWORDS and part not in BANNED_TAGS]
 
 
 class PageExtractor(HTMLParser):
@@ -161,6 +177,27 @@ def fetch_url(url: str) -> tuple[str, str, list[str], str]:
     return title.strip(), description.strip(), parser.links, body.strip()
 
 
+def extract_tags(title: str, description: str, body: str) -> list[str]:
+    title_tokens = tokenize(title)
+    body_tokens = tokenize(f"{description} {body[:4000]}")
+    counts: dict[str, int] = {}
+    for token in title_tokens:
+        counts[token] = counts.get(token, 0) + 3
+    for token in body_tokens:
+        counts[token] = counts.get(token, 0) + 1
+    ordered = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    tags: list[str] = []
+    for token, _score in ordered:
+        if token in tags:
+            continue
+        if len(token) < 4:
+            continue
+        tags.append(token)
+        if len(tags) >= 8:
+            break
+    return tags
+
+
 def build_markdown(url: str, title: str, description: str, links: list[str], body: str) -> str:
     parsed = urlparse(url)
     source_domain = parsed.netloc
@@ -168,6 +205,7 @@ def build_markdown(url: str, title: str, description: str, links: list[str], bod
     date = datetime.now().strftime("%Y-%m-%d")
     slug = slugify(title or source_domain or "captura-web")
     summary = normalize_text((description or body or "")[:320])
+    tags = extract_tags(title, description, body)
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
@@ -180,10 +218,12 @@ def build_markdown(url: str, title: str, description: str, links: list[str], bod
         'area: "Inbox"',
         'folder: "00-Inbox/Web Clips"',
         "tags:",
-        "  - web",
-        "  - clip",
-        "  - inbox",
-        f"  - {slug[:24] or 'captura'}",
+    ]
+    if tags:
+        lines.extend(f"  - {tag}" for tag in tags)
+    else:
+        lines.append(f"  - {slug[:24] or 'captura-web'}")
+    lines.extend([
         f'summary: >\n  {summary.replace(chr(34), chr(39)) or "Captura de pagina web."}',
         "status: inbox",
         "related:",
@@ -203,7 +243,7 @@ def build_markdown(url: str, title: str, description: str, links: list[str], bod
         "## Extracted Content",
         "",
         body or "Nao foi possivel extrair conteudo legivel desta pagina.",
-    ]
+    ])
 
     if links:
         lines.extend([

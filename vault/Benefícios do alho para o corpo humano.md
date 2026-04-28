@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - nutricao
   - alho
   - saude
@@ -20,6 +17,9 @@ tags:
   - corpo
   - humano
   - psicologia
+  - mente
+  - comportamento
+  - emocional
 topic: "Benefícios e uso do alho na saúde humana."
 summary: >
   >
@@ -27,8 +27,8 @@ status: complete
 related:
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -75,6 +75,6 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

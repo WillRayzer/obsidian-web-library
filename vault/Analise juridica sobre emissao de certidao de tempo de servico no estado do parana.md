@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - direito-administrativo
   - certidao
   - servidor-publico
@@ -20,6 +17,9 @@ tags:
   - servidor
   - analise
   - juridica
+  - emissao
+  - tempo
+  - servico
 topic: "Discussao sobre emissao de certidao de tempo de servico para servidor comissionado."
 summary: >
   >

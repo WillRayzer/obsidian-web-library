@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurociencia
   - memoria
   - memorias-ruins
@@ -20,15 +17,18 @@ tags:
   - emdr
   - tmr
   - hidrocefalia
+  - psicologia
+  - mente
+  - comportamento
 topic: "Pesquisas e explicações sobre memórias ruins, reconsolidação emocional, água no corpo e acúmulo de líquido no cérebro."
 summary: >
   >
 status: complete
 related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -630,7 +630,7 @@ Essas evidências podem servir como ponte entre espiritualidade, metafísica, co
 ## Related Notes
 
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
 <!-- AUTO-RELATED-LINKS:END -->

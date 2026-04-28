@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurociencia
   - psicologia
   - mente
@@ -20,6 +17,9 @@ tags:
   - trauma
   - ligacao
   - entre
+  - sistema
+  - limbico
+  - estomago
 topic: "Conexão entre emoções e sistema digestivo."
 summary: >
   >

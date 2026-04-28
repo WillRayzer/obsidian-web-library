@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - saude-holistica
   - saude-espiritual
   - espiritualidade
@@ -20,6 +17,9 @@ tags:
   - autoconhecimento
   - meditacao
   - psicologia
+  - mente
+  - comportamento
+  - emocional
 topic: "Visão geral sobre saúde holística e saúde espiritual como dimensões complementares do bem-estar."
 summary: >
   >
@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -95,5 +95,5 @@ A saúde holística propõe cuidar do ser humano de forma integral, considerando
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

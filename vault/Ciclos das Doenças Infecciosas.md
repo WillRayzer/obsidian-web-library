@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/saude"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - saude
   - microbiologia
   - epidemiologia
@@ -20,6 +17,9 @@ tags:
   - fungos
   - protozoarios
   - ciclos-de-doencas
+  - bem-estar
+  - estudos
+  - doencas
 topic: "Estudo completo dos ciclos, doenças e controle de agentes infecciosos"
 summary: >
   >

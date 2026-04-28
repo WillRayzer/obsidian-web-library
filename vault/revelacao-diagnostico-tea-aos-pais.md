@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - transtorno-do-espectro-autista
   - tea
   - psicologia
@@ -20,6 +17,9 @@ tags:
   - mente
   - comportamento
   - emocional
+  - revelacao
+  - diagnostico
+  - pais
 topic: "Conhecimentos necessários para comunicar o diagnóstico de TEA à família com menor impacto negativo."
 summary: >
   >

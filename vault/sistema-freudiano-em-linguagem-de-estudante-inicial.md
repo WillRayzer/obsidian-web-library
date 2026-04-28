@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicanalise
   - freud
@@ -20,6 +17,9 @@ tags:
   - pre-consciente
   - subconsciente
   - mente
+  - comportamento
+  - emocional
+  - sistema
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
 summary: >
   >

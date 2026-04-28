@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicanalise
   - freud
@@ -20,6 +17,9 @@ tags:
   - conversao
   - vaginismo
   - compulsao-alimentar
+  - mente
+  - comportamento
+  - trauma
 topic: "Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões"
 summary: >
   >

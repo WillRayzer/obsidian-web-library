@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - autoconhecimento
   - desenvolvimento-pessoal
   - comportamento
@@ -20,6 +17,9 @@ tags:
   - ansiedade
   - medo-de-recomecar
   - medo-do-julgamento
+  - psicologia
+  - mente
+  - emocional
 topic: "Reflexão sobre o padrão de travar quando se está próximo de alcançar o sucesso."
 summary: >
   >

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - desenvolvimento-humano
   - emocao
@@ -20,6 +17,9 @@ tags:
   - psicologia-hospitalar
   - terapia
   - trauma
+  - mente
+  - comportamento
+  - emocional
 topic: "Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las"
 summary: >
   >
@@ -28,7 +28,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -133,5 +133,5 @@ Uma trava emocional é um mecanismo inconsciente de proteção que surge quando 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

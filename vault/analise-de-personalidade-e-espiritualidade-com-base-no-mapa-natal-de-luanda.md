@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - astrologia
   - mapa-natal
@@ -20,6 +17,9 @@ tags:
   - analise-astrologica
   - escorpiao
   - virgem
+  - simbolismo
+  - signos
+  - zodiaco
 topic: "Leitura da personalidade e da dimensão espiritual a partir de um mapa natal."
 summary: >
   >

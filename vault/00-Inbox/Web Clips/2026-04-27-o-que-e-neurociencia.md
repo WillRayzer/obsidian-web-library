@@ -8,12 +8,6 @@ conversation_type: "web-clip"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
-  - web
-  - clip
-  - inbox
   - o-que-e-neurociencia
   - psicologia
   - mente

@@ -8,18 +8,18 @@ conversation_type: "web-clip"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
-  - web
-  - clip
-  - inbox
   - why-the-brain-starts-wit
   - psicologia
   - mente
   - comportamento
   - brain
   - starts
+  - with
+  - much
+  - build
+  - memories
+  - neuroscience
+  - news
 topic: "## Source - URL: https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/ - Domain: neurosciencenews.com - Fetched at: 2026-04-28 00:29:00Z ## Summary The hip"
 summary: >
   >

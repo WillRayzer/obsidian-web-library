@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - governanca-publica
   - administracao-publica
   - gestao-publica
@@ -20,6 +17,9 @@ tags:
   - participacao-cidada
   - democracia
   - e-governance
+  - psicologia
+  - mente
+  - comportamento
 topic: "Síntese estruturada sobre o que é governança pública, seus elementos centrais e seus principais tipos."
 summary: >
   >

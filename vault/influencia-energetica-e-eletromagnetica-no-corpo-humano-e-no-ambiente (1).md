@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - energia
   - eletromagnetismo
   - corpo-humano
@@ -20,6 +17,9 @@ tags:
   - campos-eletromagneticos
   - emf
   - interferencia-eletromagnetica
+  - espiritualidade
+  - autoconhecimento
+  - consciencia
 topic: "Discussão sobre influências energéticas e eletromagnéticas no corpo humano, no ambiente e em estratégias para reduzir exposição em casa."
 summary: >
   >

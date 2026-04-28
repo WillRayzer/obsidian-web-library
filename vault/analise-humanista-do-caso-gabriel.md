@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - psicologia
   - psicologia-humanista
@@ -20,6 +17,9 @@ tags:
   - ansiedade
   - depressao
   - autoestima
+  - mente
+  - comportamento
+  - emocional
 topic: "Discussão de um estudo de caso sob a perspectiva da psicologia humanista."
 summary: >
   >
@@ -28,7 +28,7 @@ related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -129,5 +129,5 @@ Como entrega prática da conversa, ficaram consolidadas respostas para as seguin
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

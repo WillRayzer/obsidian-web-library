@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologiapsicanalise
   - psicologiafreud
   - psicologiainconsciente
@@ -20,14 +17,17 @@ tags:
   - autoconhecimento
   - simbolismo
   - psicologiaanalise-simbolica
+  - psicologia
+  - mente
+  - comportamento
 topic: "Dinâmica de grupo baseada na psicanálise para explorar o inconsciente através de escolhas simbólicas"
 summary: >
   >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -152,7 +152,7 @@ A atividade promove escuta empática, insights individuais e reflexão coletiva,
 ## Related Notes
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

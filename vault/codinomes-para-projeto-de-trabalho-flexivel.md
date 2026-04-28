@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - business
   - naming
   - codinomes
@@ -20,13 +17,16 @@ tags:
   - trabalho-flexivel
   - arranjos-de-trabalho
   - futuro-do-trabalho
+  - espiritualidade
+  - autoconhecimento
+  - consciencia
 topic: "Definição de codinomes conceituais para um projeto de trabalho flexível."
 summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -81,8 +81,8 @@ Claro, aqui estão cinco sugestões de codinomes para um projeto que introduz ar
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

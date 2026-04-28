@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurofeedback
   - neurociencia
   - tdah
@@ -20,6 +17,9 @@ tags:
   - rtfmri
   - artigos-cientificos
   - psicologia
+  - cerebro
+  - cognicao
+  - sinaptica
 topic: "Elenco inicial de artigos científicos sobre neurofeedback, com foco em revisões, meta-análises e aplicações clínicas."
 summary: >
   A conversa teve como objetivo reunir referências científicas relevantes sobre neurofeedback, incluindo EEG-neurofeedback e rtfMRI-neurofeedback. Foram elencadas revisões sistemáticas, meta-análises e estudos clínicos relacionados a TDAH, depressão, TEPT, zumbido, desempenho motor, Parkinson e outras aplicações. O resultado foi uma lista curada para orientar estudos posteriores e organização bibliográfica.

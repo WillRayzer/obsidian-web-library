@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - farmacia
   - farmacia-clinica
   - farmacologia
@@ -20,6 +17,9 @@ tags:
   - antipsicoticos
   - esquizofrenia
   - depressao-do-snc
+  - psicologia
+  - mente
+  - comportamento
 topic: "Interação medicamentosa entre analgésicos narcóticos e drogas utilizadas no tratamento da esquizofrenia."
 summary: >
   >

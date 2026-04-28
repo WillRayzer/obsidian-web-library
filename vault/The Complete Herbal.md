@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/saude"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - traducao
   - herbalismo
   - plantas-medicinais
@@ -20,6 +17,9 @@ tags:
   - saude
   - bem-estar
   - estudos
+  - herbal
+  - complete
+  - nicholas
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
 summary: >
   >

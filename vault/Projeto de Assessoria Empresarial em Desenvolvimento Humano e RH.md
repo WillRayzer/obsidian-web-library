@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - desenvolvimento-humano
   - psicologia
   - mente
@@ -20,6 +17,7 @@ tags:
   - assessoria
   - empresarial
   - desenvolvimento
+  - humano
 topic: "Estruturação de um projeto de assessoria empresarial com base em administração, psicologia e neurociência."
 summary: >
   >

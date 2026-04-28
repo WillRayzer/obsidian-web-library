@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicologia-hospitalar
   - tanatologia
@@ -20,14 +17,17 @@ tags:
   - elizabeth-kubler-ross
   - sobre-a-morte-e-o-morrer
   - estagios-do-luto
+  - mente
+  - comportamento
+  - emocional
 topic: "Explanação sobre as ideias de Elizabeth Kübler-Ross e a escuta psicológica no contexto hospitalar."
 summary: >
   >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -115,7 +115,7 @@ No ambiente hospitalar, essas ideias podem orientar uma prática mais humanizada
 ## Related Notes
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -8,9 +8,6 @@ conversation_type: "document-import"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - mente
   - comportamento

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - psicologia
   - psicodelicos
   - psilocibina
@@ -20,6 +17,9 @@ tags:
   - saude-mental
   - consciencia
   - desenvolvimento-humano
+  - mente
+  - comportamento
+  - emocional
 topic: "Efeitos positivos e implicações do uso de Psilocybe cubensis MDK"
 summary: >
   >

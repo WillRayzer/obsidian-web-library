@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - neurociencia
   - psicologia
@@ -20,6 +17,9 @@ tags:
   - cerebro
   - cognicao
   - linguagem
+  - sinaptica
+  - autismo
+  - evolucao
 topic: "Síntese da evolução biológica, cognitiva e cultural da mente humana."
 summary: >
   >

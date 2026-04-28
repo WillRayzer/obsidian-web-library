@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - beleza-eterea
   - espiritualidade
   - alma
@@ -20,6 +17,9 @@ tags:
   - essencia
   - filosofia
   - psicologia
+  - beleza
+  - eterea
+  - expressao
 topic: "A beleza etérea como manifestação da alma e da consciência espiritual"
 summary: >
   >

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - terapeuta-holistico
   - terapia-holistica
   - abordagem-espiritual
@@ -20,6 +17,9 @@ tags:
   - energia
   - reiki
   - autoconhecimento
+  - consciencia
+  - holistica
+  - meditacao
 topic: "Construção de um perfil de terapeuta holístico com ênfase espiritual e linguagem mais sutil."
 summary: >
   >

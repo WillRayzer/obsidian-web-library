@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - consciencia
   - filosofia
   - psicologia
@@ -20,6 +17,8 @@ tags:
   - energia
   - cerebro
   - cognicao
+  - sinaptica
+  - autismo
 topic: "Definição e compreensão da consciência sob múltiplas perspectivas."
 summary: >
   >

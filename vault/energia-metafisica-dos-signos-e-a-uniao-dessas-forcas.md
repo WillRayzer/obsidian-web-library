@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - astrologia
   - metafisica
@@ -20,6 +17,9 @@ tags:
   - zodiaco
   - escorpiao
   - virgem
+  - mapa-natal
+  - simbolismo
+  - signos
 topic: "Exploração metafísica das energias dos signos e de sua integração como forças cósmicas."
 summary: >
   >

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - mitologia
   - mitologiagrega
   - mitologiapre-grega
@@ -20,6 +17,9 @@ tags:
   - deusas
   - arquetipos
   - arqueologia
+  - psicologia
+  - mente
+  - comportamento
 topic: "análise das deusas anteriores à Grécia e das práticas espirituais arcaicas"
 summary: >
   >

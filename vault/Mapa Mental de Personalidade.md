@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - psicologia
   - personalidade
@@ -20,6 +17,9 @@ tags:
   - desenvolvimento-pessoal
   - psicologiateorias
   - psicologiahumana
+  - mente
+  - comportamento
+  - psicanalise
 topic: "Estrutura aprofundada de um mapa mental integrando personalidade e identidade"
 summary: >
   >

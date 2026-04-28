@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - studies
   - hipnose
   - auto-hipnose
@@ -20,6 +17,9 @@ tags:
   - bem-estar
   - relaxamento
   - sugestoes-positivas
+  - psicologia
+  - mente
+  - comportamento
 topic: "Síntese de auto-hipnose ericksoniana com foco em felicidade e relaxamento."
 summary: >
   >

@@ -75,6 +75,8 @@ STOPWORDS = {
     "se", "ou", "sem", "sua", "seu", "suas", "seus", "del", "la", "el", "the",
 }
 
+BANNED_TAGS = {"ia", "conversa", "obsidian", "web", "clip", "inbox"}
+
 AUTO_RELATED_START = "<!-- AUTO-RELATED-LINKS:START -->"
 AUTO_RELATED_END = "<!-- AUTO-RELATED-LINKS:END -->"
 
@@ -217,7 +219,7 @@ def infer_theme(note: Note) -> dict[str, object] | None:
 
 
 def infer_tags(note: Note, theme: dict[str, object] | None) -> list[str]:
-    tags = [tag for tag in note.tags if tag]
+    tags = [tag for tag in note.tags if tag and tag not in BANNED_TAGS]
     if theme:
         tags.extend(theme["tags"])
         for keyword in theme["keywords"][:6]:
@@ -230,13 +232,9 @@ def infer_tags(note: Note, theme: dict[str, object] | None) -> list[str]:
     for tag in tags:
         if not tag or tag in unique:
             continue
+        if tag in BANNED_TAGS:
+            continue
         unique.append(tag)
-    if "ia" not in unique:
-        unique.insert(0, "ia")
-    if "conversa" not in unique:
-        unique.insert(1, "conversa")
-    if "obsidian" not in unique:
-        unique.insert(2, "obsidian")
     return unique[:12]
 
 

@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurociencia
   - psicologia
   - neuropsicologia
@@ -20,6 +17,9 @@ tags:
   - sinapses
   - plasticidade-sinaptica
   - cognicao
+  - sinaptica
+  - autismo
+  - rigidez
 topic: "Exploração conceitual da rigidez cognitiva, da plasticidade sináptica e de possíveis relações com o autismo."
 summary: >
   >

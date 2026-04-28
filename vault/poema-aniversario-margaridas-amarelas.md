@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - poesia
   - poema-de-aniversario
   - margaridas-amarelas
@@ -20,6 +17,9 @@ tags:
   - felicidade
   - amizade
   - espiritualidade
+  - autoconhecimento
+  - consciencia
+  - energia
 topic: "Criação de um poema de aniversário baseado nas qualidades simbólicas das margaridas amarelas."
 summary: >
   >

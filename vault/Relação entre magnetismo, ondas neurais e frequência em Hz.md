@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - neurociencia
   - frequencia
   - magnetismo
@@ -20,6 +17,9 @@ tags:
   - espiritualidade
   - autoconhecimento
   - meditacao
+  - relacao
+  - entre
+  - ondas
 topic: "Integração entre ondas neurais, magnetismo, emoções e frequência como base de estados humanos."
 summary: >
   >

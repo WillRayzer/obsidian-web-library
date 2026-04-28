@@ -8,9 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - ia
-  - conversa
-  - obsidian
   - luto
   - recomeco
   - desenvolvimento-pessoal
@@ -20,6 +17,9 @@ tags:
   - emocional
   - roteiros
   - fechar
+  - processos
+  - lutos
+  - recomecos
 topic: "Roteiros práticos para encerramento de ciclos, luto e recomeços."
 summary: >
   >
