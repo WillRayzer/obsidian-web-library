@@ -413,6 +413,7 @@ def build_graph_page(site_name: str) -> None:
       <span class="sidebar-label">Navegacao</span>
       <a class="nav-link" href="index.html">Biblioteca</a>
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+      <a class="nav-link" href="clip.html">Captura local</a>
       <a class="nav-link" href="graph-experimental.html">Graph Experimental</a>
     </div>
     <div class="sidebar-block">
@@ -526,6 +527,7 @@ def build_graph_experimental_page(site_name: str) -> None:
       <a class="nav-link" href="index.html">Biblioteca</a>
       <a class="nav-link" href="graph.html">Graph Atual</a>
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+      <a class="nav-link" href="clip.html">Captura local</a>
     </div>
     <div class="sidebar-block">
       <span class="sidebar-label">Uso</span>
@@ -588,6 +590,63 @@ def build_graph_experimental_page(site_name: str) -> None:
     (DIST / "graph-experimental.html").write_text(page, encoding="utf-8")
 
 
+def build_clip_page(site_name: str) -> None:
+    content = f"""
+<main class="app-shell">
+  <aside class="sidebar">
+    <div class="sidebar-block brand-block">
+      <span class="sidebar-label">Vault</span>
+      <h1>{html.escape(site_name)}</h1>
+      <p>Captura um link, converte para Markdown e grava direto no vault local.</p>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Navegacao</span>
+      <a class="nav-link" href="index.html">Biblioteca</a>
+      <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard</a>
+      <a class="nav-link" href="graph.html">Graph View</a>
+      <a class="nav-link" href="clip.html">Captura local</a>
+    </div>
+    <div class="sidebar-block">
+      <span class="sidebar-label">Tailscale</span>
+      <p class="sidebar-text">Use a URL HTTPS do seu tailnet para falar com a API local do computador.</p>
+      <p class="sidebar-text">O processamento continua aqui na maquina; o acesso entra por Tailscale Serve.</p>
+    </div>
+  </aside>
+  <section class="main-column">
+    <header class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Clipper Local</span>
+        <h1>Converter link em nota</h1>
+        <p>Envie uma URL para a API local do seu computador. O conteúdo entra no vault e segue o pipeline do segundo cerebro.</p>
+      </div>
+    </header>
+    <section class="toolbar card clip-toolbar">
+      <label for="clip-api-base">API local via Tailscale</label>
+      <input id="clip-api-base" type="url" placeholder="https://seu-device.seu-tailnet.ts.net">
+      <p class="helper">Exemplo: a URL HTTPS gerada pelo `tailscale serve` apontando para a porta local 8787.</p>
+      <label for="clip-url">Link para capturar</label>
+      <input id="clip-url" type="url" placeholder="https://exemplo.com/artigo">
+      <div class="graph-toolbar-row">
+        <button type="button" class="graph-button is-active" id="clip-submit">Clipar para o vault</button>
+        <button type="button" class="graph-button" id="clip-test">Testar conexão</button>
+      </div>
+      <p class="helper" id="clip-status">Pronto para receber um link.</p>
+    </section>
+    <section class="card">
+      <div class="section-head">
+        <h2>Resposta</h2>
+        <span id="clip-meta">Nenhuma captura ainda</span>
+      </div>
+      <pre id="clip-preview" class="clip-preview">A resposta da API local vai aparecer aqui.</pre>
+    </section>
+  </section>
+</main>
+<script src="assets/clip.js"></script>
+"""
+    page = index_template(content, site_name)
+    (DIST / "clip.html").write_text(page, encoding="utf-8")
+
+
 def build_note_pages(notes: list[Note], lookup: dict[str, str], site_name: str) -> None:
     notes_dir = DIST / "notes"
     notes_dir.mkdir(parents=True, exist_ok=True)
@@ -621,6 +680,7 @@ def build_note_pages(notes: list[Note], lookup: dict[str, str], site_name: str) 
       <span class="sidebar-label">Navegacao</span>
       <a class="nav-link" href="../index.html">Inicio</a>
       <a class="nav-link" href="../notes/00-dashboard-biblioteca.html">Dashboard</a>
+      <a class="nav-link" href="../clip.html">Captura local</a>
     </div>
     <div class="sidebar-block">
       <span class="sidebar-label">Nota atual</span>
@@ -704,6 +764,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
       <a class="nav-link" href="notes/00-dashboard-biblioteca.html">Dashboard principal</a>
       <a class="nav-link" href="graph.html">Graph View</a>
       <a class="nav-link" href="graph-experimental.html">Graph Experimental</a>
+      <a class="nav-link" href="clip.html">Captura local</a>
       {quick_links}
     </div>
     <div class="sidebar-block metrics-stack">
@@ -726,6 +787,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
       <div class="hero-actions">
         <a class="button primary" href="#colecao">Explorar biblioteca</a>
         <a class="button" href="notes/00-dashboard-biblioteca.html">Abrir dashboard</a>
+        <a class="button" href="clip.html">Abrir captura</a>
         <a class="button" href="graph.html">Abrir grafo</a>
         <a class="button" href="graph-experimental.html">Abrir experimento</a>
       </div>
@@ -1187,6 +1249,25 @@ a { color: inherit; }
 .graph-highlight-item span {
   color: var(--muted);
   font-size: 0.9rem;
+}
+.helper[data-tone="ok"] { color: #f4e3be; }
+.helper[data-tone="warn"] { color: #e3a6c0; }
+.helper[data-tone="error"] { color: #ffb3c0; }
+.clip-toolbar {
+  display: grid;
+  gap: 12px;
+}
+.clip-preview {
+  margin: 0;
+  padding: 18px;
+  border-radius: 14px;
+  overflow: auto;
+  max-height: 48vh;
+  background: rgba(0, 0, 0, 0.18);
+  border-top: 1px solid var(--border);
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text);
 }
 @media (max-width: 980px) {
   .app-shell {
@@ -2109,9 +2190,153 @@ async function initExperimentalGraph() {
 initExperimentalGraph();
 """
 
+    clip_script = r"""
+const clipApiBase = document.querySelector("#clip-api-base");
+const clipUrl = document.querySelector("#clip-url");
+const clipSubmit = document.querySelector("#clip-submit");
+const clipTest = document.querySelector("#clip-test");
+const clipStatus = document.querySelector("#clip-status");
+const clipMeta = document.querySelector("#clip-meta");
+const clipPreview = document.querySelector("#clip-preview");
+const storageKey = "obsidian-web-library.clip-api-base";
+
+function normalizeBaseUrl(value) {
+  return value.trim().replace(/\/+$/, "");
+}
+
+function getApiBase() {
+  const saved = window.localStorage.getItem(storageKey);
+  return saved || "";
+}
+
+function setStatus(message, tone = "info") {
+  if (!clipStatus) return;
+  clipStatus.textContent = message;
+  clipStatus.dataset.tone = tone;
+}
+
+function setPreview(title, body) {
+  if (clipMeta) clipMeta.textContent = title;
+  if (clipPreview) clipPreview.textContent = body;
+}
+
+async function requestJson(baseUrl, path, options = {}) {
+  const response = await fetch(`${baseUrl}${path}`, {
+    ...options,
+    headers: {
+      "Content-Type": "application/json",
+      ...(options.headers || {}),
+    },
+  });
+  const text = await response.text();
+  let data = {};
+  try {
+    data = text ? JSON.parse(text) : {};
+  } catch {
+    data = { raw: text };
+  }
+  if (!response.ok) {
+    const message = data.error || data.message || response.statusText || "Falha na requisicao";
+    throw new Error(message);
+  }
+  return data;
+}
+
+function syncApiBaseFromInput() {
+  if (!clipApiBase) return "";
+  const value = normalizeBaseUrl(clipApiBase.value || "");
+  if (value) window.localStorage.setItem(storageKey, value);
+  return value;
+}
+
+async function testConnection() {
+  const baseUrl = syncApiBaseFromInput();
+  if (!baseUrl) {
+    setStatus("Defina a URL da API local antes de testar.", "warn");
+    return;
+  }
+  setStatus("Testando conexao com a API local...");
+  try {
+    const data = await requestJson(baseUrl, "/health");
+    setStatus(`Conexao ok: ${data.status || "online"}`);
+    setPreview("Health check", JSON.stringify(data, null, 2));
+  } catch (error) {
+    setStatus(`Erro ao testar: ${error.message}`, "error");
+    setPreview("Erro", String(error.message || error));
+  }
+}
+
+async function clipUrlToVault() {
+  const baseUrl = syncApiBaseFromInput();
+  const url = clipUrl?.value?.trim();
+  if (!baseUrl) {
+    setStatus("Defina a URL da API local antes de clipar.", "warn");
+    return;
+  }
+  if (!url) {
+    setStatus("Cole um link valido para capturar.", "warn");
+    return;
+  }
+
+  setStatus("Enviando link para a API local...");
+  clipSubmit.disabled = true;
+  clipTest.disabled = true;
+  try {
+    const data = await requestJson(baseUrl, "/clip", {
+      method: "POST",
+      body: JSON.stringify({ url }),
+    });
+    const title = data.title || "Captura concluida";
+    const preview = [
+      `Titulo: ${data.title || "Sem titulo"}`,
+      `Arquivo: ${data.saved_path || "sem caminho informado"}`,
+      `Area: ${data.area || "Sem area"}`,
+      `Status: ${data.status || "ok"}`,
+      "",
+      data.preview || data.markdown || data.message || "Nenhum preview retornado.",
+    ].join("\n");
+    setStatus("Link convertido e salvo no vault local.", "ok");
+    setPreview(title, preview);
+    if (data.saved_path) {
+      clipUrl.value = "";
+    }
+  } catch (error) {
+    setStatus(`Erro ao clipar: ${error.message}`, "error");
+    setPreview("Erro", String(error.message || error));
+  } finally {
+    clipSubmit.disabled = false;
+    clipTest.disabled = false;
+  }
+}
+
+if (clipApiBase) {
+  clipApiBase.value = getApiBase();
+  clipApiBase.addEventListener("change", syncApiBaseFromInput);
+  clipApiBase.addEventListener("blur", syncApiBaseFromInput);
+}
+
+if (clipSubmit) {
+  clipSubmit.addEventListener("click", clipUrlToVault);
+}
+
+if (clipTest) {
+  clipTest.addEventListener("click", testConnection);
+}
+
+if (clipUrl) {
+  clipUrl.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      clipUrlToVault();
+    }
+  });
+}
+"""
+
     (assets / "styles.css").write_text(styles.strip() + "\n", encoding="utf-8")
     (assets / "app.js").write_text(script.strip() + "\n", encoding="utf-8")
     (assets / "app-experimental.js").write_text(experimental_script.strip() + "\n", encoding="utf-8")
+    (assets / "clip.js").write_text(clip_script.strip() + "\n", encoding="utf-8")
 
 
 def main() -> None:
@@ -2134,6 +2359,7 @@ def main() -> None:
     build_index(notes, site_name, sync_status)
     build_graph_page(site_name)
     build_graph_experimental_page(site_name)
+    build_clip_page(site_name)
     graph_data = build_graph_data(notes, lookup)
     (DIST / "assets" / "graph.json").write_text(json.dumps(graph_data, ensure_ascii=False, indent=2), encoding="utf-8")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")

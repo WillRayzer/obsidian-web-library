@@ -14,6 +14,7 @@ Versao web estatica do vault do Obsidian armazenado dentro da pasta `vault/`.
 - Inclui configuracao pronta para Netlify
 - Inclui `Graph View` web inspirado no grafo do Obsidian
 - Inclui publicacao automatica a partir do vault local
+- Inclui uma pagina de captura de links com processamento local no seu computador
 
 ## Como gerar
 
@@ -51,6 +52,33 @@ Atalhos no Windows:
 - `watch-publish.cmd`
 
 Observacao: a atualizacao online nao acontece sozinha no GitHub. Ela acontece quando esta maquina roda o `publish.py` ou o modo `--watch`.
+
+## Captura de links via Tailscale
+
+Se voce quer enviar uma URL pela web, mas manter todo o processamento neste computador, use a pagina `clip.html` e o mini servidor local:
+
+```bash
+python3 clip_server.py --host 127.0.0.1 --port 8787
+```
+
+Depois exponha a porta de forma privada no seu tailnet:
+
+```bash
+tailscale serve --bg 8787
+```
+
+No dashboard, abra `clip.html` e informe a URL HTTPS do seu tailnet no campo `API local via Tailscale`, por exemplo:
+
+```text
+https://seu-device.seu-tailnet.ts.net
+```
+
+O servidor salva os arquivos em `00-Inbox/Web Clips/` dentro do vault original. O pipeline atual continua responsavel por normalizar, enriquecer e publicar.
+
+Atalhos incluidos no projeto:
+
+- `clip-server.cmd` ou `clip-server.vbs`: inicia a API local no WSL
+- `clip-expose.cmd`: expõe a porta 8787 via Tailscale Serve
 
 ## Como testar localmente
 
@@ -91,6 +119,7 @@ Edite `config.json`:
 ## Arquivos importantes
 
 - `build.py`: gerador do site
+- `clip_server.py`: mini servidor que transforma URLs em notas `.md`
 - `publish.py`: sincroniza o vault local, gera o site e faz commit/push
 - `config.json`: caminho do vault e nome da biblioteca
 - `netlify.toml`: deploy pronto no Netlify
