@@ -15,8 +15,8 @@ status: complete
 related:
   - "[[Dashboard - Biblioteca]]"
   - "[[O que é Neurociência?]]"
+  - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[Medicina Germânica]]"
-  - "[[Neuroscience News Science Magazine - Research Articles - Psychology Neurology Brains AI]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -45,6 +45,6 @@ Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 
 - [[Dashboard - Biblioteca]]
 - [[O que é Neurociência?]]
+- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Medicina Germânica]]
-- [[Neuroscience News Science Magazine - Research Articles - Psychology Neurology Brains AI]]
 <!-- AUTO-RELATED-LINKS:END -->

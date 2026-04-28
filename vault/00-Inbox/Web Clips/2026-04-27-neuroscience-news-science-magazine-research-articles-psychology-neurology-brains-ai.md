@@ -13,9 +13,9 @@ summary: >
   >
 status: inbox
 related:
-  - "[[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]"
   - "[[O que é Neurociência?]]"
   - "[[Artigos Científicos de Neurofeedback]]"
+  - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -612,9 +612,9 @@ Go to Appearance > Customize > Subscribe Pop-up to set this up.
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]
 - [[O que é Neurociência?]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
@@ -630,8 +630,8 @@ Go to Appearance > Customize > Subscribe Pop-up to set this up.
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]
 - [[O que é Neurociência?]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

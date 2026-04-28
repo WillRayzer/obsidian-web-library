@@ -15,7 +15,7 @@
 | Por que adolescentes cometem atos infracionais? | Studies | 2 | 5 | 3 | 12 |
 | Neuroscience News Science Magazine - Research Articles - Psychology Neurology Brains AI | Inbox | 4 | 5 | 0 | 13 |
 | O que é Neurociência? | Inbox | 4 | 5 | 0 | 13 |
-| Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News | Inbox | 4 | 5 | 0 | 13 |
+| Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News | Inbox | 4 | 5 | 0 | 13 |
 | Adolescência na Contemporaneidade: Pertencimento, Saúde Mental e Escolha Profissional | Studies | 3 | 5 | 3 | 14 |
 | Amostragem Probabilística e Não-Probabilística | Studies | 4 | 5 | 3 | 16 |
 | Analise juridica sobre emissao de certidao de tempo de servico no estado do parana | Studies | 4 | 5 | 3 | 16 |
