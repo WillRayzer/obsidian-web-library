@@ -8,18 +8,15 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - studies
   - psicologia
   - identidade
   - personalidade
   - autoconhecimento
-  - desenvolvimento-pessoal
-  - mapa-mental
-  - psicologiateorias
-  - psicologiabig-five
   - mente
   - comportamento
   - freud
+  - mapa
+  - mental
 topic: "Estruturação de um mapa mental sobre identidade e personalidade"
 summary: >
   >

@@ -9,17 +9,16 @@ area: "Studies"
 folder: "04-Studies/saude"
 tags:
   - traducao
-  - herbalismo
-  - plantas-medicinais
   - fitoterapia
-  - historia-da-medicina
-  - astrologia-medica
   - saude
   - bem-estar
   - estudos
   - herbal
+  - herbalismo
   - complete
   - nicholas
+  - culpeper
+  - capitulos
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
 summary: >
   >

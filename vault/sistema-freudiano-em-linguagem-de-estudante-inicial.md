@@ -11,15 +11,15 @@ tags:
   - psicologia
   - psicanalise
   - freud
-  - sistema-freudiano
   - inconsciente
   - consciente
-  - pre-consciente
   - subconsciente
   - mente
   - comportamento
   - emocional
   - sistema
+  - freudiano
+  - linguagem
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
 summary: >
   >

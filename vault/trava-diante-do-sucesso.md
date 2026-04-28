@@ -8,18 +8,17 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - autoconhecimento
-  - desenvolvimento-pessoal
   - comportamento
-  - padroes-comportamentais
-  - autossabotagem
   - procrastinacao
   - ansiedade
-  - medo-de-recomecar
-  - medo-do-julgamento
   - psicologia
   - mente
   - emocional
+  - trava
+  - diante
+  - sucesso
+  - medo
+  - recomecar
 topic: "Reflexão sobre o padrão de travar quando se está próximo de alcançar o sucesso."
 summary: >
   >

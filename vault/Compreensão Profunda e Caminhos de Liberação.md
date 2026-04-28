@@ -9,17 +9,16 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - desenvolvimento-humano
-  - emocao
-  - trava-emocional
   - autoconhecimento
-  - psicologia-clinica
-  - psicologia-hospitalar
   - terapia
-  - trauma
   - mente
   - comportamento
+  - trauma
   - emocional
+  - ansiedade
+  - trava
+  - caminhos
+  - liberacao
 topic: "Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las"
 summary: >
   >

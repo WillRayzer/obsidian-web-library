@@ -12,14 +12,14 @@ tags:
   - psicanalise
   - freud
   - histeria
-  - estrutura-psiquica
-  - mecanismos-de-defesa
   - conversao
   - vaginismo
-  - compulsao-alimentar
   - mente
   - comportamento
   - trauma
+  - emocional
+  - analise
+  - psicanalitica
 topic: "Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões"
 summary: >
   >

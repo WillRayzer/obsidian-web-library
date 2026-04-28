@@ -8,11 +8,8 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - transtorno-do-espectro-autista
   - tea
   - psicologia
-  - devolutiva-diagnostica
-  - desenvolvimento-infantil
   - familia
   - mente
   - comportamento

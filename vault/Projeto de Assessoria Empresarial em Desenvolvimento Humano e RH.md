@@ -8,7 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - desenvolvimento-humano
   - psicologia
   - mente
   - comportamento

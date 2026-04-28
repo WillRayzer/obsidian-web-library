@@ -10,7 +10,6 @@ folder: "04-Studies/psicologia"
 tags:
   - luto
   - recomeco
-  - desenvolvimento-pessoal
   - psicologia
   - mente
   - comportamento

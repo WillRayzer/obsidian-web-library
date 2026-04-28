@@ -11,7 +11,6 @@ tags:
   - neurociencia
   - frequencia
   - magnetismo
-  - ondas-cerebrais
   - epigenetica
   - consciencia
   - espiritualidade
@@ -20,6 +19,7 @@ tags:
   - relacao
   - entre
   - ondas
+  - neurais
 topic: "Integração entre ondas neurais, magnetismo, emoções e frequência como base de estados humanos."
 summary: >
   >

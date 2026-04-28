@@ -10,16 +10,16 @@ folder: "04-Studies/psicologia"
 tags:
   - neurociencia
   - memoria
-  - memorias-ruins
   - trauma
   - reconsolidacao
-  - reconsolidacao-emocional
   - emdr
   - tmr
   - hidrocefalia
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - ansiedade
 topic: "Pesquisas e explicações sobre memórias ruins, reconsolidação emocional, água no corpo e acúmulo de líquido no cérebro."
 summary: >
   >

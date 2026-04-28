@@ -8,15 +8,12 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - nutricao
   - espiritualidade
   - autoconhecimento
   - consciencia
   - beneficios
   - melao
   - corpo
-  - psicologia
-  - mente
   - holistica
 topic: "Benefícios do melão para a saúde."
 summary: >
@@ -26,7 +23,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[O que é consciência]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Saúde holística e saúde espiritual]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -76,5 +73,5 @@ Principais benefícios:
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[O que é consciência]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Saúde holística e saúde espiritual]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -8,18 +8,17 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - psicologiapsicanalise
-  - psicologiafreud
-  - psicologiainconsciente
-  - psicologiamecanismos-de-defesa
-  - dinamicasgrupo
-  - desenvolvimento-humano
   - autoconhecimento
-  - simbolismo
-  - psicologiaanalise-simbolica
   - psicologia
   - mente
   - comportamento
+  - psicanalise
+  - freud
+  - emocional
+  - dinamica
+  - escolhas
+  - simbolicas
+  - inconsciente
 topic: "Dinâmica de grupo baseada na psicanálise para explorar o inconsciente através de escolhas simbólicas"
 summary: >
   >

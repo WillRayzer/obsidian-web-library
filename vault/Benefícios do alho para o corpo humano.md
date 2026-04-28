@@ -11,7 +11,6 @@ tags:
   - nutricao
   - alho
   - saude
-  - bem-estar
   - estudos
   - beneficios
   - corpo

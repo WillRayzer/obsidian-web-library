@@ -9,17 +9,16 @@ area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
   - previdencia
-  - previdencia-social
   - rpps
-  - regime-proprio-de-previdencia-social
-  - aposentadoria-especial
-  - servidor-publico
   - direito-previdenciario
   - administracao-publica
-  - gestao-publica
   - aposentadoria
   - iprem
   - servidor
+  - especial
+  - municipio
+  - bernardo
+  - campo
 topic: "Conversa sobre aposentadoria especial com foco no RPPS municipal de São Bernardo do Campo."
 summary: >
   >

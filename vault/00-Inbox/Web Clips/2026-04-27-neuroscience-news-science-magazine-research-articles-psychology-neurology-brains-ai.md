@@ -8,7 +8,6 @@ conversation_type: "web-clip"
 area: "Inbox"
 folder: "00-Inbox/Web Clips"
 tags:
-  - neuroscience-news-scienc
   - neuroscience
   - science
   - magazine
@@ -24,8 +23,8 @@ status: inbox
 related:
   - "[[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]"
   - "[[O que é Neurociência?]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Artigos Científicos de Neurofeedback]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -623,8 +622,8 @@ Go to Appearance > Customize > Subscribe Pop-up to set this up.
 
 - [[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]
 - [[O que é Neurociência?]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -641,6 +640,6 @@ Go to Appearance > Customize > Subscribe Pop-up to set this up.
 
 - [[Why the Brain Starts with 'Too Much' to Build Memories - Neuroscience News]]
 - [[O que é Neurociência?]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

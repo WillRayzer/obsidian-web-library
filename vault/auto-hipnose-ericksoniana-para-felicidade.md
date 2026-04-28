@@ -8,18 +8,14 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - studies
   - hipnose
-  - auto-hipnose
-  - hipnose-ericksoniana
-  - milton-erickson
   - felicidade
-  - bem-estar
   - relaxamento
-  - sugestoes-positivas
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - ericksoniana
 topic: "Síntese de auto-hipnose ericksoniana com foco em felicidade e relaxamento."
 summary: >
   >

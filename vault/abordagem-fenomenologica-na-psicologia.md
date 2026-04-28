@@ -8,18 +8,18 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - studies
   - psicologia
-  - psicologia-fenomenologica
   - fenomenologia
-  - abordagem-fenomenologica
-  - mapa-mental
   - consciencia
   - subjetividade
-  - experiencia-vivida
   - mente
   - comportamento
   - psicanalise
+  - freud
+  - emocional
+  - mapa
+  - mental
+  - sintese
 topic: "Síntese conceitual da abordagem fenomenológica na psicologia com estrutura de mapa mental e explicação dos tópicos."
 summary: >
   >

@@ -8,18 +8,18 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - psychology
-  - psychoanalysis
   - freud
-  - wolf-man
   - neurose
-  - cena-primaria
-  - complexo-de-edipo
   - transferencia
   - sonho
   - psicologia
   - mente
   - comportamento
+  - psicanalise
+  - trauma
+  - emocional
+  - cena
+  - primaria
 topic: "Análise da neurose no caso do Homem dos Lobos com foco na cena primária"
 summary: >
   >

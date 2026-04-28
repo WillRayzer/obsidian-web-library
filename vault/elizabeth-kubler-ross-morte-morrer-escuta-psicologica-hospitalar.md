@@ -9,17 +9,16 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - psicologia-hospitalar
-  - tanatologia
-  - morte-e-morrer
   - terminalidade
-  - cuidados-paliativos
-  - elizabeth-kubler-ross
-  - sobre-a-morte-e-o-morrer
-  - estagios-do-luto
   - mente
   - comportamento
   - emocional
+  - elizabeth
+  - morte
+  - morrer
+  - escuta
+  - psicologica
+  - hospitalar
 topic: "Explanação sobre as ideias de Elizabeth Kübler-Ross e a escuta psicológica no contexto hospitalar."
 summary: >
   >

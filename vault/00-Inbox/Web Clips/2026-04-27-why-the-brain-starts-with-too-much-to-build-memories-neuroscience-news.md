@@ -8,10 +8,8 @@ conversation_type: "web-clip"
 area: "Inbox"
 folder: "00-Inbox/Web Clips"
 tags:
-  - why-the-brain-starts-wit
   - brain
   - starts
-  - with
   - much
   - build
   - memories

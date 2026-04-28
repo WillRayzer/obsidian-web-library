@@ -8,18 +8,16 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - studies
   - psicologia
-  - psicologia-humanista
-  - caso-clinico
-  - analise-de-caso
-  - saude-mental
   - ansiedade
-  - depressao
   - autoestima
   - mente
   - comportamento
   - emocional
+  - analise
+  - humanista
+  - caso
+  - gabriel
 topic: "Discussão de um estudo de caso sob a perspectiva da psicologia humanista."
 summary: >
   >

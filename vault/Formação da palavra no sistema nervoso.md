@@ -8,7 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - linguagem-neural
   - neurociencia
   - palavra
   - cerebro

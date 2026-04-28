@@ -8,18 +8,18 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
-  - studies
   - astrologia
   - mapa-natal
   - personalidade
   - espiritualidade
   - autoconhecimento
-  - analise-astrologica
   - escorpiao
   - virgem
   - simbolismo
   - signos
   - zodiaco
+  - analise
+  - base
 topic: "Leitura da personalidade e da dimensão espiritual a partir de um mapa natal."
 summary: >
   >

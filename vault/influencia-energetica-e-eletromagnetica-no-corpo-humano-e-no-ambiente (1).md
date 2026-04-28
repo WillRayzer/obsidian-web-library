@@ -10,16 +10,16 @@ folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - energia
   - eletromagnetismo
-  - corpo-humano
   - ambiente
   - saude
-  - radiacao-eletromagnetica
-  - campos-eletromagneticos
   - emf
-  - interferencia-eletromagnetica
   - espiritualidade
   - autoconhecimento
   - consciencia
+  - holistica
+  - meditacao
+  - influencia
+  - energetica
 topic: "Discussão sobre influências energéticas e eletromagnéticas no corpo humano, no ambiente e em estratégias para reduzir exposição em casa."
 summary: >
   >

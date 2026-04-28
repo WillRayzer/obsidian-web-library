@@ -8,18 +8,15 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - business
-  - naming
   - codinomes
-  - branding
-  - strategy
-  - workplace
-  - trabalho-flexivel
-  - arranjos-de-trabalho
-  - futuro-do-trabalho
   - espiritualidade
   - autoconhecimento
   - consciencia
+  - energia
+  - projeto
+  - arranjos
+  - trabalho
+  - flexiveis
 topic: "Definição de codinomes conceituais para um projeto de trabalho flexível."
 summary: >
   >

@@ -11,15 +11,15 @@ tags:
   - saude
   - microbiologia
   - epidemiologia
-  - doencas-infecciosas
   - virus
-  - bacterias
-  - fungos
   - protozoarios
-  - ciclos-de-doencas
   - bem-estar
   - estudos
   - doencas
+  - infecciosas
+  - ciclos
+  - virais
+  - bacterianas
 topic: "Estudo completo dos ciclos, doenças e controle de agentes infecciosos"
 summary: >
   >

@@ -8,7 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - referencias-literarias-sobre-o-chakra-da-nuca
   - psicologia
   - mente
   - comportamento

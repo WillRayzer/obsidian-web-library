@@ -73,6 +73,10 @@ STOPWORDS = {
     "de", "da", "do", "das", "dos", "e", "em", "na", "no", "para", "com", "um", "uma",
     "o", "a", "os", "as", "por", "sobre", "ao", "aos", "que", "como", "mais", "menos",
     "se", "ou", "sem", "sua", "seu", "suas", "seus", "del", "la", "el", "the",
+    "with", "from", "into", "this", "that", "was", "are", "been", "can", "will",
+    "not", "too", "by", "at", "on", "of", "as", "is", "it", "its", "an", "or",
+    "if", "to", "in", "for", "and", "about", "after", "before", "during", "over",
+    "under", "between", "through", "toward", "towards", "up", "down", "out",
 }
 
 BANNED_TAGS = {
@@ -234,9 +238,17 @@ def infer_theme(note: Note) -> dict[str, object] | None:
     return scores[0][1]
 
 
-def infer_tags(note: Note, theme: dict[str, object] | None) -> list[str]:
-    tags = [tag for tag in note.tags if tag and tag not in BANNED_TAGS]
+def infer_tags(note: Note, theme: dict[str, object] | None, strict: bool = False) -> list[str]:
     body_tokens = tokenize(note.body)
+    theme_tags = set(theme["tags"]) if theme else set()
+    tags = []
+    if not strict:
+        tags.extend(
+            tag for tag in note.tags
+            if tag
+            and tag not in BANNED_TAGS
+            and (tag in body_tokens or tag in theme_tags)
+        )
     if theme:
         tags.extend(theme["tags"])
         for keyword in theme["keywords"][:6]:
@@ -324,7 +336,7 @@ def main() -> None:
         is_web_clip = str(note.frontmatter.get("conversation_type") or "").strip().lower() == "web-clip"
         is_inbox_note = str(note.frontmatter.get("area") or "").strip().lower() == "inbox" or str(note.frontmatter.get("folder") or "").strip().startswith("00-Inbox")
         theme = None if (is_web_clip or is_inbox_note) else infer_theme(note)
-        tags = infer_tags(note, theme)
+        tags = infer_tags(note, theme, strict=is_web_clip or is_inbox_note)
         related = infer_related(note, notes, tags)
         front = dict(note.frontmatter)
         if theme:

@@ -8,18 +8,17 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - medicina-chinesa
   - mtc
   - tercol
   - hordeolo
   - olhos
   - figado
-  - calor-interno
-  - vento-calor
-  - umidade-calor
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - medicina
+  - chinesa
 topic: "Interpretação do terçol na Medicina Tradicional Chinesa como manifestação de desequilíbrios energéticos."
 summary: >
   >

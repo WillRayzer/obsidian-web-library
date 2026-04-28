@@ -9,11 +9,7 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - ganglios-da-base
   - dopamina
-  - sistema-nervoso
-  - plasticidade-neural
-  - saude-cerebral
   - cerebro
   - cognicao
   - ganglios

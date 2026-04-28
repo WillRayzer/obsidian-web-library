@@ -9,17 +9,17 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - adolescencia
-  - saude-mental
   - pertencimento
   - escola
-  - escolha-profissional
   - psicologia
-  - desenvolvimento-humano
   - mente
   - comportamento
   - emocional
   - contemporaneidade
   - saude
+  - mental
+  - escolha
+  - profissional
 topic: "Impacto do pertencimento, saúde mental e fatores sociais na trajetória escolar e profissional do adolescente."
 summary: >
   A nota sintetiza como fatores sociais, emocionais e o sentimento de pertencimento influenciam o desenvolvimento do adolescente. Explora como esses elementos impactam o desempenho escolar e a escolha profissional. O resultado é uma visão integrada da adolescência contemporânea e seus desafios.
@@ -28,7 +28,7 @@ related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Resumo Orientação Profissional para Adolescentes]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -65,5 +65,5 @@ Conteúdo consolidado da conversa:
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Por que adolescentes cometem atos infracionais?]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Resumo Orientação Profissional para Adolescentes]]
 <!-- AUTO-RELATED-LINKS:END -->

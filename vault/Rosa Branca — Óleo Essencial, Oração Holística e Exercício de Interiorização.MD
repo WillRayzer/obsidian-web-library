@@ -10,8 +10,6 @@ folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - espiritualidade
   - aromaterapia
-  - oleos-essenciais
-  - rosa-branca
   - meditacao
   - autocuidado
   - ritual
@@ -20,6 +18,8 @@ tags:
   - autoconhecimento
   - consciencia
   - holistica
+  - oracao
+  - rosa
 topic: "Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização."
 summary: >
   >

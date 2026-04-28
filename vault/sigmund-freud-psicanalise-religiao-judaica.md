@@ -10,16 +10,16 @@ folder: "04-Studies/psicologia"
 tags:
   - psicologia
   - psicanalise
-  - sigmund-freud
   - freud
-  - historia-da-psicologia
-  - psicologia-cientifica
   - inconsciente
   - consciente
   - mente
   - comportamento
   - emocional
   - sigmund
+  - influencia
+  - religiao
+  - judaica
 topic: "Resumo e aprofundamento sobre Freud, sua psicanálise e a influência de sua origem judaica e postura agnóstica."
 summary: >
   >

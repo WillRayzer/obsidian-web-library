@@ -9,24 +9,21 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - estatistica
-  - estatistica-basica
-  - metodologia-cientifica
-  - pesquisa-cientifica
   - amostragem
   - amostra
   - populacao
-  - inferencia-estatistica
-  - amostragem-probabilistica
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - probabilistica
 topic: "Conceituação e diferenciação entre amostragem probabilística e não-probabilística."
 summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -198,8 +195,8 @@ CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 <!-- AUTO-RELATED-LINKS:END -->

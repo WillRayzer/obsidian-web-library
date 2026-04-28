@@ -8,15 +8,12 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - beleza-eterea
   - espiritualidade
   - alma
   - autoconhecimento
   - consciencia
   - energia
   - essencia
-  - filosofia
-  - psicologia
   - beleza
   - eterea
   - expressao

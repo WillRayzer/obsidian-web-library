@@ -8,10 +8,8 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - fascia
   - alongamento
   - mobilidade
-  - liberacao-miofascial
   - psicologia
   - mente
   - comportamento

@@ -11,15 +11,15 @@ tags:
   - psicologia
   - psicodelicos
   - psilocibina
-  - psilocybe-cubensis
   - mdk
   - neurociencia
-  - saude-mental
   - consciencia
-  - desenvolvimento-humano
   - mente
   - comportamento
   - emocional
+  - ansiedade
+  - efeitos
+  - psilocybe
 topic: "Efeitos positivos e implicações do uso de Psilocybe cubensis MDK"
 summary: >
   >

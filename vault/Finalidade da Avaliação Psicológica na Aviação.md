@@ -9,17 +9,15 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - avaliacao-psicologica
-  - psicologiaaviacao
-  - seguranca-operacional
-  - comportamento-humano
-  - tomada-de-decisao
   - estresse
   - atencao
-  - desempenho-humano
   - mente
   - comportamento
   - emocional
+  - finalidade
+  - avaliacao
+  - psicologica
+  - aviacao
 topic: "Finalidade da avaliação psicológica na aviação"
 summary: >
   >

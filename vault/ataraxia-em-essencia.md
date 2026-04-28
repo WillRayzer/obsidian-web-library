@@ -11,15 +11,14 @@ tags:
   - filosofia
   - ataraxia
   - estoicismo
-  - epicurismo
-  - ceticismo
   - psicologia
-  - mente
-  - comportamento
   - emocional
   - espiritualidade
   - autoconhecimento
   - consciencia
+  - alma
+  - energia
+  - essencia
 topic: "A essência da ataraxia como estado de serenidade interior."
 summary: >
   >

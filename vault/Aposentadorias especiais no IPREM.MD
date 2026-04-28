@@ -8,7 +8,6 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
-  - aposentadorias-especiais-no-iprem
   - previdencia
   - direito-previdenciario
   - administracao-publica

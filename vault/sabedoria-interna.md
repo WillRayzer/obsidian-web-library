@@ -8,12 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - sabedoria-interna
   - autoconhecimento
   - intuicao
-  - discernimento
   - consciencia
-  - desenvolvimento-pessoal
   - espiritualidade
   - reflexao
   - holistica

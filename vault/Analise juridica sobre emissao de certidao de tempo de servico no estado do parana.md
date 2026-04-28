@@ -8,9 +8,7 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/previdencia-publica"
 tags:
-  - direito-administrativo
   - certidao
-  - servidor-publico
   - previdencia
   - direito-previdenciario
   - administracao-publica
@@ -20,6 +18,8 @@ tags:
   - emissao
   - tempo
   - servico
+  - estado
+  - parana
 topic: "Discussao sobre emissao de certidao de tempo de servico para servidor comissionado."
 summary: >
   >

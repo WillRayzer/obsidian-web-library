@@ -9,17 +9,17 @@ area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
   - astrologia
-  - astrologia-moderna
   - signos
   - virgem
   - escorpiao
   - autoconhecimento
-  - psicologia-arquetipica
   - mapa-natal
   - simbolismo
   - zodiaco
   - leitura
   - astrologica
+  - moderna
+  - ascendente
 topic: "Interpretação psicológica moderna de Sol em Virgem com Lua e Ascendente em Escorpião."
 summary: >
   A conversa explora a interpretação moderna da astrologia para uma combinação específica de mapa astral. O conteúdo aprofunda aspectos psicológicos, emocionais e comportamentais ligados a Sol em Virgem e Lua/Ascendente em Escorpião. O resultado é uma síntese integrada sobre identidade, emoções e expressão no mundo.

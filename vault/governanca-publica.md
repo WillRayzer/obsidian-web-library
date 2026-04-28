@@ -8,18 +8,16 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - governanca-publica
-  - administracao-publica
-  - gestao-publica
-  - politicas-publicas
   - transparencia
   - accountability
-  - participacao-cidada
-  - democracia
-  - e-governance
   - psicologia
   - mente
   - comportamento
+  - emocional
+  - governanca
+  - publica
+  - aprofundamento
+  - tipos
 topic: "Síntese estruturada sobre o que é governança pública, seus elementos centrais e seus principais tipos."
 summary: >
   >
