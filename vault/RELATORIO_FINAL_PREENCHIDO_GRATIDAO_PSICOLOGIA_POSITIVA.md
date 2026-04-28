@@ -11,8 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - documento
-  - importado
   - psicologia
   - mente
   - comportamento
@@ -20,6 +18,8 @@ tags:
   - relatorio
   - final
   - preenchido
+  - gratidao
+  - positiva
 topic: "DADOS DO ALUNO:"
 summary: >
   >

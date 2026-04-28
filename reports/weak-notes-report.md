@@ -1,13 +1,14 @@
 # Relatorio - Notas com Conexao Fraca
 
-- Total de notas analisadas: 72
+- Total de notas analisadas: 75
 - Notas com 0 links manuais: 0
-- Notas com 1 ou menos links manuais: 0
+- Notas com 1 ou menos links manuais: 1
 
 ## Prioridade de reforco
 
 | Nota | Area | Links manuais | Related | Tags | Score |
 | --- | --- | ---: | ---: | ---: | ---: |
+| Bem vindo | Studies | 1 | 5 | 5 | 11 |
 | Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 12 | 13 |
 | Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 5 | 12 | 13 |
 | Medicina Germânica | Studies | 2 | 5 | 12 | 13 |
@@ -27,7 +28,6 @@
 | Benefícios do Melão para o Corpo | Studies | 4 | 5 | 12 | 17 |
 | Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 4 | 5 | 12 | 17 |
 | Codinomes para projeto de arranjos de trabalho flexíveis | Studies | 4 | 5 | 12 | 17 |
-| Como o corpo armazena o trauma | Studies | 4 | 5 | 11 | 17 |
 
 ## Criterio
 

@@ -28,7 +28,7 @@ related:
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -632,5 +632,5 @@ Essas evidências podem servir como ponte entre espiritualidade, metafísica, co
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
 <!-- AUTO-RELATED-LINKS:END -->

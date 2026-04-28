@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - neurociencia
   - psicologia
   - neuropsicologia
@@ -20,6 +19,7 @@ tags:
   - sinapse
   - sinapses
   - plasticidade-sinaptica
+  - cognicao
 topic: "Exploração conceitual da rigidez cognitiva, da plasticidade sináptica e de possíveis relações com o autismo."
 summary: >
   >

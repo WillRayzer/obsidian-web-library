@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - poesia
   - poema-de-aniversario
   - margaridas-amarelas
@@ -20,6 +19,7 @@ tags:
   - alegria
   - felicidade
   - amizade
+  - espiritualidade
 topic: "Criação de um poema de aniversário baseado nas qualidades simbólicas das margaridas amarelas."
 summary: >
   >

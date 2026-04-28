@@ -10,16 +10,16 @@ folder: "04-Studies/neurociencia-psicologia"
 tags:
   - ia
   - conversa
-  - dashboard
-  - biblioteca
   - obsidian
-  - index
   - saude
   - bem-estar
   - estudos
   - doencas
   - infecciosas
   - herbal
+  - neurociencia
+  - cerebro
+  - cognicao
 topic: "# Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Co"
 summary: >
   # Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Como usar este vault - Abra a pasta `C:\Users\negoc\Documents\geral .md\luanda\Bem` no Obsidian com `Open folder as vault`. - Use esta nota co

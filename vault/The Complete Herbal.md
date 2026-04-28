@@ -11,15 +11,15 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - traducao
   - herbalismo
   - plantas-medicinais
-  - nicholas-culpeper
-  - the-complete-herbal
   - fitoterapia
   - historia-da-medicina
   - astrologia-medica
+  - saude
+  - bem-estar
+  - estudos
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
 summary: >
   >

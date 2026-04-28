@@ -17,9 +17,9 @@ tags:
   - comportamento
   - emocional
   - ansiedade
+  - trauma
   - ligacao
   - entre
-  - sistema
 topic: "Conexão entre emoções e sistema digestivo."
 summary: >
   >

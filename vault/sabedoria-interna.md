@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - sabedoria-interna
   - autoconhecimento
   - intuicao
@@ -20,6 +19,7 @@ tags:
   - desenvolvimento-pessoal
   - espiritualidade
   - reflexao
+  - holistica
 topic: "A conversa explorou o significado da sabedoria interna e formas de aprofundá-la na vida cotidiana."
 summary: >
   >

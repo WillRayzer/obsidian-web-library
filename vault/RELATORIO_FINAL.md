@@ -11,8 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - documento
-  - importado
   - psicologia
   - mente
   - comportamento

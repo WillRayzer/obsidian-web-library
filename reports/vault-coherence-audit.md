@@ -1,7 +1,7 @@
 # Auditoria de Coerencia do Vault
 
 - Vault: `/mnt/c/WINDOWS/system32/obsidian-web-library/vault`
-- Total de notas analisadas: 72
+- Total de notas analisadas: 75
 - Sem frontmatter: 0
 - Sem area: 0
 - Orfas reais: 0

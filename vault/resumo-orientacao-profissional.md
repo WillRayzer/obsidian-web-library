@@ -15,11 +15,11 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - resumo
   - orientacao
   - profissional
   - adolescentes
   - emocional
+  - resumo
 topic: "Resumo integrado sobre orientação profissional para adolescentes."
 summary: >
   >

@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - saude-holistica
   - saude-espiritual
   - espiritualidade
@@ -20,13 +19,14 @@ tags:
   - corpo-mente-espirito
   - autoconhecimento
   - meditacao
+  - psicologia
 topic: "Visão geral sobre saúde holística e saúde espiritual como dimensões complementares do bem-estar."
 summary: >
   >
 status: complete
 related:
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -92,8 +92,8 @@ A saúde holística propõe cuidar do ser humano de forma integral, considerando
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

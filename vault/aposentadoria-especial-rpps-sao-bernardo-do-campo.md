@@ -26,8 +26,8 @@ summary: >
 status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -107,7 +107,7 @@ Entregável desta nota:
 ## Related Notes
 
 - [[Aposentadorias especiais no IPREM]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

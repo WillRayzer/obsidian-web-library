@@ -11,15 +11,15 @@ tags:
   - ia
   - conversa
   - obsidian
-  - formacao-da-palavra-no-sistema-nervoso
+  - linguagem-neural
   - neurociencia
+  - palavra
   - cerebro
   - cognicao
   - formacao
-  - palavra
   - sistema
   - nervoso
-topic: "User: Formacao da palavra dentro do sistema nervoso Assistant: A formação da palavra dentro do sistema nervoso é um balé neurobiológico fascinante — nada de “caixa de texto no cére"
+topic: "Formação da palavra no sistema nervoso"
 summary: >
   >
 status: complete

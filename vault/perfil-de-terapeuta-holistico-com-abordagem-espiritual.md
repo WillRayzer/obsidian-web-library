@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - terapeuta-holistico
   - terapia-holistica
   - abordagem-espiritual
@@ -20,6 +19,7 @@ tags:
   - corpo-mente-espirito
   - energia
   - reiki
+  - autoconhecimento
 topic: "Construção de um perfil de terapeuta holístico com ênfase espiritual e linguagem mais sutil."
 summary: >
   >

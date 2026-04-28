@@ -11,8 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - documento
-  - importado
   - psicologia
   - mente
   - comportamento
@@ -27,7 +25,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
-  - "[[RELATORIO FINAL]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -96,7 +94,7 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
-- [[RELATORIO FINAL]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -114,5 +112,5 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
-- [[RELATORIO FINAL]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

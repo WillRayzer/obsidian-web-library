@@ -11,7 +11,6 @@ tags:
   - ia
   - conversa
   - obsidian
-  - studies
   - psicologia
   - psicanalise
   - freud
@@ -20,6 +19,7 @@ tags:
   - consciente
   - pre-consciente
   - subconsciente
+  - mente
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
 summary: >
   >
