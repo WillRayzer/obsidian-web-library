@@ -791,7 +791,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
     <div class="hero-copy">
       <span class="eyebrow">Biblioteca Web</span>
       <h1>Leitura, busca e conexoes</h1>
-      <p>Versao web do vault do Obsidian com visual mais proximo de workspace, organizacao por area, busca no navegador e paginas individuais para cada nota.</p>
+      <p>Versao web do vault do Obsidian com visual mais proximo de workspace, biblioteca unificada por temas, busca no navegador e paginas individuais para cada nota.</p>
       <div class="hero-actions">
         <a class="button primary" href="#colecao">Explorar biblioteca</a>
         <a class="button" href="notes/00-dashboard-biblioteca.html">Abrir dashboard</a>

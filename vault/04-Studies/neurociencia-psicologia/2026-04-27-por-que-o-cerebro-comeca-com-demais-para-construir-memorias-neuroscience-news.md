@@ -1,17 +1,17 @@
 ---
 title: "Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News"
 date: 2026-04-27
-ia: "Clipper Local"
-model: "Revisão manual"
-source: "Neuroscience News"
+ia: "Revisão manual"
+model: "Reescrita em português"
+source: "OpenAI"
 conversation_type: "web-clip"
-area: "Inbox"
-folder: "00-Inbox/Web Clips/Pending"
+area: "Studies"
+folder: "04-Studies/neurociencia-psicologia"
 tags:
 topic: "## Fonte - URL: https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/ - Domínio: neurosciencenews.com - Capturado em: 2026-04-28 00:29:00Z ## Resumo O estu"
 summary: >
   >
-status: review
+status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
@@ -79,7 +79,7 @@ Não. Genes e experiência trabalham juntos. A genética fornece o ponto de part
 
 - O texto foi reescrito em português para uso no segundo cérebro.
 - O foco foi preservar a ideia central do artigo: a hipótese da "tabula plena" no desenvolvimento do hipocampo.
-- A nota foi mantida como captura em revisão, para validação antes de entrar no vault final.
+- A nota foi promovida para o vault final após revisão.
 
 ## Sobre a pesquisa
 
