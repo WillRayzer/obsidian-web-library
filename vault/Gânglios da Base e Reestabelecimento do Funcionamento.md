@@ -18,7 +18,6 @@ tags:
   - cognicao
   - ganglios
   - base
-  - reestabelecimento
   - funcionamento
 topic: "Função dos gânglios da base e estratégias para melhorar seu funcionamento."
 summary: >

@@ -75,7 +75,23 @@ STOPWORDS = {
     "se", "ou", "sem", "sua", "seu", "suas", "seus", "del", "la", "el", "the",
 }
 
-BANNED_TAGS = {"ia", "conversa", "obsidian", "web", "clip", "inbox"}
+BANNED_TAGS = {
+    "ia",
+    "conversa",
+    "obsidian",
+    "web",
+    "clip",
+    "inbox",
+    "news",
+    "article",
+    "post",
+    "page",
+    "site",
+    "featured",
+    "summary",
+    "source",
+    "content",
+}
 
 AUTO_RELATED_START = "<!-- AUTO-RELATED-LINKS:START -->"
 AUTO_RELATED_END = "<!-- AUTO-RELATED-LINKS:END -->"
@@ -220,6 +236,7 @@ def infer_theme(note: Note) -> dict[str, object] | None:
 
 def infer_tags(note: Note, theme: dict[str, object] | None) -> list[str]:
     tags = [tag for tag in note.tags if tag and tag not in BANNED_TAGS]
+    body_tokens = tokenize(note.body)
     if theme:
         tags.extend(theme["tags"])
         for keyword in theme["keywords"][:6]:
@@ -227,7 +244,10 @@ def infer_tags(note: Note, theme: dict[str, object] | None) -> list[str]:
             if slug and slug in note.tokens:
                 tags.append(slug)
     title_words = [slugify(word) for word in re.findall(r"[A-Za-zÀ-ÿ0-9-]{4,}", note.title)]
-    tags.extend(word for word in title_words if word and word not in STOPWORDS)
+    tags.extend(
+        word for word in title_words
+        if word and word not in STOPWORDS and word in body_tokens
+    )
     unique: list[str] = []
     for tag in tags:
         if not tag or tag in unique:
@@ -301,12 +321,18 @@ def main() -> None:
 
     changed = 0
     for note in notes:
-        theme = infer_theme(note)
+        is_web_clip = str(note.frontmatter.get("conversation_type") or "").strip().lower() == "web-clip"
+        is_inbox_note = str(note.frontmatter.get("area") or "").strip().lower() == "inbox" or str(note.frontmatter.get("folder") or "").strip().startswith("00-Inbox")
+        theme = None if (is_web_clip or is_inbox_note) else infer_theme(note)
         tags = infer_tags(note, theme)
         related = infer_related(note, notes, tags)
         front = dict(note.frontmatter)
-        front["area"] = theme["area"] if theme else str(front.get("area") or "Studies")
-        front["folder"] = theme["folder"] if theme else str(front.get("folder") or "04-Studies/tema")
+        if theme:
+            front["area"] = theme["area"]
+            front["folder"] = theme["folder"]
+        else:
+            front["area"] = str(front.get("area") or "Studies")
+            front["folder"] = str(front.get("folder") or "04-Studies/tema")
         front["tags"] = tags
         front["related"] = related
         enriched_body = ensure_body_related_links(note.body, related)

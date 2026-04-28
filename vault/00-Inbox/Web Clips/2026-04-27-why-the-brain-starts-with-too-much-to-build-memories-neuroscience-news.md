@@ -5,13 +5,10 @@ ia: "Clipper Local"
 model: "Local HTTP Capture"
 source: "OpenAI"
 conversation_type: "web-clip"
-area: "Studies"
-folder: "04-Studies/psicologia"
+area: "Inbox"
+folder: "00-Inbox/Web Clips"
 tags:
   - why-the-brain-starts-wit
-  - psicologia
-  - mente
-  - comportamento
   - brain
   - starts
   - with
@@ -19,7 +16,6 @@ tags:
   - build
   - memories
   - neuroscience
-  - news
 topic: "## Source - URL: https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/ - Domain: neurosciencenews.com - Fetched at: 2026-04-28 00:29:00Z ## Summary The hip"
 summary: >
   >

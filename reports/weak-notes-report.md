@@ -8,12 +8,13 @@
 
 | Nota | Area | Links manuais | Related | Tags | Score |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Bem vindo | Studies | 1 | 5 | 2 | 9 |
+| Bem vindo | Studies | 1 | 5 | 0 | 7 |
 | Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 11 | 13 |
-| Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 5 | 12 | 13 |
+| Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 5 | 11 | 13 |
 | Medicina Germânica | Studies | 2 | 5 | 12 | 13 |
 | Por que adolescentes cometem atos infracionais? | Studies | 2 | 5 | 12 | 13 |
 | Adolescência na Contemporaneidade: Pertencimento, Saúde Mental e Escolha Profissional | Studies | 3 | 5 | 12 | 15 |
+| O que é Neurociência? | Inbox | 4 | 5 | 2 | 15 |
 | Amostragem Probabilística e Não-Probabilística | Studies | 4 | 5 | 12 | 17 |
 | Analise juridica sobre emissao de certidao de tempo de servico no estado do parana | Studies | 4 | 5 | 12 | 17 |
 | Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao | Studies | 4 | 5 | 12 | 17 |
@@ -27,7 +28,6 @@
 | Benefícios do alho para o corpo humano | Studies | 4 | 5 | 12 | 17 |
 | Benefícios do Melão para o Corpo | Studies | 4 | 5 | 10 | 17 |
 | Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias | Studies | 4 | 5 | 12 | 17 |
-| Codinomes para projeto de arranjos de trabalho flexíveis | Studies | 4 | 5 | 12 | 17 |
 
 ## Criterio
 

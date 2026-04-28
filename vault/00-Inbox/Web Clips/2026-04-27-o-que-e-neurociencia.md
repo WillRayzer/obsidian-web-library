@@ -5,14 +5,10 @@ ia: "Clipper Local"
 model: "Local HTTP Capture"
 source: "OpenAI"
 conversation_type: "web-clip"
-area: "Studies"
-folder: "04-Studies/psicologia"
+area: "Inbox"
+folder: "00-Inbox/Web Clips"
 tags:
   - o-que-e-neurociencia
-  - psicologia
-  - mente
-  - comportamento
-  - psicanalise
   - neurociencia
 topic: "## Source - URL: https://online.pucrs.br/blog/neurociencia - Domain: online.pucrs.br - Fetched at: 2026-04-28 00:26:20Z ## Summary Descubra o que é neurociência, seus campos de est"
 summary: >

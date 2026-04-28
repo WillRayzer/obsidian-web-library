@@ -21,6 +21,7 @@ CONFIG_PATH = ROOT / "config.json"
 BANNED_TAGS = {
     "ia", "conversa", "obsidian", "web", "clip", "inbox", "local", "capture", "captura",
     "documento", "pagina", "article", "post", "news", "site",
+    "page", "featured", "summary", "source", "content", "report", "blog",
 }
 STOPWORDS = {
     "de", "da", "do", "das", "dos", "e", "em", "na", "no", "para", "com", "um", "uma",
@@ -180,6 +181,7 @@ def fetch_url(url: str) -> tuple[str, str, list[str], str]:
 def extract_tags(title: str, description: str, body: str) -> list[str]:
     title_tokens = tokenize(title)
     body_tokens = tokenize(f"{description} {body[:4000]}")
+    body_token_set = set(body_tokens)
     counts: dict[str, int] = {}
     for token in title_tokens:
         counts[token] = counts.get(token, 0) + 3
@@ -191,6 +193,8 @@ def extract_tags(title: str, description: str, body: str) -> list[str]:
         if token in tags:
             continue
         if len(token) < 4:
+            continue
+        if token not in body_token_set:
             continue
         tags.append(token)
         if len(tags) >= 8:
@@ -219,10 +223,7 @@ def build_markdown(url: str, title: str, description: str, links: list[str], bod
         'folder: "00-Inbox/Web Clips"',
         "tags:",
     ]
-    if tags:
-        lines.extend(f"  - {tag}" for tag in tags)
-    else:
-        lines.append(f"  - {slug[:24] or 'captura-web'}")
+    lines.extend(f"  - {tag}" for tag in tags)
     lines.extend([
         f'summary: >\n  {summary.replace(chr(34), chr(39)) or "Captura de pagina web."}',
         "status: inbox",
