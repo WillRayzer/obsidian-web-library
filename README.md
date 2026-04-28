@@ -79,6 +79,12 @@ Atalhos incluidos no projeto:
 
 - `clip-server.cmd` ou `clip-server.vbs`: inicia a API local no WSL
 - `clip-expose.cmd`: expõe a porta 8787 via Tailscale Serve
+- `clip-autostart.vbs`: inicia servidor e exposicao juntos
+- `register-clip-task.ps1`: registra a tarefa de inicio no Windows
+
+Tarefa criada no Windows:
+
+- `ObsidianClipServer`: executa no logon e inicia o servidor local mais a exposicao via Tailscale
 
 ## Como testar localmente
 
