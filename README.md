@@ -64,7 +64,7 @@ python3 clip_server.py --host 127.0.0.1 --port 8787
 Depois exponha a porta de forma privada no seu tailnet:
 
 ```bash
-tailscale serve --bg 8787
+tailscale serve --bg --yes localhost:8787
 ```
 
 No dashboard, abra `clip.html` e informe a URL HTTPS do seu tailnet no campo `API local via Tailscale`, por exemplo:
