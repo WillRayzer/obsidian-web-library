@@ -8,15 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - estatistica
-  - amostragem
-  - amostra
-  - populacao
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - probabilistica
 topic: "Conceituação e diferenciação entre amostragem probabilística e não-probabilística."
 summary: >
   >

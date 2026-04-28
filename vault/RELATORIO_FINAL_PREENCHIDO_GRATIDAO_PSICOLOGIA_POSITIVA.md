@@ -11,12 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - relatorio
-  - final
-  - preenchido
-  - gratidao
-  - positiva
 topic: "DADOS DO ALUNO:"
 summary: >
   >

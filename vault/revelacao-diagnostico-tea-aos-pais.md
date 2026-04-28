@@ -8,15 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - tea
   - psicologia
-  - familia
   - mente
   - comportamento
-  - emocional
-  - revelacao
-  - diagnostico
-  - pais
 topic: "Conhecimentos necessários para comunicar o diagnóstico de TEA à família com menor impacto negativo."
 summary: >
   >

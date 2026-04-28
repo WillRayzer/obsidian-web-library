@@ -8,24 +8,16 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - nutricao
-  - alho
-  - saude
-  - estudos
-  - beneficios
-  - corpo
-  - humano
   - psicologia
   - mente
   - comportamento
-  - emocional
 topic: "Benefícios e uso do alho na saúde humana."
 summary: >
   >
 status: complete
 related:
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -72,8 +64,8 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -9,25 +9,16 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - fenomenologia
-  - consciencia
-  - subjetividade
   - mente
   - comportamento
-  - psicanalise
-  - freud
-  - emocional
-  - mapa
-  - mental
-  - sintese
 topic: "Síntese conceitual da abordagem fenomenológica na psicologia com estrutura de mapa mental e explicação dos tópicos."
 summary: >
   >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -194,7 +185,7 @@ A conversa resultou em uma síntese organizada da **abordagem fenomenológica na
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

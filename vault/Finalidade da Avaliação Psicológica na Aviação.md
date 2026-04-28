@@ -9,15 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - estresse
-  - atencao
   - mente
   - comportamento
-  - emocional
-  - finalidade
-  - avaliacao
-  - psicologica
-  - aviacao
 topic: "Finalidade da avaliação psicológica na aviação"
 summary: >
   >

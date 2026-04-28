@@ -8,14 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - neurolinguistica
-  - pnl
   - psicologia
   - comportamento
-  - terapia
   - mente
-  - emocional
-  - estuda
 topic: "Conteúdo e áreas de estudo da neurolinguística e PNL."
 summary: >
   >

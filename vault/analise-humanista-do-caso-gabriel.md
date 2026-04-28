@@ -9,15 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - ansiedade
-  - autoestima
   - mente
   - comportamento
-  - emocional
-  - analise
-  - humanista
-  - caso
-  - gabriel
 topic: "Discussão de um estudo de caso sob a perspectiva da psicologia humanista."
 summary: >
   >

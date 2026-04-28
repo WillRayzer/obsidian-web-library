@@ -11,12 +11,6 @@ tags:
   - neurociencia
   - cerebro
   - cognicao
-  - relacao
-  - entre
-  - meditacao
-  - corpo
-  - caloso
-  - relaxar
 topic: "Relação entre meditação, corpo caloso e integração cerebral."
 summary: >
   >

@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - inteligencia
-  - neurociencia
   - psicologia
-  - sexualidade
-  - intimidade
-  - desejo
   - mente
   - comportamento
-  - trauma
-  - emocional
-  - ansiedade
-  - erotica
 topic: "Exploração do conceito de inteligência e do significado de inteligência erótica sob a perspectiva da neurociência emocional."
 summary: >
   >

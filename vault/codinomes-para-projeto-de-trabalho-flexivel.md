@@ -8,15 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - codinomes
   - espiritualidade
   - autoconhecimento
   - consciencia
-  - energia
-  - projeto
-  - arranjos
-  - trabalho
-  - flexiveis
 topic: "Definição de codinomes conceituais para um projeto de trabalho flexível."
 summary: >
   >

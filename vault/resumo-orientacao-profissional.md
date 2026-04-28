@@ -11,11 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - orientacao
-  - profissional
-  - adolescentes
-  - emocional
-  - resumo
 topic: "Resumo integrado sobre orientação profissional para adolescentes."
 summary: >
   >
@@ -24,7 +19,7 @@ related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[RELATORIO FINAL]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -88,5 +83,5 @@ Também foi solicitado e entregue um resumo integrado dos arquivos, abordando:
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

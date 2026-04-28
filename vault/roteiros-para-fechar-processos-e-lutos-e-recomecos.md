@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - luto
-  - recomeco
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - roteiros
-  - fechar
-  - processos
-  - lutos
-  - recomecos
 topic: "Roteiros práticos para encerramento de ciclos, luto e recomeços."
 summary: >
   >

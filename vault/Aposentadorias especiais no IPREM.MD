@@ -11,12 +11,6 @@ tags:
   - previdencia
   - direito-previdenciario
   - administracao-publica
-  - aposentadoria
-  - iprem
-  - rpps
-  - decreto
-  - aposentadorias
-  - especiais
 topic: "Baseado no decreto 61.151 do iprem descreva as aposentadorias especiais O tema foi apresentado como relacionado ao Decreto nº 61.151 e ao IPREM, com uma descrição geral das aposent"
 summary: >
   >

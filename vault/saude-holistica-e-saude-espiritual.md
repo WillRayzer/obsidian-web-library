@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - espiritualidade
-  - autoconhecimento
-  - meditacao
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - ansiedade
-  - saude
-  - holistica
-  - espiritual
 topic: "Visão geral sobre saúde holística e saúde espiritual como dimensões complementares do bem-estar."
 summary: >
   >

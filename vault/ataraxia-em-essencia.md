@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - filosofia
-  - ataraxia
-  - estoicismo
-  - psicologia
-  - emocional
   - espiritualidade
   - autoconhecimento
   - consciencia
-  - alma
-  - energia
-  - essencia
 topic: "A essência da ataraxia como estado de serenidade interior."
 summary: >
   >

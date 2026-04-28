@@ -11,12 +11,6 @@ tags:
   - neurociencia
   - cerebro
   - cognicao
-  - rede
-  - modo
-  - padrao
-  - meditacao
-  - neuromodulacao
-  - magnetismo
 topic: "Exploração profunda da DMN, meditação e neuromodulação."
 summary: >
   >

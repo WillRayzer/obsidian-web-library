@@ -9,15 +9,8 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - psicologia
   - cerebro
   - cognicao
-  - linguagem
-  - sinaptica
-  - autismo
-  - evolucao
-  - mente
-  - humana
 topic: "Síntese da evolução biológica, cognitiva e cultural da mente humana."
 summary: >
   >

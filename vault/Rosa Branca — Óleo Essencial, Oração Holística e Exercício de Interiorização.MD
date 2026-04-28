@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - espiritualidade
-  - aromaterapia
-  - meditacao
-  - autocuidado
-  - ritual
-  - energia
-  - chakras
   - autoconhecimento
   - consciencia
-  - holistica
-  - oracao
-  - rosa
 topic: "Uso da rosa branca como ferramenta de conexão espiritual, cura emocional e interiorização."
 summary: >
   >
@@ -28,7 +19,7 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
-  - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
+  - "[[Auto-hipnose ericksoniana para felicidade]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -111,5 +102,5 @@ Foi estruturado um exercício completo com:
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Perfil de terapeuta holístico com abordagem espiritual]]
-- [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
+- [[Auto-hipnose ericksoniana para felicidade]]
 <!-- AUTO-RELATED-LINKS:END -->

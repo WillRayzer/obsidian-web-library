@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/saude"
 tags:
-  - traducao
-  - fitoterapia
   - saude
   - bem-estar
   - estudos
-  - herbal
-  - herbalismo
-  - complete
-  - nicholas
-  - culpeper
-  - capitulos
 topic: "Tradução progressiva de um livro clássico de herbalismo mantendo fidelidade aos nomes das plantas"
 summary: >
   >

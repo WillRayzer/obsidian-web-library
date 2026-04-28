@@ -8,16 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - saude
-  - estudos
-  - doencas
-  - medicina
-  - germanica
   - psicologia
   - mente
   - comportamento
-  - trauma
-  - emocional
 topic: "Análise introdutória sobre Medicina Germânica, seu contexto, limites científicos e riscos."
 summary: >
   A conversa abordou a Medicina Germânica, também conhecida como German New Medicine ou Nova Medicina Germânica, apresentando sua origem, proposta central e controvérsias. A resposta destacou que a abordagem não é aceita pela medicina baseada em evidências, não deve substituir tratamentos convencionais e pode representar risco quando leva ao abandono de cuidados médicos adequados.

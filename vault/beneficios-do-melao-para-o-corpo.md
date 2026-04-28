@@ -11,10 +11,6 @@ tags:
   - espiritualidade
   - autoconhecimento
   - consciencia
-  - beneficios
-  - melao
-  - corpo
-  - holistica
 topic: "Benefícios do melão para a saúde."
 summary: >
   >

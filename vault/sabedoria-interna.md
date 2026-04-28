@@ -9,14 +9,8 @@ area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - autoconhecimento
-  - intuicao
   - consciencia
   - espiritualidade
-  - reflexao
-  - holistica
-  - meditacao
-  - sabedoria
-  - interna
 topic: "A conversa explorou o significado da sabedoria interna e formas de aprofundá-la na vida cotidiana."
 summary: >
   >

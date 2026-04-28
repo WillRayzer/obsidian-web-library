@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - neurociencia
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - ansiedade
-  - trauma
-  - ligacao
-  - entre
-  - sistema
-  - limbico
-  - estomago
 topic: "Conexão entre emoções e sistema digestivo."
 summary: >
   >

@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - psicanalise
-  - freud
-  - inconsciente
-  - consciente
-  - subconsciente
   - mente
   - comportamento
-  - emocional
-  - sistema
-  - freudiano
-  - linguagem
 topic: "Reescrita simples do sistema freudiano para linguagem de estudante inicial."
 summary: >
   >

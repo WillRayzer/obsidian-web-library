@@ -9,14 +9,8 @@ area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - espiritualidade
-  - alma
   - autoconhecimento
   - consciencia
-  - energia
-  - essencia
-  - beleza
-  - eterea
-  - expressao
 topic: "A beleza etérea como manifestação da alma e da consciência espiritual"
 summary: >
   >

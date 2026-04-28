@@ -8,12 +8,6 @@ conversation_type: "web-clip"
 area: "Inbox"
 folder: "00-Inbox/Web Clips"
 tags:
-  - brain
-  - starts
-  - much
-  - build
-  - memories
-  - neuroscience
 topic: "## Source - URL: https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/ - Domain: neurosciencenews.com - Fetched at: 2026-04-28 00:29:00Z ## Summary The hip"
 summary: >
   >

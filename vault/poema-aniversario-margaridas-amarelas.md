@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - alegria
-  - felicidade
-  - amizade
   - espiritualidade
   - autoconhecimento
   - consciencia
-  - energia
-  - poema
-  - aniversario
-  - inspirado
-  - qualidades
-  - magicas
 topic: "Criação de um poema de aniversário baseado nas qualidades simbólicas das margaridas amarelas."
 summary: >
   >

@@ -11,9 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - relatorio
-  - final
 topic: "DADOS DO ALUNO:"
 summary: >
   >

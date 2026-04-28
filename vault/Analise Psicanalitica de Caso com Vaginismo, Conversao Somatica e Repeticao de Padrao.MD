@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - psicanalise
-  - freud
-  - histeria
-  - conversao
-  - vaginismo
   - mente
   - comportamento
-  - trauma
-  - emocional
-  - analise
-  - psicanalitica
 topic: "Análise psicanalítica de um caso com sintomas conversivos, trauma infantil e repetição de padrões"
 summary: >
   >

@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - espiritualidade
-  - deusas
   - psicologia
   - mente
   - comportamento
-  - psicanalise
-  - freud
-  - emocional
-  - primordiais
-  - praticas
-  - espirituais
 topic: "análise das deusas anteriores à Grécia e das práticas espirituais arcaicas"
 summary: >
   >

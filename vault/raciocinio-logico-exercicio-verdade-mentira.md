@@ -8,23 +8,17 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - raciocinio
-  - logico
-  - exercicio
-  - verdade
-  - mentira
   - psicologia
   - mente
   - comportamento
-  - emocional
 topic: "Análise de um problema lógico com verdade e mentira."
 summary: >
   >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
@@ -102,7 +96,7 @@ A única solução lógica é que B diz a verdade e C é o culpado.
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

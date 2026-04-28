@@ -239,7 +239,7 @@ def infer_theme(note: Note) -> dict[str, object] | None:
 
 
 def infer_tags(note: Note, theme: dict[str, object] | None, strict: bool = False) -> list[str]:
-    body_tokens = tokenize(note.body)
+    body_counter = Counter(tokenize(note.body))
     theme_tags = set(theme["tags"]) if theme else set()
     tags = []
     if not strict:
@@ -247,18 +247,18 @@ def infer_tags(note: Note, theme: dict[str, object] | None, strict: bool = False
             tag for tag in note.tags
             if tag
             and tag not in BANNED_TAGS
-            and (tag in body_tokens or tag in theme_tags)
+            and (tag in theme_tags or body_counter.get(tag, 0) >= 2)
         )
     if theme:
         tags.extend(theme["tags"])
         for keyword in theme["keywords"][:6]:
             slug = slugify(keyword)
-            if slug and slug in note.tokens:
+            if slug and (slug in note.tokens and body_counter.get(slug, 0) >= 2):
                 tags.append(slug)
     title_words = [slugify(word) for word in re.findall(r"[A-Za-zÀ-ÿ0-9-]{4,}", note.title)]
     tags.extend(
         word for word in title_words
-        if word and word not in STOPWORDS and word in body_tokens
+        if word and word not in STOPWORDS and body_counter.get(word, 0) >= 2
     )
     unique: list[str] = []
     for tag in tags:

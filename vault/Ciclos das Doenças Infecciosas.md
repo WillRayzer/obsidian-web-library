@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/saude"
 tags:
   - saude
-  - microbiologia
-  - epidemiologia
-  - virus
-  - protozoarios
   - bem-estar
   - estudos
-  - doencas
-  - infecciosas
-  - ciclos
-  - virais
-  - bacterianas
 topic: "Estudo completo dos ciclos, doenças e controle de agentes infecciosos"
 summary: >
   >

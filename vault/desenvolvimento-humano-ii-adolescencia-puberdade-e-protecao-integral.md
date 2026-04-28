@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - adolescencia
-  - puberdade
-  - freud
-  - tcc
-  - bauman
-  - consumo
   - psicologia
   - mente
   - comportamento
-  - psicanalise
-  - emocional
-  - ansiedade
 topic: "Síntese de perguntas e respostas sobre puberdade, adolescência, desenvolvimento psicossocial, consumo, tecnologia, trabalho juvenil e proteção integral segundo Desenvolvimento Humano II."
 summary: >
   Esta nota reúne perguntas e respostas baseadas no livro Desenvolvimento Humano II, de Cláudia Capelini Picirilli, abordando puberdade, adolescência, Freud, Erikson, TCC, Bauman, consumo, tecnologia, trabalho juvenil e ECA. O conteúdo organiza os principais conceitos em formato didático para estudo, revisão e uso no Obsidian.

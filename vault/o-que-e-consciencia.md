@@ -8,17 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
-  - consciencia
-  - filosofia
-  - psicologia
   - neurociencia
-  - espiritualidade
-  - autoconhecimento
-  - energia
   - cerebro
   - cognicao
-  - sinaptica
-  - autismo
 topic: "Definição e compreensão da consciência sob múltiplas perspectivas."
 summary: >
   >

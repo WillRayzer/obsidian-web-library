@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - psicodelicos
-  - psilocibina
-  - mdk
-  - neurociencia
-  - consciencia
   - mente
   - comportamento
-  - emocional
-  - ansiedade
-  - efeitos
-  - psilocybe
 topic: "Efeitos positivos e implicações do uso de Psilocybe cubensis MDK"
 summary: >
   >

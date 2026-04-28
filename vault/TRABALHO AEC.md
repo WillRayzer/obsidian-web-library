@@ -11,9 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - ansiedade
-  - trabalho
 topic: "ANHANGUERA – CAMPUS MARTE"
 summary: >
   >

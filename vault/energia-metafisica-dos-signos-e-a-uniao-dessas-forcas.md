@@ -9,15 +9,8 @@ area: "Studies"
 folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
   - astrologia
-  - metafisica
-  - zodiaco
-  - escorpiao
-  - virgem
   - mapa-natal
   - simbolismo
-  - signos
-  - energia
-  - uniao
 topic: "Exploração metafísica das energias dos signos e de sua integração como forças cósmicas."
 summary: >
   >

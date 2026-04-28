@@ -9,12 +9,8 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - palavra
   - cerebro
   - cognicao
-  - formacao
-  - sistema
-  - nervoso
 topic: "Formação da palavra no sistema nervoso"
 summary: >
   >

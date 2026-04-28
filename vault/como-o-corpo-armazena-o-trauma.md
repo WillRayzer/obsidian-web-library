@@ -11,10 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - trauma
-  - corpo
-  - armazena
-  - emocional
 topic: "Como o trauma é armazenado no corpo e na mente."
 summary: >
   >

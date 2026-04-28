@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - personalidade
-  - identidade
-  - autoconhecimento
   - mente
   - comportamento
-  - psicanalise
-  - freud
-  - emocional
-  - ansiedade
-  - mapa
-  - mental
 topic: "Estrutura aprofundada de um mapa mental integrando personalidade e identidade"
 summary: >
   >

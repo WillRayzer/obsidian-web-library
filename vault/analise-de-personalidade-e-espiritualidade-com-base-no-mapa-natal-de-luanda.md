@@ -10,16 +10,7 @@ folder: "04-Studies/astrologia-e-autoconhecimento"
 tags:
   - astrologia
   - mapa-natal
-  - personalidade
-  - espiritualidade
-  - autoconhecimento
-  - escorpiao
-  - virgem
   - simbolismo
-  - signos
-  - zodiaco
-  - analise
-  - base
 topic: "Leitura da personalidade e da dimensão espiritual a partir de um mapa natal."
 summary: >
   >

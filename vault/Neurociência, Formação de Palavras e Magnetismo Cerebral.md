@@ -9,14 +9,8 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - linguagem
   - cerebro
-  - magnetismo
-  - meditacao
   - cognicao
-  - formacao
-  - palavras
-  - cerebral
 topic: "Relação entre formação de palavras, atividade neural e magnetismo cerebral."
 summary: >
   >

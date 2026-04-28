@@ -9,16 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - comportamento
-  - procrastinacao
-  - ansiedade
   - psicologia
   - mente
-  - emocional
-  - trava
-  - diante
-  - sucesso
-  - medo
-  - recomecar
 topic: "Reflexão sobre o padrão de travar quando se está próximo de alcançar o sucesso."
 summary: >
   >

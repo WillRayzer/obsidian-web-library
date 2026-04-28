@@ -9,16 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - autoconhecimento
-  - terapia
   - mente
   - comportamento
-  - trauma
-  - emocional
-  - ansiedade
-  - trava
-  - caminhos
-  - liberacao
 topic: "Entendimento profundo das travas emocionais e formas de identificá-las e trabalhá-las"
 summary: >
   >

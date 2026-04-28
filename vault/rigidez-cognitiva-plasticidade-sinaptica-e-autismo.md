@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - psicologia
   - cerebro
-  - neuronios
-  - sinapse
-  - sinapses
   - cognicao
-  - sinaptica
-  - autismo
-  - rigidez
-  - cognitiva
-  - plasticidade
 topic: "Exploração conceitual da rigidez cognitiva, da plasticidade sináptica e de possíveis relações com o autismo."
 summary: >
   >

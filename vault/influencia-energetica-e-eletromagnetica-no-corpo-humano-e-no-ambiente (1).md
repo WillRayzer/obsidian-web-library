@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
-  - energia
-  - eletromagnetismo
-  - ambiente
-  - saude
-  - emf
   - espiritualidade
   - autoconhecimento
   - consciencia
-  - holistica
-  - meditacao
-  - influencia
-  - energetica
 topic: "Discussão sobre influências energéticas e eletromagnéticas no corpo humano, no ambiente e em estratégias para reduzir exposição em casa."
 summary: >
   >

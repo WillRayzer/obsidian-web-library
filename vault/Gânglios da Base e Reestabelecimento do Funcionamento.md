@@ -9,12 +9,8 @@ area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
   - neurociencia
-  - dopamina
   - cerebro
   - cognicao
-  - ganglios
-  - base
-  - funcionamento
 topic: "Função dos gânglios da base e estratégias para melhorar seu funcionamento."
 summary: >
   A conversa explora o que são os gânglios da base, suas funções no controle motor e cognitivo, e as principais doenças associadas. Também apresenta estratégias práticas para melhorar seu funcionamento, incluindo exercícios, nutrição e abordagens médicas. O resultado é uma visão integrada entre neurociência, prevenção e reabilitação funcional.

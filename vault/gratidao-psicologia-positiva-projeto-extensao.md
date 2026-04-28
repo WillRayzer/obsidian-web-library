@@ -9,16 +9,8 @@ area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
   - psicologia
-  - gratidao
-  - comunidade
-  - ods
   - mente
   - comportamento
-  - emocional
-  - positiva
-  - projeto
-  - extensao
-  - comunitaria
 topic: "Projeto de extensão com dois encontros sobre gratidão, desenvolvimento humano e Psicologia Positiva em contexto comunitário."
 summary: >
   >

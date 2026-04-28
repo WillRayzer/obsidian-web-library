@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 import unicodedata
+from collections import Counter
 from datetime import datetime, timezone
 from html import unescape
 from html.parser import HTMLParser
@@ -181,7 +182,7 @@ def fetch_url(url: str) -> tuple[str, str, list[str], str]:
 def extract_tags(title: str, description: str, body: str) -> list[str]:
     title_tokens = tokenize(title)
     body_tokens = tokenize(f"{description} {body[:4000]}")
-    body_token_set = set(body_tokens)
+    body_counts = Counter(body_tokens)
     counts: dict[str, int] = {}
     for token in title_tokens:
         counts[token] = counts.get(token, 0) + 3
@@ -194,7 +195,7 @@ def extract_tags(title: str, description: str, body: str) -> list[str]:
             continue
         if len(token) < 4:
             continue
-        if token not in body_token_set:
+        if body_counts.get(token, 0) < 2:
             continue
         tags.append(token)
         if len(tags) >= 8:

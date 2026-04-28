@@ -11,11 +11,6 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - referencias
-  - literarias
-  - chakra
-  - nuca
 topic: "Referencias literarias sobre upachakras Aqui estão referências literárias e acadêmicas sobre upachakras dentro de tradições tântricas, ayurvédicas e do yoga clássico. O tema é meno"
 summary: >
   >

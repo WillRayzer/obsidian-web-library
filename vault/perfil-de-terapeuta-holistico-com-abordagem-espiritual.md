@@ -9,17 +9,8 @@ area: "Studies"
 folder: "04-Studies/autoconhecimento-e-espiritualidade"
 tags:
   - espiritualidade
-  - energia
-  - reiki
   - autoconhecimento
   - consciencia
-  - holistica
-  - meditacao
-  - oracao
-  - perfil
-  - terapeuta
-  - holistico
-  - abordagem
 topic: "Construção de um perfil de terapeuta holístico com ênfase espiritual e linguagem mais sutil."
 summary: >
   >

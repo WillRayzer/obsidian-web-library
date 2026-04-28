@@ -11,19 +11,13 @@ tags:
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - projeto
-  - assessoria
-  - empresarial
-  - desenvolvimento
-  - humano
 topic: "Estruturação de um projeto de assessoria empresarial com base em administração, psicologia e neurociência."
 summary: >
   >
 status: complete
 related:
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
@@ -90,8 +84,8 @@ Por fim, foi definido que o projeto representa uma atuação de alto nível, com
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-CONTEXT-LINKS:END -->
@@ -120,8 +114,8 @@ Por fim, foi definido que o projeto representa uma atuação de alto nível, com
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

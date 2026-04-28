@@ -8,18 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - farmacia
-  - farmacologia
-  - opioides
-  - antipsicoticos
-  - esquizofrenia
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - interacao
-  - medicamentosa
-  - entre
 topic: "Interação medicamentosa entre analgésicos narcóticos e drogas utilizadas no tratamento da esquizofrenia."
 summary: >
   >

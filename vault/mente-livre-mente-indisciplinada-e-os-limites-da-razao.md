@@ -8,16 +8,9 @@ conversation_type: "chat"
 area: "Studies"
 folder: "04-Studies/psicologia"
 tags:
-  - razao
-  - criatividade
-  - foco
   - psicologia
   - mente
   - comportamento
-  - emocional
-  - livre
-  - indisciplinada
-  - limites
 topic: "Reflexão breve sobre liberdade mental, indisciplina e os limites da razão."
 summary: >
   >
