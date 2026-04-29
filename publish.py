@@ -9,6 +9,7 @@ import stat
 import shutil
 import subprocess
 import time
+import sys
 from pathlib import Path
 
 
@@ -27,6 +28,19 @@ REPORTS_DIR = ROOT / "reports"
 
 def run(cmd: list[str], cwd: Path | None = None) -> None:
     subprocess.run(cmd, cwd=cwd or ROOT, check=True)
+
+
+def resolve_cross_platform_path(value: str) -> Path:
+    text = str(value).strip()
+    if os.name == "nt" and text.startswith("/mnt/") and len(text) > 6:
+        drive = text[5]
+        rest = text[7:].replace("/", "\\")
+        return Path(f"{drive.upper()}:\\{rest}")
+    if os.name != "nt" and len(text) > 2 and text[1] == ":" and text[2] in {"\\", "/"}:
+        drive = text[0].lower()
+        rest = text[3:].replace("\\", "/")
+        return Path(f"/mnt/{drive}/{rest}")
+    return Path(text)
 
 
 def load_config() -> dict:
@@ -130,9 +144,9 @@ def tree_hash(root: Path) -> str:
 
 def sync_and_publish(message: str | None = None) -> bool:
     config = load_config()
-    source = Path(config["source_vault_path"]).expanduser()
+    source = resolve_cross_platform_path(config["source_vault_path"]).expanduser()
     target = ROOT / config["vault_path"]
-    run(["python3", str(TRANSLATE_PENDING_CLIPS_SCRIPT), str(source)])
+    run([sys.executable, str(TRANSLATE_PENDING_CLIPS_SCRIPT), str(source)])
     ingest_documents(source)
     before = tree_hash(target) if target.exists() else ""
     copy_tree(source, target)
@@ -147,7 +161,7 @@ def sync_and_publish(message: str | None = None) -> bool:
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
     commit_message = message or f"Update vault {timestamp}"
     write_sync_status(timestamp, source, commit_message)
-    run(["python3", "build.py"])
+    run([sys.executable, "build.py"])
     run(["git", "add", "."])
 
     if repo_clean():
@@ -162,7 +176,7 @@ def sync_and_publish(message: str | None = None) -> bool:
 
 def watch(interval: int) -> None:
     config = load_config()
-    source = Path(config["source_vault_path"]).expanduser()
+    source = resolve_cross_platform_path(config["source_vault_path"]).expanduser()
     last_hash = tree_hash(source)
     print(f"Monitorando: {source}")
     while True:

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import unicodedata
 from collections import Counter
@@ -34,6 +35,19 @@ STOPWORDS = {
 
 def load_config() -> dict:
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def resolve_cross_platform_path(value: str) -> Path:
+    text = str(value).strip()
+    if os.name == "nt" and text.startswith("/mnt/") and len(text) > 6:
+        drive = text[5]
+        rest = text[7:].replace("/", "\\")
+        return Path(f"{drive.upper()}:\\{rest}")
+    if os.name != "nt" and len(text) > 2 and text[1] == ":" and text[2] in {"\\", "/"}:
+        drive = text[0].lower()
+        rest = text[3:].replace("\\", "/")
+        return Path(f"/mnt/{drive}/{rest}")
+    return Path(text)
 
 
 def slugify(value: str) -> str:
@@ -329,7 +343,7 @@ class ClipHandler(BaseHTTPRequestHandler):
             payload = {
                 "status": "ok",
                 "service": "obsidian-clip-server",
-                "vault_path": config.get("source_vault_path"),
+                "vault_path": str(resolve_cross_platform_path(config.get("source_vault_path", ""))),
             }
             self.send_json(HTTPStatus.OK, payload)
             return
@@ -359,7 +373,7 @@ class ClipHandler(BaseHTTPRequestHandler):
 
         try:
             config = load_config()
-            source_vault = Path(config["source_vault_path"]).expanduser()
+            source_vault = resolve_cross_platform_path(config["source_vault_path"]).expanduser()
             result = write_clip_note(source_vault, url)
         except HTTPError as exc:
             self.send_json(HTTPStatus.BAD_GATEWAY, {"ok": False, "error": f"http_error: {exc.code}"})

@@ -6,6 +6,7 @@ import json
 import os
 import re
 import subprocess
+import sys
 import unicodedata
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -26,6 +27,19 @@ def slugify(value: str) -> str:
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     value = re.sub(r"[^\w\s-]", "", value.lower())
     return re.sub(r"[-\s]+", "-", value).strip("-")
+
+
+def resolve_cross_platform_path(value: str) -> Path:
+    text = str(value).strip()
+    if os.name == "nt" and text.startswith("/mnt/") and len(text) > 6:
+        drive = text[5]
+        rest = text[7:].replace("/", "\\")
+        return Path(f"{drive.upper()}:\\{rest}")
+    if os.name != "nt" and len(text) > 2 and text[1] == ":" and text[2] in {"\\", "/"}:
+        drive = text[0].lower()
+        rest = text[3:].replace("\\", "/")
+        return Path(f"/mnt/{drive}/{rest}")
+    return Path(text)
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
@@ -188,7 +202,7 @@ def main() -> None:
     parser.add_argument("vault_path", type=Path)
     args = parser.parse_args()
 
-    vault_path = args.vault_path.expanduser()
+    vault_path = resolve_cross_platform_path(args.vault_path).expanduser()
     pending = sorted((vault_path / "00-Inbox" / "Web Clips" / "Pending").rglob("*.md"))
     if not pending:
         print("Nenhuma captura pendente para traduzir.")
