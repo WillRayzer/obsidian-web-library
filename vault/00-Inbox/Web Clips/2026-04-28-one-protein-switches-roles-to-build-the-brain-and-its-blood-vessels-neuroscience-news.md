@@ -6,12 +6,12 @@ model: "Local HTTP Capture"
 source: "OpenAI"
 conversation_type: "web-clip"
 area: "Inbox"
-folder: "00-Inbox/Web Clips"
+folder: "00-Inbox/Web Clips/Pending"
 tags:
 topic: "## Source - URL: https://neurosciencenews.com/adgrl2-blood-brain-barrier-synapses-30626/ - Domain: neurosciencenews.com - Fetched at: 2026-04-29 02:37:56Z ## Summary Researchers di"
 summary: >
   >
-status: inbox
+status: review
 related:
   - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
