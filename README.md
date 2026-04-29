@@ -18,16 +18,16 @@ Versao web estatica do vault do Obsidian armazenado dentro da pasta `vault/`.
 
 ## Como gerar
 
-```bash
-python3 build.py
+```powershell
+C:\Python314\python.exe build.py
 ```
 
 ## Atualizar as notas do vault
 
 Se voce alterou as notas no Obsidian e quer refletir isso no site, substitua o conteudo da pasta `vault/` pela versao mais nova do seu cofre e gere novamente:
 
-```bash
-python3 build.py
+```powershell
+C:\Python314\python.exe build.py
 ```
 
 ## Publicar a partir do seu vault local
@@ -36,14 +36,14 @@ O `config.json` aponta para o seu vault original em `source_vault_path`.
 
 Publicar uma vez:
 
-```bash
-python3 publish.py
+```powershell
+C:\Python314\python.exe publish.py
 ```
 
 Modo automatico, monitorando o vault e publicando quando houver mudanca:
 
-```bash
-python3 publish.py --watch --interval 30
+```powershell
+C:\Python314\python.exe publish.py --watch --interval 30
 ```
 
 Atalhos no Windows:
@@ -57,8 +57,8 @@ Observacao: a atualizacao online nao acontece sozinha no GitHub. Ela acontece qu
 
 Se voce quer enviar uma URL pela web, mas manter todo o processamento neste computador, use a pagina `clip.html` e o mini servidor local:
 
-```bash
-python3 clip_server.py --host 127.0.0.1 --port 8787
+```powershell
+C:\Python314\python.exe clip_server.py --host 127.0.0.1 --port 8787
 ```
 
 Depois exponha a porta de forma privada no seu tailnet:
@@ -79,7 +79,7 @@ Se voce quiser que os clips em ingles sejam traduzidos automaticamente antes de 
 
 Atalhos incluidos no projeto:
 
-- `clip-server.cmd` ou `clip-server.vbs`: inicia a API local no WSL
+- `clip-server.cmd` ou `clip-server.vbs`: inicia a API local no Windows
 - `clip-expose.cmd`: expõe a porta 8787 via Tailscale Serve
 - `clip-autostart.vbs`: inicia servidor e exposicao juntos
 - `register-clip-task.ps1`: registra a tarefa de inicio no Windows
@@ -90,10 +90,10 @@ Tarefa criada no Windows:
 
 ## Como testar localmente
 
-```bash
-python3 build.py
+```powershell
+C:\Python314\python.exe build.py
 cd dist
-python3 -m http.server 8080
+py -3.14 -m http.server 8080
 ```
 
 Abra `http://localhost:8080`.
@@ -119,7 +119,7 @@ Edite `config.json`:
 ```json
 {
   "vault_path": "vault",
-  "source_vault_path": "/mnt/c/Users/negoc/Documents/geral .md/luanda/Bem",
+  "source_vault_path": "C:\\Users\\negoc\\Documents\\geral .md\\luanda\\Bem",
   "site_name": "Biblioteca Luanda"
 }
 ```

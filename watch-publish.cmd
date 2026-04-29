@@ -1,3 +1,8 @@
 @echo off
+setlocal
 cd /d C:\WINDOWS\system32\obsidian-web-library
-python3 publish.py --watch --interval 30
+if exist C:\Python314\python.exe (
+  C:\Python314\python.exe publish.py --watch --interval 30 %*
+  exit /b %errorlevel%
+)
+py -3.14 publish.py --watch --interval 30 %*

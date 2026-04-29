@@ -1,6 +1,6 @@
 # Auditoria de Coerencia do Vault
 
-- Vault: `/mnt/c/WINDOWS/system32/obsidian-web-library/vault`
+- Vault: `C:\Windows\System32\obsidian-web-library\vault`
 - Total de notas analisadas: 79
 - Sem frontmatter: 0
 - Sem area: 0

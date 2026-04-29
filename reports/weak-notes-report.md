@@ -41,4 +41,4 @@
 - Conectar cada nota ao menos a uma nota-hub da mesma area.
 - Revisar titulos muito vagos ou duplicados.
 
-_Vault analisado: `/mnt/c/WINDOWS/system32/obsidian-web-library/vault`_
+_Vault analisado: `C:\Windows\System32\obsidian-web-library\vault`_
