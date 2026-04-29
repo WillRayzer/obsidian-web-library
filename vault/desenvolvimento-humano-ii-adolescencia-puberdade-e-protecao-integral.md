@@ -1,5 +1,7 @@
 ---
 title: "Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA"
+aliases:
+  - Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,14 @@ summary: >
   Esta nota reúne perguntas e respostas baseadas no livro Desenvolvimento Humano II, de Cláudia Capelini Picirilli, abordando puberdade, adolescência, Freud, Erikson, TCC, Bauman, consumo, tecnologia, trabalho juvenil e ECA. O conteúdo organiza os principais conceitos em formato didático para estudo, revisão e uso no Obsidian.
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Medicina Germânica]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -209,8 +214,11 @@ Segundo o ECA, é dever da família, da sociedade e do poder público assegurar 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Por que adolescentes cometem atos infracionais?]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Medicina Germânica]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

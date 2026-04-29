@@ -1,5 +1,7 @@
 ---
 title: "Dashboard - Biblioteca"
+aliases:
+  - Dashboard - Biblioteca
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.4"
@@ -16,11 +18,19 @@ summary: >
   # Dashboard - Biblioteca Este vault ja esta pronto para uso no Obsidian. Os arquivos possuem metadados, tags e links relacionados, e esta nota funciona como ponto de entrada. ## Como usar este vault - Abra a pasta `C:\Users\negoc\Documents\geral .md\luanda\Bem` no Obsidian com `Open folder as vault`. - Use esta nota co
 status: active
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -121,8 +131,16 @@ Voce pode mover os arquivos para dentro dessas pastas aos poucos, sem perder o u
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -1,5 +1,7 @@
 ---
 title: "Bem vindo"
+aliases:
+  - Bem vindo
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.4"
@@ -13,11 +15,11 @@ summary: >
   Este é o seu novo *Cofre*. Anote algo, [[crie um link]], ou tente [o Importer](https://help.obsidian.md/Plugins/Importer)! Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Dashboard - Biblioteca]]"
   - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
   - "[[O que é neurociência?]]"
   - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -1,5 +1,7 @@
 ---
 title: "Trava Emocional — Compreensão Profunda e Caminhos de Liberação"
+aliases:
+  - Trava Emocional — Compreensão Profunda e Caminhos de Liberação
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,15 @@ summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Trava diante do sucesso: medo de recomeçar"
+  - "[[ansiedade e procrastinação]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
 ---
 
 ## Objective
@@ -121,8 +127,12 @@ Uma trava emocional é um mecanismo inconsciente de proteção que surge quando 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Trava diante do sucesso: medo de recomeçar
+- [[ansiedade e procrastinação]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

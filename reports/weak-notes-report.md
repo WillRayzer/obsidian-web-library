@@ -10,24 +10,24 @@
 | --- | --- | ---: | ---: | ---: | ---: |
 | Bem vindo | Studies | 1 | 5 | 0 | 7 |
 | Vibração, Som, Sonificação e Estados de Consciência | Studies | 1 | 5 | 3 | 10 |
-| Exercícios para relaxamento das fáscias | Studies | 2 | 5 | 3 | 12 |
-| Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 5 | 3 | 12 |
-| Medicina Germânica | Studies | 2 | 5 | 3 | 12 |
-| Por que adolescentes cometem atos infracionais? | Studies | 2 | 5 | 3 | 12 |
-| Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental | Studies | 4 | 5 | 0 | 13 |
-| O que é neurociência? | Studies | 4 | 5 | 0 | 13 |
-| Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News | Studies | 4 | 5 | 0 | 13 |
-| Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News | Studies | 4 | 5 | 0 | 13 |
-| Adolescência na Contemporaneidade: Pertencimento, Saúde Mental e Escolha Profissional | Studies | 3 | 5 | 3 | 14 |
-| Amostragem Probabilística e Não-Probabilística | Studies | 4 | 5 | 3 | 16 |
+| Exercícios para relaxamento das fáscias | Studies | 2 | 8 | 3 | 15 |
+| Tradução de artigo sobre psilocibina e transtornos por uso de | Studies | 3 | 6 | 3 | 15 |
 | Analise juridica sobre emissao de certidao de tempo de servico no estado do parana | Studies | 4 | 5 | 3 | 16 |
-| Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao | Studies | 4 | 5 | 3 | 16 |
-| Análise de personalidade e espiritualidade com base no mapa natal de Luanda | Studies | 4 | 5 | 3 | 16 |
-| Análise humanista do caso Gabriel | Studies | 4 | 5 | 3 | 16 |
-| Aposentadoria especial no RPPS do município de São Bernardo do Campo | Studies | 4 | 5 | 3 | 16 |
-| Aposentadorias especiais no IPREM | Studies | 4 | 5 | 3 | 16 |
-| Ataraxia em Essência | Studies | 4 | 5 | 3 | 16 |
-| Auto-hipnose ericksoniana para felicidade | Studies | 4 | 5 | 3 | 16 |
+| Neurociência, Formação de Palavras e Magnetismo Cerebral | Studies | 4 | 5 | 3 | 16 |
+| Projeto de Assessoria Empresarial em Desenvolvimento Humano e RH | Studies | 4 | 5 | 3 | 16 |
+| Tradução de artigo científico sobre psilocibina, ansiedade e depressão | Studies | 4 | 5 | 3 | 16 |
+| Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental | Studies | 4 | 5 | 5 | 17 |
+| O que é neurociência? | Studies | 4 | 5 | 5 | 17 |
+| Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News | Studies | 4 | 5 | 5 | 17 |
+| Formação da palavra no sistema nervoso | Studies | 4 | 6 | 3 | 17 |
+| Perfil de terapeuta holístico com abordagem espiritual | Studies | 4 | 6 | 3 | 17 |
+| Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News | Studies | 3 | 8 | 5 | 18 |
+| Poema de aniversário inspirado nas qualidades mágicas das margaridas amarelas | Studies | 4 | 7 | 3 | 18 |
+| Gânglios da Base e Reestabelecimento do Funcionamento | Studies | 2 | 12 | 3 | 19 |
+| Medicina Germânica | Studies | 2 | 12 | 3 | 19 |
+| Por que adolescentes cometem atos infracionais? | Studies | 2 | 12 | 3 | 19 |
+| Tradução do The Complete Herbal de Nicholas Culpeper (Capítulos 1–10) | Studies | 2 | 12 | 3 | 19 |
+| Amostragem Probabilística e Não-Probabilística | Studies | 4 | 8 | 3 | 19 |
 
 ## Criterio
 

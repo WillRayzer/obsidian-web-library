@@ -1,5 +1,7 @@
 ---
 title: "Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao"
+aliases:
+  - Analise Psicanalitica de Caso com Vaginismo, Conversao Somatica e Repeticao de Padrao
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,16 @@ summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Sigmund Freud"
+  - "[[Psicanálise e a Influência da Religião Judaica]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -93,8 +100,13 @@ O caso sugere uma organização histérica com forte carga traumática e repeti�
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Sigmund Freud
+- [[Psicanálise e a Influência da Religião Judaica]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

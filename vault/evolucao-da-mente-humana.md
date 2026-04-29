@@ -1,5 +1,7 @@
 ---
 title: "Evolução da mente humana"
+aliases:
+  - Evolução da mente humana
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -16,11 +18,20 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Rigidez cognitiva"
+  - "[[plasticidade sináptica e suas relações com sinapses e autismo]]]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -79,8 +90,17 @@ Como entrega, esta nota em Markdown organiza o conteúdo da conversa em formato 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Rigidez cognitiva
+- [[plasticidade sináptica e suas relações com sinapses e autismo]]]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
 <!-- AUTO-RELATED-LINKS:END -->

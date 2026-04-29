@@ -1,5 +1,7 @@
 ---
 title: "Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News"
+aliases:
+  - Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News
 date: 2026-04-27
 ia: "Revisão manual"
 model: "Reescrita em português"
@@ -8,16 +10,21 @@ conversation_type: "web-clip"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
+  - neurociencia
+  - memoria
+  - hipocampo
+  - plasticidade
+  - desenvolvimento-cerebral
 topic: "## Fonte - URL: https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/ - Domínio: neurosciencenews.com - Capturado em: 2026-04-28 00:29:00Z ## Resumo O estu"
 summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[00-Dashboard - Biblioteca]]"
+  - "[[Artigos Científicos de Neurofeedback]]"
 ---
 
 ## Objective
@@ -106,7 +113,7 @@ Isso aponta para uma transformação do código neuronal e das funções de mem�
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Artigos Científicos de Neurofeedback]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -123,5 +130,5 @@ Isso aponta para uma transformação do código neuronal e das funções de mem�
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Artigos Científicos de Neurofeedback]]
 <!-- AUTO-RELATED-LINKS:END -->

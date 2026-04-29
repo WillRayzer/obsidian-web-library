@@ -1,5 +1,7 @@
 ---
 title: "Benefícios do alho para o corpo humano"
+aliases:
+  - Benefícios do alho para o corpo humano
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -18,9 +20,12 @@ status: complete
 related:
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Medicina Germânica]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -66,6 +71,9 @@ O alho pode ser consumido diariamente e por tempo indefinido quando inserido na 
 
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Medicina Germânica]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -1,5 +1,7 @@
 ---
 title: "Neurose e Cena Primária no Caso do Homem dos Lobos"
+aliases:
+  - Neurose e Cena Primária no Caso do Homem dos Lobos
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,20 @@ summary: >
   >
 status: complete
 related:
+  - "[[Sigmund Freud"
+  - "[[Psicanálise e a Influência da Religião Judaica]]]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -81,8 +92,17 @@ As principais fontes incluem Freud (1918), Brunswick (1928), Mahony (1992), Roud
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Sigmund Freud
+- [[Psicanálise e a Influência da Religião Judaica]]]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

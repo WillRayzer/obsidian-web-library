@@ -1,5 +1,7 @@
 ---
 title: "Projeto de Assessoria Empresarial em Desenvolvimento Humano e RH"
+aliases:
+  - Projeto de Assessoria Empresarial em Desenvolvimento Humano e RH
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,11 @@ summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

@@ -1,5 +1,7 @@
 ---
 title: "Amostragem Probabilística e Não-Probabilística"
+aliases:
+  - Amostragem Probabilística e Não-Probabilística
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,14 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -189,8 +194,11 @@ CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

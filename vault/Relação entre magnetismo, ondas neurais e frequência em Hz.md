@@ -1,5 +1,7 @@
 ---
 title: "Relação entre magnetismo, ondas neurais e frequência em Hz"
+aliases:
+  - Relação entre magnetismo, ondas neurais e frequência em Hz
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,14 @@ summary: >
   >
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -99,8 +104,11 @@ Integração com conceitos amplos:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

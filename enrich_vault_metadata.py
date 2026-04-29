@@ -2,12 +2,16 @@
 from __future__ import annotations
 
 import argparse
+import json
+import os
 import re
 import shutil
 import unicodedata
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 
 THEMES = [
@@ -99,6 +103,9 @@ BANNED_TAGS = {
 
 AUTO_RELATED_START = "<!-- AUTO-RELATED-LINKS:START -->"
 AUTO_RELATED_END = "<!-- AUTO-RELATED-LINKS:END -->"
+DEFAULT_MODEL = os.environ.get("MOONSHOT_MODEL") or os.environ.get("OPENAI_MODEL") or "kimi-k2.5"
+MOONSHOT_BASE_URL = os.environ.get("MOONSHOT_BASE_URL", "https://api.moonshot.ai/v1").rstrip("/")
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
 
 
 @dataclass
@@ -178,14 +185,14 @@ def parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
 def dump_frontmatter(data: dict[str, object]) -> str:
     lines = ["---"]
     order = [
-        "title", "date", "ia", "model", "source", "conversation_type", "area", "folder",
+        "title", "aliases", "date", "ia", "model", "source", "conversation_type", "area", "folder",
         "tags", "topic", "summary", "status", "related"
     ]
     for key in order:
         if key not in data:
             continue
         value = data[key]
-        if key in {"tags", "related"}:
+        if key in {"aliases", "tags", "related"}:
             lines.append(f"{key}:")
             items = value if isinstance(value, list) else []
             for item in items:
@@ -287,6 +294,198 @@ def infer_related(note: Note, notes: list[Note], tags: list[str]) -> list[str]:
     return related[:5]
 
 
+def normalize_list(value: object) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
+
+
+def merge_unique(*groups: list[str]) -> list[str]:
+    merged: list[str] = []
+    for group in groups:
+        for item in group:
+            if item and item not in merged:
+                merged.append(item)
+    return merged
+
+
+def has_ai_key() -> bool:
+    return bool(os.environ.get("MOONSHOT_API_KEY", "").strip() or os.environ.get("OPENAI_API_KEY", "").strip())
+
+
+def call_model(prompt: str) -> dict[str, object]:
+    api_key = os.environ.get("MOONSHOT_API_KEY", "").strip()
+    base_url = MOONSHOT_BASE_URL
+    if not api_key:
+        api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+        base_url = OPENAI_BASE_URL
+    if not api_key:
+        raise RuntimeError("Nenhuma chave API configurada")
+
+    payload = {
+        "model": DEFAULT_MODEL,
+        "temperature": 0,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "Voce sugere metadados para um segundo cerebro em Obsidian. "
+                    "Responda apenas em JSON valido, sem markdown, sem bloco de codigo."
+                ),
+            },
+            {"role": "user", "content": prompt},
+        ],
+    }
+    request = Request(
+        f"{base_url}/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    with urlopen(request, timeout=120) as response:  # nosec - local utility
+        data = json.loads(response.read().decode("utf-8"))
+
+    content = data["choices"][0]["message"]["content"]
+    match = re.search(r"\{.*\}", content, re.S)
+    if not match:
+        raise RuntimeError("resposta invalida do modelo")
+    return json.loads(match.group(0))
+
+
+def ensure_aliases(frontmatter: dict[str, object], title: str) -> list[str]:
+    aliases: list[str] = []
+    existing = frontmatter.get("aliases")
+    if isinstance(existing, list):
+        aliases.extend(str(item).strip() for item in existing if str(item).strip())
+    elif isinstance(existing, str) and existing.strip():
+        aliases.append(existing.strip())
+
+    if title and title not in aliases:
+        aliases.insert(0, title)
+    return aliases[:8]
+
+
+def read_candidate_titles(vault_root: Path, note: Note, limit: int = 24) -> list[str]:
+    source_tokens = note.tokens.union(tokenize(note.title))
+    candidates: list[tuple[int, str]] = []
+    for path in sorted(vault_root.rglob("*.md")):
+        lower_parts = {part.lower() for part in path.parts}
+        if ".obsidian" in lower_parts or "00-backups" in lower_parts or "00-templates" in lower_parts or "99-archive" in lower_parts:
+            continue
+        if "pending" in lower_parts:
+            continue
+        if path == note.path:
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        frontmatter, body = parse_frontmatter(text)
+        title = str(frontmatter.get("title") or path.stem).strip()
+        candidate_tokens = tokenize(f"{title}\n{body[:2400]}")
+        overlap = len(source_tokens.intersection(candidate_tokens))
+        if overlap:
+            candidates.append((overlap, title))
+    candidates.sort(key=lambda item: (-item[0], item[1].lower()))
+    ordered: list[str] = []
+    for _, title in candidates:
+        if title not in ordered:
+            ordered.append(title)
+        if len(ordered) >= limit:
+            break
+    return ordered
+
+
+def infer_aliases_ai(note: Note, candidates: list[str]) -> list[str]:
+    aliases = ensure_aliases(dict(note.frontmatter), note.title)
+    if not has_ai_key():
+        return aliases
+
+    candidate_block = "\n".join(f"- {title}" for title in candidates) if candidates else "- (nenhuma candidata encontrada)"
+    prompt = f"""
+Sugira aliases para uma nota em portugues do Brasil.
+
+Regras:
+- Retorne apenas JSON valido.
+- Use chaves exatas: aliases, related.
+- aliases: lista curta de nomes alternativos uteis para o Obsidian.
+- related: lista curta de wikilinks, mas somente para notas que existam na lista de candidatas.
+- Nao invente notas fora da lista.
+
+Titulo atual:
+{note.title}
+
+Conteudo resumido:
+{note.body[:6000]}
+
+Notas candidatas do vault:
+{candidate_block}
+"""
+    try:
+        result = call_model(prompt)
+    except Exception:
+        return aliases
+
+    ai_aliases = [str(item).strip() for item in result.get("aliases", []) if str(item).strip()]
+    for alias in ai_aliases:
+        if alias not in aliases:
+            aliases.append(alias)
+    return aliases[:8]
+
+
+def infer_related_ai(note: Note, candidates: list[str], fallback: list[str]) -> list[str]:
+    if not has_ai_key():
+        return fallback
+
+    candidate_block = "\n".join(f"- {title}" for title in candidates) if candidates else "- (nenhuma candidata encontrada)"
+    prompt = f"""
+Sugira conexoes para uma nota em portugues do Brasil.
+
+Regras:
+- Retorne apenas JSON valido.
+- Use chaves exatas: related.
+- related: lista curta com wikilinks.
+- Escolha somente entre as notas candidatas fornecidas.
+- Priorize notas realmente relacionadas ao conteudo e nao so por tema amplo.
+
+Titulo atual:
+{note.title}
+
+Conteudo resumido:
+{note.body[:7000]}
+
+Notas candidatas do vault:
+{candidate_block}
+"""
+    try:
+        result = call_model(prompt)
+    except Exception:
+        return fallback
+
+    allowed = {title.lower(): title for title in candidates}
+    related: list[str] = []
+    for item in result.get("related", []):
+        text = str(item).strip().strip('"')
+        if not text:
+            continue
+        cleaned = text
+        if cleaned.startswith("[[") and cleaned.endswith("]]"):
+            cleaned = cleaned[2:-2]
+        if "|" in cleaned:
+            cleaned = cleaned.split("|", 1)[0]
+        title = allowed.get(cleaned.lower()) or allowed.get(text.lower())
+        if not title:
+            continue
+        wikilink = f"[[{title}]]"
+        if wikilink not in related:
+            related.append(wikilink)
+    if "[[00-Dashboard - Biblioteca]]" not in related:
+        related.append("[[00-Dashboard - Biblioteca]]")
+    return related[:5]
+
+
 def ensure_body_related_links(body: str, related: list[str]) -> str:
     cleaned = body.strip()
     pattern = re.compile(
@@ -336,16 +535,36 @@ def main() -> None:
         is_web_clip = str(note.frontmatter.get("conversation_type") or "").strip().lower() == "web-clip"
         is_inbox_note = str(note.frontmatter.get("area") or "").strip().lower() == "inbox" or str(note.frontmatter.get("folder") or "").strip().startswith("00-Inbox")
         theme = None if (is_web_clip or is_inbox_note) else infer_theme(note)
-        tags = infer_tags(note, theme, strict=is_web_clip or is_inbox_note)
-        related = infer_related(note, notes, tags)
         front = dict(note.frontmatter)
+        existing_aliases = normalize_list(front.get("aliases"))
+        existing_tags = normalize_list(front.get("tags"))
+        existing_related = normalize_list(front.get("related"))
+
         if theme:
             front["area"] = theme["area"]
             front["folder"] = theme["folder"]
         else:
             front["area"] = str(front.get("area") or "Studies")
             front["folder"] = str(front.get("folder") or "04-Studies/tema")
+        candidate_titles = read_candidate_titles(vault_path, note)
+        aliases = merge_unique(existing_aliases, infer_aliases_ai(note, candidate_titles))
+        if note.title not in aliases:
+            aliases.insert(0, note.title)
+        front["aliases"] = aliases[:8]
+
+        inferred_tags = infer_tags(note, theme, strict=is_web_clip or is_inbox_note)
+        if is_web_clip:
+            tags = merge_unique(existing_tags, inferred_tags)
+        else:
+            tags = inferred_tags
         front["tags"] = tags
+
+        inferred_related = infer_related(note, notes, tags)
+        ai_related = infer_related_ai(note, candidate_titles, inferred_related)
+        if existing_related:
+            related = merge_unique(existing_related, ai_related)
+        else:
+            related = ai_related
         front["related"] = related
         enriched_body = ensure_body_related_links(note.body, related)
         serialized = dump_frontmatter(front).strip() + "\n\n" + enriched_body.strip() + "\n"

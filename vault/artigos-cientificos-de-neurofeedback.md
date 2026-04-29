@@ -1,5 +1,7 @@
 ---
 title: "Artigos Científicos de Neurofeedback"
+aliases:
+  - Artigos Científicos de Neurofeedback
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,18 @@ summary: >
   A conversa teve como objetivo reunir referências científicas relevantes sobre neurofeedback, incluindo EEG-neurofeedback e rtfMRI-neurofeedback. Foram elencadas revisões sistemáticas, meta-análises e estudos clínicos relacionados a TDAH, depressão, TEPT, zumbido, desempenho motor, Parkinson e outras aplicações. O resultado foi uma lista curada para orientar estudos posteriores e organização bibliográfica.
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Medicina Germânica]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -161,8 +170,15 @@ Claro, Will! Aqui vai uma lista curada, com foco em revisões sistemáticas, met
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Por que adolescentes cometem atos infracionais?]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Medicina Germânica]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

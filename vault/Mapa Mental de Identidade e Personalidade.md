@@ -1,5 +1,7 @@
 ---
 title: "Mapa Mental de Identidade e Personalidade"
+aliases:
+  - Mapa Mental de Identidade e Personalidade
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -17,10 +19,15 @@ summary: >
 status: complete
 related:
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -153,7 +160,12 @@ Criar um mapa mental pode ser um processo muito pessoal e depende de como você 
 ## Related Notes
 
 - [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->

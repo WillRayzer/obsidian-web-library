@@ -1,5 +1,7 @@
 ---
 title: "Interação Medicamentosa entre Opioides e Antipsicóticos"
+aliases:
+  - Interação Medicamentosa entre Opioides e Antipsicóticos
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,14 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -202,8 +207,11 @@ Conclui-se que o uso concomitante de analgésicos narcóticos e medicamentos uti
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

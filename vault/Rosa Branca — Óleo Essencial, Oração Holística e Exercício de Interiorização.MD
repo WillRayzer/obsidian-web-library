@@ -1,5 +1,7 @@
 ---
 title: "Rosa Branca — Óleo Essencial, Oração Holística e Exercício de Interiorização"
+aliases:
+  - Rosa Branca — Óleo Essencial, Oração Holística e Exercício de Interiorização
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT 5.3"
@@ -16,11 +18,14 @@ summary: >
   >
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Auto-hipnose ericksoniana para felicidade]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -99,8 +104,11 @@ Foi estruturado um exercício completo com:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Perfil de terapeuta holístico com abordagem espiritual]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Auto-hipnose ericksoniana para felicidade]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

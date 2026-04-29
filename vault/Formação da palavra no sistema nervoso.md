@@ -1,5 +1,7 @@
 ---
 title: "Formação da palavra no sistema nervoso"
+aliases:
+  - Formação da palavra no sistema nervoso
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.4"
@@ -16,6 +18,7 @@ summary: >
   >
 status: complete
 related:
+  - "[["[[00-Dashboard - Biblioteca]]]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
@@ -114,10 +117,10 @@ Assistant:
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [["[[00-Dashboard - Biblioteca]]]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -137,6 +140,7 @@ Explorar neuroplasticidade aplicada ao aprendizado de linguagem
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [["[[00-Dashboard - Biblioteca]]]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]

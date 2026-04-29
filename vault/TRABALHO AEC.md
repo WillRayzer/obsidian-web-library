@@ -1,5 +1,7 @@
 ---
 title: "TRABALHO AEC"
+aliases:
+  - TRABALHO AEC
 date: 2026-04-26
 ia: "AutoImport"
 model: "Local Ingestion"
@@ -16,11 +18,20 @@ summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Trava diante do sucesso: medo de recomeçar"
+  - "[[ansiedade e procrastinação]]]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -85,10 +96,10 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
+- [[Trava diante do sucesso: medo de recomeçar
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -103,8 +114,17 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Trava diante do sucesso: medo de recomeçar
+- [[ansiedade e procrastinação]]]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
 <!-- AUTO-RELATED-LINKS:END -->

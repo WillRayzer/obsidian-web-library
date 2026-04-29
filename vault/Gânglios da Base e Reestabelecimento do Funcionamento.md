@@ -1,5 +1,7 @@
 ---
 title: "Gânglios da Base e Reestabelecimento do Funcionamento"
+aliases:
+  - Gânglios da Base e Reestabelecimento do Funcionamento
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,18 @@ summary: >
   A conversa explora o que são os gânglios da base, suas funções no controle motor e cognitivo, e as principais doenças associadas. Também apresenta estratégias práticas para melhorar seu funcionamento, incluindo exercícios, nutrição e abordagens médicas. O resultado é uma visão integrada entre neurociência, prevenção e reabilitação funcional.
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Relacao entre meditacao e corpo caloso e como relaxar]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
 ---
 
 ## Objective
@@ -101,8 +110,15 @@ Os gânglios da base funcionam como um sistema de **filtro e ajuste fino do comp
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Relacao entre meditacao e corpo caloso e como relaxar]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

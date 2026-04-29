@@ -1,5 +1,7 @@
 ---
 title: "deusas primordiais e práticas espirituais pré-gregas"
+aliases:
+  - deusas primordiais e práticas espirituais pré-gregas
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,15 @@ summary: >
   >
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Sigmund Freud"
+  - "[[Psicanálise e a Influência da Religião Judaica]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -115,8 +121,12 @@ Utilizados para induzir transe, cura e conexão espiritual, através de repetiç
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Sigmund Freud
+- [[Psicanálise e a Influência da Religião Judaica]]]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

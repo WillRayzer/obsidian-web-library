@@ -1,5 +1,7 @@
 ---
 title: "O que é neurociência?"
+aliases:
+  - O que é neurociência?
 date: 2026-04-27
 ia: "Revisão manual"
 model: "Reescrita em português"
@@ -8,16 +10,21 @@ conversation_type: "web-clip"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
+  - neurociencia
+  - cerebro
+  - comportamento
+  - cognicao
+  - psicologia
 topic: "## Fonte - URL: https://online.pucrs.br/blog/neurociencia - Domínio: online.pucrs.br - Capturado em: 2026-04-28 00:26:20Z ## Resumo A neurociência investiga como o sistema nervoso "
 summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
-  - "[[00-Dashboard - Biblioteca]]"
+  - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
 ---
 
 ## Objective
@@ -59,7 +66,7 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
+- [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -76,5 +83,5 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
+- [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
 <!-- AUTO-RELATED-LINKS:END -->

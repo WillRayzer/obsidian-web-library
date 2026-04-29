@@ -1,5 +1,7 @@
 ---
 title: "Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada"
+aliases:
+  - Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,20 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Mapa Mental de Identidade e Personalidade]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -253,6 +264,15 @@ A integração dos dois gera:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Mapa Mental de Identidade e Personalidade]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]

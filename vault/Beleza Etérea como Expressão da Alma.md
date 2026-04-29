@@ -1,5 +1,7 @@
 ---
 title: "Beleza Etérea como Expressão da Alma e da Espiritualidade"
+aliases:
+  - Beleza Etérea como Expressão da Alma e da Espiritualidade
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -17,10 +19,13 @@ summary: >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -136,7 +141,10 @@ Quando esses quatro níveis estão alinhados, a beleza etérea emerge naturalmen
 ## Related Notes
 
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

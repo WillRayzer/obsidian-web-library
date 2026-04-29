@@ -1,5 +1,7 @@
 ---
 title: "Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental"
+aliases:
+  - Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental
 date: 2026-04-27
 ia: "Revisão manual"
 model: "Reescrita em português"
@@ -8,16 +10,21 @@ conversation_type: "web-clip"
 area: "Studies"
 folder: "04-Studies/neurociencia-psicologia"
 tags:
+  - neurociencia
+  - psicologia
+  - inteligencia-artificial
+  - saude-mental
+  - neurologia
 topic: "## Fonte - URL: https://neurosciencenews.com/ - Domínio: neurosciencenews.com - Capturado em: 2026-04-28 00:28:15Z ## Resumo A Neuroscience News publica artigos e pesquisas de aces"
 summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[O que é neurociência?]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
   - "[[Dashboard - Biblioteca]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

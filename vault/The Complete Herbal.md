@@ -1,5 +1,7 @@
 ---
 title: "Tradução do The Complete Herbal de Nicholas Culpeper (Capítulos 1–10)"
+aliases:
+  - Tradução do The Complete Herbal de Nicholas Culpeper (Capítulos 1–10)
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,18 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -82,10 +91,10 @@ Cada capítulo foi traduzido respeitando:
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -114,8 +123,15 @@ Cada capítulo foi traduzido respeitando:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

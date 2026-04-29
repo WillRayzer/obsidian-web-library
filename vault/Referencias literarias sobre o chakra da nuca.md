@@ -1,5 +1,7 @@
 ---
 title: "Referencias literarias sobre o chakra da nuca"
+aliases:
+  - Referencias literarias sobre o chakra da nuca
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.4"
@@ -16,11 +18,15 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -145,8 +151,12 @@ Mapear os 21 upachakras com localização e função
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

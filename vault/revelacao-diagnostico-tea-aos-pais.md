@@ -1,5 +1,7 @@
 ---
 title: "Revelação do Diagnóstico de TEA aos Pais"
+aliases:
+  - Revelação do Diagnóstico de TEA aos Pais
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -17,10 +19,15 @@ summary: >
 status: complete
 related:
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Medicina Germânica]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -62,7 +69,12 @@ Inclua aqui todo o conteúdo completo, irrestrito, do inicio da abertura da conv
 ## Related Notes
 
 - [[Por que adolescentes cometem atos infracionais?]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Artigos Científicos de Neurofeedback]]
 - [[Medicina Germânica]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

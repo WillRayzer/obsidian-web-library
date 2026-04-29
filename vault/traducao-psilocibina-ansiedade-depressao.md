@@ -1,5 +1,7 @@
 ---
 title: "Tradução de artigo científico sobre psilocibina, ansiedade e depressão"
+aliases:
+  - Tradução de artigo científico sobre psilocibina, ansiedade e depressão
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,11 @@ summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

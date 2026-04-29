@@ -1,5 +1,7 @@
 ---
 title: "Medicina Germânica"
+aliases:
+  - Medicina Germânica
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,18 @@ summary: >
   A conversa abordou a Medicina Germânica, também conhecida como German New Medicine ou Nova Medicina Germânica, apresentando sua origem, proposta central e controvérsias. A resposta destacou que a abordagem não é aceita pela medicina baseada em evidências, não deve substituir tratamentos convencionais e pode representar risco quando leva ao abandono de cuidados médicos adequados.
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Artigos Científicos de Neurofeedback]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -129,8 +138,15 @@ Caso a busca seja por uma abordagem **integrativa e holística**, o caminho mais
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Por que adolescentes cometem atos infracionais?]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Artigos Científicos de Neurofeedback]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

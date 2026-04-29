@@ -1,5 +1,7 @@
 ---
 title: "Mente livre, mente indisciplinada e os limites da razão"
+aliases:
+  - Mente livre, mente indisciplinada e os limites da razão
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -17,10 +19,17 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
 ---
 
 ## Objective
@@ -75,7 +84,14 @@ Uma mente livre pode ampliar horizontes e desafiar limites conceituais, enquanto
 ## Related Notes
 
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

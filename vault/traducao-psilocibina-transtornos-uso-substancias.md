@@ -1,5 +1,7 @@
 ---
 title: "Tradução de artigo sobre psilocibina e transtornos por uso de"
+aliases:
+  - Tradução de artigo sobre psilocibina e transtornos por uso de
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,6 +18,7 @@ summary: >
   >
 status: complete
 related:
+  - "[[\[\[00-Dashboard - Biblioteca\]\]]]"
   - "[[Tradução de artigo científico sobre psilocibina, ansiedade e depressão]]"
   - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
@@ -50,10 +53,10 @@ avaliação de qualidade.
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[\[\[00-Dashboard - Biblioteca\]\]]]
 - [[Tradução de artigo científico sobre psilocibina, ansiedade e depressão]]
 - [[Artigos Científicos de Neurofeedback]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Amostragem Probabilística e Não-Probabilística]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -73,6 +76,7 @@ avaliação de qualidade.
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[\[\[00-Dashboard - Biblioteca\]\]]]
 - [[Tradução de artigo científico sobre psilocibina, ansiedade e depressão]]
 - [[Artigos Científicos de Neurofeedback]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]

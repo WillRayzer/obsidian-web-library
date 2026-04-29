@@ -1,5 +1,7 @@
 ---
 title: "Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias"
+aliases:
+  - Ciclos das Doenças Infecciosas: Virais, Bacterianas, Fúngicas e Protozoárias
 date: 2026-04-15
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,18 @@ summary: >
   >
 status: complete
 related:
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
 ---
 
 ## Objective
@@ -140,8 +149,15 @@ Explicadas com ciclos complexos e vetores.
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

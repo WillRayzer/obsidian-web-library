@@ -1,5 +1,7 @@
 ---
 title: "O que é consciência"
+aliases:
+  - O que é consciência
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,18 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Rigidez cognitiva"
+  - "[[plasticidade sináptica e suas relações com sinapses e autismo]]]]"
+  - "[[Sabedoria interna: autoconhecimento"
+  - "[[intuição e discernimento]]]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -68,6 +77,13 @@ Uma definição sintética seria: consciência é a capacidade de estar presente
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Rigidez cognitiva
+- [[plasticidade sináptica e suas relações com sinapses e autismo]]]]
+- [[Sabedoria interna: autoconhecimento
+- [[intuição e discernimento]]]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]

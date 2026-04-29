@@ -1,5 +1,7 @@
 ---
 title: "Sigmund Freud, Psicanálise e a Influência da Religião Judaica"
+aliases:
+  - Sigmund Freud, Psicanálise e a Influência da Religião Judaica
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -17,10 +19,18 @@ summary: >
 status: complete
 related:
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -144,6 +154,14 @@ O conceito proposto ao longo da conversa permite entender Freud como uma figura 
 ## Related Notes
 
 - [[Sistema freudiano em linguagem de estudante inicial]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]

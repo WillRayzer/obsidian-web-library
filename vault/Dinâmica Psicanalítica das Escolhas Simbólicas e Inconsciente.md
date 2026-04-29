@@ -1,5 +1,7 @@
 ---
 title: "Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente"
+aliases:
+  - Dinâmica Psicanalítica das Escolhas Simbólicas e Inconsciente
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -17,10 +19,19 @@ summary: >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Sigmund Freud"
+  - "[[Psicanálise e a Influência da Religião Judaica]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -143,6 +154,15 @@ A atividade promove escuta empática, insights individuais e reflexão coletiva,
 ## Related Notes
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Sigmund Freud
+- [[Psicanálise e a Influência da Religião Judaica]]]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]

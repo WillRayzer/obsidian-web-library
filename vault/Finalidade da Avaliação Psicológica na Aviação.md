@@ -1,5 +1,7 @@
 ---
 title: "Finalidade da Avaliação Psicológica na Aviação"
+aliases:
+  - Finalidade da Avaliação Psicológica na Aviação
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,15 @@ summary: >
   >
 status: complete
 related:
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[00-Dashboard - Biblioteca]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -68,8 +74,12 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

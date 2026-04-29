@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 import unicodedata
+from collections import Counter
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -27,6 +28,11 @@ def slugify(value: str) -> str:
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     value = re.sub(r"[^\w\s-]", "", value.lower())
     return re.sub(r"[-\s]+", "-", value).strip("-")
+
+
+def tokenize(text: str) -> set[str]:
+    cleaned = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii").lower()
+    return set(re.findall(r"[a-z0-9]{3,}", cleaned))
 
 
 def resolve_cross_platform_path(value: str) -> Path:
@@ -61,10 +67,15 @@ def parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
 
 def dump_frontmatter(data: dict[str, object]) -> str:
     lines = ["---"]
-    for key in ["title", "date", "ia", "model", "source_url", "source_domain", "conversation_type", "area", "folder", "tags", "summary", "status", "related"]:
+    for key in ["title", "aliases", "date", "ia", "model", "source_url", "source_domain", "conversation_type", "area", "folder", "tags", "summary", "status", "related"]:
         if key not in data:
             continue
         value = data[key]
+        if key == "aliases" and isinstance(value, list):
+            lines.append("aliases:")
+            for alias in value:
+                lines.append(f'  - "{alias}"')
+            continue
         if key == "tags" and isinstance(value, list):
             lines.append("tags:")
             for tag in value:
@@ -82,6 +93,38 @@ def dump_frontmatter(data: dict[str, object]) -> str:
         lines.append(f'{key}: "{value}"' if key not in {"date", "status"} else f"{key}: {value}")
     lines.append("---")
     return "\n".join(lines)
+
+
+def read_candidate_titles(vault_root: Path, source_path: Path) -> list[str]:
+    titles: list[tuple[int, str]] = []
+    source_text = ""
+    try:
+        source_text = source_path.read_text(encoding="utf-8", errors="replace")
+    except Exception:
+        source_text = ""
+    source_tokens = tokenize(source_text[:12000])
+
+    for path in sorted(vault_root.rglob("*.md")):
+        lower_parts = {part.lower() for part in path.parts}
+        if ".obsidian" in lower_parts or "00-backups" in lower_parts or "00-templates" in lower_parts or "99-archive" in lower_parts:
+            continue
+        if "pending" in lower_parts:
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        frontmatter, body = parse_frontmatter(text)
+        title = str(frontmatter.get("title") or path.stem).strip()
+        title_tokens = tokenize(f"{title}\n{body[:2000]}")
+        score = len(source_tokens.intersection(title_tokens))
+        if score:
+            titles.append((score, title))
+    titles.sort(key=lambda item: (-item[0], item[1].lower()))
+    ordered: list[str] = []
+    for _, title in titles:
+        if title not in ordered:
+            ordered.append(title)
+        if len(ordered) >= 24:
+            break
+    return ordered
 
 
 def call_model(prompt: str) -> dict[str, object]:
@@ -134,19 +177,23 @@ def translate_note(path: Path, vault_root: Path) -> tuple[bool, str]:
     if str(frontmatter.get("conversation_type") or "").strip().lower() != "web-clip":
         return False, "ignorada"
 
+    candidates = read_candidate_titles(vault_root, path)
+    candidate_block = "\n".join(f"- {title}" for title in candidates) if candidates else "- (nenhuma candidata encontrada)"
+
     prompt = f"""
 Traduza e reescreva a captura web abaixo para portugues do Brasil.
 
 Regras:
 - Retorne apenas JSON valido.
-- Use chaves exatas: title, summary, tags, area, folder, content, related, status.
+- Use chaves exatas: title, aliases, summary, tags, area, folder, content, related, status.
 - title: titulo final em portugues.
+- aliases: lista curta com o titulo original e eventuais variantes uteis para o Obsidian.
 - summary: resumo em portugues com no maximo 2 frases.
 - tags: lista curta com ate 6 tags tematicas, somente assuntos do conteudo.
 - area: use "Studies" ou "Business" conforme o assunto.
 - folder: escolha uma pasta coerente dentro de 04-Studies/ ou 05-Projects/.
 - content: nota final em portugues, com sections markdown curtas e claras.
-- related: liste wikilinks relevantes do vault quando houver certeza.
+- related: liste apenas wikilinks de notas que existam nesta lista de candidatas quando houver certeza.
 - status: use "complete".
 - Ignore metadados de captura na traducao.
 
@@ -155,12 +202,21 @@ Title: {frontmatter.get('title', path.stem)}
 URL: {frontmatter.get('source_url', '')}
 Domain: {frontmatter.get('source_domain', '')}
 
+Notas candidatas do vault:
+{candidate_block}
+
 Conteudo bruto:
 {body[:12000]}
 """
 
     translated = call_model(prompt)
     title = str(translated.get("title") or frontmatter.get("title") or path.stem).strip()
+    aliases = [str(item).strip() for item in translated.get("aliases", []) if str(item).strip()]
+    if title and title not in aliases:
+        aliases.insert(0, title)
+    source_title = str(frontmatter.get("title") or "").strip()
+    if source_title and source_title not in aliases:
+        aliases.append(source_title)
     summary = str(translated.get("summary") or "").strip()
     tags = [slugify(str(tag)) for tag in translated.get("tags", []) if str(tag).strip()]
     area = str(translated.get("area") or "Studies").strip()
@@ -178,6 +234,7 @@ Conteudo bruto:
 
     payload = {
         "title": title,
+        "aliases": aliases,
         "date": frontmatter.get("date") or path.stem[:10],
         "ia": "Revisão manual",
         "model": "Reescrita em português",

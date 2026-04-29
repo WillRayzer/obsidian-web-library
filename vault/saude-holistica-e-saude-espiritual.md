@@ -1,5 +1,7 @@
 ---
 title: "Saúde holística e saúde espiritual"
+aliases:
+  - Saúde holística e saúde espiritual
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -16,11 +18,16 @@ summary: >
   >
 status: complete
 related:
+  - "[[Sabedoria interna: autoconhecimento"
+  - "[[intuição e discernimento]]]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -83,8 +90,13 @@ A saúde holística propõe cuidar do ser humano de forma integral, considerando
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Sabedoria interna: autoconhecimento
+- [[intuição e discernimento]]]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -1,5 +1,7 @@
 ---
 title: "Analise juridica sobre emissao de certidao de tempo de servico no estado do parana"
+aliases:
+  - Analise juridica sobre emissao de certidao de tempo de servico no estado do parana
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,11 @@ summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

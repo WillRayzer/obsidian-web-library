@@ -1,5 +1,7 @@
 ---
 title: "Leitura Astrológica Moderna – Sol em Virgem, Lua e Ascendente em Escorpião"
+aliases:
+  - Leitura Astrológica Moderna – Sol em Virgem, Lua e Ascendente em Escorpião
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -18,9 +20,12 @@ status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -84,6 +89,9 @@ O Ascendente indica como a pessoa se manifesta externamente.
 
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

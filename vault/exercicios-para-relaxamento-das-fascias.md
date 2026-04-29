@@ -1,5 +1,7 @@
 ---
 title: "Exercícios para relaxamento das fáscias"
+aliases:
+  - Exercícios para relaxamento das fáscias
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,14 @@ summary: >
   A conversa explorou o conceito de fáscias e evoluiu para práticas práticas de relaxamento. Foram apresentados exercícios, técnicas de mobilidade e liberação miofascial. O resultado é um guia funcional para aplicação diária focado em flexibilidade e redução de tensões.
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]"
   - "[[O que se estuda em neurolinguística]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -67,8 +72,11 @@ Foram sugeridos exercícios práticos para relaxamento das fáscias:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Trava Emocional — Compreensão Profunda e Caminhos de Liberação]]
+- [[O que se estuda em neurolinguística]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[O que se estuda em neurolinguística]]
 <!-- AUTO-RELATED-LINKS:END -->

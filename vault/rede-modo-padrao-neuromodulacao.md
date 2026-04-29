@@ -1,5 +1,7 @@
 ---
 title: "Rede de Modo Padrão, Meditação, Neuromodulação e Magnetismo"
+aliases:
+  - Rede de Modo Padrão, Meditação, Neuromodulação e Magnetismo
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,16 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Relação entre magnetismo"
+  - "[[ondas neurais e frequência em Hz]]]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Artigos Científicos de Neurofeedback]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Relação entre magnetismo, ondas neurais e frequência em Hz]]"
-  - "[[Artigos Científicos de Neurofeedback]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -84,8 +91,13 @@ Resposta: Explicação científica sobre:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Relação entre magnetismo
+- [[ondas neurais e frequência em Hz]]]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Artigos Científicos de Neurofeedback]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Relação entre magnetismo, ondas neurais e frequência em Hz]]
-- [[Artigos Científicos de Neurofeedback]]
 <!-- AUTO-RELATED-LINKS:END -->

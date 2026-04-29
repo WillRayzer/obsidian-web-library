@@ -1,5 +1,7 @@
 ---
 title: "RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA"
+aliases:
+  - RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA
 date: 2026-04-26
 ia: "AutoImport"
 model: "Local Ingestion"
@@ -18,9 +20,16 @@ status: complete
 related:
   - "[[RELATORIO FINAL]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -163,6 +172,13 @@ Realize a sua avaliação em relação à atividade desenvolvida considerando um
 
 - [[RELATORIO FINAL]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

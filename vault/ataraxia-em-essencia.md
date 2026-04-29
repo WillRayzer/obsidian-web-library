@@ -1,5 +1,7 @@
 ---
 title: "Ataraxia em Essência"
+aliases:
+  - Ataraxia em Essência
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,16 @@ summary: >
   >
 status: complete
 related:
+  - "[[Sabedoria interna: autoconhecimento"
+  - "[[intuição e discernimento]]]]"
   - "[[Beleza Etérea como Expressão da Alma e da Espiritualidade]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Elizabeth Kübler-Ross"
+  - "[[morte]]"
+  - "[[morrer e escuta psicológica hospitalar]]]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
+  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
 ---
 
 ## Objective
@@ -70,8 +77,13 @@ Resposta: Síntese do conceito como liberdade interior e paz imperturbável.
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Sabedoria interna: autoconhecimento
+- [[intuição e discernimento]]]]
 - [[Beleza Etérea como Expressão da Alma e da Espiritualidade]]
+- [[Elizabeth Kübler-Ross
+- [[morte]]
+- [[morrer e escuta psicológica hospitalar]]]]
+- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 <!-- AUTO-RELATED-LINKS:END -->

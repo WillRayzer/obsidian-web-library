@@ -1,5 +1,7 @@
 ---
 title: "Aposentadoria especial no RPPS do município de São Bernardo do Campo"
+aliases:
+  - Aposentadoria especial no RPPS do município de São Bernardo do Campo
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -17,10 +19,15 @@ summary: >
 status: complete
 related:
   - "[[Aposentadorias especiais no IPREM]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
 ---
 
 ## Objective
@@ -98,7 +105,12 @@ Entregável desta nota:
 ## Related Notes
 
 - [[Aposentadorias especiais no IPREM]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

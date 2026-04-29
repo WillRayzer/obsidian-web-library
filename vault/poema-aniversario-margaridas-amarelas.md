@@ -1,5 +1,7 @@
 ---
 title: "Poema de aniversário inspirado nas qualidades mágicas das margaridas amarelas"
+aliases:
+  - Poema de aniversário inspirado nas qualidades mágicas das margaridas amarelas
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -19,8 +21,10 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
 ---
 
 ## Objective
@@ -102,5 +106,7 @@ Cheio de encantos, força e aquarela.
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

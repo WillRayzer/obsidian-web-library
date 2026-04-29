@@ -49,7 +49,7 @@ def parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
 
 def dump_frontmatter(data: dict[str, object]) -> str:
     order = [
-        "title", "date", "ia", "model", "source", "conversation_type", "area", "folder",
+        "title", "aliases", "date", "ia", "model", "source", "conversation_type", "area", "folder",
         "tags", "topic", "summary", "status", "related",
     ]
     lines = ["---"]
@@ -57,7 +57,7 @@ def dump_frontmatter(data: dict[str, object]) -> str:
         if key not in data:
             continue
         value = data[key]
-        if key in {"tags", "related"}:
+        if key in {"aliases", "tags", "related"}:
             lines.append(f"{key}:")
             items = value if isinstance(value, list) else []
             for item in items:

@@ -1,5 +1,7 @@
 ---
 title: "Energia metafísica dos signos do zodíaco e a união de suas forças"
+aliases:
+  - Energia metafísica dos signos do zodíaco e a união de suas forças
 date: 2026-04-14
 ia: "ChatGPT"
 model: "GPT-5.4 Thinking"
@@ -17,10 +19,14 @@ summary: >
 status: complete
 related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Sigmund Freud"
+  - "[[Psicanálise e a Influência da Religião Judaica]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
 ---
 
 ## Objective
@@ -389,7 +395,11 @@ Um registro conceitual consistente das energias metafísicas dos signos do zodí
 ## Related Notes
 
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Sigmund Freud
+- [[Psicanálise e a Influência da Religião Judaica]]]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

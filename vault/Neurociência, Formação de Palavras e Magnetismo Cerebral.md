@@ -1,5 +1,7 @@
 ---
 title: "Neurociência, Formação de Palavras e Magnetismo Cerebral"
+aliases:
+  - Neurociência, Formação de Palavras e Magnetismo Cerebral
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,11 @@ summary: >
   >
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Formação da palavra no sistema nervoso]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

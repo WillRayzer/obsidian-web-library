@@ -1,5 +1,7 @@
 ---
 title: "Vibração, Som, Sonificação e Estados de Consciência"
+aliases:
+  - Vibração, Som, Sonificação e Estados de Consciência
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,11 @@ summary: >
   A conversa explorou como vibrações podem ser transformadas em som, como sons profundos são produzidos e como ritmo, frequência, sonificação e arrastamento neural podem influenciar estados corporais e mentais. Também foram abordadas a frequência do corpo humano, as oscilações celulares, a distinção entre transe saudável e dissociação, e o uso ético de som e ritmo em contextos terapêuticos ou criativos.
 status: complete
 related:
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective

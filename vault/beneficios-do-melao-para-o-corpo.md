@@ -1,5 +1,7 @@
 ---
 title: "Benefícios do Melão para o Corpo"
+aliases:
+  - Benefícios do Melão para o Corpo
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT 5.3"
@@ -16,11 +18,16 @@ summary: >
   >
 status: complete
 related:
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
+  - "[[Sabedoria interna: autoconhecimento"
+  - "[[intuição e discernimento]]]]"
+  - "[[Saúde holística e saúde espiritual]]"
+  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[O que é consciência]]"
-  - "[[Saúde holística e saúde espiritual]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -66,8 +73,13 @@ Principais benefícios:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Sabedoria interna: autoconhecimento
+- [[intuição e discernimento]]]]
+- [[Saúde holística e saúde espiritual]]
+- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[O que é consciência]]
-- [[Saúde holística e saúde espiritual]]
 <!-- AUTO-RELATED-LINKS:END -->

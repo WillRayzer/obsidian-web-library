@@ -1,5 +1,7 @@
 ---
 title: "Memórias Ruins, Reconsolidação Emocional e Água no Cérebro"
+aliases:
+  - Memórias Ruins, Reconsolidação Emocional e Água no Cérebro
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,19 @@ summary: >
   >
 status: complete
 related:
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
+  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Trava diante do sucesso: medo de recomeçar"
+  - "[[ansiedade e procrastinação]]]]"
+  - "[[Sistema freudiano em linguagem de estudante inicial]]"
+  - "[[00-Dashboard - Biblioteca]]"
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[00-Dashboard - Biblioteca]]"
 ---
 
 ## Objective
@@ -620,8 +630,16 @@ Essas evidências podem servir como ponte entre espiritualidade, metafísica, co
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
+- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Trava diante do sucesso: medo de recomeçar
+- [[ansiedade e procrastinação]]]]
+- [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

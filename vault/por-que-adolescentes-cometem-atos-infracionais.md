@@ -1,5 +1,7 @@
 ---
 title: "Por que adolescentes cometem atos infracionais?"
+aliases:
+  - Por que adolescentes cometem atos infracionais?
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.5 Thinking"
@@ -16,11 +18,18 @@ summary: >
   A conversa analisou a aparente contradição entre a ideia rousseauniana de que a criança é naturalmente piedosa e o fato de adolescentes cometerem atos infracionais. A resposta articulou Rousseau, neurodesenvolvimento, pertencimento a pares, aprendizagem social, traumas, fracasso escolar e teorias sociológicas para explicar como contextos assimétricos podem transformar agressividade defensiva em violência intencional. Também foi gerado um documento em Word com a análise formatada.
 status: complete
 related:
-  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Artigos Científicos de Neurofeedback]]"
   - "[[Medicina Germânica]]"
+  - "[[Memórias Ruins"
+  - "[[Reconsolidação Emocional e Água no Cérebro]]]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
 ---
 
 ## Objective
@@ -166,8 +175,15 @@ Se você realmente precisar em **.doc** (formato antigo), me avise que eu conver
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Vibração, Som, Sonificação e Estados de Consciência]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Artigos Científicos de Neurofeedback]]
 - [[Medicina Germânica]]
+- [[Memórias Ruins
+- [[Reconsolidação Emocional e Água no Cérebro]]]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -1,5 +1,7 @@
 ---
 title: "Adolescência na Contemporaneidade: Pertencimento, Saúde Mental e Escolha Profissional"
+aliases:
+  - Adolescência na Contemporaneidade: Pertencimento, Saúde Mental e Escolha Profissional
 date: 2026-04-27
 ia: "ChatGPT"
 model: "GPT-5.3"
@@ -16,11 +18,17 @@ summary: >
   A nota sintetiza como fatores sociais, emocionais e o sentimento de pertencimento influenciam o desenvolvimento do adolescente. Explora como esses elementos impactam o desempenho escolar e a escolha profissional. O resultado é uma visão integrada da adolescência contemporânea e seus desafios.
 status: complete
 related:
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Desenvolvimento Humano II: Puberdade"
+  - "[[Adolescência]]"
+  - "[[Consumo]]"
+  - "[[Tecnologia]]"
+  - "[[Trabalho e ECA]]]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Resumo Orientação Profissional para Adolescentes]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
+  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
 ---
 
 ## Objective
@@ -53,8 +61,14 @@ Conteúdo consolidado da conversa:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Desenvolvimento Humano II: Puberdade
+- [[Adolescência]]
+- [[Consumo]]
+- [[Tecnologia]]
+- [[Trabalho e ECA]]]]
 - [[Por que adolescentes cometem atos infracionais?]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Resumo Orientação Profissional para Adolescentes]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->
