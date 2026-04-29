@@ -733,28 +733,48 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
         for tag in note.tags:
             all_tags[tag] += 1
 
-    area_sections = []
-    for area, area_notes in sorted(by_area.items()):
-        cards = "".join(note_card(note) for note in sorted(area_notes, key=lambda n: n.title.lower()))
-        area_sections.append(
-            f"""
-            <section class="section-block" id="area-{slugify(area)}">
-              <div class="section-head">
-                <h2>{html.escape(area)}</h2>
-                <span>{len(area_notes)} notas</span>
-              </div>
-              <div class="card-grid">
-                {cards}
-              </div>
-            </section>
-            """
-        )
+    single_area_mode = len(by_area) <= 1
+    if single_area_mode:
+        cards = "".join(note_card(note) for note in sorted(notes, key=lambda n: n.title.lower()))
+        collection_html = f"""
+        <section class="section-block" id="colecao">
+          <div class="section-head">
+            <h2>Biblioteca</h2>
+            <span>{len(notes)} notas</span>
+          </div>
+          <div class="card-grid">
+            {cards}
+          </div>
+        </section>
+        """
+    else:
+        area_sections = []
+        for area, area_notes in sorted(by_area.items()):
+            cards = "".join(note_card(note) for note in sorted(area_notes, key=lambda n: n.title.lower()))
+            area_sections.append(
+                f"""
+                <section class="section-block" id="area-{slugify(area)}">
+                  <div class="section-head">
+                    <h2>{html.escape(area)}</h2>
+                    <span>{len(area_notes)} notas</span>
+                  </div>
+                  <div class="card-grid">
+                    {cards}
+                  </div>
+                </section>
+                """
+            )
+        collection_html = "".join(area_sections)
 
     top_tags = sorted(all_tags.items(), key=lambda item: (-item[1], item[0]))[:18]
     tag_cloud = "".join(f'<span class="tag large">#{html.escape(tag)} <small>{count}</small></span>' for tag, count in top_tags)
-    quick_links = "".join(
-        f'<a class="nav-link" href="#area-{slugify(area)}">{html.escape(area)} <span>{len(area_notes)}</span></a>'
-        for area, area_notes in sorted(by_area.items())
+    quick_links = (
+        "".join(
+            f'<a class="nav-link" href="#area-{slugify(area)}">{html.escape(area)} <span>{len(area_notes)}</span></a>'
+            for area, area_notes in sorted(by_area.items())
+        )
+        if not single_area_mode
+        else '<a class="nav-link" href="#colecao">Biblioteca <span>{}</span></a>'.format(len(notes))
     )
     last_sync = str(sync_status.get("last_sync_local") or "Ainda não publicado automaticamente")
     last_commit = str(sync_status.get("last_commit") or "—")
@@ -777,7 +797,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
     </div>
     <div class="sidebar-block metrics-stack">
       <div class="metric"><strong>{len(notes)}</strong><span>notas</span></div>
-      <div class="metric"><strong>{len(by_area)}</strong><span>areas</span></div>
+      <div class="metric"><strong>{len(by_area)}</strong><span>grupos</span></div>
       <div class="metric"><strong>{sum(1 for _ in all_tags)}</strong><span>tags</span></div>
     </div>
     <div class="sidebar-block">
@@ -816,9 +836,7 @@ def build_index(notes: list[Note], site_name: str, sync_status: dict[str, Any]) 
     <div class="tags">{tag_cloud}</div>
   </section>
 
-  <section id="colecao">
-    {''.join(area_sections)}
-  </section>
+  {collection_html}
   </section>
 </main>
 """
