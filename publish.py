@@ -103,20 +103,20 @@ def copy_tree(source: Path, target: Path) -> None:
 
 
 def ingest_documents(source: Path) -> None:
-    run(["python3", str(INGEST_SCRIPT), str(source)])
+    run([sys.executable, str(INGEST_SCRIPT), str(source)])
 
 
 def prepare_vault(target: Path) -> None:
-    run(["python3", str(NORMALIZE_SCRIPT), str(target), "--write", "--rename-lowercase-ext"])
-    run(["python3", str(ENRICH_SCRIPT), str(target), "--write"])
-    run(["python3", str(CONTEXT_LINKS_SCRIPT), str(target), "--write", "--limit", "20"])
+    run([sys.executable, str(NORMALIZE_SCRIPT), str(target), "--write", "--rename-lowercase-ext"])
+    run([sys.executable, str(ENRICH_SCRIPT), str(target), "--write"])
+    run([sys.executable, str(CONTEXT_LINKS_SCRIPT), str(target), "--write", "--limit", "20"])
 
 
 def update_reports(target: Path) -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     run(
         [
-            "python3",
+            sys.executable,
             str(WEAK_NOTES_REPORT_SCRIPT),
             str(target),
             "--output",
@@ -125,7 +125,7 @@ def update_reports(target: Path) -> None:
     )
     run(
         [
-            "python3",
+            sys.executable,
             str(AUDIT_SCRIPT),
             str(target),
             "--output",
