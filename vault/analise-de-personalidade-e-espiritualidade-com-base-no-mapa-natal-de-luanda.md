@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -211,8 +211,8 @@ A conversa levou às seguintes conclusões centrais sobre a personalidade e a es
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

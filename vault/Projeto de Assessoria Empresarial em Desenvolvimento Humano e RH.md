@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -84,10 +84,10 @@ Por fim, foi definido que o projeto representa uma atuação de alto nível, com
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -114,8 +114,8 @@ Por fim, foi definido que o projeto representa uma atuação de alto nível, com
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

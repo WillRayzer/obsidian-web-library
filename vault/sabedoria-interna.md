@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -142,7 +142,7 @@ Como resultado, a conversa produziu uma visão organizada e aprofundada do tema,
 ## Related Notes
 
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->

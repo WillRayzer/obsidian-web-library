@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -146,9 +146,9 @@ A intenção é atravessar a barreira inicial. Muitas vezes, o bloqueio é mais 
 ## Context Links
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -192,7 +192,7 @@ Frase-síntese da reflexão:
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -18,8 +18,8 @@ status: complete
 related:
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -145,6 +145,6 @@ O conceito proposto ao longo da conversa permite entender Freud como uma figura 
 
 - [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

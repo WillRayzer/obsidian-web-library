@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -620,8 +620,8 @@ Essas evidências podem servir como ponte entre espiritualidade, metafísica, co
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Sistema freudiano em linguagem de estudante inicial]]
 <!-- AUTO-RELATED-LINKS:END -->

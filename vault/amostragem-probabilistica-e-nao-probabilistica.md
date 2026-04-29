@@ -18,8 +18,8 @@ status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -191,6 +191,6 @@ CARVALHO, S.; CAMPOS, W. **Estatística básica simplificada**. Rio de Janeiro: 
 
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 <!-- AUTO-RELATED-LINKS:END -->

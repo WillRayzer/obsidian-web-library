@@ -13,10 +13,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Artigos Científicos de Neurofeedback]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -103,10 +103,10 @@ Isso aponta para uma transformação do código neuronal e das funções de mem�
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Artigos Científicos de Neurofeedback]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -120,8 +120,8 @@ Isso aponta para uma transformação do código neuronal e das funções de mem�
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Artigos Científicos de Neurofeedback]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -253,8 +253,8 @@ A integração dos dois gera:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->

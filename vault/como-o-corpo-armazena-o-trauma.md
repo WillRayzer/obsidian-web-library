@@ -19,7 +19,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Ligação entre sistema límbico e estômago]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -69,5 +69,5 @@ Além disso, o trauma pode se manifestar em tensões musculares, alterações re
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Ligação entre sistema límbico e estômago]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

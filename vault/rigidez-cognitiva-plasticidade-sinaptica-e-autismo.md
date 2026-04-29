@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -96,7 +96,7 @@ Entretanto, é fundamental entender que a neurodiversidade do autismo significa 
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

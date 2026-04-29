@@ -19,7 +19,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -143,5 +143,5 @@ Explicadas com ciclos complexos e vetores.
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -185,7 +185,7 @@ A conversa resultou em uma síntese organizada da **abordagem fenomenológica na
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 - [[Sistema freudiano em linguagem de estudante inicial]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

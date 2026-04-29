@@ -19,7 +19,7 @@ related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -102,5 +102,5 @@ Cheio de encantos, força e aquarela.
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

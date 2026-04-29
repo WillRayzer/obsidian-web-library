@@ -16,10 +16,10 @@ summary: >
   A conversa abordou a Medicina Germânica, também conhecida como German New Medicine ou Nova Medicina Germânica, apresentando sua origem, proposta central e controvérsias. A resposta destacou que a abordagem não é aceita pela medicina baseada em evidências, não deve substituir tratamentos convencionais e pode representar risco quando leva ao abandono de cuidados médicos adequados.
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Artigos Científicos de Neurofeedback]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -129,8 +129,8 @@ Caso a busca seja por uma abordagem **integrativa e holística**, o caminho mais
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Por que adolescentes cometem atos infracionais?]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Artigos Científicos de Neurofeedback]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

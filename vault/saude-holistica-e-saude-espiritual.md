@@ -19,7 +19,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -86,5 +86,5 @@ A saúde holística propõe cuidar do ser humano de forma integral, considerando
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

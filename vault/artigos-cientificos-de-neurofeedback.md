@@ -16,10 +16,10 @@ summary: >
   A conversa teve como objetivo reunir referências científicas relevantes sobre neurofeedback, incluindo EEG-neurofeedback e rtfMRI-neurofeedback. Foram elencadas revisões sistemáticas, meta-análises e estudos clínicos relacionados a TDAH, depressão, TEPT, zumbido, desempenho motor, Parkinson e outras aplicações. O resultado foi uma lista curada para orientar estudos posteriores e organização bibliográfica.
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Medicina Germânica]]"
-  - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -161,8 +161,8 @@ Claro, Will! Aqui vai uma lista curada, com foco em revisões sistemáticas, met
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Por que adolescentes cometem atos infracionais?]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Medicina Germânica]]
-- [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 <!-- AUTO-RELATED-LINKS:END -->

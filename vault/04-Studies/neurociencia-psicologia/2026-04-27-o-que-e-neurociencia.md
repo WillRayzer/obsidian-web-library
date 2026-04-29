@@ -13,10 +13,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
   - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
-  - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -56,10 +56,10 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
-- [[Por que adolescentes cometem atos infracionais?]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -73,8 +73,8 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
 - [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
-- [[Por que adolescentes cometem atos infracionais?]]
 <!-- AUTO-RELATED-LINKS:END -->

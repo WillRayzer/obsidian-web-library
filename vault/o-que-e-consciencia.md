@@ -19,7 +19,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]"
   - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -71,5 +71,5 @@ Uma definição sintética seria: consciência é a capacidade de estar presente
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Rigidez cognitiva, plasticidade sináptica e suas relações com sinapses e autismo]]
 - [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

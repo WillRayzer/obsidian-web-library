@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[Como o corpo armazena o trauma]]"
-  - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -87,7 +87,7 @@ sensação física → interpretação emocional → resposta fisiológica → n
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[Como o corpo armazena o trauma]]
-- [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 <!-- AUTO-RELATED-LINKS:END -->

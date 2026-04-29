@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Sabedoria interna: autoconhecimento, intuição e discernimento]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -136,7 +136,7 @@ Quando esses quatro níveis estão alinhados, a beleza etérea emerge naturalmen
 ## Related Notes
 
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Sabedoria interna: autoconhecimento, intuição e discernimento]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -99,8 +99,8 @@ Integração com conceitos amplos:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 - [[Mapa Mental de Personalidade e Identidade: Estrutura Completa e Aprofundada]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

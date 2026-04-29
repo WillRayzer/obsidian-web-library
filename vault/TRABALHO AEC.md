@@ -18,8 +18,8 @@ status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -87,8 +87,8 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -105,6 +105,6 @@ SKINNER, B. F. Ciência e comportamento humano. São Paulo: Martins Fontes, 2003
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Trava diante do sucesso: medo de recomeçar, ansiedade e procrastinação]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
 <!-- AUTO-RELATED-LINKS:END -->

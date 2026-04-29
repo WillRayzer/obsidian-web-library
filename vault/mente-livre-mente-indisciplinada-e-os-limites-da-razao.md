@@ -19,7 +19,7 @@ related:
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -77,5 +77,5 @@ Uma mente livre pode ampliar horizontes e desafiar limites conceituais, enquanto
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

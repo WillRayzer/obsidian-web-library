@@ -18,8 +18,8 @@ status: complete
 related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -106,6 +106,6 @@ Integração com abordagem holística:
 
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Influência energética e eletromagnética no corpo humano e no ambiente]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
 <!-- AUTO-RELATED-LINKS:END -->

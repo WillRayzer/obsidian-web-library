@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Perfil de terapeuta holístico com abordagem espiritual]]"
-  - "[[Auto-hipnose ericksoniana para felicidade]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -99,8 +99,8 @@ Foi estruturado um exercício completo com:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Perfil de terapeuta holístico com abordagem espiritual]]
-- [[Auto-hipnose ericksoniana para felicidade]]
 <!-- AUTO-RELATED-LINKS:END -->

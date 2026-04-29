@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]"
-  - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -48,10 +48,10 @@ Foram desenvolvidos textos técnicos, memoriais, contestações e análises jur�
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -71,8 +71,8 @@ Foram desenvolvidos textos técnicos, memoriais, contestações e análises jur�
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Desenvolvimento Humano II: Puberdade, Adolescência, Consumo, Tecnologia, Trabalho e ECA]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Aposentadoria especial no RPPS do município de São Bernardo do Campo]]
-- [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 <!-- AUTO-RELATED-LINKS:END -->

@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Formação da palavra no sistema nervoso]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -93,10 +93,10 @@ O cérebro funciona como sistema eletromagnético:
 <!-- AUTO-CONTEXT-LINKS:START -->
 ## Context Links
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Formação da palavra no sistema nervoso]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -118,8 +118,8 @@ O cérebro funciona como sistema eletromagnético:
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Formação da palavra no sistema nervoso]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

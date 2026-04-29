@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -146,7 +146,7 @@ Mapear os 21 upachakras com localização e função
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
 <!-- AUTO-RELATED-LINKS:END -->

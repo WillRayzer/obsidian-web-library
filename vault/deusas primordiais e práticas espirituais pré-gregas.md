@@ -16,10 +16,10 @@ summary: >
   >
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Energia metafísica dos signos do zodíaco e a união de suas forças]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
-  - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -115,8 +115,8 @@ Utilizados para induzir transe, cura e conexão espiritual, através de repetiç
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Energia metafísica dos signos do zodíaco e a união de suas forças]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
-- [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
 <!-- AUTO-RELATED-LINKS:END -->

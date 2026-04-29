@@ -16,10 +16,10 @@ summary: >
   Esta nota reúne perguntas e respostas baseadas no livro Desenvolvimento Humano II, de Cláudia Capelini Picirilli, abordando puberdade, adolescência, Freud, Erikson, TCC, Bauman, consumo, tecnologia, trabalho juvenil e ECA. O conteúdo organiza os principais conceitos em formato didático para estudo, revisão e uso no Obsidian.
 status: complete
 related:
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Por que adolescentes cometem atos infracionais?]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]"
-  - "[[Medicina Germânica]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -209,8 +209,8 @@ Segundo o ECA, é dever da família, da sociedade e do poder público assegurar 
 <!-- AUTO-RELATED-LINKS:START -->
 ## Related Notes
 
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Por que adolescentes cometem atos infracionais?]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Gratidão e Psicologia Positiva em Projeto de Extensão Comunitária]]
-- [[Medicina Germânica]]
 <!-- AUTO-RELATED-LINKS:END -->

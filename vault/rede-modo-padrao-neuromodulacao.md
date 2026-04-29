@@ -17,9 +17,9 @@ summary: >
 status: complete
 related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[Relação entre magnetismo, ondas neurais e frequência em Hz]]"
   - "[[Artigos Científicos de Neurofeedback]]"
-  - "[[Inteligência e inteligência erótica à luz da neurociência emocional]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -85,7 +85,7 @@ Resposta: Explicação científica sobre:
 ## Related Notes
 
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 - [[Relação entre magnetismo, ondas neurais e frequência em Hz]]
 - [[Artigos Científicos de Neurofeedback]]
-- [[Inteligência e inteligência erótica à luz da neurociência emocional]]
 <!-- AUTO-RELATED-LINKS:END -->

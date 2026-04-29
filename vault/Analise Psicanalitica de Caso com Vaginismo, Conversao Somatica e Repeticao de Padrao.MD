@@ -19,7 +19,7 @@ related:
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Sistema freudiano em linguagem de estudante inicial]]"
   - "[[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]"
-  - "[[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -96,5 +96,5 @@ O caso sugere uma organização histérica com forte carga traumática e repeti�
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Sistema freudiano em linguagem de estudante inicial]]
 - [[Sigmund Freud, Psicanálise e a Influência da Religião Judaica]]
-- [[Análise de personalidade e espiritualidade com base no mapa natal de Luanda]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->

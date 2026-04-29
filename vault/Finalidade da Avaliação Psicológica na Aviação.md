@@ -19,7 +19,7 @@ related:
   - "[[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]"
   - "[[Interação Medicamentosa entre Opioides e Antipsicóticos]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
-  - "[[Influência energética e eletromagnética no corpo humano e no ambiente]]"
+  - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -71,5 +71,5 @@ A avaliação psicológica na aviação atua como um instrumento preventivo e es
 - [[RELATORIO FINAL PREENCHIDO GRATIDAO PSICOLOGIA POSITIVA]]
 - [[Interação Medicamentosa entre Opioides e Antipsicóticos]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
-- [[Influência energética e eletromagnética no corpo humano e no ambiente]]
+- [[Vibração, Som, Sonificação e Estados de Consciência]]
 <!-- AUTO-RELATED-LINKS:END -->
