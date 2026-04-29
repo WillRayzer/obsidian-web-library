@@ -14,9 +14,9 @@ summary: >
 status: complete
 related:
   - "[[Vibração, Som, Sonificação e Estados de Consciência]]"
+  - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
   - "[[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
-  - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -57,9 +57,9 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 ## Context Links
 
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
-- [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -74,7 +74,7 @@ Esta nota foi reescrita em português para funcionar como porta de entrada temá
 ## Related Notes
 
 - [[Vibração, Som, Sonificação e Estados de Consciência]]
+- [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Memórias Ruins, Reconsolidação Emocional e Água no Cérebro]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
-- [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
 <!-- AUTO-RELATED-LINKS:END -->

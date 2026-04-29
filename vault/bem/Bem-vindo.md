@@ -16,7 +16,7 @@ related:
   - "[[Dashboard - Biblioteca]]"
   - "[[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]"
   - "[[O que é neurociência?]]"
-  - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
+  - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -46,5 +46,5 @@ Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
 - [[Dashboard - Biblioteca]]
 - [[Neuroscience News - Pesquisas em Neurociência, Psicologia, IA e Saúde Mental]]
 - [[O que é neurociência?]]
-- [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
+- [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 <!-- AUTO-RELATED-LINKS:END -->

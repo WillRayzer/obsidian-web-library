@@ -15,8 +15,8 @@ status: complete
 related:
   - "[[O que é neurociência?]]"
   - "[[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]"
+  - "[[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]"
   - "[[Dashboard - Biblioteca]]"
-  - "[[One Protein Switches Roles to Build the Brain and Its Blood Vessels - Neuroscience News]]"
   - "[[00-Dashboard - Biblioteca]]"
 ---
 
@@ -49,8 +49,8 @@ Esta nota funciona como porta de entrada temática para outras notas do vault li
 
 - [[O que é neurociência?]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
+- [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Dashboard - Biblioteca]]
-- [[One Protein Switches Roles to Build the Brain and Its Blood Vessels - Neuroscience News]]
 <!-- AUTO-CONTEXT-LINKS:END -->
 
 ## Conclusions & Deliverables
@@ -66,6 +66,6 @@ Esta nota funciona como porta de entrada temática para outras notas do vault li
 
 - [[O que é neurociência?]]
 - [[Por que o cérebro começa com 'demais' para construir memórias - Neuroscience News]]
+- [[Uma proteína alterna funções para construir o cérebro e os vasos sanguíneos - Neuroscience News]]
 - [[Dashboard - Biblioteca]]
-- [[One Protein Switches Roles to Build the Brain and Its Blood Vessels - Neuroscience News]]
 <!-- AUTO-RELATED-LINKS:END -->

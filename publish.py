@@ -21,6 +21,7 @@ WEAK_NOTES_REPORT_SCRIPT = ROOT / "report_weak_notes.py"
 AUDIT_SCRIPT = ROOT / "audit_vault_coherence.py"
 INGEST_SCRIPT = ROOT / "ingest_documents.py"
 CONTEXT_LINKS_SCRIPT = ROOT / "add_context_links.py"
+TRANSLATE_PENDING_CLIPS_SCRIPT = ROOT / "translate_pending_clips.py"
 REPORTS_DIR = ROOT / "reports"
 
 
@@ -131,6 +132,7 @@ def sync_and_publish(message: str | None = None) -> bool:
     config = load_config()
     source = Path(config["source_vault_path"]).expanduser()
     target = ROOT / config["vault_path"]
+    run(["python3", str(TRANSLATE_PENDING_CLIPS_SCRIPT), str(source)])
     ingest_documents(source)
     before = tree_hash(target) if target.exists() else ""
     copy_tree(source, target)

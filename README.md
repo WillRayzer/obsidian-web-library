@@ -75,6 +75,8 @@ https://seu-device.seu-tailnet.ts.net
 
 O servidor salva os arquivos em `00-Inbox/Web Clips/` dentro do vault original. O pipeline atual continua responsavel por normalizar, enriquecer e publicar.
 
+Se voce quiser que os clips em ingles sejam traduzidos automaticamente antes de entrarem no vault final, defina a variavel de ambiente `OPENAI_API_KEY` e, opcionalmente, `OPENAI_MODEL` e `OPENAI_BASE_URL`. Sem isso, os clips ficam na fila `Pending` e nao sobem para o site publicado.
+
 Atalhos incluidos no projeto:
 
 - `clip-server.cmd` ou `clip-server.vbs`: inicia a API local no WSL
