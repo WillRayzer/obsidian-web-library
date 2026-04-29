@@ -13,7 +13,12 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+DEFAULT_MODEL = (
+    os.environ.get("MOONSHOT_MODEL")
+    or os.environ.get("OPENAI_MODEL")
+    or "kimi-k2.5"
+)
+MOONSHOT_BASE_URL = os.environ.get("MOONSHOT_BASE_URL", "https://api.moonshot.ai/v1").rstrip("/")
 OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
 
 
@@ -65,10 +70,14 @@ def dump_frontmatter(data: dict[str, object]) -> str:
     return "\n".join(lines)
 
 
-def call_openai(prompt: str) -> dict[str, object]:
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+def call_model(prompt: str) -> dict[str, object]:
+    api_key = os.environ.get("MOONSHOT_API_KEY", "").strip()
+    base_url = MOONSHOT_BASE_URL
     if not api_key:
-        raise RuntimeError("OPENAI_API_KEY nao configurada")
+        api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+        base_url = OPENAI_BASE_URL
+    if not api_key:
+        raise RuntimeError("Nenhuma chave API configurada")
 
     payload = {
         "model": DEFAULT_MODEL,
@@ -85,7 +94,7 @@ def call_openai(prompt: str) -> dict[str, object]:
         ],
     }
     request = Request(
-        f"{OPENAI_BASE_URL}/chat/completions",
+        f"{base_url}/chat/completions",
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -136,7 +145,7 @@ Conteudo bruto:
 {body[:12000]}
 """
 
-    translated = call_openai(prompt)
+    translated = call_model(prompt)
     title = str(translated.get("title") or frontmatter.get("title") or path.stem).strip()
     summary = str(translated.get("summary") or "").strip()
     tags = [slugify(str(tag)) for tag in translated.get("tags", []) if str(tag).strip()]

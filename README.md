@@ -75,7 +75,7 @@ https://seu-device.seu-tailnet.ts.net
 
 O servidor salva os arquivos em `00-Inbox/Web Clips/` dentro do vault original. O pipeline atual continua responsavel por normalizar, enriquecer e publicar.
 
-Se voce quiser que os clips em ingles sejam traduzidos automaticamente antes de entrarem no vault final, defina a variavel de ambiente `OPENAI_API_KEY` e, opcionalmente, `OPENAI_MODEL` e `OPENAI_BASE_URL`. Sem isso, os clips ficam na fila `Pending` e nao sobem para o site publicado.
+Se voce quiser que os clips em ingles sejam traduzidos automaticamente antes de entrarem no vault final, defina a variavel de ambiente `MOONSHOT_API_KEY` e, opcionalmente, `MOONSHOT_MODEL` e `MOONSHOT_BASE_URL`. O fluxo tambem aceita `OPENAI_API_KEY` como fallback. Sem isso, os clips ficam na fila `Pending` e nao sobem para o site publicado.
 
 Atalhos incluidos no projeto:
 
